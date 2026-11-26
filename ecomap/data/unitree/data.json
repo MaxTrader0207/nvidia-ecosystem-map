@@ -1,0 +1,1354 @@
+{
+ "meta": {
+  "entity": "Unitree 宇樹科技",
+  "ticker": "688836.SH",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#22c55e",
+  "centerLabel": "資本中樞",
+  "fileSlug": "Unitree",
+  "subtitle": "涵蓋創投與網路巨頭持股、國資戰配、DeepSeek 合作、子公司基地與供應鏈"
+ },
+ "notice": {
+  "title": "重大動態",
+  "html": "宇樹 8/19 科創板掛牌首日開盤大漲 629%（<a href=\"https://www.aljazeera.com/economy/2026/8/19/chinas-unitree-soars-in-market-debut-as-investors-bet-on-humanoid-robots\" target=\"_blank\">Al Jazeera</a>），10/28 市值約 ¥2,815億；第三季淨利年減 13.37%（<a href=\"https://www.cls.cn/detail/2518195\" target=\"_blank\">財聯社</a>）。美國 FCC／國防部清單風險與智元出貨超越為主要觀察點（<a href=\"https://udn.com/news/story/7240/9431535\" target=\"_blank\">聯合新聞網</a>）。"
+ },
+ "sources": {
+  "cna": [
+   "中央社｜宇樹科技科創板 IPO 定價（2026-08-07）",
+   "https://www.cna.com.tw/news/acn/202608070057.aspx"
+  ],
+  "inside": [
+   "INSIDE｜宇樹 IPO 定價與科創板估值",
+   "https://www.inside.com.tw/article/42033-unitree-ipo-pricing-star-market-valuation"
+  ],
+  "technews": [
+   "科技新報｜宇樹啟動申購，A 股首檔人形機器人股（2026-08-10）",
+   "https://finance.technews.tw/2026/08/10/unitree-robotics-launches-ipo-subscription-a-share-market-welcomes-first-humanoid-robot-stock/"
+  ],
+  "em_alloc": [
+   "東方財富｜宇樹戰略配售名單（2026-08-06）",
+   "https://finance.eastmoney.com/a/202608063834143196.html"
+  ],
+  "jiemian": [
+   "界面新聞｜宇樹股東結構",
+   "https://m.jiemian.com/article/14887042.html"
+  ],
+  "cnyes1": [
+   "鉅亨號｜宇樹科技股東與戰配",
+   "https://hao.cnyes.com/post/263864"
+  ],
+  "cnyes2": [
+   "鉅亨號｜宇樹科技招股書重點",
+   "https://hao.cnyes.com/post/249654"
+  ],
+  "cnyes3": [
+   "鉅亨號｜宇樹科技股權結構",
+   "https://hao.cnyes.com/post/238554"
+  ],
+  "cnyes4": [
+   "鉅亨號｜宇樹科技上市後動態",
+   "https://hao.cnyes.com/post/263871"
+  ],
+  "cls1": [
+   "財聯社｜宇樹 IPO 戰略投資者",
+   "https://www.cls.cn/detail/2381451"
+  ],
+  "cls2": [
+   "財聯社｜宇樹第三季財報",
+   "https://www.cls.cn/detail/2518195"
+  ],
+  "qq1": [
+   "騰訊新聞｜宇樹戰配與網路巨頭持股（2026-08-12）",
+   "https://news.qq.com/rain/a/20260812A0CFSS00"
+  ],
+  "sina1": [
+   "新浪財經｜宇樹股東持股解析",
+   "https://cj.sina.com.cn/articles/view/5993531560/1653e08a802001nf8a"
+  ],
+  "sina2": [
+   "新浪財經｜宇樹科技產業鏈",
+   "https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002mkdq"
+  ],
+  "sina3": [
+   "新浪財經｜宇樹與人形機器人競爭（2026-09-03）",
+   "https://finance.sina.cn/tech/2026-09-03/detail-iniqpeke2259221.d.html"
+  ],
+  "reuters_ds": [
+   "Reuters（StreetInsider 轉載）｜DeepSeek invests $20.8 million in Unitree's Shanghai IPO",
+   "https://www.streetinsider.com/Reuters/DeepSeek+invests+%2420.8+million+in+Unitrees+Shanghai+IPO/26880735.html"
+  ],
+  "aib": [
+   "AI Business｜DeepSeek invests in Unitree to develop AI brain for humanoid bots",
+   "https://aibusiness.com/robotics/deepseek-invests-unitree-develop-ai-brain-for-humanoid-bots"
+  ],
+  "alj": [
+   "Al Jazeera｜China's Unitree soars in market debut（2026-08-19）",
+   "https://www.aljazeera.com/economy/2026/8/19/chinas-unitree-soars-in-market-debut-as-investors-bet-on-humanoid-robots"
+  ],
+  "fortune": [
+   "Fortune｜Unitree IPO trading surge & valuation（2026-08-19）",
+   "https://fortune.com/2026/08/19/unitree-china-dancing-robots-ipo-trading-surge-valuation/"
+  ],
+  "asset": [
+   "The Asset｜Unitree Robotics soars 629% on trading debut",
+   "https://www.theasset.com/article/56931/unitree-robotics-soars-629-on-trading-debut"
+  ],
+  "caixin": [
+   "Caixin Global｜Five things to know about Unitree（2026-08-20）",
+   "https://www.caixinglobal.com/2026-08-20/five-things-to-know-about-chinas-humanoid-robot-poster-child-102476126.html"
+  ],
+  "uanalyze": [
+   "優分析｜宇樹科技解析",
+   "https://uanalyze.com.tw/articles/9549257903"
+  ],
+  "em_q3": [
+   "東方財富｜宇樹三季報與市值（2026-10-28）",
+   "https://finance.eastmoney.com/a/202610283912365052.html"
+  ],
+  "em_cs": [
+   "東方財富財富號｜長盛軸承與宇樹（2025-09-17）",
+   "https://caifuhao.eastmoney.com/news/20250917153759545376990"
+  ],
+  "scmp": [
+   "SCMP｜Shenzhen boosts role as humanoid robotics base with Unitree local venture",
+   "https://www.scmp.com/tech/big-tech/article/3301328/shenzhen-boosts-role-chinas-humanoid-robotics-base-unitree-local-venture"
+  ],
+  "ifeng": [
+   "鳳凰網財經｜宇樹科技子公司佈局",
+   "https://finance.ifeng.com/c/8tEqg4nBPx6"
+  ],
+  "teda": [
+   "天津泰達投資促進｜宇樹科技天津基地",
+   "https://invest.teda.gov.cn/contents/2813/114036.html"
+  ],
+  "udn2": [
+   "聯合新聞網｜宇樹科技與美國監管",
+   "https://udn.com/news/story/7240/9431535"
+  ]
+ },
+ "categories": [
+  {
+   "id": "semi",
+   "name": "網路巨頭策略持股",
+   "color": "#f472b6",
+   "sumNote": "以 IPO 價 ¥150.8 計之持股市值"
+  },
+  {
+   "id": "fin",
+   "name": "創投與產業財務股東",
+   "color": "#facc15",
+   "sumNote": "多數僅揭露持股比例，未計入金額"
+  },
+  {
+   "id": "lab",
+   "name": "AI 大腦夥伴",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "other",
+   "name": "國資與戰略配售",
+   "color": "#94a3b8",
+   "sumNote": "戰配＋國資基金持股"
+  },
+  {
+   "id": "cloud",
+   "name": "IPO 募資與產能",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "mna",
+   "name": "子公司與地方基地",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "supply",
+   "name": "供應鏈與間接持股",
+   "color": "#fb923c"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非宇樹持股，僅標示競爭與監管關係"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "meituan",
+   "name": "美團（漢海信息）",
+   "tk": "3690.HK",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.782,
+   "short": "≈$7.8億",
+   "date": "2026-08-19",
+   "amtText": "持股 35,123,600 股，IPO 後 8.684%（IPO 前約 9.65%）；以 ¥150.8 計約 ¥52.97億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。2024-01 經漢海信息投入約 ¥2.48億。",
+   "status": "持有中（IPO 後第一大外部股東）",
+   "flow": "美團持股隨上市大幅增值；宇樹未揭露美團採購金額，回流以股權增值為主",
+   "src": [
+    "jiemian",
+    "cnyes3",
+    "sina1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "tencent",
+   "name": "騰訊（直接持股）",
+   "tk": "0700.HK",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.0485,
+   "short": "≈$4,850萬",
+   "date": "2026-08-19",
+   "amtText": "2,179,170 股 × ¥150.8 ≈ ¥3.29億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。另有騰訊啟善 902,900 股戰配（見戰配節點）。",
+   "status": "持有中",
+   "flow": "財務投資，未揭露業務回流",
+   "src": [
+    "qq1",
+    "sina1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "alibaba",
+   "name": "阿里巴巴",
+   "tk": "BABA / 9988.HK",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.0364,
+   "short": "≈$3,640萬",
+   "date": "2026-08-19",
+   "amtText": "1,634,346 股 × ¥150.8 ≈ ¥2.46億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。",
+   "status": "持有中",
+   "flow": "財務投資",
+   "src": [
+    "qq1",
+    "sina1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "ant",
+   "name": "螞蟻集團",
+   "tk": "未上市",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.0182,
+   "short": "≈$1,820萬",
+   "date": "2026-08-19",
+   "amtText": "817,236 股 × ¥150.8 ≈ ¥1.23億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。",
+   "status": "持有中",
+   "flow": "財務投資",
+   "src": [
+    "qq1",
+    "sina1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "founder",
+   "name": "王興興＋上海宇翼（控制權）",
+   "tk": "—",
+   "cat": "fin",
+   "type": "創辦人／員工持股平台",
+   "amt": null,
+   "short": "34.76%",
+   "date": "2026-08-19",
+   "amtText": "王興興直接 23.82%，上海宇翼 10.94%；合計控制 68.78% 表決權（特別表決權架構）。",
+   "status": "實際控制人",
+   "flow": "非外部資金；決定 IPO 資金配置",
+   "src": [
+    "jiemian",
+    "cnyes2"
+   ],
+   "excludeFromSum": true,
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "sequoia",
+   "name": "紅杉中國",
+   "tk": "未上市",
+   "cat": "fin",
+   "type": "股權",
+   "amt": null,
+   "short": "7.11%",
+   "date": "2026",
+   "amtText": "揭露持股 7.11%（報導未一致說明為上市前或後比例）。",
+   "status": "持有中（鎖定期）",
+   "flow": "財務投資；退出時以二級市場減持回收",
+   "src": [
+    "jiemian",
+    "cnyes3"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "lockup": "鎖定期） 財務投資",
+    "auto": true
+   }
+  },
+  {
+   "id": "matrix",
+   "name": "經緯創投",
+   "tk": "未上市",
+   "cat": "fin",
+   "type": "股權",
+   "amt": null,
+   "short": "5.45%",
+   "date": "2026",
+   "amtText": "持股 5.45%。",
+   "status": "持有中（鎖定期）",
+   "flow": "財務投資",
+   "src": [
+    "jiemian",
+    "cnyes3"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "lockup": "鎖定期） 財務投資",
+    "auto": true
+   }
+  },
+  {
+   "id": "shunwei",
+   "name": "順為資本（Astrend IV）",
+   "tk": "小米系",
+   "cat": "fin",
+   "type": "股權",
+   "amt": null,
+   "short": "4.4245%",
+   "date": "2026",
+   "amtText": "經 Astrend IV 持股 4.4245%。",
+   "status": "持有中",
+   "flow": "小米生態關聯財務投資",
+   "src": [
+    "jiemian",
+    "sina1"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "citic",
+   "name": "中信金石／中信證券",
+   "tk": "600030.SH",
+   "cat": "fin",
+   "type": "股權＋保薦跟投",
+   "amt": 0.018,
+   "short": "4.49%＋戰配¥1.22億",
+   "date": "2026-08",
+   "amtText": "中信系持股 4.49%；另保薦跟投 2%、約 ¥1.2198億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。",
+   "status": "持有中",
+   "flow": "保薦承銷費＋跟投股權增值",
+   "src": [
+    "em_alloc",
+    "cls1",
+    "jiemian"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "szcv",
+   "name": "深創投",
+   "tk": "未上市（深圳國資）",
+   "cat": "fin",
+   "type": "股權",
+   "amt": null,
+   "short": "≈2.55%",
+   "date": "2026",
+   "amtText": "持股約 2.55%。",
+   "status": "持有中",
+   "flow": "財務投資",
+   "src": [
+    "jiemian"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "deepseek",
+   "name": "DeepSeek（深度求索）",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "戰略配售＋合作 MOU",
+   "amt": 0.0208,
+   "short": "$2,080萬",
+   "date": "2026-08",
+   "amtText": "933,399 股、¥1.408億（Reuters 換算 US$2,080萬），鎖定 36 個月，並簽合作備忘錄開發人形機器人「AI 大腦」。AI Business 報導金額與 Reuters 不同，見校驗。",
+   "status": "持有中（鎖定 36 個月）",
+   "flow": "以模型合作強化宇樹產品，宇樹硬體銷售回收營收",
+   "src": [
+    "reuters_ds",
+    "aib",
+    "qq1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "nssf",
+   "name": "全國社保基金",
+   "tk": "國資",
+   "cat": "other",
+   "type": "戰略配售",
+   "amt": 0.0208,
+   "short": "≈$2,080萬",
+   "date": "2026-08-06",
+   "amtText": "93.34 萬股 × ¥150.8 ≈ ¥1.41億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。",
+   "status": "持有中（戰配鎖定）",
+   "flow": "國家隊背書，增加發行穩定性",
+   "src": [
+    "em_alloc",
+    "cls1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "kunlun",
+   "name": "中國石油昆侖資本",
+   "tk": "國企",
+   "cat": "other",
+   "type": "戰略配售",
+   "amt": 0.0201,
+   "short": "≈$2,010萬",
+   "date": "2026-08-06",
+   "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。",
+   "status": "持有中",
+   "flow": "國企戰配",
+   "src": [
+    "em_alloc"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "csg",
+   "name": "南方電網",
+   "tk": "國企",
+   "cat": "other",
+   "type": "戰略配售",
+   "amt": 0.0201,
+   "short": "≈$2,010萬",
+   "date": "2026-08-06",
+   "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。",
+   "status": "持有中",
+   "flow": "國企戰配；電力巡檢為潛在場景（未揭露訂單）",
+   "src": [
+    "em_alloc"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "tianyi",
+   "name": "中國電信天翼資本",
+   "tk": "國企",
+   "cat": "other",
+   "type": "戰略配售",
+   "amt": 0.0201,
+   "short": "≈$2,010萬",
+   "date": "2026-08-06",
+   "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。",
+   "status": "持有中",
+   "flow": "國企戰配",
+   "src": [
+    "em_alloc"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "qishan",
+   "name": "騰訊啟善",
+   "tk": "騰訊系",
+   "cat": "other",
+   "type": "戰略配售",
+   "amt": 0.0201,
+   "short": "≈$2,010萬",
+   "date": "2026-08-06",
+   "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。",
+   "status": "持有中",
+   "flow": "騰訊系第二條持股管道",
+   "src": [
+    "em_alloc",
+    "qq1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "bjfund",
+   "name": "北京機器人產業發展投資基金",
+   "tk": "北京國資",
+   "cat": "other",
+   "type": "股權",
+   "amt": 0.311,
+   "short": "≈$3.1億",
+   "date": "2026-08-19",
+   "amtText": "持股 3.83%（約 1,392.8 萬股）× ¥150.8 ≈ ¥21.0億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。",
+   "status": "持有中",
+   "flow": "地方國資產業基金",
+   "src": [
+    "jiemian",
+    "sina1"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "wangtou",
+   "name": "網投基金",
+   "tk": "國資",
+   "cat": "other",
+   "type": "股權",
+   "amt": null,
+   "short": "2.11%",
+   "date": "2026",
+   "amtText": "持股 2.11%。",
+   "status": "持有中",
+   "flow": "國資財務投資",
+   "src": [
+    "jiemian"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "ipo",
+   "name": "科創板 IPO 募資",
+   "tk": "688836.SH",
+   "cat": "cloud",
+   "type": "IPO",
+   "amt": 0.901,
+   "short": "≈$9.0億",
+   "date": "2026-08-19",
+   "amtText": "40,446,434 股 × ¥150.8 ≈ ¥60.99億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）；發行市值 ¥609.93億。",
+   "status": "已上市（8/19）",
+   "flow": "募資投入研發與產能擴張",
+   "src": [
+    "cna",
+    "inside",
+    "technews"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "capacity",
+   "name": "擴產計畫",
+   "tk": "—",
+   "cat": "cloud",
+   "type": "募投產能",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026",
+   "amtText": "規劃年產人形機器人 7.5 萬台、四足機器人 11.5 萬台。",
+   "status": "建設中",
+   "flow": "產能擴張帶動上游零組件採購",
+   "src": [
+    "cnyes2",
+    "caixin"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "cq",
+   "name": "重慶宇羿",
+   "tk": "子公司",
+   "cat": "mna",
+   "type": "子公司",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026",
+   "amtText": "全資／控股子公司。",
+   "status": "營運中",
+   "flow": "區域銷售與製造佈局",
+   "src": [
+    "ifeng"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "sz",
+   "name": "深圳天羿",
+   "tk": "子公司",
+   "cat": "mna",
+   "type": "子公司（地方合資）",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025",
+   "amtText": "深圳布局人形機器人基地。",
+   "status": "營運中",
+   "flow": "深圳產業政策支持",
+   "src": [
+    "scmp",
+    "ifeng"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "hz",
+   "name": "杭州宇樹星盟／成都宇辰／北京・上海子公司",
+   "tk": "子公司",
+   "cat": "mna",
+   "type": "子公司",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026",
+   "amtText": "多地子公司佈局。",
+   "status": "營運中",
+   "flow": "區域研發與銷售",
+   "src": [
+    "ifeng"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "teda",
+   "name": "天津泰達基地",
+   "tk": "地方基地",
+   "cat": "mna",
+   "type": "生產基地",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026",
+   "amtText": "天津泰達開發區招商落地專案。",
+   "status": "建設／營運中",
+   "flow": "地方招商＋產能落地",
+   "src": [
+    "teda"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "cs",
+   "name": "長盛軸承",
+   "tk": "300718.SZ",
+   "cat": "supply",
+   "type": "供應鏈",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025-09",
+   "amtText": "市場報導為宇樹零組件供應商之一。",
+   "status": "合作中",
+   "flow": "宇樹擴產帶動採購",
+   "src": [
+    "em_cs",
+    "sina2"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "jfww",
+   "name": "金發科技／臥龍電驅（經金石間接持股）",
+   "tk": "600143.SH / 600580.SH",
+   "cat": "supply",
+   "type": "間接持股",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026",
+   "amtText": "經中信金石相關基金間接持有宇樹股份。",
+   "status": "持有中",
+   "flow": "供應鏈企業以股權綁定客戶",
+   "src": [
+    "sina2",
+    "cnyes1"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "agibot",
+   "name": "智元機器人（AgiBot）",
+   "tk": "未上市",
+   "cat": "cp",
+   "type": "競爭者",
+   "amt": null,
+   "short": "—",
+   "date": "2026",
+   "amtText": "2026 上半年出貨約 8,400 台，超過宇樹約 5,900 台（報導數字）。",
+   "status": "競爭中",
+   "flow": "非持股；人形機器人市占競爭",
+   "src": [
+    "sina3",
+    "cnyes4"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "usreg",
+   "name": "美國 FCC／國防部清單",
+   "tk": "—",
+   "cat": "cp",
+   "type": "監管風險",
+   "amt": null,
+   "short": "—",
+   "date": "2026",
+   "amtText": "宇樹列入 FCC Covered List 及國防部相關清單風險；美國營收占比約 13.3%。",
+   "status": "持續觀察",
+   "flow": "非持股；影響海外營收",
+   "src": [
+    "udn2",
+    "uanalyze"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "reg",
+     "x": "監管風險 宇樹列入 FCC Covered List 及國防部相關清單風險",
+     "auto": true
+    }
+   ]
+  }
+ ],
+ "flows": [
+  [
+   "deepseek",
+   "capacity",
+   "AI 大腦合作導入產品"
+  ],
+  [
+   "capacity",
+   "cs",
+   "零組件採購"
+  ],
+  [
+   "ipo",
+   "capacity",
+   "募資投向"
+  ],
+  [
+   "agibot",
+   "capacity",
+   "出貨量競爭"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "¥150.8",
+   "l": "IPO 定價（發行 40,446,434 股）",
+   "src": [
+    "cna",
+    "inside"
+   ]
+  },
+  {
+   "v": "¥60.99億",
+   "l": "IPO 募資總額",
+   "src": [
+    "cna",
+    "technews"
+   ]
+  },
+  {
+   "v": "+629%",
+   "l": "上市首日開盤 ¥1,100（市值約 ¥4,449億）",
+   "src": [
+    "alj",
+    "asset"
+   ]
+  },
+  {
+   "v": "¥2,815億",
+   "l": "市值（2026-10-28）",
+   "src": [
+    "em_q3"
+   ]
+  },
+  {
+   "v": "68.78%",
+   "l": "王興興控制表決權（持股合計 34.76%）",
+   "src": [
+    "jiemian",
+    "cnyes2"
+   ]
+  },
+  {
+   "v": "8.684%",
+   "l": "美團 IPO 後持股，最大外部股東",
+   "src": [
+    "jiemian",
+    "cnyes3"
+   ]
+  },
+  {
+   "v": "¥6.65億",
+   "l": "2026 Q3 營收；淨利 ¥1.13億（年減 13.37%）",
+   "src": [
+    "cls2",
+    "em_q3"
+   ]
+  },
+  {
+   "v": "13.3%",
+   "l": "美國營收占比（地緣風險暴露）",
+   "src": [
+    "uanalyze",
+    "udn2"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "資本中樞定位",
+   "text": "宇樹以創辦人特別表決權維持控制，外部資金依序來自創投（紅杉、經緯、順為）、網路巨頭（美團、騰訊、阿里、螞蟻）、國資基金，最後經科創板 IPO 與戰配引入國家隊與 DeepSeek。",
+   "src": [
+    "jiemian",
+    "em_alloc"
+   ]
+  },
+  {
+   "title": "獲利與估值",
+   "text": "2025 年營收 ¥16.99億、淨利 ¥2.78億；2026 前三季營收 ¥18.17億、淨利 ¥3.87億，第三季淨利年減 13.37%，研發費用 ¥1.27億。",
+   "src": [
+    "cnyes2",
+    "cls2",
+    "em_q3"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① DeepSeek AI 大腦循環",
+   "sub": "戰配股權 → 模型合作 → 產品營收",
+   "nodes": [
+    [
+     "宇樹科技",
+     "accent"
+    ],
+    [
+     "DeepSeek",
+     "lab"
+    ],
+    [
+     "AI 大腦\n合作 MOU",
+     "lab"
+    ],
+    [
+     "人形機器人\n銷售營收",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "¥1.408億戰配\n鎖定36個月"
+    ],
+    [
+     1,
+     2,
+     "模型能力"
+    ],
+    [
+     2,
+     3,
+     "搭載產品"
+    ],
+    [
+     3,
+     0,
+     "營收回流"
+    ]
+   ],
+   "text": "DeepSeek 以戰略投資者身分認購 933,399 股並簽合作備忘錄；股權與技術合作綁定，宇樹以硬體銷售回收。合作具體營收貢獻尚未揭露。",
+   "src": [
+    "reuters_ds",
+    "aib"
+   ],
+   "dep": "low",
+   "backNote": "DeepSeek 認購 ¥1.408 億；合作的營收貢獻尚未揭露",
+   "backSrc": [
+    "reuters_ds",
+    "aib"
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "② 美團股東增值循環",
+   "sub": "早期入股 → IPO → 帳面增值",
+   "nodes": [
+    [
+     "美團",
+     "semi"
+    ],
+    [
+     "宇樹科技",
+     "accent"
+    ],
+    [
+     "科創板 IPO\n¥150.8",
+     "cloud"
+    ],
+    [
+     "持股市值\n≈¥53億",
+     "semi"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "漢海 ¥2.48億\n(2024-01)"
+    ],
+    [
+     1,
+     2,
+     "上市募資\n¥60.99億"
+    ],
+    [
+     2,
+     3,
+     "8.684%×發行價"
+    ],
+    [
+     3,
+     0,
+     "帳面增值"
+    ]
+   ],
+   "text": "美團在 2024 年初入股，IPO 後持股 8.684%；以發行價計約 ¥52.97億，首日開盤價計更高。報導未揭露美團與宇樹間的業務採購。",
+   "src": [
+    "jiemian",
+    "cnyes3",
+    "cna"
+   ],
+   "back": 3.61,
+   "dep": "low",
+   "backSrc": [
+    "em_q3",
+    "jiemian"
+   ],
+   "backNote": "美團持股 8.684% × 10/28 市值 ¥2,815 億 ≈ ¥244 億 ≈ $36 億（自行計算，匯率約 6.77）；早期投入約 ¥2.48 億"
+  },
+  {
+   "id": "L3",
+   "title": "③ 國資與地方產業循環",
+   "sub": "國家隊戰配 → 宇樹 → 地方基地",
+   "nodes": [
+    [
+     "宇樹科技",
+     "accent"
+    ],
+    [
+     "國家隊戰配\n社保・南網・昆侖・天翼",
+     "other"
+    ],
+    [
+     "地方子公司\n天津・深圳・重慶",
+     "mna"
+    ],
+    [
+     "北京機器人\n產業基金 3.83%",
+     "other"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "戰配股權"
+    ],
+    [
+     0,
+     2,
+     "設廠／子公司"
+    ],
+    [
+     3,
+     0,
+     "上市前股權"
+    ]
+   ],
+   "text": "國資在 IPO 戰配與上市前輪次同時出現，宇樹則在多地設立子公司與生產基地，形成「國資入股＋地方招商落地」的結構。",
+   "src": [
+    "em_alloc",
+    "teda",
+    "scmp",
+    "jiemian"
+   ],
+   "dep": "low",
+   "backNote": "國資入股金額見各節點；地方基地未揭露營收",
+   "backSrc": [
+    "em_alloc",
+    "teda"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ 募資擴產與供應鏈循環",
+   "sub": "IPO 資金 → 產能 → 零組件 → 間接持股",
+   "nodes": [
+    [
+     "宇樹科技",
+     "accent"
+    ],
+    [
+     "IPO 募資\n¥60.99億",
+     "cloud"
+    ],
+    [
+     "擴產\n人形7.5萬・四足11.5萬",
+     "cloud"
+    ],
+    [
+     "供應鏈\n長盛・金發・臥龍",
+     "supply"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "募資到位"
+    ],
+    [
+     0,
+     2,
+     "投入產能"
+    ],
+    [
+     2,
+     3,
+     "零組件採購"
+    ],
+    [
+     3,
+     0,
+     "經金石間接持股"
+    ]
+   ],
+   "text": "募資投入擴產將帶動上游採購；部分供應鏈企業同時經中信金石相關基金間接持有宇樹股份，形成客戶與股東雙重關係。",
+   "src": [
+    "cna",
+    "cnyes2",
+    "em_cs",
+    "sina2"
+   ],
+   "back": 0.901,
+   "dep": "mid",
+   "backSrc": [
+    "cna",
+    "technews"
+   ],
+   "backNote": "IPO 募資 ¥60.99 億投入擴產"
+  }
+ ],
+ "loopNote": {
+  "text": "宇樹的資金循環以股權增值與產業綁定為主，不像晶片業者有大規模客戶回購。看多者認為國資與 DeepSeek 入股強化產業地位；看空者關注上市後估值波動、第三季獲利下滑、智元競爭及美國監管風險。",
+  "src": [
+   "fortune",
+   "sina3",
+   "udn2"
+  ]
+ },
+ "events": [
+  {
+   "d": "2024-01",
+   "t": "美團經漢海信息入股",
+   "x": "投入約 ¥2.48億。",
+   "cat": "semi",
+   "src": [
+    "cnyes3",
+    "sina1"
+   ]
+  },
+  {
+   "d": "2025",
+   "t": "深圳布局人形機器人基地",
+   "x": "深圳以宇樹在地子公司強化機器人基地角色。",
+   "cat": "mna",
+   "src": [
+    "scmp"
+   ]
+  },
+  {
+   "d": "2025-09-17",
+   "t": "供應鏈題材：長盛軸承",
+   "x": "市場報導其為宇樹零組件供應商。",
+   "cat": "supply",
+   "src": [
+    "em_cs"
+   ]
+  },
+  {
+   "d": "2026-08-06",
+   "t": "公布戰略配售名單",
+   "x": "社保基金、昆侖、南網、天翼、騰訊啟善、DeepSeek 與中信跟投。",
+   "cat": "other",
+   "src": [
+    "em_alloc",
+    "cls1"
+   ]
+  },
+  {
+   "d": "2026-08-07",
+   "t": "IPO 定價 ¥150.8",
+   "x": "發行 40,446,434 股，募資約 ¥60.99億。",
+   "cat": "cloud",
+   "src": [
+    "cna",
+    "inside"
+   ]
+  },
+  {
+   "d": "2026-08-10",
+   "t": "啟動申購",
+   "x": "A 股首檔人形機器人股。",
+   "cat": "cloud",
+   "src": [
+    "technews"
+   ]
+  },
+  {
+   "d": "2026-08",
+   "t": "DeepSeek 戰配並簽 MOU",
+   "x": "¥1.408億、鎖定 36 個月，合作開發 AI 大腦。",
+   "cat": "lab",
+   "src": [
+    "reuters_ds",
+    "aib"
+   ]
+  },
+  {
+   "d": "2026-08-19",
+   "t": "科創板掛牌",
+   "x": "開盤大漲 629% 至 ¥1,100，市值一度約 ¥4,449億。",
+   "cat": "gov",
+   "src": [
+    "alj",
+    "fortune",
+    "asset"
+   ]
+  },
+  {
+   "d": "2026-08-20",
+   "t": "Caixin：上市五大重點",
+   "x": "產能規劃與股東結構。",
+   "cat": "gov",
+   "src": [
+    "caixin"
+   ]
+  },
+  {
+   "d": "2026-09-03",
+   "t": "競爭：智元出貨超越",
+   "x": "上半年智元約 8,400 台、宇樹約 5,900 台。",
+   "cat": "gov",
+   "src": [
+    "sina3"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "t": "第三季財報",
+   "x": "營收 ¥6.65億、淨利 ¥1.13億（年減 13.37%）；前三季營收 ¥18.17億、淨利 ¥3.87億。",
+   "cat": "gov",
+   "src": [
+    "cls2",
+    "em_q3"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "IPO 募資：40,446,434 股 × ¥150.8 = ¥60.99億，與公告一致；發行市值 ¥609.93億 ÷ ¥150.8 ≈ 4.045 億股總股本，美團 35,123,600 股 ÷ 4.045 億 ≈ 8.68%，與 8.684% 吻合。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "DeepSeek：933,399 股 × ¥150.8 ≈ ¥1.408億；Reuters 換算為 US$2,080萬，本 Dashboard 據此推得約 ¥6.77/US$ 作為統一匯率。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "王興興 23.82% ＋ 上海宇翼 10.94% ＝ 34.76% 持股；表決權 68.78% 來自特別表決權架構。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "美團持股：IPO 前約 9.65%、IPO 後 8.684%，差異來自新股稀釋，兩者皆列出。紅杉 7.11% 等比例，報導未一致說明為上市前或後。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "DeepSeek 金額：Reuters 報 US$2,080萬（¥1.408億），AI Business 報導數字不同；以股數×發行價驗算支持 Reuters。"
+  },
+  {
+   "tag": "未定案",
+   "html": "估值區間跨度大：發行市值 ¥609.93億、首日開盤約 ¥4,449億、10/28 約 ¥2,815億；持股市值一律以發行價計，未以即時股價重估。"
+  },
+  {
+   "tag": "未定案",
+   "html": "長盛軸承、金發、臥龍的供應或持股關係多出自市場報導，未見宇樹公告採購金額。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）人民幣金額以約 ¥6.77/US$ 換算（依 Reuters 對 DeepSeek 戰配的換算推得）。（2）持股市值以 IPO 發行價 ¥150.8 × 揭露股數計算，未揭露股數者僅列比例、amt 留空。（3）戰配鎖定期內股份不可出售。（4）子公司與供應鏈多數未揭露金額。（5）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "宇樹是被投資方而非投資方：美團、紅杉、騰訊與國家隊股東在上市後帳面大增，公司本身則把 IPO 資金投入擴產；估值仍遠高於基本面，且競爭對手出貨已超越。",
+  "src": [
+   "jiemian",
+   "em_q3",
+   "sina3"
+  ],
+  "opps": [
+   {
+    "t": "美團早期約 ¥2.48 億投入，以 10/28 市值計已達約 ¥244 億（自行計算）",
+    "src": [
+     "jiemian",
+     "em_q3"
+    ]
+   },
+   {
+    "t": "2025 年營收 ¥16.76 億、首度獲利",
+    "src": [
+     "technews"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "Q3 淨利 ¥1.13 億、年減 13.37%，但市值約 ¥2,815 億",
+    "src": [
+     "cls2",
+     "em_q3"
+    ]
+   },
+   {
+    "t": "智元上半年出貨約 8,400 台，超越宇樹約 5,900 台",
+    "src": [
+     "sina3"
+    ]
+   },
+   {
+    "t": "美國 FCC／國防部清單，美國營收占 13.3%",
+    "src": [
+     "udn2",
+     "uanalyze"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "股東鎖定期陸續到期",
+    "src": [
+     "jiemian"
+    ]
+   },
+   {
+    "t": "擴產（人形 7.5 萬台、四足 11.5 萬台）進度",
+    "src": [
+     "cnyes2"
+    ]
+   }
+  ]
+ }
+}

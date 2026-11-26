@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>跨實體投資生態總網路圖｜系統性樞紐與影響面</title>
+<style>
+:root{--bg:#0a0e13;--panel:#11171f;--panel2:#161e28;--line:#243041;--text:#e6edf3;--muted:#8b9bb0;--acc:#facc15;--in:#4ade80;--fs:1}
+[data-theme="light"]{--bg:#f5f7fa;--panel:#fff;--panel2:#eef2f6;--line:#d5dde7;--text:#111827;--muted:#5b6b80;--acc:#b45309;--in:#15803d}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;font-size:calc(14px*var(--fs))}
+a{color:#7dd3fc;text-decoration:none}a:hover{text-decoration:underline}
+header{padding:16px 22px 10px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-end}
+h1{margin:0;font-size:calc(20px*var(--fs))}h1 b{color:var(--acc)}
+.sub{color:var(--muted);font-size:calc(12px*var(--fs));margin-top:4px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;padding:12px 22px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.kpi .v{font-size:calc(21px*var(--fs));font-weight:700;color:var(--acc);font-family:Consolas,monospace}
+.kpi .l{color:var(--muted);font-size:calc(12px*var(--fs));margin-top:2px}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:8px 22px;border-top:1px solid var(--line)}
+select,input[type=search]{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:5px 8px;font-family:inherit;font-size:calc(13px*var(--fs))}
+label{font-size:calc(12.5px*var(--fs));color:var(--muted);display:inline-flex;gap:5px;align-items:center;cursor:pointer}
+.btn{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:5px 10px;cursor:pointer;font-family:inherit;font-size:calc(12.5px*var(--fs))}
+.hint{color:var(--muted);font-size:calc(12px*var(--fs))}
+.wrap{display:grid;grid-template-columns:1fr 420px;border-top:1px solid var(--line)}
+#g{width:100%;height:calc(100vh - 150px);min-height:640px;display:block}
+aside{border-left:1px solid var(--line);background:var(--panel);padding:16px;overflow:auto;max-height:calc(100vh - 150px);min-height:640px}
+aside h2{margin:0 0 4px;font-size:calc(18px*var(--fs))}
+.tag{display:inline-block;font-size:calc(11px*var(--fs));padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin:2px 4px 2px 0}
+.gb{display:inline-block;min-width:15px;text-align:center;font-size:calc(10px*var(--fs));font-weight:700;padding:0 4px;border-radius:4px;color:#0a0e13;font-family:Consolas,monospace}
+.gA{background:#4ade80}.gB{background:#38bdf8}.gC{background:#fbbf24}.gD{background:#f87171}
+.at{display:inline-block;font-size:calc(10.5px*var(--fs));padding:0 5px;border-radius:4px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.at.in{border-color:var(--in);color:var(--in)}
+.rel{border:1px solid var(--line);border-left:3px solid var(--c);border-radius:8px;padding:8px 10px;margin:8px 0;background:var(--panel2);font-size:calc(12.5px*var(--fs));line-height:1.6}
+.rel .h{display:flex;justify-content:space-between;gap:6px;align-items:center}
+.rel .h b{color:var(--c)}
+.rel.rumor{border-style:dashed}
+.imp{border:1px solid #7f1d1d;background:rgba(248,113,113,.08);border-radius:8px;padding:9px 11px;font-size:calc(12.5px*var(--fs));line-height:1.7;margin-top:10px}
+.imp b{color:#fca5a5}
+svg text{font-family:inherit}
+.nlab{fill:var(--text);font-size:11px;pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:3px}
+.elab{fill:var(--text);font-size:13px;font-weight:700;pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:4px}
+.node{cursor:pointer}
+.dim{opacity:.12}
+.tablewrap{padding:10px 22px 30px;overflow:auto}
+table{border-collapse:collapse;width:100%;font-size:calc(12.5px*var(--fs))}
+th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:var(--panel2);position:sticky;top:0;cursor:pointer;white-space:nowrap}
+tr:hover td{background:var(--panel2)}
+.sec{padding:14px 22px 0;font-weight:700;font-size:calc(15px*var(--fs))}
+footer{padding:16px 22px 30px;color:var(--muted);font-size:calc(11.5px*var(--fs));line-height:1.7;border-top:1px solid var(--line)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:calc(11.5px*var(--fs));color:var(--muted);align-items:center}
+.legend i{display:inline-block;width:22px;height:0;border-top:2px solid;vertical-align:middle;margin-right:4px}
+@media (max-width:1000px){.wrap{grid-template-columns:1fr}aside{border-left:none;max-height:none}}
+</style>
+</head>
+<body>
+<header>
+<div><h1><b>跨實體投資生態總網路圖</b>・系統性樞紐與影響面</h1>
+<div class="sub" id="sub"></div></div>
+<div class="legend">
+<span><i style="border-color:#94a3b8"></i>流出（實體出資／採購）</span>
+<span><i style="border-color:var(--in)"></i>流入（對方投入資金）</span>
+<span><i style="border-color:#fbbf24"></i>雙向</span>
+<span><i style="border-color:#94a3b8;border-top-style:dashed"></i>傳聞／未定案</span>
+<span>⬤ 大圓＝已建 Dashboard 的實體　● 小圓＝共同交易對手（越大＝跨越越多實體）</span>
+</div>
+</header>
+<div class="kpis" id="kpis"></div>
+<div class="toolbar">
+<label>顯示交易對手：<select id="minDeg"><option value="2" selected>出現在 ≥2 個實體</option><option value="3">≥3 個實體</option><option value="1">全部（含單一實體）</option></select></label>
+<label>方向：<select id="dirSel"><option value="">全部</option><option value="out">只看流出</option><option value="in">只看流入</option></select></label>
+<label><input type="checkbox" id="cpChk" checked> 含循環對手方（非持股）</label>
+<input type="search" id="q" placeholder="搜尋公司…">
+<button class="btn" id="reset">重設</button>
+<button class="btn" id="csv">⬇ 樞紐排行 CSV</button>
+<button class="btn" id="theme">🌓 淺色／深色</button>
+<span class="hint">點選圓點看「哪些實體與它有關、涉及多少錢、若它出事影響誰」。</span>
+</div>
+<div class="wrap">
+<svg id="g" viewBox="-560 -420 1120 840"></svg>
+<aside id="side"></aside>
+</div>
+<div class="sec">⚖️ 多實體比較（勾選 2–3 家並排）</div>
+<div class="toolbar" id="cmpPick"></div>
+<div class="tablewrap"><table id="cmp"></table></div>
+<div class="sec">🔎 跨實體一致性檢查（同一筆關係在不同 Dashboard 的金額是否對得上）</div>
+<div class="tablewrap"><table id="chk"></table></div>
+<div class="sec">🔁 跨實體資金閉環（由全部 Dashboard 的金額關係自動偵測；依「金額最小的一段」排序）</div>
+<div class="tablewrap"><table id="cyc"></table></div>
+<div class="sec">🏛️ 系統性樞紐排行（跨越 ≥2 個實體的交易對手）</div>
+<div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+<footer id="foot"></footer>
+<script>
+const DATA=/*__DATA__*/null;
+const AMT=DATA.amt, IN=new Set(['inflow','disposal']);
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmtB=v=>v>=1?'$'+(v*10).toLocaleString('zh-TW',{maximumFractionDigits:0})+'億':'$'+(v*10).toFixed(1)+'億';
+const gb=g=>`<span class="gb g${g}">${g}</span>`;
+const ENT=Object.fromEntries(DATA.ents.map(e=>[e.key,e]));
+const HUB=Object.fromEntries(DATA.hubs.map(h=>[h.key,h]));
+$('#sub').textContent=`彙整 ${DATA.ents.length} 份 Dashboard（資料截至 ${DATA.asOf}）｜同一交易對手以名稱／代號別名合併｜金額依口徑分開加總，不跨口徑相加`;
+const multi=DATA.hubs.filter(h=>h.deg>=2&&!h.isEntity);
+const TOPH=DATA.hubs.filter(h=>h.deg>=2).sort((a,b)=>b.deg-a.deg||b.links-a.links);
+$('#kpis').innerHTML=[[DATA.ents.length,'已建 Dashboard 的實體'],[DATA.hubs.length,'交易對手（合併後）'],[DATA.hubs.filter(h=>h.deg>=2).length,'跨越 ≥2 實體的樞紐'],[TOPH[0]?TOPH[0].key+'（'+TOPH[0].deg+'）':'—','最大樞紐（涉及實體數）'],[DATA.links.length,'實體—對手關係筆數'],[DATA.links.filter(l=>l.rumor).length,'傳聞／未定案關係']].map(([v,l])=>`<div class="kpi"><div class="v">${esc(v)}</div><div class="l">${l}</div></div>`).join('');
+/* ---------- 建圖 ---------- */
+let NODES=[],EDGES=[],selected=null;
+function build(){
+ const md=+$('#minDeg').value, dir=$('#dirSel').value, cp=$('#cpChk').checked;
+ const L=DATA.links.filter(l=>(!dir||l.dir===dir)&&(cp||!l.counterparty));
+ const deg={};L.forEach(l=>{(deg[l.cp]=deg[l.cp]||new Set()).add(l.ent); if(ENT[l.cp]) deg[l.cp].add(l.cp);});
+ const keep=new Set(Object.keys(deg).filter(k=>ENT[k]||deg[k].size>=md));
+ DATA.ents.forEach(e=>keep.add(e.key));
+ const prev=Object.fromEntries(NODES.map(n=>[n.id,n]));
+ NODES=[...keep].map(k=>{const isE=!!ENT[k];const d=deg[k]?deg[k].size:1;const p=prev[k];
+  return {id:k,isE,deg:d,r:isE?24:5+d*3.2,x:p?p.x:(Math.cos(hash(k))*300),y:p?p.y:(Math.sin(hash(k)*1.7)*250),vx:0,vy:0};});
+ const idx=Object.fromEntries(NODES.map(n=>[n.id,n]));
+ const agg={};
+ L.forEach(l=>{if(!idx[l.cp]||l.cp===l.ent)return;const k=l.ent+'|'+l.cp;(agg[k]=agg[k]||{s:idx[l.ent],t:idx[l.cp],ls:[]}).ls.push(l);});
+ EDGES=Object.values(agg).map(e=>{const dirs=new Set(e.ls.map(l=>l.dir));const amt=e.ls.reduce((s,l)=>s+(l.amt&&!l.excl?l.amt:0),0);
+  return {...e,dir:dirs.size>1?'both':[...dirs][0],rumor:e.ls.every(l=>l.rumor),amt};});
+ simulate(); draw();
+}
+function hash(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))%9973;return h/9973*Math.PI*2*7}
+function simulate(){
+ // 實體固定在外圈，交易對手由力導向決定（固定版面，不隨滑鼠移動）
+ const E=NODES.filter(n=>n.isE);E.forEach((n,i)=>{const a=-Math.PI/2+i/E.length*Math.PI*2;n.fx=Math.cos(a)*340;n.fy=Math.sin(a)*300;n.x=n.fx;n.y=n.fy;});
+ const H=NODES.filter(n=>!n.isE);
+ for(let it=0;it<420;it++){
+  const k=1-it/420;
+  for(let i=0;i<NODES.length;i++)for(let j=i+1;j<NODES.length;j++){const a=NODES[i],b=NODES[j];let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+.01;const min=a.r+b.r+14;
+   const f=(700/d2)+(d2<min*min?(min*min-d2)/d2*.6:0);dx*=f;dy*=f;if(!a.isE){a.vx+=dx;a.vy+=dy}if(!b.isE){b.vx-=dx;b.vy-=dy}}
+  EDGES.forEach(e=>{const a=e.s,b=e.t;const dx=b.x-a.x,dy=b.y-a.y;const d=Math.hypot(dx,dy)||1;const L0=b.isE&&a.isE?260:120;const f=(d-L0)*.012;
+   if(!a.isE){a.vx+=dx/d*f*d*.02;a.vy+=dy/d*f*d*.02}if(!b.isE){b.vx-=dx/d*f*d*.02;b.vy-=dy/d*f*d*.02}});
+  H.forEach(n=>{n.vx-=n.x*.018;n.vy-=n.y*.022;n.x+=Math.max(-20,Math.min(20,n.vx))*k;n.y+=Math.max(-20,Math.min(20,n.vy))*k;n.vx*=.55;n.vy*=.55;
+   n.x=Math.max(-470,Math.min(470,n.x));n.y=Math.max(-330,Math.min(330,n.y));});
+ }
+}
+const NS='http://www.w3.org/2000/svg';
+const mk=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);p&&p.appendChild(e);return e};
+function draw(){
+ const g=$('#g');g.innerHTML='';
+ const q=$('#q').value.trim().toLowerCase();
+ const nb=new Set();if(selected){nb.add(selected);EDGES.forEach(e=>{if(e.s.id===selected)nb.add(e.t.id);if(e.t.id===selected)nb.add(e.s.id)});}
+ const ge=mk('g',{},g), gn=mk('g',{},g);
+ EDGES.forEach(e=>{const col=e.dir==='in'?getComputedStyle(document.body).getPropertyValue('--in'):e.dir==='both'?'#fbbf24':(ENT[e.s.id]?ENT[e.s.id].accent:'#94a3b8');
+  const w=e.amt>0?Math.min(7,1.2+Math.log10(e.amt*10+1)*1.6):1.1;
+  const on=!selected||(e.s.id===selected||e.t.id===selected);
+  const p=mk('line',{x1:e.s.x,y1:e.s.y,x2:e.t.x,y2:e.t.y,stroke:col,'stroke-width':w,'stroke-opacity':on?.75:.06,'stroke-dasharray':e.rumor?'5 4':''},ge);
+  p.appendChild(document.createElementNS(NS,'title')).textContent=`${e.s.id} ↔ ${e.t.id}：${e.ls.map(l=>`${l.name}｜${AMT[l.amtType]}｜${l.short||'—'}`).join('；')}`;});
+ NODES.forEach(n=>{const on=(!selected||nb.has(n.id))&&(!q||n.id.toLowerCase().includes(q));
+  const c=n.isE?ENT[n.id].accent:'#94a3b8';
+  const gg=mk('g',{class:'node'+(on?'':' dim'),transform:`translate(${n.x},${n.y})`},gn);
+  mk('circle',{r:n.r,fill:n.isE?'var(--panel)':c,'fill-opacity':n.isE?1:.85,stroke:n.isE?c:(selected===n.id?'#fff':'var(--bg)'),'stroke-width':n.isE?3:(selected===n.id?2.5:1.2)},gg);
+  const t=mk('text',{class:n.isE?'elab':'nlab','text-anchor':'middle',y:n.isE?4:n.r+12},gg);t.textContent=n.id+(n.isE?'':(n.deg>1?` (${n.deg})`:''));
+  gg.onclick=ev=>{ev.stopPropagation();selected=selected===n.id?null:n.id;draw();side(selected);};});
+ g.onclick=()=>{selected=null;draw();side(null)};
+}
+/* ---------- 側欄：影響面 ---------- */
+function side(k){
+ const S=$('#side');
+ if(!k){S.innerHTML=`<h2>如何閱讀</h2><p class="hint" style="line-height:1.8">外圈大圓是已建 Dashboard 的實體；中間小圓是兩個以上實體共同往來的交易對手，數字＝涉及的實體數。線寬依已揭露金額（對數），虛線＝傳聞或未定案。<br><br>點選任一圓點，右側列出每個實體與它的關係、金額口徑、可信度與來源，並估計「若它出事」受影響的範圍。</p>
+  <h2 style="margin-top:14px">前 10 大樞紐</h2>${TOPH.slice(0,10).map(h=>`<div><a href="#" data-k="${esc(h.key)}">${esc(h.key)}</a> <span class="hint">— ${h.deg} 個實體、${h.links} 筆關係</span></div>`).join('')}`;
+  S.querySelectorAll('a[data-k]').forEach(a=>a.onclick=ev=>{ev.preventDefault();selected=a.dataset.k;draw();side(selected)});return;}
+ const ls=DATA.links.filter(l=>l.cp===k||l.ent===k&&ENT[k]&&false);
+ const asCp=DATA.links.filter(l=>l.cp===k);
+ const isE=!!ENT[k];
+ const ents=[...new Set(asCp.map(l=>l.ent))];
+ const tot={};asCp.forEach(l=>{if(l.amt!=null&&!l.excl)tot[l.amtType]=(tot[l.amtType]||0)+l.amt});
+ const out=asCp.filter(l=>l.dir==='out'), inn=asCp.filter(l=>l.dir==='in');
+ const rumor=asCp.filter(l=>l.rumor).length;
+ const best=asCp.map(l=>l.grade).sort()[0]||'—';
+ let html=`<h2>${esc(k)}</h2>${isE?`<span class="tag" style="border-color:${ENT[k].accent};color:${ENT[k].accent}">已建 Dashboard：<a href="${ENT[k].file}" target="_blank">${esc(ENT[k].file)}</a></span>`:''}<span class="tag">被 ${ents.length} 個實體列為交易對手</span><span class="tag">${asCp.length} 筆關係</span>`;
+ html+=`<div class="imp"><b>⚠️ 若「${esc(k)}」出事（違約、斷供、監管、估值重挫）</b><br>
+ 直接受影響：${ents.map(e=>`<b style="color:${ENT[e].accent}">${esc(e)}</b>`).join('、')||'—'}<br>
+ ${out.length?`・<b>${out.length}</b> 筆為實體對它的出資／採購／承諾（流出），可能面臨減損或斷供<br>`:''}
+ ${inn.length?`・<b>${inn.length}</b> 筆為它投入實體的資金（流入），可能出現資金撤出或股東結構變動<br>`:''}
+ 已揭露金額（依口徑，不跨口徑相加）：${Object.entries(tot).map(([t,v])=>`${AMT[t]} ${fmtB(v)}`).join('｜')||'皆未揭露'}<br>
+ 證據強度：最高 ${best!=='—'?gb(best):'—'}${rumor?`，其中 ${rumor} 筆為傳聞／未定案`:''}</div>`;
+ html+=asCp.map(l=>`<div class="rel${l.rumor?' rumor':''}" style="--c:${ENT[l.ent].accent}"><div class="h"><b>${esc(l.ent)}</b><span>${gb(l.grade)} <span class="at${IN.has(l.amtType)||l.dir==='in'?' in':''}">${l.dir==='in'?'↙流入':'↗流出'}・${AMT[l.amtType]}</span></span></div>
+ <div>${esc(l.name)}｜${esc(l.cat)}｜${esc(l.type)}</div><div><b>${esc(l.short||'—')}</b>　<span class="hint">${esc(l.date)}・${esc(l.status)}</span></div>
+ <div class="hint">${l.src.map(s=>`<a href="${s[1]}" target="_blank">${esc(String(s[0]).split('｜')[0])}</a>`).join('　')}　→ <a href="${ENT[l.ent].file}" target="_blank">開啟 ${esc(l.ent)} Dashboard</a></div></div>`).join('');
+ if(isE){const own=DATA.links.filter(l=>l.ent===k&&HUB[l.cp]&&HUB[l.cp].deg>=2&&l.cp!==k);
+  if(own.length) html+=`<h2 style="margin-top:14px;font-size:15px">${esc(k)} 自身與其他樞紐的關係</h2>`+own.map(l=>`<div class="hint">→ ${esc(l.cp)}：${esc(l.name)}｜${AMT[l.amtType]} ${esc(l.short||'')}</div>`).join('');}
+ S.innerHTML=html;
+}
+/* ---------- 排行表 ---------- */
+let sortK='deg',sortD=-1;
+function table(){
+ const rows=TOPH.map(h=>{const ls=DATA.links.filter(l=>l.cp===h.key);const g=['A','B','C','D'].map(x=>ls.filter(l=>l.grade===x).length);
+  return {k:h.key,deg:h.deg,links:h.links,ents:h.ents.join('、'),tot:Object.entries(h.tot).map(([t,v])=>`${AMT[t]} ${fmtB(v)}`).join('｜')||'未揭露',g,rumor:ls.filter(l=>l.rumor).length,roles:[...new Set(ls.map(l=>l.type))].slice(0,4).join('；')}});
+ rows.sort((a,b)=>{const x=a[sortK],y=b[sortK];return (x>y?1:x<y?-1:0)*sortD});
+ const C=[['k','交易對手'],['deg','涉及實體數'],['links','關係筆數'],['ents','涉及實體'],['tot','已揭露金額（依口徑）'],['roles','主要交易型態'],['g','來源可信度 A/B/C/D'],['rumor','傳聞／未定案']];
+ $('#tbl thead').innerHTML='<tr>'+C.map(([k,l])=>`<th data-k="${k}">${l}${sortK===k?(sortD>0?' ▲':' ▼'):''}</th>`).join('')+'</tr>';
+ $('#tbl tbody').innerHTML=rows.map(r=>`<tr><td><a href="#" data-k="${esc(r.k)}"><b>${esc(r.k)}</b></a></td><td>${r.deg}</td><td>${r.links}</td><td>${esc(r.ents)}</td><td>${esc(r.tot)}</td><td>${esc(r.roles)}</td><td>${r.g.map((n,i)=>n?gb('ABCD'[i])+' '+n:'').join(' ')}</td><td>${r.rumor||''}</td></tr>`).join('');
+ document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortD=sortK===k?-sortD:-1;sortK=k;table()});
+ document.querySelectorAll('#tbl a[data-k]').forEach(a=>a.onclick=ev=>{ev.preventDefault();selected=a.dataset.k;if(!NODES.find(n=>n.id===selected)){$('#minDeg').value='1';build();}draw();side(selected);window.scrollTo({top:0,behavior:'smooth'})});
+ window._rows=rows;
+}
+$('#csv').onclick=()=>{const rows=window._rows||[];const head=['交易對手','涉及實體數','關係筆數','涉及實體','已揭露金額（依口徑）','主要交易型態','A','B','C','D','傳聞／未定案'];
+ const csv=[head,...rows.map(r=>[r.k,r.deg,r.links,r.ents,r.tot,r.roles,...r.g,r.rumor])].map(r=>r.map(x=>`"${String(x).replace(/"/g,'""')}"`).join(',')).join('\n');
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([''+csv],{type:'text/csv'}));a.download=`生態系樞紐排行_${DATA.asOf}.csv`;a.click();};
+/* CSV 開頭的 BOM 由下一行補上，避免 Excel 中文亂碼 */
+(function(){const B=window.Blob;window.Blob=function(parts,opt){if(opt&&opt.type==='text/csv')parts=[String.fromCharCode(65279),...parts.map(p=>typeof p==='string'?p.replace(/^/,''):p)];return new B(parts,opt)};})();
+$('#theme').onclick=()=>{document.body.dataset.theme=document.body.dataset.theme==='light'?'':'light';draw()};
+['#minDeg','#dirSel','#cpChk'].forEach(s=>$(s).onchange=()=>{build();side(selected)});
+$('#q').oninput=draw; $('#reset').onclick=()=>{selected=null;$('#q').value='';$('#minDeg').value='2';$('#dirSel').value='';$('#cpChk').checked=true;build();side(null)};
+$('#foot').innerHTML=`<b>方法與注意事項：</b>（1）由各實體 Dashboard 的 data.json 自動彙整；同一交易對手以名稱與代號別名合併（例如 Google／Alphabet、台積電／TSMC），可能仍有少數未合併或誤合併。（2）「涉及實體數」含該對手本身若也是已建 Dashboard 的實體。（3）金額依口徑（股權成本、承諾上限、合約價值、流入資金等）分開加總，不跨口徑相加；未揭露金額不計。（4）可信度：A 公司公告／監管申報、B 主流財經媒體、C 其他媒體或彙整、D 傳聞或推估。（5）「若出事」為暴露範圍估計，不代表實際損失。（6）本頁為資訊整理，非投資建議。<br>已納入：${DATA.ents.map(e=>`<a href="${e.file}" target="_blank">${esc(e.entity)}</a>`).join('、')}`;
+(function(){const C=DATA.checks||[];const col={'待確認':'#f87171','單邊':'#fb923c','已說明':'#facc15','一致':'#4ade80'};
+ const cell=i=>`<b style="color:${(ENT[i.ent]||{}).accent||'inherit'}">${esc(i.ent)}</b>｜${esc(i.name)}<br>${esc(i.short)}${i.amtType==='none'&&!i.date?'':`（${AMT[i.amtType]||''}${i.date?'，'+esc(i.date):''}）`}${i.val!=null?`<br><span class="hint">現值 ${fmtB(i.val)}${i.valDate?'（'+esc(i.valDate)+'）':''}</span>`:''}${i.xnote?`<br><span class="hint">說明：${esc(i.xnote)}</span>`:''}`;
+ $('#chk').innerHTML=C.length?`<thead><tr><th>結果</th><th>類型</th><th>對象</th><th>甲方記載</th><th>乙方記載</th></tr></thead><tbody>`+C.map(c=>`<tr><td><b style="color:${col[c.status]}">${c.status}</b></td><td>${c.kind}${(c.flags||[]).map(f=>`<br><span class="hint">${esc(f)}</span>`).join('')}</td><td>${esc(c.cp)}</td><td>${cell(c.items[0])}</td><td>${c.items.slice(1).map(cell).join('<hr style="border:none;border-top:1px dashed var(--line)">')}</td></tr>`).join('')+`</tbody>`:'<tr><td class="hint">目前沒有可比對的重複關係。</td></tr>';
+})();
+(function(){const C=DATA.cycles||[];const nm=k=>`<b style="color:${(ENT[k]||{}).accent||'inherit'}">${esc(k)}</b>`;
+ $('#cyc').innerHTML=C.length?`<thead><tr><th>環節</th><th>資金路徑（箭頭為資金方向）</th><th>最小的一段</th><th>備註</th></tr></thead><tbody>`+C.map(c=>`<tr><td>${c.len}</td><td>${c.edges.map((e,i)=>`${nm(e.from)} <span class="hint">─ ${i===c.minIdx?'<u>':''}${e.amt==null?esc(e.type||'供應／採購')+'（金額未揭露）':esc(e.short)+'（'+(AMT[e.amtType]||'')+(e.per?'・每年':'')+'）'}${i===c.minIdx?'</u>':''} →</span> `).join('')}${nm(c.path[0])}</td><td class="mono">${fmtB(c.min)}</td><td class="hint">${c.rumor?'含傳聞或未定案的一段；':''}${c.und?'有一段金額未揭露；':''}${c.edges.some(e=>e.per)?'含年度金額；':''}各段口徑不同，不可相加</td></tr>`).join('')+`</tbody>`:'<tr><td class="hint">目前沒有偵測到閉環。</td></tr>';
+})();
+const RISK={reg:'監管',geo:'地緣／出口管制',conc:'客戶集中',acct:'會計',exec:'執行／未定案',fin:'財務／擔保'};
+let cmpSel=['Meta','Google／Alphabet','Intel'].filter(k=>DATA.ents.some(e=>e.key===k)); if(cmpSel.length<2) cmpSel=DATA.ents.slice(0,3).map(e=>e.key);
+function cmp(){
+ $('#cmpPick').innerHTML=DATA.ents.map(e=>`<label style="margin-right:8px"><input type="checkbox" value="${esc(e.key)}" ${cmpSel.includes(e.key)?'checked':''}> <b style="color:${e.accent}">${esc(e.entity)}</b></label>`).join('')+'<span class="hint">最多 3 家；金額只在同口徑內比較</span>';
+ $('#cmpPick').querySelectorAll('input').forEach(i=>i.onchange=()=>{if(i.checked){cmpSel.push(i.value);if(cmpSel.length>3)cmpSel.shift();}else cmpSel=cmpSel.filter(x=>x!==i.value);cmp();});
+ const E=cmpSel.map(k=>ENT[k]).filter(Boolean); if(!E.length){$('#cmp').innerHTML='';return;}
+ const types=Object.keys(AMT).filter(t=>E.some(e=>e.st.tot[t]));
+ const bar=(v,max,c)=>v?`<div style="display:flex;align-items:center;gap:6px"><span style="display:inline-block;height:8px;width:${Math.max(3,v/max*140)}px;background:${c};border-radius:3px"></span>${fmtB(v)}</div>`:'—';
+ const pct=(a,b)=>b?Math.round(a/b*100)+'%':'—';
+ const R=[];
+ types.forEach(t=>{const mx=Math.max(...E.map(e=>e.st.tot[t]||0));R.push([`${IN.has(t)?'↙':'↗'}${AMT[t]}`,E.map(e=>bar(e.st.tot[t]||0,mx,e.accent))]);});
+ const own=e=>Object.values(e.st.grade).reduce((a,b)=>a+b,0);
+ R.push(['節點數（不含對手方）',E.map(e=>own(e))]);
+ R.push(['循環對手方節點',E.map(e=>e.st.cpNodes)]);
+ R.push(['跨實體共同樞紐',E.map(e=>e.st.hubs)]);
+ R.push(['A／B 級來源占比',E.map(e=>pct(e.st.grade.A+e.st.grade.B,own(e)))]);
+ R.push(['傳聞／未定案節點',E.map(e=>e.st.rumor)]);
+ R.push(['未重新查證節點',E.map(e=>e.st.stale)]);
+ Object.keys(RISK).filter(k=>E.some(e=>e.st.risk[k])).forEach(k=>R.push([`⚑ ${RISK[k]}`,E.map(e=>e.st.risk[k]||'—')]));
+ R.push(['資金循環（已量化回流）',E.map(e=>`${e.st.loops}（${e.st.loopsQ}）`)]);
+ R.push(['已填現值的節點',E.map(e=>e.st.val)]);
+ R.push(['金額最大的 3 個節點',E.map(e=>e.st.top.map(x=>`${esc(x[0])}　${esc(x[1])}<span class="hint">（${x[2]}）</span>`).join('<br>'))]);
+ $('#cmp').innerHTML=`<thead><tr><th>項目</th>${E.map(e=>`<th><a href="${e.file}" target="_blank" style="color:${e.accent}">${esc(e.entity)}</a> <span class="hint">${e.asOf}</span></th>`).join('')}</tr></thead><tbody>${R.map(([l,v])=>`<tr><td>${l}</td>${v.map(x=>`<td>${x}</td>`).join('')}</tr>`).join('')}</tbody>`;
+}
+build(); side(null); table(); cmp();
+</script>
+</body>
+</html>

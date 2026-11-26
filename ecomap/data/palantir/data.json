@@ -1,0 +1,1125 @@
+{
+ "meta": {
+  "entity": "Palantir",
+  "ticker": "PLTR",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#a3a3a3",
+  "centerLabel": "資本中樞",
+  "fileSlug": "Palantir",
+  "subtitle": "涵蓋政府長約、商業合作、SPAC／客戶入股與技術夥伴"
+ },
+ "notice": {
+  "title": "近半年重大動態",
+  "months": 6,
+  "show": 6,
+  "html": "Q3 營收年增 96%、美國商業營收首度超過政府，但新簽合約（TCV）僅增 11%，股價盤後下跌（<a href=\"https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm\" target=\"_blank\">Palantir 8-K</a>）。"
+ },
+ "sources": {
+  "pr_q3": [
+   "Palantir 8-K 新聞稿｜Q3 2026 財報（2026-11-02）",
+   "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm",
+   "A"
+  ],
+  "cr_q3": [
+   "Constellation Research｜Q3：現金與美債 $104 億、64 筆 ≥$1,000 萬交易",
+   "https://www.constellationr.com/insights/news/palantirs-q3-highlights-enterprise-inflection-point"
+  ],
+  "aiw_q3": [
+   "AI Weekly/CNBC｜全年營收指引 $85.30–85.34 億",
+   "https://aiweekly.co/alerts/palantir-q3-revenue-nearly-doubles-to-231b-guides-to-853b"
+  ],
+  "be_q3": [
+   "Börse Express｜Q3 後盤後跌約 7%：美國 TCV 僅增 11%",
+   "https://www.boerse-express.com/news/articles/palantir-aktie-auftragsplus-verliert-tempo-958702"
+  ],
+  "army_ea": [
+   "U.S. Army｜Army Awards Enterprise Service Agreement（2025-07-31）",
+   "https://www.army.mil/article/287506/",
+   "A"
+  ],
+  "bz_ea": [
+   "Benzinga｜Army 10 年最高 $100 億企業協議（上限非保證）",
+   "https://www.benzinga.com/markets/equities/25/08/46782374/palantir-lands-10-billion-army-deal-to-unify-75-contracts-into-one-ai-powered-defense-software-f"
+  ],
+  "w247_maven": [
+   "24/7 Wall St.｜Maven 2025 擴約最高 $7.95 億；Q1 美國政府 RDV $118 億",
+   "https://247wallst.com/investing/2026/06/29/palantir-just-secured-the-u-s-armys-biggest-data-overhaul/"
+  ],
+  "kc_gov": [
+   "Crypto Briefing/KuCoin｜2026 財年聯邦合約逾 $10 億；Maven 預算 $13 億；8 月追加 $2.44 億",
+   "https://www.kucoin.com/news/flash/palantir-surpasses-1-billion-in-u-s-government-contracts-in-2026"
+  ],
+  "be_maven": [
+   "Börse Express｜Maven 成為正式軍備計畫；Stellantis 續約五年（2026-04）",
+   "https://www.boerse-express.com/news/articles/palantir-aktie-zwei-starke-impulse-888378"
+  ],
+  "gov_uk": [
+   "UK GOV 新聞稿｜與 Palantir 策略合作，投資最高 £15 億（2025-09-18）",
+   "https://www.gov.uk/government/news/new-strategic-partnership-to-unlock-billions-and-boost-military-ai-and-innovation",
+   "A"
+  ],
+  "bbg_uk": [
+   "Bloomberg｜Palantir 擬與英國國防部簽 £7.5 億五年合約",
+   "https://www.bloomberg.com/news/articles/2025-09-17/palantir-expands-uk-defense-deal-investments-amid-trump-visit"
+  ],
+  "tc_lumen": [
+   "TechCrunch｜Lumen 數年內投入逾 $2 億使用 Palantir（2025-10-23）",
+   "https://techcrunch.com/2025/10/23/palantir-enters-200m-partnership-with-telco-lumen-for-enterprise-ai-services"
+  ],
+  "nv_supply": [
+   "NVIDIA 新聞稿｜NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains",
+   "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains",
+   "A"
+  ],
+  "aim_nemo": [
+   "Analytics India Magazine｜Palantir × NVIDIA Nemotron 主權 AI 引擎（2026-10-18）",
+   "https://analyticsindiamag.com/ai-news/palantir-and-nvidia-bring-nemotron-models-to-sovereign-ai-deployments"
+  ],
+  "bw_anduril": [
+   "Business Wire｜Anduril 與 Palantir 成立國安 AI 聯盟（2024-12-06）",
+   "https://www.businesswire.com/news/home/20241206684306/en/Anduril-and-Palantir-to-Accelerate-AI-Capabilities-for-National-Security",
+   "A"
+  ],
+  "mc_surf": [
+   "MarketChameleon｜Surf Air 發行 $600 萬新股給 Palantir 作為軟體服務預付款（2025-11）",
+   "https://marketchameleon.com/articles/b/2025/11/10/palantir-secures-6-million-surf-air-mobility-equity-deal"
+  ],
+  "st_surf": [
+   "Stocktwits｜Palantir 再買 104 萬股 Surf Air（約 $215 萬），持股增至 446 萬股（2026-06）",
+   "https://stocktwits.com/news-articles/markets/equity/srfm-stock-surges-intraday-high-palantir-surfos/cZ19JgTR7hH"
+  ],
+  "bc_surf": [
+   "Barchart／新聞稿｜Palantir 與 Surf Air 擴大 SurfOS 合作",
+   "https://www.barchart.com/story/news/3029964/palantir-and-surf-air-mobility-expand-partnership-to-accelerate-commercialization-of-operatoros-owneros-and-enterprise-products"
+  ],
+  "fortune_spac": [
+   "Fortune｜Palantir SPAC 投資：BlackSky $800 萬投資＋$1,600 萬合約（2021-11-24）",
+   "https://fortune.com/2021/11/24/palantir-spac-investments-wall-street-questions/"
+  ],
+  "bbg_spac": [
+   "Bloomberg Opinion｜SPAC 組合損失約 75%、$3.33 億；來自被投公司營收約 $1.5 億（2022-11）",
+   "https://www.biznews.com/premium/2022/11/30/palantir-failed-to-spot-pattern-in-spac-debacle"
+  ],
+  "ba_spac": [
+   "Boardroom Alpha｜2021 年 SPAC 相關營收 $3.26 億",
+   "https://www.boardroomalpha.com/?p=11422"
+  ],
+  "edgar_fin": [
+   "EDGAR Tools｜有價證券 $57.53 億、購買未上市證券 $7,300 萬",
+   "https://app.edgar.tools/companies/PLTR"
+  ],
+  "arin_bb": [
+   "Arincen｜2025 年回購 $7,499 萬；Q3 2026 未回購",
+   "https://en.arincen.com/instruments/PLTR/stock-buybacks"
+  ],
+  "bz_px": [
+   "Benzinga｜PLTR 一年跌 12.6%（$193.61→$169.20），6/25 低點 $107.27",
+   "https://www.benzinga.com/quote/PLTR/charts"
+  ],
+  "fool_1116": [
+   "Motley Fool｜Palantir 連三日下跌（2026-11-16）",
+   "https://www.fool.com/investing/2026/11/16/why-does-palantir-stock-keep-going-down/"
+  ]
+ },
+ "categories": [
+  {
+   "id": "govc",
+   "name": "政府與國防合約",
+   "color": "#fb923c"
+  },
+  {
+   "id": "comm",
+   "name": "商業客戶與合作",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "semi",
+   "name": "AI 與國防技術夥伴",
+   "color": "#f472b6"
+  },
+  {
+   "id": "other",
+   "name": "策略投資（含 SPAC／客戶入股）",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "fin",
+   "name": "資本與現金",
+   "color": "#facc15",
+   "sumNote": "公司自有資金，不代表對外投資"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "army",
+   "name": "美國陸軍企業協議（EA）",
+   "tk": "DoD",
+   "cat": "govc",
+   "type": "10 年企業協議",
+   "amt": 10.0,
+   "short": "≤$100億（上限）",
+   "date": "2025-07-31",
+   "amtText": "把 75 份合約（15 份主約＋60 份相關合約）整併為單一協議，10 年最高 $100 億；為上限而非保證採購金額，其他國防部單位也可使用。",
+   "status": "執行中",
+   "flow": "政府按需採購 Palantir 軟體，營收直接流入",
+   "src": [
+    "army_ea",
+    "bz_ea"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "conc",
+     "x": "美國政府營收占 Q3 總營收約 41%（自行計算）",
+     "src": [
+      "pr_q3"
+     ]
+    }
+   ],
+   "verified": "2026-11-26",
+   "terms": {
+    "maturity": "10 年（上限 $100 億）"
+   }
+  },
+  {
+   "id": "maven",
+   "name": "Maven Smart System",
+   "tk": "DoD",
+   "cat": "govc",
+   "type": "國防 AI 計畫",
+   "amt": 1.3,
+   "short": "預算 $13億",
+   "date": "2026-08",
+   "amtText": "2025 年擴約最高 $7.95 億；2026 年成為正式軍備計畫（program of record），預算升至 $13 億，8 月國防部再追加 $2.44 億。",
+   "status": "正式軍備計畫",
+   "flow": "長期國防預算支撐的經常性營收",
+   "src": [
+    "w247_maven",
+    "kc_gov",
+    "be_maven"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "ukmod",
+   "name": "英國國防部",
+   "tk": "UK MoD",
+   "cat": "govc",
+   "type": "五年合約＋投資承諾",
+   "amt": 1.0,
+   "short": "約£7.5億合約",
+   "date": "2025-09-18",
+   "amtText": "英國政府宣布策略合作：Palantir 承諾 2030 年前在英國投資最高 £15 億、設歐洲國防總部；同時擬簽 £7.5 億五年國防合約（取代原 £7,500 萬合約）。換算約 $10 億。",
+   "status": "合作中",
+   "flow": "以在地投資換取大型國防合約",
+   "src": [
+    "gov_uk",
+    "bbg_uk"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "reg",
+     "x": "英國國防與資料使用的政治與監管爭議",
+     "src": [
+      "bbg_uk"
+     ]
+    }
+   ],
+   "verified": "2026-11-26",
+   "terms": {
+    "maturity": "5 年"
+   }
+  },
+  {
+   "id": "ukinv",
+   "name": "英國在地投資承諾",
+   "tk": "—",
+   "cat": "fin",
+   "type": "投資承諾",
+   "amt": 2.0,
+   "short": "≤£15億",
+   "date": "2025-09-18",
+   "amtText": "2030 年前在英國投資最高 £15 億（約 $20 億），創造最多 350 個職位。",
+   "status": "執行中",
+   "flow": "換取英國國防部合約與歐洲據點",
+   "src": [
+    "gov_uk"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "lumen",
+   "name": "Lumen Technologies",
+   "tk": "LUMN",
+   "cat": "comm",
+   "type": "多年期合作",
+   "amt": 0.2,
+   "short": ">$2億",
+   "date": "2025-10-23",
+   "amtText": "Lumen 數年內投入逾 $2 億採用 Foundry 與 AIP，並共同向企業推廣。",
+   "status": "執行中",
+   "flow": "客戶採購＋共同銷售",
+   "src": [
+    "tc_lumen"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "maturity": "多年期"
+   }
+  },
+  {
+   "id": "stellantis",
+   "name": "Stellantis",
+   "tk": "STLA",
+   "cat": "comm",
+   "type": "商業續約",
+   "amt": null,
+   "short": "續約五年",
+   "date": "2026-04",
+   "amtText": "續約商業合作五年，金額未揭露。",
+   "status": "續約",
+   "flow": "商業軟體營收",
+   "src": [
+    "be_maven"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "tk": "NVDA",
+   "cat": "semi",
+   "type": "主權 AI 合作＋客戶",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-10-18",
+   "amtText": "共同推出以 Nemotron 開放模型運行在 Palantir AIP 的主權 AI 引擎，鎖定美國政府與關鍵基礎設施；NVIDIA 自己的供應鏈也率先採用這套系統。",
+   "status": "合作中",
+   "flow": "NVIDIA 既是合作夥伴也是客戶；雙方共同銷售給政府",
+   "src": [
+    "aim_nemo",
+    "nv_supply"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "anduril",
+   "name": "Anduril",
+   "tk": "未上市",
+   "cat": "semi",
+   "type": "國安 AI 聯盟",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2024-12-06",
+   "amtText": "結合 Anduril 的 Lattice 與 Menace 邊緣系統和 Palantir 平台，處理國防資料從前線到雲端的流通。",
+   "status": "合作中",
+   "flow": "共同投標國防案",
+   "src": [
+    "bw_anduril"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "surf",
+   "name": "Surf Air Mobility",
+   "tk": "SRFM",
+   "cat": "other",
+   "type": "股權換服務＋加碼買股",
+   "amt": 0.0215,
+   "short": "$215萬（加碼）",
+   "date": "2026-06",
+   "amtText": "Surf Air 多次以發行新股支付 Palantir 軟體服務費（例如 2025 年 11 月 $600 萬預付）；2026 年 6 月 Palantir 再自行買入 104 萬股（約 $215 萬），持股增至 446 萬股。SurfOS 建在 Palantir AIP 與 Foundry 上。",
+   "status": "持有中",
+   "flow": "客戶用股票付費，Palantir 成為股東並協助其產品銷售",
+   "src": [
+    "mc_surf",
+    "st_surf",
+    "bc_surf"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "acct",
+     "x": "以客戶股票收取服務費，營收品質取決於客戶股價",
+     "src": [
+      "mc_surf"
+     ]
+    }
+   ],
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股約 446 萬股"
+   },
+   "shares": 4460000,
+   "pxTk": "SRFM",
+   "costUnknown": true,
+   "pxNote": "部分股份為 Surf Air 以股票支付的服務費，取得成本未完整揭露"
+  },
+  {
+   "id": "spac",
+   "name": "SPAC／PIPE 投資組合（2021）",
+   "tk": "多家",
+   "cat": "other",
+   "type": "PIPE 投資＋客戶合約",
+   "amt": 0.444,
+   "short": "約$4.4億",
+   "date": "2022-09",
+   "amtText": "2021 年投資多家以 SPAC 上市的公司，對方同時簽下等額以上的 Palantir 軟體合約；至 2022 年 9 月已實現與未實現損失約 75%、$3.33 億（投入約 $4.4 億為自行推算）。",
+   "status": "大部分已減值或出售",
+   "flow": "投資款被用來購買 Palantir 軟體，形成「買營收」爭議",
+   "src": [
+    "bbg_spac",
+    "fortune_spac",
+    "ba_spac"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "val": 0.057,
+   "valDate": "2022-09",
+   "valSrc": [
+    "bbg_spac"
+   ],
+   "valNote": "2022/9 持有市值約 $5,700 萬",
+   "risks": [
+    {
+     "k": "acct",
+     "x": "投資與合約綁定，被質疑以投資換營收",
+     "src": [
+      "fortune_spac"
+     ]
+    },
+    {
+     "k": "reg",
+     "x": "曾列入多起集體訴訟",
+     "src": [
+      "bbg_spac"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "blacksky",
+   "name": "BlackSky",
+   "tk": "BKSY",
+   "cat": "other",
+   "type": "PIPE＋合約",
+   "amt": 0.008,
+   "short": "$800萬",
+   "date": "2021",
+   "amtText": "SPAC 合併前與 Palantir 簽 $1,600 萬策略合作，其中包含 Palantir $800 萬投資。",
+   "status": "SPAC 案例",
+   "flow": "投資款與合約金額綁定",
+   "src": [
+    "fortune_spac"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "private",
+   "name": "未上市證券投資",
+   "tk": "—",
+   "cat": "other",
+   "type": "少數股權",
+   "amt": 0.073,
+   "short": "$7,300萬",
+   "date": "2026",
+   "amtText": "現金流量表列「購買未上市證券」約 $7,300 萬（最新年度欄），標的未逐一揭露。",
+   "status": "持有中",
+   "flow": "策略投資",
+   "src": [
+    "edgar_fin"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "cash",
+   "name": "現金與美國公債",
+   "tk": "—",
+   "cat": "fin",
+   "type": "自有資金",
+   "amt": null,
+   "short": "$104億",
+   "date": "2026-09-30",
+   "amtText": "Q3 末現金、約當現金與美國公債約 $104 億；有價證券約 $57.5 億。",
+   "status": "—",
+   "flow": "支撐投資承諾與回購",
+   "src": [
+    "cr_q3",
+    "edgar_fin"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "buyback",
+   "name": "股票回購",
+   "tk": "PLTR",
+   "cat": "fin",
+   "type": "回購",
+   "amt": 0.075,
+   "short": "$7,499萬（2025）",
+   "date": "2025",
+   "amtText": "董事會授權最高 $10 億回購；2025 年實際回購約 $7,499 萬，2026 Q3 未回購。",
+   "status": "授權中",
+   "flow": "股東回饋",
+   "src": [
+    "arin_bb"
+   ],
+   "amtType": "return",
+   "direction": "out",
+   "excludeFromSum": false,
+   "netSkip": true,
+   "verified": "2026-11-26"
+  }
+ ],
+ "flows": [
+  [
+   "spac",
+   "blacksky",
+   "同類 SPAC 案例"
+  ],
+  [
+   "ukinv",
+   "ukmod",
+   "投資承諾換合約"
+  ],
+  [
+   "army",
+   "maven",
+   "同屬國防部"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$23.13億",
+   "l": "Q3 2026 營收（年增 96%）",
+   "src": [
+    "pr_q3"
+   ]
+  },
+  {
+   "v": "$9.84億",
+   "l": "美國商業營收（年增 148%），首度超過美國政府",
+   "src": [
+    "pr_q3"
+   ]
+  },
+  {
+   "v": "$9.53億",
+   "l": "美國政府營收（年增 96%）",
+   "src": [
+    "pr_q3"
+   ]
+  },
+  {
+   "v": "$85.3億",
+   "l": "2026 全年營收指引（年增約 91%）",
+   "src": [
+    "aiw_q3"
+   ]
+  },
+  {
+   "v": "$65.17億",
+   "l": "美國商業剩餘合約價值（RDV）",
+   "src": [
+    "pr_q3"
+   ]
+  },
+  {
+   "v": "$104億",
+   "l": "現金與美國公債（9/30）",
+   "src": [
+    "cr_q3"
+   ]
+  },
+  {
+   "v": "≤$100億",
+   "l": "美國陸軍 10 年企業協議上限",
+   "src": [
+    "army_ea",
+    "bz_ea"
+   ]
+  },
+  {
+   "v": "+11%",
+   "l": "Q3 美國商業 TCV 年增率（遠低於營收成長）",
+   "src": [
+    "pr_q3",
+    "be_q3"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "投資策略定位",
+   "text": "Palantir 本身很少對外投資；它的「生態圈」主要由政府長約、商業客戶與技術夥伴組成。唯一較具規模的投資是 2021 年的 SPAC／PIPE 組合，以及近年用股權收取服務費的 Surf Air 模式，兩者都把投資和客戶合約綁在一起。",
+   "src": [
+    "fortune_spac",
+    "mc_surf"
+   ]
+  },
+  {
+   "title": "營收結構",
+   "text": "Q3 美國商業營收首度超過美國政府營收；政府端靠陸軍企業協議與 Maven 的長期預算，商業端靠 AIP 帶動的大型交易。",
+   "src": [
+    "pr_q3",
+    "army_ea"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① SPAC 投資換合約循環",
+   "sub": "PIPE 投資 → 客戶合約 → Palantir 營收",
+   "nodes": [
+    [
+     "Palantir",
+     "accent"
+    ],
+    [
+     "SPAC 公司\nBlackSky 等",
+     "other"
+    ],
+    [
+     "Palantir 軟體\n合約",
+     "comm"
+    ],
+    [
+     "營收",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "PIPE 投資"
+    ],
+    [
+     1,
+     2,
+     "等額採購"
+    ],
+    [
+     2,
+     3,
+     "認列營收"
+    ],
+    [
+     3,
+     0,
+     "回流"
+    ],
+    [
+     1,
+     0,
+     "股價下跌\n投資減值",
+     "chord"
+    ]
+   ],
+   "text": "2021 年 Palantir 投資多家 SPAC 公司，這些公司再用相近金額購買 Palantir 軟體；之後多數公司股價重挫，投資損失約 75%，也被質疑是在「買營收」。",
+   "src": [
+    "fortune_spac",
+    "bbg_spac",
+    "ba_spac"
+   ],
+   "back": 0.326,
+   "dep": "low",
+   "backSrc": [
+    "ba_spac"
+   ],
+   "backNote": "2021 年 SPAC 相關營收約 $3.26 億；投資組合損失約 $3.33 億，回流幾乎被損失抵銷"
+  },
+  {
+   "id": "L2",
+   "title": "② Surf Air 股權換服務循環",
+   "sub": "客戶以股票付費 → Palantir 持股 → 協助銷售",
+   "nodes": [
+    [
+     "Palantir",
+     "accent"
+    ],
+    [
+     "Surf Air",
+     "other"
+    ],
+    [
+     "SurfOS\n（建在 AIP）",
+     "comm"
+    ],
+    [
+     "SurfOS\n航空業者客戶",
+     "comm"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "以新股支付服務費"
+    ],
+    [
+     0,
+     1,
+     "再加碼買股"
+    ],
+    [
+     0,
+     2,
+     "工程與銷售資源"
+    ],
+    [
+     2,
+     3,
+     "銷售"
+    ],
+    [
+     3,
+     1,
+     "營收"
+    ]
+   ],
+   "text": "Surf Air 以發行新股支付 Palantir 軟體費用，Palantir 還自行加碼買股，並投入工程與銷售資源幫 SurfOS 賣給航空業者。Palantir 同時是供應商、股東與共同銷售夥伴。",
+   "src": [
+    "mc_surf",
+    "st_surf",
+    "bc_surf"
+   ],
+   "back": 0.006,
+   "dep": "low",
+   "backSrc": [
+    "mc_surf"
+   ],
+   "backNote": "2025/11 一次以 $600 萬股票預付服務費；金額小，但結構與 SPAC 模式類似"
+  },
+  {
+   "id": "L3",
+   "title": "③ 美國國防長約循環",
+   "sub": "企業協議 → Maven 正式計畫 → 經常性營收",
+   "nodes": [
+    [
+     "美國陸軍 EA",
+     "govc"
+    ],
+    [
+     "Maven\n正式軍備計畫",
+     "govc"
+    ],
+    [
+     "Palantir\n政府營收",
+     "accent"
+    ],
+    [
+     "更多國防部\n單位採用",
+     "govc"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "整併 75 份合約"
+    ],
+    [
+     1,
+     2,
+     "預算 $13 億"
+    ],
+    [
+     2,
+     3,
+     "轉換成本上升"
+    ],
+    [
+     3,
+     0,
+     "擴大採購"
+    ]
+   ],
+   "text": "陸軍把 75 份合約整併成單一企業協議，Maven 又成為正式軍備計畫，讓國防預算轉為長期、可預期的 Palantir 營收，也墊高替換成本。",
+   "src": [
+    "army_ea",
+    "be_maven",
+    "kc_gov",
+    "w247_maven"
+   ],
+   "back": 3.81,
+   "share": 41,
+   "dep": "high",
+   "backSrc": [
+    "pr_q3"
+   ],
+   "backNote": "Q3 美國政府營收 $9.53 億 × 4 ≈ $38 億年化，約占總營收 41%（自行計算）"
+  },
+  {
+   "id": "L4",
+   "title": "④ NVIDIA 主權 AI 循環",
+   "sub": "合作開發 → NVIDIA 自用 → 共同賣給政府",
+   "nodes": [
+    [
+     "NVIDIA",
+     "semi"
+    ],
+    [
+     "Palantir AIP\n＋Nemotron",
+     "accent"
+    ],
+    [
+     "NVIDIA\n供應鏈（客戶）",
+     "semi"
+    ],
+    [
+     "美國政府與\n關鍵基礎設施",
+     "govc"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "Nemotron 模型"
+    ],
+    [
+     1,
+     2,
+     "供應鏈系統"
+    ],
+    [
+     1,
+     3,
+     "主權 AI 引擎"
+    ],
+    [
+     3,
+     0,
+     "採購 GPU"
+    ]
+   ],
+   "text": "NVIDIA 提供 Nemotron 模型與運算，Palantir 提供 AIP 與 Ontology；NVIDIA 先在自家供應鏈採用，再一起賣給政府與關鍵基礎設施，政府的 GPU 採購最後回到 NVIDIA。",
+   "src": [
+    "aim_nemo",
+    "nv_supply"
+   ],
+   "dep": "low",
+   "backNote": "合作未揭露金額",
+   "backSrc": [
+    "aim_nemo",
+    "nv_supply"
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "⑤ 英國投資換合約循環",
+   "sub": "在地投資承諾 → 國防部合約",
+   "nodes": [
+    [
+     "Palantir",
+     "accent"
+    ],
+    [
+     "英國投資\n≤£15 億",
+     "fin"
+    ],
+    [
+     "英國國防部",
+     "govc"
+    ],
+    [
+     "£7.5 億\n五年合約",
+     "govc"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "承諾投資"
+    ],
+    [
+     1,
+     2,
+     "歐洲總部與職位"
+    ],
+    [
+     2,
+     3,
+     "簽約"
+    ],
+    [
+     3,
+     0,
+     "營收"
+    ]
+   ],
+   "text": "Palantir 承諾 2030 年前在英國投資最高 £15 億、設歐洲國防總部，同時取得約 £7.5 億的五年國防合約。",
+   "src": [
+    "gov_uk",
+    "bbg_uk"
+   ],
+   "back": 1.0,
+   "dep": "mid",
+   "backSrc": [
+    "bbg_uk"
+   ],
+   "backNote": "£7.5 億約 $10 億（匯率約 1.33，自行換算）；投資承諾約為合約的兩倍"
+  }
+ ],
+ "loopNote": {
+  "text": "支持者認為長約與正式軍備計畫讓營收高度可預期；質疑者指出投資換合約的模式曾大幅虧損，且新簽合約成長已明顯放慢。",
+  "src": [
+   "bbg_spac",
+   "be_q3"
+  ]
+ },
+ "events": [
+  {
+   "d": "2021-11",
+   "t": "SPAC 投資換合約受質疑",
+   "x": "BlackSky、Boxed 合約金額與投資相同。",
+   "cat": "other",
+   "src": [
+    "fortune_spac"
+   ]
+  },
+  {
+   "d": "2022-09",
+   "t": "SPAC 組合損失約 75%",
+   "x": "約 $3.33 億。",
+   "cat": "other",
+   "src": [
+    "bbg_spac"
+   ]
+  },
+  {
+   "d": "2024-12-06",
+   "t": "與 Anduril 成立國安 AI 聯盟",
+   "x": "",
+   "cat": "semi",
+   "src": [
+    "bw_anduril"
+   ]
+  },
+  {
+   "d": "2025-07-31",
+   "t": "陸軍 10 年企業協議",
+   "x": "最高 $100 億。",
+   "cat": "govc",
+   "src": [
+    "army_ea"
+   ]
+  },
+  {
+   "d": "2025-09-18",
+   "t": "英國策略合作",
+   "x": "投資最高 £15 億；擬簽 £7.5 億國防合約。",
+   "cat": "govc",
+   "src": [
+    "gov_uk",
+    "bbg_uk"
+   ]
+  },
+  {
+   "d": "2025-10-23",
+   "t": "Lumen 逾 $2 億合作",
+   "x": "",
+   "cat": "comm",
+   "src": [
+    "tc_lumen"
+   ]
+  },
+  {
+   "d": "2025-11",
+   "t": "Surf Air 以 $600 萬新股預付服務費",
+   "x": "",
+   "cat": "other",
+   "src": [
+    "mc_surf"
+   ]
+  },
+  {
+   "d": "2026-04",
+   "t": "Maven 成為正式軍備計畫；Stellantis 續約五年",
+   "x": "",
+   "cat": "govc",
+   "src": [
+    "be_maven"
+   ]
+  },
+  {
+   "d": "2026-06",
+   "t": "加碼買入 Surf Air 104 萬股",
+   "x": "持股增至 446 萬股。",
+   "cat": "other",
+   "src": [
+    "st_surf"
+   ]
+  },
+  {
+   "d": "2026-06-25",
+   "t": "股價跌至年內低點 $107.27",
+   "x": "",
+   "cat": "gov",
+   "src": [
+    "bz_px"
+   ]
+  },
+  {
+   "d": "2026-08",
+   "t": "國防部追加 $2.44 億；Maven 預算 $13 億",
+   "x": "",
+   "cat": "govc",
+   "src": [
+    "kc_gov"
+   ]
+  },
+  {
+   "d": "2026-10-18",
+   "t": "與 NVIDIA 推出 Nemotron 主權 AI 引擎",
+   "x": "鎖定美國政府與關鍵基礎設施。",
+   "cat": "semi",
+   "src": [
+    "aim_nemo"
+   ]
+  },
+  {
+   "d": "2026-11-02",
+   "t": "Q3 財報：營收 $23.1 億、年增 96%",
+   "x": "美國商業營收首度超過政府；全年指引上修至 $85.3 億。",
+   "cat": "gov",
+   "src": [
+    "pr_q3",
+    "aiw_q3"
+   ]
+  },
+  {
+   "d": "2026-11-03",
+   "t": "盤後下跌約 7%",
+   "x": "美國商業 TCV 年增僅 11%。",
+   "cat": "gov",
+   "src": [
+    "be_q3"
+   ]
+  },
+  {
+   "d": "2026-11-16",
+   "t": "股價連三日下跌",
+   "x": "受 AI 類股賣壓影響。",
+   "cat": "gov",
+   "src": [
+    "fool_1116"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "Q3 美國營收：$9.84 億＋$9.53 億＝$19.37 億，與新聞稿一致；美國政府占總營收 $9.53 ÷ $23.13 ≈ 41%。"
+  },
+  {
+   "tag": "已補充",
+   "html": "SPAC 投入金額未直接揭露，以「損失 $3.33 億＝75%」推算約 $4.4 億，標為自行推算。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "英國國防部合約：英國政府稱「可能價值 £7.5 億的機會」，Bloomberg 報導為擬簽的五年合約，節點採報導金額並註明。"
+  },
+  {
+   "tag": "未定案",
+   "html": "陸軍企業協議 $100 億為上限，不代表保證採購金額。"
+  },
+  {
+   "tag": "已移除",
+   "html": "Surf Air→NVIDIA 連線：兩者只是都使用 AIP，沒有資金往來，已刪除。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）政府合約金額多為上限或預算，不等於已認列營收。（2）SPAC 投入金額為依損失比例推算。（3）合約類節點方向標為「流入」，代表資金流向 Palantir。（4）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "Palantir 的資本循環不是靠大額對外投資，而是靠「長約＋轉換成本」：國防部整併合約、Maven 成為正式計畫，讓政府預算轉為長期營收；商業端則偶爾用入股或收股票的方式換客戶，但這條路徑在 SPAC 時期已證明代價高。",
+  "src": [
+   "army_ea",
+   "be_maven",
+   "bbg_spac"
+  ],
+  "opps": [
+   {
+    "t": "美國商業營收年增 148%，首度超過政府",
+    "src": [
+     "pr_q3"
+    ]
+   },
+   {
+    "t": "Maven 成為正式軍備計畫，預算 $13 億",
+    "src": [
+     "be_maven",
+     "kc_gov"
+    ]
+   },
+   {
+    "t": "與 NVIDIA 共同推主權 AI，NVIDIA 自身也是客戶",
+    "src": [
+     "aim_nemo",
+     "nv_supply"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "新簽 TCV 年增僅 11%，遠低於營收成長",
+    "src": [
+     "pr_q3",
+     "be_q3"
+    ]
+   },
+   {
+    "t": "美國政府營收約占四成，受預算與政治影響",
+    "src": [
+     "pr_q3"
+    ]
+   },
+   {
+    "t": "以投資或收股票換合約的模式，過去曾造成約 75% 損失",
+    "src": [
+     "bbg_spac"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "Q4 財報是否達成 $85.3 億全年指引",
+    "src": [
+     "aiw_q3"
+    ]
+   },
+   {
+    "t": "英國國防部 £7.5 億合約正式簽署",
+    "src": [
+     "bbg_uk"
+    ]
+   }
+  ]
+ }
+}

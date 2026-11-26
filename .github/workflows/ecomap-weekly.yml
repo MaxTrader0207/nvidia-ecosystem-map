@@ -1,0 +1,44 @@
+name: 投資生態圈每週檢查（20 家＋總網路圖）
+on:
+  schedule:
+    - cron: "37 0 * * 1"   # 每週一 08:37（台北），排在 NVIDIA 週更新之後
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ecomap-weekly
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: ecomap
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 更新上市持股現值（股數 × 最新收盤價）
+        run: python update_prices.py .
+      - name: 檢查新動態並重建 Dashboard（未設定 ANTHROPIC_API_KEY 時只重建）
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python check_updates.py .
+      - name: 重建跨實體總網路圖並做一致性檢查
+        run: python build_network.py network_template.html docs/Ecosystem_Network_Map.html "data/*/data.json"
+      - name: 測試全部頁面（有錯誤就不提交）
+        run: |
+          pip install -q playwright && playwright install --with-deps chromium >/dev/null
+          python test_all.py docs
+      - name: 提交變更
+        working-directory: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ecomap docs/ecosystem
+          if git diff --cached --quiet; then echo "沒有變更"; else
+            git commit -m "chore(ecomap): weekly check $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push
+          fi

@@ -1,0 +1,1825 @@
+{
+ "meta": {
+  "entity": "Google（Alphabet）",
+  "ticker": "GOOGL",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#4285f4",
+  "centerLabel": "資本中樞",
+  "fileSlug": "Google_Alphabet",
+  "subtitle": "涵蓋股權、可轉債、擔保換權證、收購、技術授權與 TPU 合資"
+ },
+ "notice": {
+  "title": "重大動態",
+  "html": "2026/11/19 Anthropic 以 $83 上市，Google 同步以 IPO 價認購 $100 億 Class N，累計投入約 $333 億（<a href=\"https://fourweekmba.com/ai-googles-anthropic-stake-33b-in-132b-at-the-ipo-midpoint/\" target=\"_blank\">S-1/A 彙整</a>）→ Q3 財報因 SpaceX 股價下跌認列權益證券淨損 $87 億，capex 指引上調至 $1,950–2,050 億（<a href=\"https://marketbeat.com/instant-alerts/transcript-alphabet-q3-earnings-call-highlights-2026-10-29/\" target=\"_blank\">MarketBeat</a>）→ <b>人才面</b>：Character.AI 交易的核心人物 Noam Shazeer 已於 6 月轉投 OpenAI（<a href=\"https://www.neowin.net/amp/google-gemini-co-lead-noam-shazeer-is-leaving-for-openai/\" target=\"_blank\">Neowin</a>）。"
+ },
+ "sources": {
+  "bq_13f": [
+   "Business Quant｜Alphabet 13F Q3 2026（27 檔、$883 億）",
+   "https://businessquant.com/institutions/alphabet-inc-1652044/"
+  ],
+  "qq_13f": [
+   "Quiver Quant｜Alphabet 13F（32 檔、$883.5 億）",
+   "https://www.quiverquant.com/institutions/Alphabet Inc."
+  ],
+  "rd_13f": [
+   "RootData｜Q3 13F：SpaceX 5.55 億股、新增 Qualcomm（2026-11-06）",
+   "https://www.rootdata.com/news/819164"
+  ],
+  "fw_anth": [
+   "FourWeekMBA｜Google 投入 Anthropic $333 億明細（S-1/A）",
+   "https://fourweekmba.com/ai-googles-anthropic-stake-33b-in-132b-at-the-ipo-midpoint/"
+  ],
+  "trefis": [
+   "Trefis｜IPO 後 Google 持 17.9 億股、約 9.9%；Cloud 承諾 ≥$1,213 億",
+   "https://www.trefis.com/articles/624608/what-does-the-anthropic-ipo-mean-for-alphabet-stock/2026-11-12"
+  ],
+  "mitrade": [
+   "Motley Fool｜Google 以 IPO 價認購 $100 億 Class N",
+   "https://www.mitrade.com/en/articulo/news/live-news/article-8-2246392-20261111"
+  ],
+  "yahoo40": [
+   "Yahoo Finance｜Google 承諾最高 $400 億（$100 億＋$300 億里程碑）",
+   "https://finance.yahoo.com/sectors/technology/articles/alphabet-invest-40-billion-thriving-191300489.html"
+  ],
+  "bader": [
+   "MarketWatch（轉載）｜$100 億按 $3,800 億估值；SpaceX 6.1%",
+   "https://davidbader.net/post/20260502-marketwatch/"
+  ],
+  "anth_tpu": [
+   "Anthropic｜與 Google、Broadcom 擴大多 GW TPU 合作（2026-04-06）",
+   "https://anthropic.com/news/google-broadcom-partnership-compute"
+  ],
+  "qz_tpu": [
+   "Quartz/Yahoo｜約 3.5GW TPU；Broadcom 供貨保證至 2031",
+   "https://finance.yahoo.com/sectors/technology/articles/anthropic-google-broadcom-tpu-deal-113234906.html"
+  ],
+  "gf_1m": [
+   "GuruFocus｜Anthropic 最多 100 萬顆 TPU（數百億美元）",
+   "https://www.tradingview.com/news/gurufocus:e20a98e8a094b:0-alphabet-googl-stock-rises-on-major-ai-cloud-expansion-news"
+  ],
+  "st_anth": [
+   "Stocktwits｜Anthropic IPO 定價 $83",
+   "https://stocktwits.com/news-articles/markets/equity/anthropic-officially-prices-its-ipo-at-83-a-share-in-81-3-b-debut-shattering-ipo-records/cNbLpmoR9iI"
+  ],
+  "neoteo": [
+   "NeoTeo｜Anthropic 首日收盤 $97.17",
+   "https://www.neoteo.com/en/anthropics-nasdaq-debut-leaves-the-ai-bubble-question-open"
+  ],
+  "ssi_reu": [
+   "Reuters/Fidelity｜Alphabet、Nvidia 投資 SSI（2025-04）",
+   "https://fidelity.com/news/article/top-news/202504112129RTRSNEWSCOMBINED_KCN3GK01H-OUSBS_1"
+  ],
+  "ssi_tc": [
+   "TechCrunch｜SSI 以 Google Cloud TPU 進行研究",
+   "https://techcrunch.com/2025/04/09/ilya-sutskever-taps-google-cloud-to-power-his-ai-startups-research"
+  ],
+  "fool_spx": [
+   "Motley Fool｜10-Q：SpaceX 持股 $941 億與閉鎖期",
+   "https://www.fool.com/investing/2026/07/27/googl-stake-spacex-941-billion-anthropic-even-more/"
+  ],
+  "bbg_ak": [
+   "Bloomberg｜Alaska 申報：Google 持 SpaceX 6.11%（2025 年底）",
+   "https://www.bloomberg.com/news/articles/2026-04-15/alphabet-poised-for-100-billion-windfall-on-spacex-investment"
+  ],
+  "mwl_spx": [
+   "Mobile World Live｜併入 xAI 後估稀釋至約 5%",
+   "https://www.mobileworldlive.com/google/alphabet-eyes-100b-boost-from-spacex-listing/"
+  ],
+  "tc_920": [
+   "TechCrunch｜Google 每月付 SpaceX $9.2 億租算力（2026-06-05）",
+   "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
+  ],
+  "tnw_920": [
+   "The Next Web｜110,000 顆 GPU；Anthropic 每月 $12.5 億租 Colossus 1",
+   "https://thenextweb.com/news/google-spacex-920-million-month-compute-deal"
+  ],
+  "tv_star": [
+   "TradingView｜Starlink 運行於 Google Cloud；Suncatcher 與 Planet 合作",
+   "https://www.tradingview.com/chart/GOOG/AGBPHxUL-What-Is-Google-s-100-Billion-Hidden-Asset-Worth/"
+  ],
+  "finviz_ipo": [
+   "Finviz｜SpaceX 6/12 上市，IPO 價 $135",
+   "https://finviz.com/news/382268/alphabets-early-spacex-investment-grows-more-than-100-fold-to-94-billion"
+  ],
+  "aol_asts": [
+   "24/7 Wall St｜AST SpaceMobile、Planet、Arm 為前三大 GV/CapitalG 上市持股",
+   "https://www.aol.com/articles/3-biggest-stocks-alphabet-secret-141626515.html"
+  ],
+  "tc_cme": [
+   "TechCrunch｜Google 投資 CME $10 億＋10 年雲端合約（2021）",
+   "https://techcrunch.com/?p=2229656"
+  ],
+  "cme_pr": [
+   "CME Group 新聞稿｜10 年 Google Cloud 合作與 $10 億股權投資",
+   "https://www.cmegroup.com/media-room/press-releases/2021/11/04/cme_group_signs_10-yearpartnershipwithgooglecloudtotransformglob.html"
+  ],
+  "dck_cme": [
+   "Data Center Knowledge｜CME 無表決權可轉換特別股",
+   "https://www.datacenterknowledge.com/google-alphabet/google-strikes-deal-cme-exchange-moves-cloud?mode=reply"
+  ],
+  "dcd_jv": [
+   "DCD｜Blackstone × Google TPU 雲合資（$50 億股權、500MW）",
+   "https://www.datacenterdynamics.com/en/news/blackstone-and-google-team-up-for-new-tpu-based-cloud-platform/"
+  ],
+  "tnw_jv": [
+   "The Next Web｜Blackstone 取得多數股權、含槓桿總額 $250 億",
+   "https://thenextweb.com/news/google-blackstone-tpu-cloud-joint-venture-5bn?type=AI"
+  ],
+  "waymo_blog": [
+   "Waymo｜$160 億融資、投後估值 $1,260 億（2026-02-02）",
+   "https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round"
+  ],
+  "bbgl_waymo": [
+   "Bloomberg Law｜報導 Alphabet 出資約 $130 億",
+   "https://news.bloomberglaw.com/private-equity/waymo-raises-16-billion-from-alphabet-others-to-expand-service"
+  ],
+  "unite_q3": [
+   "Unite.AI｜Q3 2026：Other Bets 營業虧損 $20.47 億、權益證券淨損 $87 億",
+   "https://www.unite.ai/?p=496727"
+  ],
+  "dr_fluid": [
+   "Dealroom｜Fluidstack 以 $70 億估值募 $7.5 億；Google $18 億擔保並洽談入股",
+   "https://dealroom.co/news/127233-fluidstack-raises-750m-at-7b-as-google-and-anthropic-anchor-its-ai-data/"
+  ],
+  "sa_fluid": [
+   "SiliconANGLE｜Google 洽談投資 Fluidstack $1 億（WSJ）",
+   "https://siliconangle.com/2026/02/20/google-reportedly-invest-100m-ai-cloud-operator-fluidstack/"
+  ],
+  "gk_fluid": [
+   "Glenn K. Lockwood｜Fluidstack 為 Anthropic 部署 TPU、Google 擔保債務",
+   "https://www.glennklockwood.com/garden/entities/fluidstack"
+  ],
+  "tb_wulf": [
+   "The Block｜TeraWulf：Google 擔保 $18 億換約 8% 權證（2025-08）",
+   "https://www.theblock.co/amp/post/366959/bitcoin-miner-terawulf-shares-jump-50-after-google-secures-8-stake-as-part-of-3-7-billion-10-year-ai-compute-deal"
+  ],
+  "ct_wulf": [
+   "Cointelegraph｜擔保增至 $32 億、持股約 14% 成最大股東",
+   "https://cointelegraph.com/news/google-largest-shareholder-terawulf-ai-data-center-fluidstack"
+  ],
+  "dec_cifr": [
+   "Decrypt｜Cipher：Google 擔保 $14 億換 2,400 萬股權證（5.4%）",
+   "https://decrypt.co/341339"
+  ],
+  "tb_cifr": [
+   "The Block｜Cipher 168MW、約 $30 億 10 年合約",
+   "https://www.theblock.co/amp/post/372315/cipher-mining-google-backed-3-billion-usd-ai-hosting-deal"
+  ],
+  "yh_hut8": [
+   "Yahoo Finance｜Hut 8 × Fluidstack 15 年 $70 億、Google 支持融資",
+   "https://finance.yahoo.com/news/7b-google-backed-deal-sends-162422862.html"
+  ],
+  "abc_inter": [
+   "Alphabet IR｜收購 Intersect $47.5 億（2025-12-22）",
+   "https://abc.xyz/investor/news/news-details/2025/Alphabet-Announces-Agreement-to-Acquire-Intersect-to-Advance-U-S--Energy-Innovation-2025-DVIuVDM9wW/"
+  ],
+  "tc_inter": [
+   "TechCrunch｜先前與 TPG 領投 $8 億輪持有少數股權",
+   "https://techcrunch.com/2025/12/22/alphabet-to-buy-intersect-power-to-bypass-energy-grid-bottlenecks"
+  ],
+  "axios_inter": [
+   "Axios｜預計 2026 上半年完成",
+   "https://www.axios.com/2025/12/22/google-alphabet-data-center-intersect-power-deal"
+  ],
+  "tc_wiz": [
+   "TechCrunch｜Google 完成 $320 億收購 Wiz（2026-03-11）",
+   "https://techcrunch.com/2026/03/11/google-completes-32b-acquisition-of-wiz"
+  ],
+  "sw_wiz": [
+   "SecurityWeek｜全現金交易、Wiz 併入 Google Cloud",
+   "https://www.securityweek.com/wiz-joins-google-cloud-as-landmark-acquisition-closes/"
+  ],
+  "reu_wind": [
+   "Reuters/AOL｜Windsurf $24 億授權費、不取得股權",
+   "https://www.aol.com/news/google-hires-windsurf-ceo-researchers-225455185.html"
+  ],
+  "cal_cai": [
+   "Calcalist｜Character.AI $27 億協議遭 DOJ 審查",
+   "https://www.calcalistech.com/ctechnews/article/sy06wllflg"
+  ],
+  "neo_shaz": [
+   "Neowin｜Gemini 共同負責人 Noam Shazeer 轉投 OpenAI（2026-06-18）",
+   "https://www.neowin.net/amp/google-gemini-co-lead-noam-shazeer-is-leaving-for-openai/"
+  ],
+  "tc_cfs": [
+   "TechCrunch｜Google 購買 CFS 200MW 並追加投資（2025-06-30）",
+   "https://techcrunch.com/2025/06/30/google-inks-its-first-fusion-power-deal-with-commonwealth-fusion-systems"
+  ],
+  "gv_fusion": [
+   "Global Venturing｜CFS $10 億輪（Google 參與）；Google 也投資 TAE、Proxima、Inertia",
+   "https://globalventuring.com/corporate/energy-and-natural-resources/corporate-investors-fusion-commercialisation-era/"
+  ],
+  "tnw_85": [
+   "The Next Web｜Alphabet $850 億股權募資、Berkshire $100 億",
+   "https://thenextweb.com/news/alphabet-just-raised-85-billion-for-ai-smashing-the-largest-equity-offering-in-history"
+  ],
+  "yh_brk": [
+   "Yahoo Finance｜Berkshire 認購價：A 股 $351.81、C 股 $348.20",
+   "https://finance.yahoo.com/markets/stocks/articles/alphabet-launches-80-billion-capital-110238365.html"
+  ],
+  "aiw_q3": [
+   "AI Weekly｜Q3：Cloud $307 億、capex $514 億、2026 指引 $1,950–2,050 億",
+   "https://aiweekly.co/alerts/alphabet-posts-1276b-q3-with-google-cloud-up-103-to-307b-as-2027-capex-set-to"
+  ],
+  "mb_q3": [
+   "MarketBeat｜Q3 電話會議：Cloud backlog $5,610 億、SpaceX 未實現損失",
+   "https://marketbeat.com/instant-alerts/transcript-alphabet-q3-earnings-call-highlights-2026-10-29/"
+  ],
+  "mp_q2": [
+   "MediaPost｜Q2 權益證券收益 $990 億（主要來自 Anthropic、SpaceX）",
+   "https://www.mediapost.com/publications/article/416750/anthropic-spacex-hand-google-profit-windfall.html"
+  ],
+  "sa_meta": [
+   "SiliconANGLE｜Meta 簽數十億美元 Google TPU 租用協議（The Information）",
+   "https://siliconangle.com/2026/02/26/google-meta-reportedly-strike-new-multibillion-dollar-ai-chip-deal/"
+  ],
+  "dc_meta": [
+   "Dataconomy｜Meta 租用 TPU 並洽談 2027 年直接採購",
+   "https://dataconomy.com/2026/02/27/meta-signs-multibillion-dollar-deal-to-rent-google-tpus-for-ai-training/"
+  ],
+  "axios_ant": [
+   "Axios｜Anthropic shares fall again, closing under IPO price（2026-11-24，收 $81.91）",
+   "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks"
+  ],
+  "fool_ant1124": [
+   "Motley Fool｜Why Anthropic Stock Fell Again（2026-11-24，含 SPCX 收 $125.81）",
+   "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/"
+  ],
+  "unite_s1": [
+   "Unite.AI｜Anthropic 修正版 S-1：Google ≥$1,213 億、Amazon ≥$1,100 億、Microsoft ≥$449 億最低承諾（2026-11）",
+   "https://www.unite.ai/anthropic-details-long-term-compute-commitments-in-amended-ipo-filing/"
+  ],
+  "tnw_gcloud": [
+   "The Next Web｜Google Cloud Q3 營收年增 103% 至 $307 億（2026-10）",
+   "https://thenextweb.com/news/google-cloud-revenue-doubles-q3-2026"
+  ],
+  "fwmba_gcloud": [
+   "FourWeekMBA｜Q3 資本支出 $514 億高於營業現金流 $423 億；Cloud backlog $5,610 億（2026-10-28）",
+   "https://fourweekmba.com/ai-google-cloud-revenue-doubles-to-30-7b-as-capex-hits-51-4b/"
+  ],
+  "lds_gcloud": [
+   "Let's Data Science｜TPU 系統銷售 Q4 續增、2027 大幅認列",
+   "https://letsdatascience.com/blog/google-cloud-doubled-alphabet-burned-9-billion-cash"
+  ],
+  "n9_q3": [
+   "9to5Google｜Alphabet Q3 2026 營收 $1,276 億",
+   "https://9to5google.com/2026/10/28/alphabet-q3-2"
+  ],
+  "fwmba_spx": [
+   "FourWeekMBA｜SpaceX ticker hub：12/8 解禁（2026-11-15）",
+   "https://fourweekmba.com/spacex-stock/"
+  ],
+  "finimize_ant": [
+   "Finimize｜ANT：前五大客戶占前 9 月營收 25%；12/11 可能納入 Russell 1000",
+   "https://finimize.com/content/ant-asset-snapshot"
+  ],
+  "wb_waymo": [
+   "Finviz/Benzinga｜Waymo 募資 $160 億、估值約 $1,260 億，Alphabet 仍為多數股東",
+   "https://finviz.com/news/296661/alphabet-backed-waymos-valuation-touches-126-billion-after-latest-fundraise-to-fuel-robotaxi-expansion"
+  ],
+  "px_auto_ANT": [
+   "Axios｜ANT 2026-11-24 收盤 $81.91",
+   "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks",
+   "B"
+  ],
+  "px_auto_SPCX": [
+   "Motley Fool｜SPCX 2026-11-24 收盤 $125.81",
+   "https://www.fool.com/investing/2026/11/24/why-anthropic-stock-fell-again/",
+   "B"
+  ]
+ },
+ "categories": [
+  {
+   "id": "lab",
+   "name": "AI 模型實驗室",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "cloud",
+   "name": "算力／資料中心（擔保換股）",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "semi",
+   "name": "太空與半導體（上市持股）",
+   "color": "#f472b6"
+  },
+  {
+   "id": "mna",
+   "name": "收購與技術授權",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "supply",
+   "name": "自營 AI 事業（Other Bets）",
+   "color": "#fb923c"
+  },
+  {
+   "id": "fin",
+   "name": "金融基礎設施與 TPU 合資",
+   "color": "#facc15"
+  },
+  {
+   "id": "other",
+   "name": "能源／生技",
+   "color": "#94a3b8"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非 Alphabet 持股，僅標示資金流向"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "tk": "Nasdaq: ANT",
+   "cat": "lab",
+   "type": "股權（可轉債＋優先股＋IPO 配售）",
+   "amt": 33.3,
+   "short": "$333億",
+   "date": "2026-11-19",
+   "amtText": "依 S-1/A 彙整累計約 $333 億：2023–2025 可轉債 $20 億、2024 票據約 $13 億、2026/3 G-2 特別股約 $100 億、2026/5 Series H $100 億、2026/11 IPO 同步私募 $100 億（Class N）。另有「最高 $400 億」承諾報導（$100 億＋$300 億里程碑）；首筆估值說法不一（Bloomberg：$3,500 億；MarketWatch：$3,800 億）。協議上限為 14.99%；IPO 後約 17.9 億股，持股比例依基準為 13.7% 或 9.9%。",
+   "status": "2026/11/19 上市（IPO 價 $83、首日收 $97.17）；以 IPO 價計約 $1,485 億（17.9 億股 × $83，本表自行計算）",
+   "flow": "Anthropic 對 Google Cloud 承諾至少 $1,213 億（2026–2033）；2025/10 最多 100 萬顆 TPU，2026/4 再簽約約 3.5GW TPU（Google＋Broadcom，2027 起上線）；Fluidstack 為 Anthropic 部署 TPU 資料中心，由 Google 擔保。",
+   "src": [
+    "fw_anth",
+    "trefis",
+    "mitrade",
+    "yahoo40",
+    "bader",
+    "anth_tpu",
+    "qz_tpu",
+    "gf_1m",
+    "st_anth",
+    "neoteo"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "由 Google 擔保",
+     "auto": true
+    }
+   ],
+   "terms": {
+    "sec": "可轉換公司債",
+    "auto": true
+   },
+   "val": 146.6189,
+   "valDate": "2026-11-24",
+   "since": "2023",
+   "valSrc": [
+    "px_auto_ANT",
+    "axios_ant",
+    "fw_anth"
+   ],
+   "valNote": "1,790,000,000 股 × 2026-11-24 收盤 81.91 USD ≈ $1,466 億（自動計算）；股數為 S-1/A 約數",
+   "shares": 1790000000.0,
+   "pxTk": "ANT",
+   "pxNote": "股數為 S-1/A 約數"
+  },
+  {
+   "id": "ssi",
+   "name": "Safe Superintelligence (SSI)",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025-04-11",
+   "amtText": "Alphabet 與 Nvidia 參與投資，金額未揭露。",
+   "status": "持有中",
+   "flow": "SSI 主要使用 Google Cloud TPU 進行研發（雲端營收回流）。",
+   "src": [
+    "ssi_reu",
+    "ssi_tc"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "spacex",
+   "name": "SpaceX（含 xAI）",
+   "tk": "SPCX",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.9,
+   "short": "$9億成本（2015）",
+   "date": "2026-09-30",
+   "amtText": "2015 年投資約 $9 億（當時約 7.4%）。2025 年底持股 6.11%（Alaska 申報），併入 xAI 後 Bloomberg 估稀釋至約 5%。13F（9/30）：約 5.55 億股、市值約 $837 億，季增 0.7%；6/30 的 10-Q 帳面為 $941 億（其中 $800 億為提前解禁、$141 億長期限售至 2027 Q3）。",
+   "status": "SpaceX 6/12 上市（IPO 價 $135）；Q3 股價下跌，造成 Alphabet 權益證券淨損約 $87 億",
+   "flow": "雙向：Starlink 運行於 Google Cloud；Google 自 2026/10 至 2029/6 每月付 SpaceX $9.2 億，租用約 11 萬顆 NVIDIA GPU（總額約 $300 億）。另有 Anthropic 每月付 $12.5 億租用 Colossus 1。",
+   "src": [
+    "rd_13f",
+    "fool_spx",
+    "bbg_ak",
+    "mwl_spx",
+    "finviz_ipo",
+    "tc_920",
+    "tnw_920",
+    "tv_star",
+    "mb_q3"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   },
+   "val": 69.8246,
+   "valDate": "2026-11-24",
+   "since": "2015",
+   "valSrc": [
+    "px_auto_SPCX",
+    "fool_ant1124",
+    "rd_13f"
+   ],
+   "valNote": "555,000,000 股 × 2026-11-24 收盤 125.81 USD ≈ $698 億（自動計算）；股數為 13F（9/30）約數；成本為 2015 年投資約 $9 億",
+   "xnote": "成本 $9 億；13F（9/30）市值約 $837 億。SpaceX 檔記的是 6/30 市值 $942 億，差異來自日期與股價",
+   "shares": 555000000.0,
+   "pxTk": "SPCX",
+   "pxNote": "股數為 13F（9/30）約數；成本為 2015 年投資約 $9 億"
+  },
+  {
+   "id": "asts",
+   "name": "AST SpaceMobile",
+   "tk": "ASTS",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.526,
+   "short": "$5.3億",
+   "date": "2026-09-30",
+   "amtText": "13F 市值約 $5.26 億（9/30），股數不變；2024 年初投資約 $1.55 億。",
+   "status": "持有中",
+   "flow": "衛星直連手機，與 Android 生態整合。",
+   "src": [
+    "rd_13f",
+    "aol_asts"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "planet",
+   "name": "Planet Labs",
+   "tk": "PL",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.578,
+   "short": "$5.8億",
+   "date": "2026-09-30",
+   "amtText": "13F 市值約 $5.78 億（9/30），股數不變。",
+   "status": "持有中",
+   "flow": "與 Google 合作 Project Suncatcher，預計 2027 年初發射兩顆搭載 Google TPU 的原型衛星。",
+   "src": [
+    "rd_13f",
+    "tv_star"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "arm",
+   "name": "Arm Holdings",
+   "tk": "ARM",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 0.568,
+   "short": "$5.7億",
+   "date": "2026-09-30",
+   "amtText": "13F 市值約 $5.68 億（9/30），股數不變。",
+   "status": "持有中",
+   "flow": "晶片架構授權（Google 自研 Axion CPU 生態相關）。",
+   "src": [
+    "rd_13f",
+    "aol_asts"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "qcom",
+   "name": "Qualcomm",
+   "tk": "QCOM",
+   "cat": "semi",
+   "type": "股權（Q3 新建倉）",
+   "amt": 0.548,
+   "short": "$5.5億",
+   "date": "2026-09-30",
+   "amtText": "Q3 新建倉約 297.7 萬股、市值約 $5.48 億。",
+   "status": "新持股",
+   "flow": "13F 未說明建倉理由。",
+   "src": [
+    "rd_13f"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   },
+   "shares": 2977000,
+   "pxTk": "QCOM",
+   "costUnknown": true
+  },
+  {
+   "id": "cme",
+   "name": "CME Group",
+   "tk": "CME",
+   "cat": "fin",
+   "type": "可轉換特別股",
+   "amt": 1.0,
+   "short": "$10億",
+   "date": "2021-11-04",
+   "amtText": "2021 年以無表決權可轉換特別股投資 $10 億；2026 Q3 13F 市值約 $9.13 億，股數不變。",
+   "status": "持有中（13F 第 2 大持股）",
+   "flow": "CME 簽 10 年合約，將資料、清算與交易系統遷移至 Google Cloud。",
+   "src": [
+    "tc_cme",
+    "cme_pr",
+    "dck_cme",
+    "rd_13f"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "可轉換特別股",
+    "vote": false,
+    "auto": true
+   },
+   "val": 0.913,
+   "valDate": "2026-09-30",
+   "valSrc": [
+    "tc_cme",
+    "cme_pr"
+   ],
+   "valNote": "13F 市值約 $9.13 億，股數不變"
+  },
+  {
+   "id": "bxjv",
+   "name": "Blackstone × Google TPU 雲合資",
+   "tk": "未上市",
+   "cat": "fin",
+   "type": "合資（Google 提供 TPU）",
+   "amt": null,
+   "short": "BX $50億股權",
+   "date": "2026-05-19",
+   "amtText": "Blackstone 投入 $50 億股權並取得多數股權，含槓桿總額約 $250 億；Google 提供 TPU、軟體與服務（Google 的出資金額未揭露）。",
+   "status": "籌建中；目標 2027 年上線 500MW",
+   "flow": "合資公司向 Google 取得 TPU，以算力即服務出租給企業，把 TPU 銷售延伸到 Google Cloud 以外的通路。",
+   "src": [
+    "dcd_jv",
+    "tnw_jv"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "含槓桿總額約 $250 億",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "waymo",
+   "name": "Waymo",
+   "tk": "子公司",
+   "cat": "supply",
+   "type": "增資（多數股東）",
+   "amt": 13.0,
+   "short": "~$130億",
+   "date": "2026-02-02",
+   "amtText": "Waymo $160 億融資、投後估值 $1,260 億；Alphabet 為多數股東。Bloomberg 報導 Alphabet 出資約 $130 億，Waymo 未揭露具體金額；CapitalG、GV 亦參與。",
+   "status": "子公司；Other Bets Q3 營業虧損約 $20.47 億",
+   "flow": "外部投資人資金進入 Alphabet 控制的子公司，用於擴張車隊與城市。",
+   "src": [
+    "waymo_blog",
+    "bbgl_waymo",
+    "unite_q3"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "valNote": "Waymo 2026/2 投後估值約 $1,260 億；Alphabet 為多數股東但持股比例未揭露，無法計算持股現值",
+   "valSrc": [
+    "wb_waymo"
+   ]
+  },
+  {
+   "id": "fluidstack",
+   "name": "Fluidstack",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "洽談入股（租約受 Google 支持）",
+   "amt": null,
+   "short": "洽談 ~$1億",
+   "date": "2026-04-06",
+   "amtText": "WSJ 報導 Google 洽談投資約 $1 億（估值約 $75 億）；Dealroom 稱 Google 為其租約提供 $18 億擔保，此金額與 TeraWulf 首筆擔保相同，可能為同一筆，故本表不重複加總。2026/4 Fluidstack 以 $70 億估值募資 $7.5 億。",
+   "status": "入股洽談中",
+   "flow": "Fluidstack 向礦商承租資料中心，為 Anthropic 部署 Google TPU；Google 擔保其租約，使礦商得以取得融資。",
+   "src": [
+    "dr_fluid",
+    "sa_fluid",
+    "gk_fluid"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "unconfirmed": true,
+   "risks": [
+    {
+     "k": "exec",
+     "x": "洽談入股（租約受 Google 支持） WSJ 報導 Google 洽談投資約 $1 億（估值約 $75 億）",
+     "auto": true
+    },
+    {
+     "k": "fin",
+     "x": "Dealroom 稱 Google 為其租約提供 $18 億擔保",
+     "auto": true
+    }
+   ],
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "terawulf",
+   "name": "TeraWulf",
+   "tk": "WULF",
+   "cat": "cloud",
+   "type": "認股權證＋擔保",
+   "amt": 3.2,
+   "short": "擔保$32億",
+   "date": "2025-08-19",
+   "guarantee": true,
+   "amtText": "2025/8 Google 擔保 Fluidstack 租約 $18 億，換取約 4,100 萬股權證（約 8%）；之後擔保增至 $32 億，持股增至約 14%，成為最大股東。",
+   "status": "權證持有（擔保為或有負債）",
+   "flow": "TeraWulf 將 Lake Mariner 園區以 10 年 $37 億租給 Fluidstack，供部署 TPU 叢集。",
+   "src": [
+    "tb_wulf",
+    "ct_wulf"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "認股權證＋擔保 2025/8 Google 擔保 Fluidstack 租約 $18 億",
+     "auto": true
+    }
+   ],
+   "terms": {
+    "sec": "認股權證",
+    "auto": true
+   }
+  },
+  {
+   "id": "cipher",
+   "name": "Cipher Mining",
+   "tk": "CIFR",
+   "cat": "cloud",
+   "type": "認股權證＋擔保",
+   "amt": 1.4,
+   "short": "擔保$14億",
+   "date": "2025-09-25",
+   "guarantee": true,
+   "amtText": "Google 擔保 Fluidstack 租約 $14 億，換取約 2,400 萬股權證（約 5.4%）。",
+   "status": "權證持有",
+   "flow": "Barber Lake 168MW 以 10 年約 $30 億租給 Fluidstack。",
+   "src": [
+    "dec_cifr",
+    "tb_cifr"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "認股權證＋擔保 Google 擔保 Fluidstack 租約 $14 億",
+     "auto": true
+    }
+   ],
+   "terms": {
+    "sec": "認股權證",
+    "auto": true
+   }
+  },
+  {
+   "id": "hut8",
+   "name": "Hut 8",
+   "tk": "HUT",
+   "cat": "cloud",
+   "type": "融資擔保（未揭露持股）",
+   "amt": null,
+   "short": "擔保（未揭露）",
+   "date": "2025-12-17",
+   "guarantee": true,
+   "amtText": "River Bend 15 年 $70 億租約獲 Google 支持融資；擔保金額與是否取得權證未揭露。Google 並非承租方。",
+   "status": "未揭露",
+   "flow": "245MW 容量租給 Fluidstack，屬 Anthropic 多 GW 計畫的一部分。",
+   "src": [
+    "yh_hut8",
+    "gk_fluid"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "融資擔保（未揭露持股） River Bend 15 年 $70 億租約獲 Google 支持融資",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "wiz",
+   "name": "Wiz（收購）",
+   "tk": "子公司",
+   "cat": "mna",
+   "type": "收購",
+   "amt": 32.0,
+   "short": "$320億",
+   "date": "2026-03-11",
+   "amtText": "$320 億全現金收購，為 Google 史上最大併購；Wiz ARR 於 2025 年超過 $10 億。",
+   "status": "2026/3/11 完成，併入 Google Cloud",
+   "flow": "強化多雲安全產品，帶動 Google Cloud 企業客戶。",
+   "src": [
+    "tc_wiz",
+    "sw_wiz"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "收購",
+    "auto": true
+   }
+  },
+  {
+   "id": "intersect",
+   "name": "Intersect（收購）",
+   "tk": "—",
+   "cat": "mna",
+   "type": "收購",
+   "amt": 4.75,
+   "short": "$47.5億＋債務",
+   "date": "2025-12-22",
+   "amtText": "$47.5 億現金＋承擔債務；Google 先前與 TPG 領投其 $8 億融資並持有少數股權。不含其德州既有營運資產與加州資產。",
+   "status": "公告預計 2026 上半年完成（本次查證未取得完成公告）",
+   "flow": "電廠與資料中心共址開發（德州 Haskell County），為 Google 自建算力提供電力。",
+   "src": [
+    "abc_inter",
+    "tc_inter",
+    "axios_inter"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "收購",
+    "auto": true
+   }
+  },
+  {
+   "id": "windsurf",
+   "name": "Windsurf（授權＋人才）",
+   "tk": "—",
+   "cat": "mna",
+   "type": "技術授權＋人才",
+   "amt": 2.4,
+   "short": "$24億",
+   "date": "2025-07-11",
+   "amtText": "非專屬技術授權費約 $24 億，CEO 等人加入 DeepMind；Google 不取得股權。",
+   "status": "完成",
+   "flow": "強化 Gemini 代理式程式開發能力。",
+   "src": [
+    "reu_wind"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "characterai",
+   "name": "Character.AI（授權＋人才）",
+   "tk": "—",
+   "cat": "mna",
+   "type": "技術授權＋人才",
+   "amt": 2.7,
+   "short": "$27億",
+   "date": "2026-06-18",
+   "amtText": "2024/8 簽約，約 $27 億非專屬授權，創辦人 Noam Shazeer 等回到 Google；Google 不持股。DOJ 曾審查此結構。",
+   "status": "Shazeer 已於 2026/6/18 離開 Google，轉投 OpenAI",
+   "flow": "人才回流 Gemini 團隊，但核心人物已離開。",
+   "src": [
+    "cal_cai",
+    "neo_shaz"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "cfs",
+   "name": "Commonwealth Fusion Systems",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "股權＋購電協議",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-07",
+   "amtText": "2021 年起投資，2025/6 追加投資並簽 200MW 購電協議；2026/7 參與 CFS $10 億融資（Google 個別金額未揭露）。",
+   "status": "持有中",
+   "flow": "未來資料中心電力來源（2030 年代初）。",
+   "src": [
+    "tc_cfs",
+    "gv_fusion"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "fusion2",
+   "name": "TAE／Proxima／Inertia",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-10",
+   "amtText": "Google 投資多家不同技術路線的核融合公司（日期為來源報導日）。",
+   "status": "持有中",
+   "flow": "分散能源技術路線，用以布局長期電力。",
+   "src": [
+    "gv_fusion"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "revmed",
+   "name": "Revolution Medicines",
+   "tk": "RVMD",
+   "cat": "other",
+   "type": "股權",
+   "amt": 0.549,
+   "short": "$5.5億",
+   "date": "2026-09-30",
+   "amtText": "13F 市值約 $5.49 億，Q3 減持 9.25%。",
+   "status": "減持",
+   "flow": "GV 生技投資，無直接算力回流。",
+   "src": [
+    "rd_13f"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "tk": "AMZN",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2026-11-19",
+   "amtText": "Anthropic 另一大股東：投入現金 $180 億、約 34.8 億股（S-1/A）。",
+   "status": "—",
+   "flow": "同時是 Anthropic 的主要雲端與訓練夥伴（Project Rainier）。",
+   "src": [
+    "fw_anth",
+    "anth_tpu"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "broadcom",
+   "name": "Broadcom",
+   "tk": "AVGO",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2026-04-06",
+   "amtText": "與 Google 共同設計 TPU，並與 Google 簽有至 2031 年的長期供貨保證協議。",
+   "status": "—",
+   "flow": "提供 Anthropic 約 1GW（2026）＋3.5GW（2027 起）的 TPU 算力。",
+   "src": [
+    "qz_tpu",
+    "anth_tpu"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "tk": "META",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2026-02-26",
+   "amtText": "多年期、數十億美元租用 Google Cloud TPU，並洽談 2027 年直接採購（The Information 報導，雙方未證實）。",
+   "status": "—",
+   "flow": "TPU 外部客戶，貢獻 Cloud 營收。",
+   "src": [
+    "sa_meta",
+    "dc_meta"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "並洽談 2027 年直接採購（The Information 報導",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "berkshire",
+   "name": "Berkshire Hathaway",
+   "tk": "BRK",
+   "cat": "cp",
+   "type": "反向入股（資金來源）",
+   "amt": null,
+   "short": "",
+   "date": "2026-06-02",
+   "amtText": "在 Alphabet $850 億股權募資中私募 $100 億（A 股與 C 股各 $50 億）。",
+   "status": "—",
+   "flow": "資金投入 Alphabet 的 AI 基礎建設 capex。",
+   "src": [
+    "tnw_85",
+    "yh_brk"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  }
+ ],
+ "flows": [
+  [
+   "anthropic",
+   "fluidstack",
+   "Fluidstack 為 Anthropic 部署 Google TPU"
+  ],
+  [
+   "fluidstack",
+   "terawulf",
+   "承租 Lake Mariner（10 年 $37 億）"
+  ],
+  [
+   "fluidstack",
+   "cipher",
+   "承租 Barber Lake 168MW（約 $30 億）"
+  ],
+  [
+   "fluidstack",
+   "hut8",
+   "承租 River Bend 245MW（15 年 $70 億）"
+  ],
+  [
+   "anthropic",
+   "spacex",
+   "每月 $12.5 億租用 Colossus 1（至 2029）"
+  ],
+  [
+   "anthropic",
+   "broadcom",
+   "經 Broadcom 取得約 3.5GW TPU"
+  ],
+  [
+   "amazon",
+   "anthropic",
+   "同為大股東（現金 $180 億）"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$883億",
+   "l": "13F 申報市值（2026/9/30）",
+   "src": [
+    "bq_13f",
+    "qq_13f"
+   ]
+  },
+  {
+   "v": "$837億",
+   "l": "SpaceX 持股市值（13F）",
+   "src": [
+    "rd_13f"
+   ]
+  },
+  {
+   "v": "$333億",
+   "l": "累計投入 Anthropic（含 IPO 配售）",
+   "src": [
+    "fw_anth"
+   ]
+  },
+  {
+   "v": "~$1,485億",
+   "l": "Anthropic 持股以 IPO 價 $83 計（自行計算）",
+   "src": [
+    "trefis",
+    "st_anth"
+   ]
+  },
+  {
+   "v": "$990億",
+   "l": "Q2 權益證券收益（Q3 轉為淨損 $87億）",
+   "src": [
+    "mp_q2",
+    "unite_q3"
+   ]
+  },
+  {
+   "v": "$5,610億",
+   "l": "Google Cloud 未認列訂單（Q3）",
+   "src": [
+    "mb_q3"
+   ]
+  },
+  {
+   "v": "$1,950–2,050億",
+   "l": "2026 資本支出指引（Q3 單季 $514億）",
+   "src": [
+    "aiw_q3"
+   ]
+  },
+  {
+   "v": "≥$46億",
+   "l": "礦商擔保：TeraWulf $32億＋Cipher $14億",
+   "src": [
+    "ct_wulf",
+    "dec_cifr"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "投資架構",
+   "text": "Alphabet 透過 Google 直接投資（Anthropic、SpaceX、擔保換股）、CapitalG／GV（上市與早期持股）與 Other Bets（Waymo）三條管道布局；2026 年成長最快的是「算力相關投資」，幾乎都會回流成 Google Cloud 與 TPU 營收。",
+   "src": [
+    "aol_asts",
+    "fw_anth",
+    "ct_wulf"
+   ]
+  },
+  {
+   "title": "規模",
+   "text": "13F 申報市值 $883 億（其中 SpaceX $837 億）；Anthropic 累計投入 $333 億；Q2 權益證券收益 $990 億，Q3 轉為淨損 $87 億。",
+   "src": [
+    "bq_13f",
+    "rd_13f",
+    "fw_anth",
+    "mp_q2",
+    "unite_q3"
+   ]
+  },
+  {
+   "title": "資金面",
+   "text": "2026 年 $850 億股權募資（Berkshire $100 億）支應 capex；Q3 capex $514 億，Cloud backlog $5,610 億。",
+   "src": [
+    "tnw_85",
+    "aiw_q3",
+    "mb_q3"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① Anthropic × TPU 主循環",
+   "sub": "股權 → 算力承諾 → Cloud／TPU 營收",
+   "nodes": [
+    [
+     "Google",
+     "accent"
+    ],
+    [
+     "Anthropic",
+     "lab"
+    ],
+    [
+     "Fluidstack＋\n礦商資料中心",
+     "cloud"
+    ],
+    [
+     "Google Cloud／\nTPU 營收",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "股權 $333億\n（2023–2026）"
+    ],
+    [
+     1,
+     2,
+     "租用 TPU 資料中心"
+    ],
+    [
+     2,
+     3,
+     "部署 Google TPU"
+    ],
+    [
+     3,
+     0,
+     "營收回流"
+    ],
+    [
+     1,
+     3,
+     "Cloud 承諾 ≥$1,213億\n約 3.5GW TPU",
+     "chord"
+    ],
+    [
+     0,
+     2,
+     "擔保換權證\nTeraWulf $32億・Cipher $14億",
+     "chord"
+    ]
+   ],
+   "text": "Google 同時是 Anthropic 的大股東、TPU 供應商與雲端業者。Anthropic 把 Google 的投資用於承諾 Google Cloud 支出與購買 TPU 算力；部分 TPU 部署在 Fluidstack 向礦商承租的資料中心，而這些租約由 Google 擔保，Google 也因此取得礦商的認股權證。",
+   "src": [
+    "fw_anth",
+    "trefis",
+    "anth_tpu",
+    "gk_fluid",
+    "ct_wulf",
+    "dec_cifr"
+   ],
+   "back": 121.3,
+   "share": 3,
+   "dep": "mid",
+   "backSrc": [
+    "unite_s1",
+    "fwmba_gcloud",
+    "n9_q3"
+   ],
+   "backNote": "Anthropic 對 Google 最低承諾 ≥$1,213 億（2026/4–2033/7，不論用量）；另有估計 $1,250–1,500 億 TPU 未列固定金額。年均約 $166 億，約占 Alphabet 年化營收（Q3 $1,276 億 × 4）3%，但約占 Google Cloud backlog $5,610 億的 22%（皆自行計算）"
+  },
+  {
+   "id": "L2",
+   "title": "② SpaceX 雙向循環",
+   "sub": "早期入股 ↔ 回頭租用算力",
+   "nodes": [
+    [
+     "Google",
+     "accent"
+    ],
+    [
+     "SpaceX（含 xAI）",
+     "semi"
+    ],
+    [
+     "Colossus 算力\n（約 11 萬顆 GPU）",
+     "cloud"
+    ],
+    [
+     "Anthropic",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "2015 年 $9億入股\n13F 5.55 億股"
+    ],
+    [
+     1,
+     0,
+     "Starlink 使用 Google Cloud；\n股價變動計入 Alphabet 損益"
+    ],
+    [
+     0,
+     2,
+     "每月 $9.2億租用\n（2026/10–2029/6）"
+    ],
+    [
+     3,
+     2,
+     "每月 $12.5億\n租用 Colossus 1"
+    ],
+    [
+     2,
+     1,
+     "算力營收"
+    ]
+   ],
+   "text": "Google 早年投資 SpaceX 的部位已成為最大上市持股，同時又以每月 $9.2 億向 SpaceX 租用 GPU 算力作為過渡產能。另一家 Google 持股公司 Anthropic 也向 SpaceX 租用算力，資金在三者之間循環。",
+   "src": [
+    "fool_spx",
+    "rd_13f",
+    "tc_920",
+    "tnw_920",
+    "tv_star",
+    "mb_q3"
+   ],
+   "dep": "mid",
+   "backNote": "此循環中 Google 是付款方：每月 $9.2 億租用 Colossus（2026/10–2029/6）；回流只有 SpaceX 持股的評價損益",
+   "backSrc": [
+    "fool_spx",
+    "rd_13f"
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "③ 礦商「擔保換股權」循環",
+   "sub": "信用加持 → 礦商融資 → TPU 落地",
+   "nodes": [
+    [
+     "Google",
+     "accent"
+    ],
+    [
+     "礦商\nTeraWulf・Cipher・Hut 8",
+     "cloud"
+    ],
+    [
+     "Fluidstack",
+     "cloud"
+    ],
+    [
+     "TPU 用戶\nAnthropic 等",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "擔保租約、取得權證\n（約 14%、5.4%）"
+    ],
+    [
+     2,
+     1,
+     "10–15 年租約\n$37億・~$30億・$70億"
+    ],
+    [
+     3,
+     2,
+     "租用 TPU 叢集"
+    ],
+    [
+     2,
+     0,
+     "採購／部署 Google TPU"
+    ],
+    [
+     0,
+     2,
+     "洽談入股約 $1億（WSJ）",
+     "chord"
+    ]
+   ],
+   "text": "Google 不直接蓋這些機房，而是以信用擔保 Fluidstack 的長期租約，讓礦商取得建廠融資，自己則換得礦商股權。最後機房裡部署的是 Google TPU，形成「擔保 → 產能 → TPU 銷售」的循環。",
+   "src": [
+    "tb_wulf",
+    "ct_wulf",
+    "dec_cifr",
+    "yh_hut8",
+    "dr_fluid",
+    "sa_fluid",
+    "gk_fluid"
+   ],
+   "dep": "mid",
+   "backNote": "Fluidstack 採購 TPU 的金額未揭露；Google 取得的是礦商權證",
+   "backSrc": [
+    "tb_wulf",
+    "ct_wulf"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ TPU 外銷與合資通路",
+   "sub": "Blackstone 合資・Meta・Broadcom",
+   "nodes": [
+    [
+     "Google",
+     "accent"
+    ],
+    [
+     "Blackstone 合資\nTPU 雲",
+     "fin"
+    ],
+    [
+     "外部客戶\nMeta・企業",
+     "cp"
+    ],
+    [
+     "Broadcom",
+     "cp"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "提供 TPU、軟體與服務"
+    ],
+    [
+     1,
+     2,
+     "算力即服務\n（500MW，2027）"
+    ],
+    [
+     2,
+     0,
+     "Meta 租用 Google Cloud TPU\n（數十億美元）"
+    ],
+    [
+     3,
+     0,
+     "共同設計 TPU\n供貨保證至 2031"
+    ]
+   ],
+   "text": "Google 把 TPU 從自用晶片變成對外商品：一路透過 Google Cloud 直接租給 Meta 等客戶，另一路由 Blackstone 出資的合資公司以算力即服務出售。Broadcom 則是 TPU 的共同設計與供應夥伴。",
+   "src": [
+    "dcd_jv",
+    "tnw_jv",
+    "sa_meta",
+    "dc_meta",
+    "qz_tpu"
+   ],
+   "dep": "mid",
+   "backNote": "Meta 租用 TPU 為「數十億美元」級，確切金額未揭露",
+   "backSrc": [
+    "dcd_jv",
+    "tnw_jv"
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "⑤ 資本來源循環",
+   "sub": "募資 → capex → Cloud 營收",
+   "nodes": [
+    [
+     "股權投資人\nBerkshire 等",
+     "cp"
+    ],
+    [
+     "Alphabet",
+     "accent"
+    ],
+    [
+     "資本支出\n2026 指引 $1,950–2,050億",
+     "supply"
+    ],
+    [
+     "Google Cloud\nbacklog $5,610億",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$850億增資\n（Berkshire $100億）"
+    ],
+    [
+     1,
+     2,
+     "Q3 單季 capex $514億"
+    ],
+    [
+     2,
+     3,
+     "TPU／資料中心產能"
+    ],
+    [
+     3,
+     1,
+     "Cloud 營收 Q3 $307億\n（+103%）"
+    ]
+   ],
+   "text": "Alphabet 2026 年以史上最大規模的股權募資補充 AI 建設資金，資本支出轉為雲端訂單與營收；Q3 自由現金流為負，顯示投資節奏領先現金產出。",
+   "src": [
+    "tnw_85",
+    "yh_brk",
+    "aiw_q3",
+    "mb_q3"
+   ],
+   "back": 30.7,
+   "dep": "high",
+   "backNote": "Q3 單季 Cloud 營收 $307 億（年增 103%），同季資本支出 $514 億；回流為單季數字",
+   "backSrc": [
+    "tnw_85",
+    "yh_brk"
+   ]
+  }
+ ],
+ "loopNote": {
+  "text": "Google 的循環以「股權＋雲端／TPU 合約」為主，與 NVIDIA 以 GPU 營收回流的模式類似。支持者認為 backlog 與 TPU 外銷證明需求真實；但投資損益隨 SpaceX、Anthropic 股價大幅波動（Q2 +$990 億、Q3 −$87 億），且 capex 已使自由現金流轉負。",
+  "src": [
+   "mp_q2",
+   "unite_q3",
+   "aiw_q3"
+  ]
+ },
+ "events": [
+  {
+   "d": "2015-01",
+   "t": "投資 SpaceX 約 $9 億",
+   "x": "與 Fidelity 共同投資，持股約 7.4%。",
+   "cat": "semi",
+   "src": [
+    "fool_spx"
+   ]
+  },
+  {
+   "d": "2021-11-04",
+   "t": "投資 CME $10 億",
+   "x": "搭配 10 年 Google Cloud 合約。",
+   "cat": "fin",
+   "src": [
+    "cme_pr"
+   ]
+  },
+  {
+   "d": "2023-09",
+   "t": "首筆投資 Anthropic",
+   "x": "可轉債 $5 億（第 1 批）。",
+   "cat": "lab",
+   "src": [
+    "fw_anth"
+   ]
+  },
+  {
+   "d": "2024-08-02",
+   "t": "Character.AI 授權＋人才",
+   "x": "約 $27 億，創辦人回到 Google。",
+   "cat": "mna",
+   "src": [
+    "cal_cai"
+   ]
+  },
+  {
+   "d": "2025-04-11",
+   "t": "投資 SSI",
+   "x": "SSI 採用 Google TPU。",
+   "cat": "lab",
+   "src": [
+    "ssi_reu"
+   ]
+  },
+  {
+   "d": "2025-06-30",
+   "t": "追加投資 CFS＋200MW 購電",
+   "x": "核融合電力。",
+   "cat": "other",
+   "src": [
+    "tc_cfs"
+   ]
+  },
+  {
+   "d": "2025-07-11",
+   "t": "Windsurf $24 億授權",
+   "x": "人才加入 DeepMind。",
+   "cat": "mna",
+   "src": [
+    "reu_wind"
+   ]
+  },
+  {
+   "d": "2025-08",
+   "t": "TeraWulf 擔保換股",
+   "x": "$18 億擔保，之後增至 $32 億、約 14% 持股。",
+   "cat": "cloud",
+   "src": [
+    "tb_wulf",
+    "ct_wulf"
+   ]
+  },
+  {
+   "d": "2025-09-25",
+   "t": "Cipher 擔保換股",
+   "x": "$14 億擔保、5.4% 權證。",
+   "cat": "cloud",
+   "src": [
+    "dec_cifr"
+   ]
+  },
+  {
+   "d": "2025-10",
+   "t": "Anthropic 最多 100 萬顆 TPU",
+   "x": "數百億美元合約。",
+   "cat": "lab",
+   "src": [
+    "gf_1m"
+   ]
+  },
+  {
+   "d": "2025-12-17",
+   "t": "Hut 8 × Fluidstack $70 億租約",
+   "x": "Google 支持融資。",
+   "cat": "cloud",
+   "src": [
+    "yh_hut8"
+   ]
+  },
+  {
+   "d": "2025-12-22",
+   "t": "收購 Intersect $47.5 億",
+   "x": "電力與資料中心共址開發。",
+   "cat": "mna",
+   "src": [
+    "abc_inter"
+   ]
+  },
+  {
+   "d": "2026-02-02",
+   "t": "Waymo $160 億融資",
+   "x": "估值 $1,260 億，Alphabet 為多數股東。",
+   "cat": "supply",
+   "src": [
+    "waymo_blog"
+   ]
+  },
+  {
+   "d": "2026-02-26",
+   "t": "Meta 租用 Google TPU",
+   "x": "數十億美元多年期協議（報導）。",
+   "cat": "cp",
+   "src": [
+    "sa_meta"
+   ]
+  },
+  {
+   "d": "2026-03",
+   "t": "Anthropic G-2 特別股約 $100 億",
+   "x": "3,860 萬股 @ $259.14。",
+   "cat": "lab",
+   "src": [
+    "fw_anth"
+   ]
+  },
+  {
+   "d": "2026-03-11",
+   "t": "完成收購 Wiz $320 億",
+   "x": "Google 史上最大併購。",
+   "cat": "mna",
+   "src": [
+    "tc_wiz"
+   ]
+  },
+  {
+   "d": "2026-04-06",
+   "t": "Anthropic 約 3.5GW TPU（Google＋Broadcom）",
+   "x": "2027 起陸續上線。",
+   "cat": "lab",
+   "src": [
+    "anth_tpu",
+    "qz_tpu"
+   ]
+  },
+  {
+   "d": "2026-05",
+   "t": "Anthropic Series H $100 億",
+   "x": "剩餘可用融資額度降至 $200 億。",
+   "cat": "lab",
+   "src": [
+    "fw_anth"
+   ]
+  },
+  {
+   "d": "2026-05-19",
+   "t": "Blackstone × Google TPU 雲合資",
+   "x": "$50 億股權、500MW（2027）。",
+   "cat": "fin",
+   "src": [
+    "dcd_jv"
+   ]
+  },
+  {
+   "d": "2026-06-02",
+   "t": "Alphabet $850 億股權募資",
+   "x": "Berkshire 私募 $100 億。",
+   "cat": "gov",
+   "src": [
+    "tnw_85"
+   ]
+  },
+  {
+   "d": "2026-06-05",
+   "t": "Google 租用 SpaceX 算力",
+   "x": "每月 $9.2 億，2026/10–2029/6。",
+   "cat": "semi",
+   "src": [
+    "tc_920"
+   ]
+  },
+  {
+   "d": "2026-06-12",
+   "t": "SpaceX 上市",
+   "x": "IPO 價 $135。",
+   "cat": "semi",
+   "src": [
+    "finviz_ipo"
+   ]
+  },
+  {
+   "d": "2026-06-18",
+   "t": "Noam Shazeer 轉投 OpenAI",
+   "x": "Character.AI 交易的核心人物離開。",
+   "cat": "gov",
+   "src": [
+    "neo_shaz"
+   ]
+  },
+  {
+   "d": "2026-07",
+   "t": "Q2 權益證券收益 $990 億",
+   "x": "主要來自 Anthropic 與 SpaceX。",
+   "cat": "gov",
+   "src": [
+    "mp_q2"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "t": "Q3 財報",
+   "x": "Cloud +103%、權益證券淨損 $87 億、capex $514 億。",
+   "cat": "gov",
+   "src": [
+    "aiw_q3",
+    "unite_q3"
+   ]
+  },
+  {
+   "d": "2026-11-05",
+   "t": "13F（9/30）",
+   "x": "SpaceX 增持 0.7%、新增 Qualcomm。",
+   "cat": "gov",
+   "src": [
+    "rd_13f"
+   ]
+  },
+  {
+   "d": "2026-11-19",
+   "t": "Anthropic 上市＋Google 配售 $100 億",
+   "x": "IPO 價 $83，首日收 $97.17。",
+   "cat": "lab",
+   "src": [
+    "st_anth",
+    "neoteo",
+    "mitrade"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "Anthropic 投入明細 5＋7.5＋7.5＋13＋100＋100＋100（億美元）＝$333 億，與 S-1/A 彙整一致；17.9 億股 × $83 ≈ $1,485 億（自行計算）。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "13F 前七大持股合計約 $874 億，占申報總額 $883 億約 99%，與「前十大占 99.48%」相符；Berkshire 認購 A 股、C 股各 $50 億＝$100 億。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "Anthropic 首筆 $100 億的估值：Bloomberg $3,500 億 vs MarketWatch $3,800 億；Google 持股比例 13.7%（流通股基準）vs 9.9%（完全稀釋）；13F 持股檔數 27 檔（Business Quant）vs 32 檔（Quiver）；SpaceX 持股 6.11%（2025 年底）vs 併入 xAI 後約 5%（Bloomberg 估算）。"
+  },
+  {
+   "tag": "避免重複",
+   "html": "Fluidstack 的「$18 億擔保」與 TeraWulf 首筆擔保金額相同，可能為同一筆，本表只計入 TeraWulf。"
+  },
+  {
+   "tag": "未定案",
+   "html": "Anthropic「最高 $400 億」承諾中，有 $300 億取決於里程碑；Google 洽談入股 Fluidstack；Meta 洽談 2027 年直接採購 TPU；Intersect 收購本次未查到完成公告。"
+  },
+  {
+   "tag": "未列為持股",
+   "html": "Character.AI、Windsurf 為技術授權＋人才交易，Google 不持股；Hut 8 的擔保金額與權證條款未揭露。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）金額為公開揭露或報導的承諾金額，未必已全數撥付；擔保屬或有負債，非現金投資。（2）13F 市值為 2026/9/30 市價，僅涵蓋可申報的美國上市證券。（3）Waymo 為 Alphabet 子公司，列入是為了呈現對外融資；Wiz、Intersect 為收購。（4）「以 IPO 價計」等數字為本表自行計算，並在該處註明。（5）本 Dashboard 為資訊整理，非投資建議。<br>主要來源：Alphabet IR、SEC 13F 彙整、Anthropic S-1/A 彙整、TechCrunch、Bloomberg、The Next Web、Reuters 轉載等，各節點附個別連結。",
+ "ic": {
+  "thesis": "Alphabet 是 11 家中金額最大的股權投資者：Anthropic 與 SpaceX 兩筆上市持股以 11/24 收盤計現值約 $2,160 億，但 Anthropic 同時是 Google Cloud 最大的長約客戶之一，投資報酬與雲端訂單綁在同一家公司的成長上。",
+  "src": [
+   "axios_ant",
+   "fool_ant1124",
+   "unite_s1"
+  ],
+  "opps": [
+   {
+    "t": "Anthropic 持股約 $1,466 億，為累計投入 $333 億的約 4.4 倍（自行計算）",
+    "src": [
+     "axios_ant",
+     "fw_anth"
+    ]
+   },
+   {
+    "t": "Google Cloud Q3 營收年增 103% 至 $307 億，backlog $5,610 億",
+    "src": [
+     "tnw_gcloud",
+     "fwmba_gcloud"
+    ]
+   },
+   {
+    "t": "TPU 系統銷售預期 2027 年大幅認列",
+    "src": [
+     "lds_gcloud"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "Anthropic 最低承諾約占 Cloud backlog 22%，單一客戶集中（自行計算）",
+    "src": [
+     "unite_s1",
+     "fwmba_gcloud"
+    ]
+   },
+   {
+    "t": "ANT、SPCX 11 月雙雙跌破 IPO 價，權益證券損益每季大幅波動",
+    "src": [
+     "fool_ant1124",
+     "mb_q3"
+    ]
+   },
+   {
+    "t": "Q3 資本支出 $514 億高於營業現金流 $423 億",
+    "src": [
+     "fwmba_gcloud"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "d": "2026-12-08",
+    "t": "SpaceX 下一批解禁",
+    "src": [
+     "fwmba_spx"
+    ]
+   },
+   {
+    "d": "2026-12-11",
+    "t": "ANT 可能納入 Russell 1000",
+    "src": [
+     "finimize_ant"
+    ]
+   },
+   {
+    "t": "2027 TPU 系統營收放量是否兌現",
+    "src": [
+     "lds_gcloud"
+    ]
+   }
+  ]
+ }
+}

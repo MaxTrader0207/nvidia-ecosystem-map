@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>生態資本投資循環架構｜投資族譜 Dashboard</title>
+<style>
+:root{
+--bg:#0a0e13; --panel:#11171f; --panel2:#161e28; --line:#243041; --text:#e6edf3; --muted:#8b9bb0;
+--nv:#76b900; --lab:#a78bfa; --cloud:#38bdf8; --supply:#fb923c; --semi:#f472b6; --mna:#2dd4bf; --fin:#facc15; --other:#94a3b8; --cp:#64748b;
+--warn:#f87171; --fs:1;
+--node:#0d131b; --rootbg:#0f1a06; --line2:#1c2633; --hover:#0f151d;
+--gov-bg:#1a160b; --gov-bd:#3b2f12; --ok-bg:#0c1510; --ok-bd:#1e3a2a; --edge-t:#d9f99d; --chord-t:#fecaca;
+}
+[data-theme="graphite"]{--bg:#18181b;--panel:#222226;--panel2:#2a2a2f;--line:#3a3a42;--text:#f4f4f5;--muted:#a1a1aa;--node:#1f1f23;--rootbg:#1a2410;--line2:#33333a;--hover:#26262b}
+[data-theme="navy"]{--bg:#0b1628;--panel:#10203a;--panel2:#152a4a;--line:#24406a;--text:#e8f0ff;--muted:#93a8c8;--node:#0e1c33;--rootbg:#10240f;--line2:#1d3456;--hover:#12243f}
+[data-theme="black"]{--bg:#000;--panel:#0a0a0a;--panel2:#121212;--line:#262626;--text:#fafafa;--muted:#a3a3a3;--node:#050505;--rootbg:#0a1400;--line2:#1a1a1a;--hover:#111}
+[data-theme="light"]{--bg:#f5f7fa;--panel:#ffffff;--panel2:#eef2f6;--line:#d5dde7;--text:#111827;--muted:#5b6b80;--node:#ffffff;--rootbg:#eef8dc;--line2:#e2e8f0;--hover:#f0f4f8;--gov-bg:#fff8e1;--gov-bd:#f3d48a;--ok-bg:#eefbea;--ok-bd:#b6e2a8;--edge-t:#3f6212;--chord-t:#b91c1c}
+[data-theme="light"] .lcard .la,[data-theme="light"] .ccard .cn,[data-theme="light"] .gov b{filter:brightness(.72) saturate(1.4)}
+[data-theme="light"] a{color:#0369a1}
+.settings{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:8px 22px;border-bottom:1px solid var(--line);background:var(--panel)}
+.settings .lbl{color:var(--muted);font-size:calc(12px*var(--fs))}
+.settings input[type=color]{width:34px;height:26px;padding:0;border:1px solid var(--line);border-radius:6px;background:none;cursor:pointer}
+.fsval{min-width:44px;text-align:center;font-family:Consolas,monospace;font-size:calc(12.5px*var(--fs))}
+.sep{width:1px;height:20px;background:var(--line);margin:0 4px}
+.xwrap{position:relative;display:inline-block}
+.xbtn{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:4px 9px;cursor:pointer;font-size:calc(12px*var(--fs));font-family:inherit;white-space:nowrap}
+.xbtn:hover{border-color:var(--nv)}
+.xmenu{display:none;position:absolute;right:0;top:calc(100% + 4px);z-index:60;background:var(--panel);border:1px solid var(--line);border-radius:8px;min-width:190px;padding:4px;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.xmenu.on{display:block}
+.xmenu button{display:block;width:100%;text-align:left;background:none;border:none;color:var(--text);padding:6px 10px;border-radius:5px;cursor:pointer;font-family:inherit;font-size:calc(12.5px*var(--fs))}
+.xmenu button:hover{background:var(--panel2)}
+.bhead{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line);color:var(--muted);font-size:calc(12px*var(--fs))}
+.shead{display:flex;justify-content:space-between;align-items:center;padding:10px 22px 0;color:var(--muted);font-size:calc(12.5px*var(--fs))}
+.toast{position:fixed;right:18px;bottom:18px;background:var(--panel);border:1px solid var(--nv);color:var(--text);padding:8px 14px;border-radius:8px;font-size:calc(13px*var(--fs));z-index:99;display:none}
+@media print{
+body.printing *{visibility:hidden}
+body.printing .print-target,body.printing .print-target *{visibility:visible}
+body.printing .print-target{position:absolute!important;left:0;top:0;width:100%;max-height:none!important;overflow:visible!important}
+.xwrap,.settings{display:none!important}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;font-size:calc(14px*var(--fs))}
+a{color:#7dd3fc;text-decoration:none} a:hover{text-decoration:underline}
+.mono{font-family:"JetBrains Mono","SF Mono",Consolas,monospace}
+header{padding:16px 22px 10px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px;justify-content:space-between}
+header h1{margin:0;font-size:calc(20px*var(--fs));letter-spacing:.5px}
+header h1 b{color:var(--nv)}
+header .sub{color:var(--muted);font-size:calc(12px*var(--fs));margin-top:4px}
+.gov{position:relative;margin:10px 22px 0;padding:9px 14px;border:1px solid var(--gov-bd);background:var(--gov-bg);border-radius:8px;font-size:calc(12.5px*var(--fs));line-height:1.6}
+.gov b{color:var(--fin)}
+.gov .gh{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:6px}
+.gov .gh b{font-size:calc(13.5px*var(--fs))}
+.gov .gh .rng{color:var(--muted);font-size:calc(11.5px*var(--fs))}
+.gov .gf{display:inline-flex;gap:4px;margin-left:auto;margin-right:8px}
+.gov .gf button{background:none;border:1px solid var(--gov-bd);color:var(--muted);border-radius:999px;padding:1px 9px;cursor:pointer;font-family:inherit;font-size:calc(11.5px*var(--fs))}
+.gov .gf button.on{color:var(--text);border-color:var(--fin)}
+.gov .glead{margin:0 0 6px;padding-bottom:6px;border-bottom:1px dashed var(--gov-bd)}
+.gov ul.gl{list-style:none;margin:0;padding:0}
+.gov ul.gl li{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:5px 0;border-top:1px solid var(--gov-bd)}
+.gov ul.gl li:first-child{border-top:none}
+.gov ul.gl .gd{font-family:Consolas,monospace;color:var(--muted);font-size:calc(12px*var(--fs))}
+.gov ul.gl .gd small{display:block;font-size:calc(10.5px*var(--fs))}
+.gov ul.gl .gt{font-weight:600}
+.gov ul.gl .gx{color:var(--muted);font-size:calc(12px*var(--fs))}
+.gov ul.gl .gtag{display:inline-block;font-size:calc(10.5px*var(--fs));padding:0 6px;border-radius:4px;margin-right:6px;border:1px solid var(--c);color:var(--c)}
+.gov ul.gl .gs a{font-size:calc(11px*var(--fs));margin-right:6px}
+.gov .gmore{margin-top:4px;background:none;border:none;color:var(--fin);cursor:pointer;font-family:inherit;font-size:calc(12px*var(--fs));padding:2px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;padding:12px 22px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;position:relative}
+.kpi .v{font-size:calc(21px*var(--fs));font-weight:700;color:var(--nv)}
+.kpi .l{color:var(--muted);font-size:calc(12px*var(--fs));margin-top:2px}
+.kpi .s{position:absolute;top:8px;right:10px;font-size:calc(11px*var(--fs))}
+nav.tabs{display:flex;gap:4px;padding:0 22px;border-bottom:1px solid var(--line)}
+nav.tabs button{background:none;border:none;color:var(--muted);padding:10px 14px;cursor:pointer;font-size:calc(14px*var(--fs));border-bottom:2px solid transparent;font-family:inherit}
+nav.tabs button.on{color:var(--text);border-bottom-color:var(--nv)}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 22px}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;padding:4px 10px;font-size:calc(12px*var(--fs));cursor:pointer;display:inline-flex;align-items:center;gap:6px;user-select:none}
+.chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.chip.off{opacity:.35}
+input[type=search],select{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:6px 9px;font-family:inherit;font-size:calc(13px*var(--fs))}
+input[type=search]{width:200px}
+.btn{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:5px 10px;cursor:pointer;font-size:calc(12.5px*var(--fs));font-family:inherit}
+.btn:hover{border-color:var(--nv)}
+label.tg{font-size:calc(12.5px*var(--fs));color:var(--muted);display:inline-flex;gap:5px;align-items:center;cursor:pointer}
+.view{display:none} .view.on{display:block}
+.graphwrap{display:grid;grid-template-columns:1fr 370px;gap:0;border-top:1px solid var(--line);align-items:start}
+.ftree{position:relative;display:grid;grid-template-columns:150px 1fr;gap:0 56px;padding:18px 22px 30px}
+.froot{align-self:center;position:relative;z-index:2;border:2px solid var(--nv);background:var(--rootbg);border-radius:14px;padding:16px 12px;text-align:center;cursor:pointer}
+.froot b{display:block;color:var(--nv);font-size:calc(22px*var(--fs));font-weight:800}
+.froot span{color:#a3c46b;font-size:calc(11.5px*var(--fs))}
+.rows{display:flex;flex-direction:column;gap:16px;position:relative;z-index:2}
+.crow{display:grid;grid-template-columns:190px 1fr;gap:0 44px;align-items:center}
+.ccard{border:1.5px solid var(--c);border-radius:10px;padding:9px 11px;background:var(--node)}
+.ccard .cn{color:var(--c);font-weight:700;font-size:calc(13.5px*var(--fs))}
+.ccard .cs{color:var(--muted);font-size:calc(11.5px*var(--fs));margin-top:3px;line-height:1.5}
+.leafgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
+.lcard{position:relative;border:1px solid var(--line);border-left:3px solid var(--c);border-radius:8px;padding:7px 9px 8px;background:var(--panel);cursor:pointer;transition:border-color .12s}
+.lcard:hover{border-color:var(--c)}
+.lcard .ln{font-weight:600;font-size:calc(13px*var(--fs));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lcard .ln small{color:var(--muted);font-weight:400;font-family:Consolas,monospace;font-size:calc(11px*var(--fs));margin-left:5px}
+.lcard .la{color:var(--c);font-family:Consolas,monospace;font-size:calc(13px*var(--fs));font-weight:700;margin-top:2px}
+.lcard .lm{color:var(--muted);font-size:calc(11px*var(--fs));margin-top:1px}
+.lcard .bar{height:3px;background:var(--line2);border-radius:2px;margin-top:6px}
+.lcard .bar i{display:block;height:100%;background:var(--c);border-radius:2px}
+.lcard .flag{position:absolute;top:6px;right:7px;font-size:calc(10px*var(--fs));padding:0 5px;border-radius:4px;border:1px solid #f87171;color:#fca5a5}
+.lcard.sel{box-shadow:0 0 0 2px var(--c);border-color:var(--c)}
+.lcard.rel{box-shadow:0 0 0 1px #e2e8f0}
+.lcard.rel::after{content:"循環關聯";position:absolute;bottom:6px;right:7px;font-size:calc(10px*var(--fs));color:#e2e8f0;background:#334155;padding:0 5px;border-radius:4px}
+.lcard.dim{opacity:.22}
+.lcard .badges{position:absolute;top:6px;right:7px;display:flex;gap:3px}
+.lcard .badges .flag{position:static}
+.gb{display:inline-block;min-width:15px;text-align:center;font-size:calc(10px*var(--fs));font-weight:700;padding:0 4px;border-radius:4px;color:#0a0e13;font-family:Consolas,monospace}
+.gA{background:#4ade80}.gB{background:#38bdf8}.gC{background:#fbbf24}.gD{background:#f87171}
+.at{display:inline-block;font-size:calc(10px*var(--fs));padding:0 5px;border-radius:4px;border:1px solid var(--line);color:var(--muted);margin-right:4px;white-space:nowrap}
+.at.in{border-color:#4ade80;color:#86efac}
+.lcard.rumor{border-style:dashed;opacity:.72}
+.lcard .ln{padding-right:22px}
+.lcard.hasflag .ln{padding-right:60px}
+.lcard.rumor .la{text-decoration:underline dotted}
+.lcard.stale{filter:grayscale(.85)}
+.lcard .stl{font-size:calc(10px*var(--fs));color:#fbbf24;margin-left:4px}
+.amtbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:0 22px 8px}
+.amtbar .ab{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:5px 10px;cursor:pointer;font-size:calc(12px*var(--fs))}
+.amtbar .ab b{font-family:Consolas,monospace;color:var(--text);margin-left:6px}
+.amtbar .ab.on{border-color:var(--nv);box-shadow:0 0 0 1px var(--nv) inset}
+.amtbar .ab.in b{color:#86efac}
+.amtbar .lg{color:var(--muted);font-size:calc(11.5px*var(--fs));margin-left:auto}
+.freshw{color:#fbbf24}
+.rk{display:inline-block;font-size:calc(10px*var(--fs));padding:0 4px;border-radius:4px;border:1px solid #f97316;color:#fdba74;margin:0 3px 2px 0}
+.lcard .rks{margin-top:3px;line-height:1.3}
+.pos{display:inline-block;font-size:calc(10px*var(--fs));padding:0 5px;border-radius:4px;background:#1d4ed8;color:#fff;margin:0 4px 2px 0}
+.moic{font-size:calc(11px*var(--fs));color:var(--muted);margin-left:6px;font-weight:400}
+.ic{margin:10px 22px 0;padding:10px 14px;border:1px solid var(--line);background:var(--panel);border-radius:8px;font-size:calc(12.5px*var(--fs));line-height:1.65}
+.ic .ich{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.ic .ich b{font-size:calc(14px*var(--fs))}
+.ic .ich .xslot{margin-left:auto}
+.ic .thesis{margin:0 0 8px;padding:6px 10px;border-left:3px solid var(--nv);background:var(--panel2);border-radius:4px}
+.ic .icg{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.ic .icg>div{background:var(--panel2);border-radius:6px;padding:8px 10px}
+.ic .icg>div>b{display:block;margin-bottom:4px;color:var(--nv)}
+.ic ul{margin:0;padding-left:18px}
+.ic .auto{color:var(--muted);font-size:calc(11px*var(--fs));font-weight:400;margin-left:4px}
+.diffbar{margin:0 22px 8px;padding:6px 12px;border:1px dashed var(--line);border-radius:8px;font-size:calc(12.5px*var(--fs));color:var(--muted)}
+.diffbar summary{cursor:pointer}
+.diffbar ul{margin:6px 0 0;padding-left:20px;max-height:260px;overflow:auto}
+.diffbar .add{color:#86efac}.diffbar .del{color:#fca5a5}.diffbar .chg{color:#fde68a}
+.stress{padding:4px 22px 30px;display:grid;grid-template-columns:330px 1fr;gap:20px;align-items:start}
+.stress .ctl{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stress .ctl label{display:block;margin:12px 0 4px;font-size:calc(12.5px*var(--fs))}
+.stress input[type=range]{width:100%}
+.stress .rv{float:right;font-family:Consolas,monospace;color:var(--nv)}
+.terms{width:100%;font-size:calc(12px*var(--fs))}
+.terms td{padding:2px 6px;border-bottom:1px solid var(--line2)}
+@media (max-width:1000px){.stress{grid-template-columns:1fr}}
+svg.links{position:absolute;left:0;top:0;pointer-events:none;z-index:1}
+aside#detail{border-left:1px solid var(--line);background:var(--panel);overflow:auto;padding:16px;position:sticky;top:0;max-height:100vh}
+aside h2{margin:0 0 4px;font-size:calc(18px*var(--fs))}
+.tag{display:inline-block;font-size:calc(11px*var(--fs));padding:2px 8px;border-radius:999px;border:1px solid var(--line);margin:2px 4px 2px 0;color:var(--muted)}
+.kv{margin:10px 0;font-size:calc(13px*var(--fs));line-height:1.65}
+.kv dt{color:var(--muted);font-size:calc(11.5px*var(--fs));margin-top:8px}
+.kv dd{margin:2px 0 0}
+.srcs{margin:8px 0 0;padding-left:18px;font-size:calc(12.5px*var(--fs));line-height:1.6}
+.hint{color:var(--muted);font-size:calc(12.5px*var(--fs));line-height:1.7}
+.tooltip{position:fixed;pointer-events:none;background:#0d131b;border:1px solid var(--line);border-radius:6px;padding:6px 9px;font-size:calc(12px*var(--fs));display:none;z-index:50;max-width:280px}
+svg text{font-family:inherit}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:calc(11.5px*var(--fs));color:var(--muted)}
+/* flow */
+.flowwrap{display:grid;grid-template-columns:260px 1fr 340px;min-height:calc(100vh - 120px);border-top:1px solid var(--line)}
+.looplist{border-right:1px solid var(--line);padding:12px;background:var(--panel)}
+.looplist button{display:block;width:100%;text-align:left;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:9px 10px;margin-bottom:8px;cursor:pointer;font-family:inherit;font-size:calc(13px*var(--fs));line-height:1.45}
+.looplist button.on{border-color:var(--nv);box-shadow:0 0 0 1px var(--nv) inset}
+.looplist small{color:var(--muted);display:block;font-size:calc(11.5px*var(--fs))}
+#flow{width:100%;height:calc(100vh - 120px);min-height:620px}
+.loopinfo{border-left:1px solid var(--line);padding:14px;background:var(--panel);overflow:auto}
+/* table */
+.tablewrap{padding:0 22px 30px;overflow:auto}
+table{border-collapse:collapse;width:100%;font-size:calc(12.5px*var(--fs))}
+th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:var(--panel2);cursor:pointer;white-space:nowrap;font-weight:600}
+th:hover{color:var(--nv)}
+td.amt{font-family:"JetBrains Mono",Consolas,monospace;white-space:nowrap;text-align:right}
+td .srcmini a{display:inline-block;margin-right:6px;font-size:calc(11.5px*var(--fs))}
+tr:hover td{background:var(--hover)}
+/* timeline */
+.tl{padding:10px 22px 40px;max-width:1100px}
+.tl .yr{font-size:calc(16px*var(--fs));color:var(--nv);margin:18px 0 6px;font-weight:700}
+.ev{display:grid;grid-template-columns:110px 14px 1fr;gap:10px;align-items:start;padding:6px 0}
+.ev .d{color:var(--muted);font-family:Consolas,monospace;font-size:calc(12.5px*var(--fs));text-align:right;padding-top:1px}
+.ev .dot{width:11px;height:11px;border-radius:50%;margin-top:4px}
+.ev .t{font-weight:600}
+.ev .x{color:var(--muted);font-size:calc(12.5px*var(--fs));line-height:1.6}
+footer{padding:16px 22px 30px;color:var(--muted);font-size:calc(11.5px*var(--fs));line-height:1.7;border-top:1px solid var(--line)}
+@media (max-width:1000px){.graphwrap,.flowwrap{grid-template-columns:1fr;height:auto}.ftree,.crow{grid-template-columns:1fr;gap:10px}svg.links{display:none}aside#detail{position:static;max-height:none}aside#detail,.loopinfo,.looplist{border:none}}
+</style>
+</head>
+<body>
+<header>
+<div>
+<h1><b id="hEnt"></b> 生態資本投資循環架構 · 投資族譜 Dashboard</h1>
+<div class="sub" id="hSub"></div>
+</div>
+<div class="legend" id="legend"></div>
+</header>
+<div class="settings">
+<span class="lbl">🎨 背景</span>
+<select id="themeSel">
+<option value="">深夜（預設）</option><option value="graphite">石墨灰</option><option value="navy">深海藍</option><option value="black">純黑</option><option value="light">淺色</option>
+</select>
+<span class="lbl">自訂</span><input type="color" id="bgPick" value="#0a0e13" title="自訂背景色">
+<span class="sep"></span>
+<span class="lbl">🔠 字體</span>
+<button class="btn" id="fsDown">A−</button><span class="fsval" id="fsVal">100%</span><button class="btn" id="fsUp">A＋</button>
+<span class="sep"></span>
+<button class="btn" id="prefReset">還原預設</button>
+<span style="flex:1"></span>
+<span class="xslot" data-x="all"></span>
+</div>
+<div class="gov" id="gov"><div class="gh"><b id="govT"></b><span class="rng" id="govR"></span><span class="gf" id="govF"></span><span class="xslot" data-x="gov"></span></div><div class="glead" id="govH"></div><ul class="gl" id="govL"></ul><button class="gmore" id="govM"></button></div>
+<div class="ic" id="ic"></div>
+<div class="shead"><span>📊 關鍵指標</span><span class="xslot" data-x="kpi"></span></div>
+<div class="kpis" id="kpis"></div>
+<div class="amtbar" id="amtbar"></div>
+<div class="diffbar" id="diffbar"></div>
+<nav class="tabs">
+<button data-v="v-tree" class="on">🌳 投資族譜圖</button>
+<button data-v="v-flow">🔁 資金循環架構</button>
+<button data-v="v-table">📋 投資明細表</button>
+<button data-v="v-tl">🕒 時間軸</button>
+<button data-v="v-stress">🧪 壓力測試</button>
+</nav>
+<section class="view on" id="v-tree">
+<div class="toolbar">
+<span id="catchips"></span>
+<select id="typeSel"><option value="">全部交易型態</option></select>
+<select id="gradeSel"><option value="">全部可信度</option><option value="A">僅 A（公告／申報）</option><option value="B">A–B（含主流媒體）</option><option value="C">A–C</option></select>
+<label class="tg"><input type="checkbox" id="staleOnly"> 只看待更新</label>
+<select id="riskSel"><option value="">全部風險</option></select>
+<select id="posSel"><option value="">全部部位</option></select>
+<label class="tg"><input type="checkbox" id="noGov"> 只看無治理權</label>
+<input type="search" id="q" placeholder="搜尋公司 / 代號…">
+<span class="xslot" data-x="tree"></span>
+<span class="hint">點選卡片看明細；長條為金額相對規模（對數尺度）。卡片右上字母＝來源最高可信度（A 公告申報、B 主流媒體、C 其他媒體、D 傳聞）；紅框「擔保」；虛線框＝傳聞或未定案；灰階＝超過 90 天或未重新查證。</span>
+</div>
+<div class="graphwrap">
+<div class="ftree" id="ftree"></div>
+<aside id="detail"><div class="bhead"><span>📌 節點明細</span><span class="xslot" data-x="detail"></span></div><div id="detailBody"></div></aside>
+</div>
+</section>
+<section class="view" id="v-flow">
+<div class="flowwrap">
+<div class="looplist" id="looplist"></div>
+<svg id="flow" viewBox="-520 -430 1040 860"></svg>
+<div class="loopinfo" id="loopinfo"><div class="bhead"><span>🔁 循環說明</span><span class="xslot" data-x="flow"></span></div><div id="loopBody"></div></div>
+</div>
+</section>
+<section class="view" id="v-table">
+<div class="toolbar">
+<input type="search" id="tq" placeholder="篩選明細…">
+<select id="tcat"><option value="">全部類別</option></select>
+<label class="tg"><input type="checkbox" id="tcp" checked> 含循環對手方</label>
+<span class="xslot" data-x="table"></span>
+<span class="hint" id="tcount"></span>
+</div>
+<div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+</section>
+<section class="view" id="v-tl"><div class="toolbar"><span class="xslot" data-x="tl"></span></div><div class="tl" id="tl"></div></section>
+<section class="view" id="v-stress"><div class="toolbar"><span class="xslot" data-x="stress"></span><span class="hint">粗估工具：只用本頁已揭露金額做線性假設，不含稅、匯率、對沖與二階效應，不是預測。</span></div>
+<div class="stress"><div class="ctl" id="stCtl"></div><div id="stOut"></div></div></section>
+<section id="verify" style="margin:0 22px 18px;padding:12px 16px;border:1px solid var(--ok-bd);background:var(--ok-bg);border-radius:8px;font-size:calc(12.5px*var(--fs));line-height:1.75">
+<span class="xslot" data-x="verify" style="float:right"></span><b style="color:var(--nv)" id="verifyT"></b>
+<ul style="margin:6px 0 0;padding-left:20px" id="verifyList"></ul>
+</section>
+<footer id="method"></footer>
+<div class="tooltip" id="tip"></div><div class="toast" id="toast"></div>
+<script>
+/* ===== 資料（由 build.py 注入） ===== */
+const DATA = {"meta": {"entity": "Unitree 宇樹科技", "ticker": "688836.SH", "asOf": "2026-11-26", "tz": "台北", "accent": "#22c55e", "centerLabel": "資本中樞", "fileSlug": "Unitree", "subtitle": "涵蓋創投與網路巨頭持股、國資戰配、DeepSeek 合作、子公司基地與供應鏈"}, "notice": {"title": "重大動態", "html": "宇樹 8/19 科創板掛牌首日開盤大漲 629%（<a href=\"https://www.aljazeera.com/economy/2026/8/19/chinas-unitree-soars-in-market-debut-as-investors-bet-on-humanoid-robots\" target=\"_blank\">Al Jazeera<\/a>），10/28 市值約 ¥2,815億；第三季淨利年減 13.37%（<a href=\"https://www.cls.cn/detail/2518195\" target=\"_blank\">財聯社<\/a>）。美國 FCC／國防部清單風險與智元出貨超越為主要觀察點（<a href=\"https://udn.com/news/story/7240/9431535\" target=\"_blank\">聯合新聞網<\/a>）。"}, "sources": {"cna": ["中央社｜宇樹科技科創板 IPO 定價（2026-08-07）", "https://www.cna.com.tw/news/acn/202608070057.aspx"], "inside": ["INSIDE｜宇樹 IPO 定價與科創板估值", "https://www.inside.com.tw/article/42033-unitree-ipo-pricing-star-market-valuation"], "technews": ["科技新報｜宇樹啟動申購，A 股首檔人形機器人股（2026-08-10）", "https://finance.technews.tw/2026/08/10/unitree-robotics-launches-ipo-subscription-a-share-market-welcomes-first-humanoid-robot-stock/"], "em_alloc": ["東方財富｜宇樹戰略配售名單（2026-08-06）", "https://finance.eastmoney.com/a/202608063834143196.html"], "jiemian": ["界面新聞｜宇樹股東結構", "https://m.jiemian.com/article/14887042.html"], "cnyes1": ["鉅亨號｜宇樹科技股東與戰配", "https://hao.cnyes.com/post/263864"], "cnyes2": ["鉅亨號｜宇樹科技招股書重點", "https://hao.cnyes.com/post/249654"], "cnyes3": ["鉅亨號｜宇樹科技股權結構", "https://hao.cnyes.com/post/238554"], "cnyes4": ["鉅亨號｜宇樹科技上市後動態", "https://hao.cnyes.com/post/263871"], "cls1": ["財聯社｜宇樹 IPO 戰略投資者", "https://www.cls.cn/detail/2381451"], "cls2": ["財聯社｜宇樹第三季財報", "https://www.cls.cn/detail/2518195"], "qq1": ["騰訊新聞｜宇樹戰配與網路巨頭持股（2026-08-12）", "https://news.qq.com/rain/a/20260812A0CFSS00"], "sina1": ["新浪財經｜宇樹股東持股解析", "https://cj.sina.com.cn/articles/view/5993531560/1653e08a802001nf8a"], "sina2": ["新浪財經｜宇樹科技產業鏈", "https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002mkdq"], "sina3": ["新浪財經｜宇樹與人形機器人競爭（2026-09-03）", "https://finance.sina.cn/tech/2026-09-03/detail-iniqpeke2259221.d.html"], "reuters_ds": ["Reuters（StreetInsider 轉載）｜DeepSeek invests $20.8 million in Unitree's Shanghai IPO", "https://www.streetinsider.com/Reuters/DeepSeek+invests+%2420.8+million+in+Unitrees+Shanghai+IPO/26880735.html"], "aib": ["AI Business｜DeepSeek invests in Unitree to develop AI brain for humanoid bots", "https://aibusiness.com/robotics/deepseek-invests-unitree-develop-ai-brain-for-humanoid-bots"], "alj": ["Al Jazeera｜China's Unitree soars in market debut（2026-08-19）", "https://www.aljazeera.com/economy/2026/8/19/chinas-unitree-soars-in-market-debut-as-investors-bet-on-humanoid-robots"], "fortune": ["Fortune｜Unitree IPO trading surge & valuation（2026-08-19）", "https://fortune.com/2026/08/19/unitree-china-dancing-robots-ipo-trading-surge-valuation/"], "asset": ["The Asset｜Unitree Robotics soars 629% on trading debut", "https://www.theasset.com/article/56931/unitree-robotics-soars-629-on-trading-debut"], "caixin": ["Caixin Global｜Five things to know about Unitree（2026-08-20）", "https://www.caixinglobal.com/2026-08-20/five-things-to-know-about-chinas-humanoid-robot-poster-child-102476126.html"], "uanalyze": ["優分析｜宇樹科技解析", "https://uanalyze.com.tw/articles/9549257903"], "em_q3": ["東方財富｜宇樹三季報與市值（2026-10-28）", "https://finance.eastmoney.com/a/202610283912365052.html"], "em_cs": ["東方財富財富號｜長盛軸承與宇樹（2025-09-17）", "https://caifuhao.eastmoney.com/news/20250917153759545376990"], "scmp": ["SCMP｜Shenzhen boosts role as humanoid robotics base with Unitree local venture", "https://www.scmp.com/tech/big-tech/article/3301328/shenzhen-boosts-role-chinas-humanoid-robotics-base-unitree-local-venture"], "ifeng": ["鳳凰網財經｜宇樹科技子公司佈局", "https://finance.ifeng.com/c/8tEqg4nBPx6"], "teda": ["天津泰達投資促進｜宇樹科技天津基地", "https://invest.teda.gov.cn/contents/2813/114036.html"], "udn2": ["聯合新聞網｜宇樹科技與美國監管", "https://udn.com/news/story/7240/9431535"]}, "categories": [{"id": "semi", "name": "網路巨頭策略持股", "color": "#f472b6", "sumNote": "以 IPO 價 ¥150.8 計之持股市值"}, {"id": "fin", "name": "創投與產業財務股東", "color": "#facc15", "sumNote": "多數僅揭露持股比例，未計入金額"}, {"id": "lab", "name": "AI 大腦夥伴", "color": "#a78bfa"}, {"id": "other", "name": "國資與戰略配售", "color": "#94a3b8", "sumNote": "戰配＋國資基金持股"}, {"id": "cloud", "name": "IPO 募資與產能", "color": "#38bdf8"}, {"id": "mna", "name": "子公司與地方基地", "color": "#2dd4bf"}, {"id": "supply", "name": "供應鏈與間接持股", "color": "#fb923c"}, {"id": "cp", "name": "循環對手方（非持股）", "color": "#64748b", "hidden": true, "counterparty": true, "sumNote": "非宇樹持股，僅標示競爭與監管關係"}], "nodes": [{"id": "meituan", "name": "美團（漢海信息）", "tk": "3690.HK", "cat": "semi", "type": "股權", "amt": 0.782, "short": "≈$7.8億", "date": "2026-08-19", "amtText": "持股 35,123,600 股，IPO 後 8.684%（IPO 前約 9.65%）；以 ¥150.8 計約 ¥52.97億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。2024-01 經漢海信息投入約 ¥2.48億。", "status": "持有中（IPO 後第一大外部股東）", "flow": "美團持股隨上市大幅增值；宇樹未揭露美團採購金額，回流以股權增值為主", "src": ["jiemian", "cnyes3", "sina1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "tencent", "name": "騰訊（直接持股）", "tk": "0700.HK", "cat": "semi", "type": "股權", "amt": 0.0485, "short": "≈$4,850萬", "date": "2026-08-19", "amtText": "2,179,170 股 × ¥150.8 ≈ ¥3.29億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。另有騰訊啟善 902,900 股戰配（見戰配節點）。", "status": "持有中", "flow": "財務投資，未揭露業務回流", "src": ["qq1", "sina1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "alibaba", "name": "阿里巴巴", "tk": "BABA / 9988.HK", "cat": "semi", "type": "股權", "amt": 0.0364, "short": "≈$3,640萬", "date": "2026-08-19", "amtText": "1,634,346 股 × ¥150.8 ≈ ¥2.46億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。", "status": "持有中", "flow": "財務投資", "src": ["qq1", "sina1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "ant", "name": "螞蟻集團", "tk": "未上市", "cat": "semi", "type": "股權", "amt": 0.0182, "short": "≈$1,820萬", "date": "2026-08-19", "amtText": "817,236 股 × ¥150.8 ≈ ¥1.23億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。", "status": "持有中", "flow": "財務投資", "src": ["qq1", "sina1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "founder", "name": "王興興＋上海宇翼（控制權）", "tk": "—", "cat": "fin", "type": "創辦人／員工持股平台", "amt": null, "short": "34.76%", "date": "2026-08-19", "amtText": "王興興直接 23.82%，上海宇翼 10.94%；合計控制 68.78% 表決權（特別表決權架構）。", "status": "實際控制人", "flow": "非外部資金；決定 IPO 資金配置", "src": ["jiemian", "cnyes2"], "excludeFromSum": true, "amtType": "none", "direction": "in", "verified": "2026-11-26"}, {"id": "sequoia", "name": "紅杉中國", "tk": "未上市", "cat": "fin", "type": "股權", "amt": null, "short": "7.11%", "date": "2026", "amtText": "揭露持股 7.11%（報導未一致說明為上市前或後比例）。", "status": "持有中（鎖定期）", "flow": "財務投資；退出時以二級市場減持回收", "src": ["jiemian", "cnyes3"], "amtType": "none", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "lockup": "鎖定期） 財務投資", "auto": true}}, {"id": "matrix", "name": "經緯創投", "tk": "未上市", "cat": "fin", "type": "股權", "amt": null, "short": "5.45%", "date": "2026", "amtText": "持股 5.45%。", "status": "持有中（鎖定期）", "flow": "財務投資", "src": ["jiemian", "cnyes3"], "amtType": "none", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "lockup": "鎖定期） 財務投資", "auto": true}}, {"id": "shunwei", "name": "順為資本（Astrend IV）", "tk": "小米系", "cat": "fin", "type": "股權", "amt": null, "short": "4.4245%", "date": "2026", "amtText": "經 Astrend IV 持股 4.4245%。", "status": "持有中", "flow": "小米生態關聯財務投資", "src": ["jiemian", "sina1"], "amtType": "none", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "citic", "name": "中信金石／中信證券", "tk": "600030.SH", "cat": "fin", "type": "股權＋保薦跟投", "amt": 0.018, "short": "4.49%＋戰配¥1.22億", "date": "2026-08", "amtText": "中信系持股 4.49%；另保薦跟投 2%、約 ¥1.2198億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。", "status": "持有中", "flow": "保薦承銷費＋跟投股權增值", "src": ["em_alloc", "cls1", "jiemian"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "szcv", "name": "深創投", "tk": "未上市（深圳國資）", "cat": "fin", "type": "股權", "amt": null, "short": "≈2.55%", "date": "2026", "amtText": "持股約 2.55%。", "status": "持有中", "flow": "財務投資", "src": ["jiemian"], "amtType": "none", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "deepseek", "name": "DeepSeek（深度求索）", "tk": "未上市", "cat": "lab", "type": "戰略配售＋合作 MOU", "amt": 0.0208, "short": "$2,080萬", "date": "2026-08", "amtText": "933,399 股、¥1.408億（Reuters 換算 US$2,080萬），鎖定 36 個月，並簽合作備忘錄開發人形機器人「AI 大腦」。AI Business 報導金額與 Reuters 不同，見校驗。", "status": "持有中（鎖定 36 個月）", "flow": "以模型合作強化宇樹產品，宇樹硬體銷售回收營收", "src": ["reuters_ds", "aib", "qq1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "nssf", "name": "全國社保基金", "tk": "國資", "cat": "other", "type": "戰略配售", "amt": 0.0208, "short": "≈$2,080萬", "date": "2026-08-06", "amtText": "93.34 萬股 × ¥150.8 ≈ ¥1.41億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。", "status": "持有中（戰配鎖定）", "flow": "國家隊背書，增加發行穩定性", "src": ["em_alloc", "cls1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "kunlun", "name": "中國石油昆侖資本", "tk": "國企", "cat": "other", "type": "戰略配售", "amt": 0.0201, "short": "≈$2,010萬", "date": "2026-08-06", "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。", "status": "持有中", "flow": "國企戰配", "src": ["em_alloc"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "csg", "name": "南方電網", "tk": "國企", "cat": "other", "type": "戰略配售", "amt": 0.0201, "short": "≈$2,010萬", "date": "2026-08-06", "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。", "status": "持有中", "flow": "國企戰配；電力巡檢為潛在場景（未揭露訂單）", "src": ["em_alloc"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "tianyi", "name": "中國電信天翼資本", "tk": "國企", "cat": "other", "type": "戰略配售", "amt": 0.0201, "short": "≈$2,010萬", "date": "2026-08-06", "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。", "status": "持有中", "flow": "國企戰配", "src": ["em_alloc"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "qishan", "name": "騰訊啟善", "tk": "騰訊系", "cat": "other", "type": "戰略配售", "amt": 0.0201, "short": "≈$2,010萬", "date": "2026-08-06", "amtText": "902,900 股 × ¥150.8 ≈ ¥1.36億。", "status": "持有中", "flow": "騰訊系第二條持股管道", "src": ["em_alloc", "qq1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "bjfund", "name": "北京機器人產業發展投資基金", "tk": "北京國資", "cat": "other", "type": "股權", "amt": 0.311, "short": "≈$3.1億", "date": "2026-08-19", "amtText": "持股 3.83%（約 1,392.8 萬股）× ¥150.8 ≈ ¥21.0億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）。", "status": "持有中", "flow": "地方國資產業基金", "src": ["jiemian", "sina1"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "wangtou", "name": "網投基金", "tk": "國資", "cat": "other", "type": "股權", "amt": null, "short": "2.11%", "date": "2026", "amtText": "持股 2.11%。", "status": "持有中", "flow": "國資財務投資", "src": ["jiemian"], "amtType": "none", "direction": "in", "verified": "2026-11-26", "terms": {"sec": "普通股", "auto": true}}, {"id": "ipo", "name": "科創板 IPO 募資", "tk": "688836.SH", "cat": "cloud", "type": "IPO", "amt": 0.901, "short": "≈$9.0億", "date": "2026-08-19", "amtText": "40,446,434 股 × ¥150.8 ≈ ¥60.99億（以 Reuters ¥1.408億≈US$2,080萬 推得約 ¥6.77/US$ 換算；股數×IPO 價 ¥150.8）；發行市值 ¥609.93億。", "status": "已上市（8/19）", "flow": "募資投入研發與產能擴張", "src": ["cna", "inside", "technews"], "amtType": "inflow", "direction": "in", "verified": "2026-11-26"}, {"id": "capacity", "name": "擴產計畫", "tk": "—", "cat": "cloud", "type": "募投產能", "amt": null, "short": "未揭露", "date": "2026", "amtText": "規劃年產人形機器人 7.5 萬台、四足機器人 11.5 萬台。", "status": "建設中", "flow": "產能擴張帶動上游零組件採購", "src": ["cnyes2", "caixin"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "cq", "name": "重慶宇羿", "tk": "子公司", "cat": "mna", "type": "子公司", "amt": null, "short": "未揭露", "date": "2026", "amtText": "全資／控股子公司。", "status": "營運中", "flow": "區域銷售與製造佈局", "src": ["ifeng"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "sz", "name": "深圳天羿", "tk": "子公司", "cat": "mna", "type": "子公司（地方合資）", "amt": null, "short": "未揭露", "date": "2025", "amtText": "深圳布局人形機器人基地。", "status": "營運中", "flow": "深圳產業政策支持", "src": ["scmp", "ifeng"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "hz", "name": "杭州宇樹星盟／成都宇辰／北京・上海子公司", "tk": "子公司", "cat": "mna", "type": "子公司", "amt": null, "short": "未揭露", "date": "2026", "amtText": "多地子公司佈局。", "status": "營運中", "flow": "區域研發與銷售", "src": ["ifeng"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "teda", "name": "天津泰達基地", "tk": "地方基地", "cat": "mna", "type": "生產基地", "amt": null, "short": "未揭露", "date": "2026", "amtText": "天津泰達開發區招商落地專案。", "status": "建設／營運中", "flow": "地方招商＋產能落地", "src": ["teda"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "cs", "name": "長盛軸承", "tk": "300718.SZ", "cat": "supply", "type": "供應鏈", "amt": null, "short": "未揭露", "date": "2025-09", "amtText": "市場報導為宇樹零組件供應商之一。", "status": "合作中", "flow": "宇樹擴產帶動採購", "src": ["em_cs", "sina2"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "jfww", "name": "金發科技／臥龍電驅（經金石間接持股）", "tk": "600143.SH / 600580.SH", "cat": "supply", "type": "間接持股", "amt": null, "short": "未揭露", "date": "2026", "amtText": "經中信金石相關基金間接持有宇樹股份。", "status": "持有中", "flow": "供應鏈企業以股權綁定客戶", "src": ["sina2", "cnyes1"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "agibot", "name": "智元機器人（AgiBot）", "tk": "未上市", "cat": "cp", "type": "競爭者", "amt": null, "short": "—", "date": "2026", "amtText": "2026 上半年出貨約 8,400 台，超過宇樹約 5,900 台（報導數字）。", "status": "競爭中", "flow": "非持股；人形機器人市占競爭", "src": ["sina3", "cnyes4"], "amtType": "none", "direction": "out", "verified": "2026-11-26"}, {"id": "usreg", "name": "美國 FCC／國防部清單", "tk": "—", "cat": "cp", "type": "監管風險", "amt": null, "short": "—", "date": "2026", "amtText": "宇樹列入 FCC Covered List 及國防部相關清單風險；美國營收占比約 13.3%。", "status": "持續觀察", "flow": "非持股；影響海外營收", "src": ["udn2", "uanalyze"], "amtType": "none", "direction": "out", "verified": "2026-11-26", "risks": [{"k": "reg", "x": "監管風險 宇樹列入 FCC Covered List 及國防部相關清單風險", "auto": true}]}], "flows": [["deepseek", "capacity", "AI 大腦合作導入產品"], ["capacity", "cs", "零組件採購"], ["ipo", "capacity", "募資投向"], ["agibot", "capacity", "出貨量競爭"]], "kpis": [{"v": "¥150.8", "l": "IPO 定價（發行 40,446,434 股）", "src": ["cna", "inside"]}, {"v": "¥60.99億", "l": "IPO 募資總額", "src": ["cna", "technews"]}, {"v": "+629%", "l": "上市首日開盤 ¥1,100（市值約 ¥4,449億）", "src": ["alj", "asset"]}, {"v": "¥2,815億", "l": "市值（2026-10-28）", "src": ["em_q3"]}, {"v": "68.78%", "l": "王興興控制表決權（持股合計 34.76%）", "src": ["jiemian", "cnyes2"]}, {"v": "8.684%", "l": "美團 IPO 後持股，最大外部股東", "src": ["jiemian", "cnyes3"]}, {"v": "¥6.65億", "l": "2026 Q3 營收；淨利 ¥1.13億（年減 13.37%）", "src": ["cls2", "em_q3"]}, {"v": "13.3%", "l": "美國營收占比（地緣風險暴露）", "src": ["uanalyze", "udn2"]}], "center": [{"title": "資本中樞定位", "text": "宇樹以創辦人特別表決權維持控制，外部資金依序來自創投（紅杉、經緯、順為）、網路巨頭（美團、騰訊、阿里、螞蟻）、國資基金，最後經科創板 IPO 與戰配引入國家隊與 DeepSeek。", "src": ["jiemian", "em_alloc"]}, {"title": "獲利與估值", "text": "2025 年營收 ¥16.99億、淨利 ¥2.78億；2026 前三季營收 ¥18.17億、淨利 ¥3.87億，第三季淨利年減 13.37%，研發費用 ¥1.27億。", "src": ["cnyes2", "cls2", "em_q3"]}], "loops": [{"id": "L1", "title": "① DeepSeek AI 大腦循環", "sub": "戰配股權 → 模型合作 → 產品營收", "nodes": [["宇樹科技", "accent"], ["DeepSeek", "lab"], ["AI 大腦\n合作 MOU", "lab"], ["人形機器人\n銷售營收", "accent"]], "edges": [[1, 0, "¥1.408億戰配\n鎖定36個月"], [1, 2, "模型能力"], [2, 3, "搭載產品"], [3, 0, "營收回流"]], "text": "DeepSeek 以戰略投資者身分認購 933,399 股並簽合作備忘錄；股權與技術合作綁定，宇樹以硬體銷售回收。合作具體營收貢獻尚未揭露。", "src": ["reuters_ds", "aib"], "dep": "low", "backNote": "DeepSeek 認購 ¥1.408 億；合作的營收貢獻尚未揭露", "backSrc": ["reuters_ds", "aib"]}, {"id": "L2", "title": "② 美團股東增值循環", "sub": "早期入股 → IPO → 帳面增值", "nodes": [["美團", "semi"], ["宇樹科技", "accent"], ["科創板 IPO\n¥150.8", "cloud"], ["持股市值\n≈¥53億", "semi"]], "edges": [[0, 1, "漢海 ¥2.48億\n(2024-01)"], [1, 2, "上市募資\n¥60.99億"], [2, 3, "8.684%×發行價"], [3, 0, "帳面增值"]], "text": "美團在 2024 年初入股，IPO 後持股 8.684%；以發行價計約 ¥52.97億，首日開盤價計更高。報導未揭露美團與宇樹間的業務採購。", "src": ["jiemian", "cnyes3", "cna"], "back": 3.61, "dep": "low", "backSrc": ["em_q3", "jiemian"], "backNote": "美團持股 8.684% × 10/28 市值 ¥2,815 億 ≈ ¥244 億 ≈ $36 億（自行計算，匯率約 6.77）；早期投入約 ¥2.48 億"}, {"id": "L3", "title": "③ 國資與地方產業循環", "sub": "國家隊戰配 → 宇樹 → 地方基地", "nodes": [["宇樹科技", "accent"], ["國家隊戰配\n社保・南網・昆侖・天翼", "other"], ["地方子公司\n天津・深圳・重慶", "mna"], ["北京機器人\n產業基金 3.83%", "other"]], "edges": [[1, 0, "戰配股權"], [0, 2, "設廠／子公司"], [3, 0, "上市前股權"]], "text": "國資在 IPO 戰配與上市前輪次同時出現，宇樹則在多地設立子公司與生產基地，形成「國資入股＋地方招商落地」的結構。", "src": ["em_alloc", "teda", "scmp", "jiemian"], "dep": "low", "backNote": "國資入股金額見各節點；地方基地未揭露營收", "backSrc": ["em_alloc", "teda"]}, {"id": "L4", "title": "④ 募資擴產與供應鏈循環", "sub": "IPO 資金 → 產能 → 零組件 → 間接持股", "nodes": [["宇樹科技", "accent"], ["IPO 募資\n¥60.99億", "cloud"], ["擴產\n人形7.5萬・四足11.5萬", "cloud"], ["供應鏈\n長盛・金發・臥龍", "supply"]], "edges": [[1, 0, "募資到位"], [0, 2, "投入產能"], [2, 3, "零組件採購"], [3, 0, "經金石間接持股"]], "text": "募資投入擴產將帶動上游採購；部分供應鏈企業同時經中信金石相關基金間接持有宇樹股份，形成客戶與股東雙重關係。", "src": ["cna", "cnyes2", "em_cs", "sina2"], "back": 0.901, "dep": "mid", "backSrc": ["cna", "technews"], "backNote": "IPO 募資 ¥60.99 億投入擴產"}], "loopNote": {"text": "宇樹的資金循環以股權增值與產業綁定為主，不像晶片業者有大規模客戶回購。看多者認為國資與 DeepSeek 入股強化產業地位；看空者關注上市後估值波動、第三季獲利下滑、智元競爭及美國監管風險。", "src": ["fortune", "sina3", "udn2"]}, "events": [{"d": "2024-01", "t": "美團經漢海信息入股", "x": "投入約 ¥2.48億。", "cat": "semi", "src": ["cnyes3", "sina1"]}, {"d": "2025", "t": "深圳布局人形機器人基地", "x": "深圳以宇樹在地子公司強化機器人基地角色。", "cat": "mna", "src": ["scmp"]}, {"d": "2025-09-17", "t": "供應鏈題材：長盛軸承", "x": "市場報導其為宇樹零組件供應商。", "cat": "supply", "src": ["em_cs"]}, {"d": "2026-08-06", "t": "公布戰略配售名單", "x": "社保基金、昆侖、南網、天翼、騰訊啟善、DeepSeek 與中信跟投。", "cat": "other", "src": ["em_alloc", "cls1"]}, {"d": "2026-08-07", "t": "IPO 定價 ¥150.8", "x": "發行 40,446,434 股，募資約 ¥60.99億。", "cat": "cloud", "src": ["cna", "inside"]}, {"d": "2026-08-10", "t": "啟動申購", "x": "A 股首檔人形機器人股。", "cat": "cloud", "src": ["technews"]}, {"d": "2026-08", "t": "DeepSeek 戰配並簽 MOU", "x": "¥1.408億、鎖定 36 個月，合作開發 AI 大腦。", "cat": "lab", "src": ["reuters_ds", "aib"]}, {"d": "2026-08-19", "t": "科創板掛牌", "x": "開盤大漲 629% 至 ¥1,100，市值一度約 ¥4,449億。", "cat": "gov", "src": ["alj", "fortune", "asset"]}, {"d": "2026-08-20", "t": "Caixin：上市五大重點", "x": "產能規劃與股東結構。", "cat": "gov", "src": ["caixin"]}, {"d": "2026-09-03", "t": "競爭：智元出貨超越", "x": "上半年智元約 8,400 台、宇樹約 5,900 台。", "cat": "gov", "src": ["sina3"]}, {"d": "2026-10-28", "t": "第三季財報", "x": "營收 ¥6.65億、淨利 ¥1.13億（年減 13.37%）；前三季營收 ¥18.17億、淨利 ¥3.87億。", "cat": "gov", "src": ["cls2", "em_q3"]}], "verify": [{"tag": "已驗算", "html": "IPO 募資：40,446,434 股 × ¥150.8 = ¥60.99億，與公告一致；發行市值 ¥609.93億 ÷ ¥150.8 ≈ 4.045 億股總股本，美團 35,123,600 股 ÷ 4.045 億 ≈ 8.68%，與 8.684% 吻合。"}, {"tag": "已驗算", "html": "DeepSeek：933,399 股 × ¥150.8 ≈ ¥1.408億；Reuters 換算為 US$2,080萬，本 Dashboard 據此推得約 ¥6.77/US$ 作為統一匯率。"}, {"tag": "已驗算", "html": "王興興 23.82% ＋ 上海宇翼 10.94% ＝ 34.76% 持股；表決權 68.78% 來自特別表決權架構。"}, {"tag": "仍有分歧", "html": "美團持股：IPO 前約 9.65%、IPO 後 8.684%，差異來自新股稀釋，兩者皆列出。紅杉 7.11% 等比例，報導未一致說明為上市前或後。"}, {"tag": "仍有分歧", "html": "DeepSeek 金額：Reuters 報 US$2,080萬（¥1.408億），AI Business 報導數字不同；以股數×發行價驗算支持 Reuters。"}, {"tag": "未定案", "html": "估值區間跨度大：發行市值 ¥609.93億、首日開盤約 ¥4,449億、10/28 約 ¥2,815億；持股市值一律以發行價計，未以即時股價重估。"}, {"tag": "未定案", "html": "長盛軸承、金發、臥龍的供應或持股關係多出自市場報導，未見宇樹公告採購金額。"}], "method": "<b>方法與注意事項：<\/b>（1）人民幣金額以約 ¥6.77/US$ 換算（依 Reuters 對 DeepSeek 戰配的換算推得）。（2）持股市值以 IPO 發行價 ¥150.8 × 揭露股數計算，未揭露股數者僅列比例、amt 留空。（3）戰配鎖定期內股份不可出售。（4）子公司與供應鏈多數未揭露金額。（5）本 Dashboard 為資訊整理，非投資建議。", "ic": {"thesis": "宇樹是被投資方而非投資方：美團、紅杉、騰訊與國家隊股東在上市後帳面大增，公司本身則把 IPO 資金投入擴產；估值仍遠高於基本面，且競爭對手出貨已超越。", "src": ["jiemian", "em_q3", "sina3"], "opps": [{"t": "美團早期約 ¥2.48 億投入，以 10/28 市值計已達約 ¥244 億（自行計算）", "src": ["jiemian", "em_q3"]}, {"t": "2025 年營收 ¥16.76 億、首度獲利", "src": ["technews"]}], "risks": [{"t": "Q3 淨利 ¥1.13 億、年減 13.37%，但市值約 ¥2,815 億", "src": ["cls2", "em_q3"]}, {"t": "智元上半年出貨約 8,400 台，超越宇樹約 5,900 台", "src": ["sina3"]}, {"t": "美國 FCC／國防部清單，美國營收占 13.3%", "src": ["udn2", "uanalyze"]}], "triggers": [{"t": "股東鎖定期陸續到期", "src": ["jiemian"]}, {"t": "擴產（人形 7.5 萬台、四足 11.5 萬台）進度", "src": ["cnyes2"]}]}, "diff": {"prevAsOf": "2026-11-26", "added": [], "removed": [], "changed": []}};
+const M = DATA.meta;
+const S = DATA.sources;
+/* 來源可信度：A 公司公告／監管申報 B 主流財經媒體 C 其他媒體／彙整 D 傳聞／推估（S[key][2] 可手動指定） */
+const GRADE_TXT={A:'A 公司公告／監管申報',B:'B 主流財經媒體',C:'C 其他媒體／彙整',D:'D 傳聞／推估'};
+const autoGrade=(t,u)=>{t=String(t);u=String(u).toLowerCase();
+ if(/洽談|傳出|據傳|傳聞|消息人士|知情人士|reportedly|in talks|rumou?r|weighs|considers|擬參與/i.test(t)) return 'D';
+ if(/sec\.gov|hkexnews|\.gov\b|\.gov\.|newsroom|investor\.|\/\/ir\.|about\.fb\.com|nvidianews|businesswire|prnewswire|globenewswire|mops\.twse|cninfo|szse\.cn|sse\.com|dfcfw\.com\/pdf|intc\.com|media\.stellantis|pr\.tsmc|media-room/.test(u)) return 'A';
+ if(/caifuhao|hao\.cnyes|blog|medium\.com|substack|reddit|stocktwits|etoro|sacra\.com|dev\.to|towardsai|wikipedia|fourweekmba|fool\.com|247wallst|tradingview|uanalyze|stockfeel|statementdog|line\.me/.test(u)) return 'C';
+ if(/reuters|bloomberg|wsj\.com|ft\.com|cnbc|caixinglobal|nikkei|cna\.com\.tw|udn\.com|ctee\.com|technews|economist|theinformation|techcrunch|scmp\.com|aljazeera|fortune\.com|digitimes|trendforce|jiemian|cls\.cn|wallstreetcn|yicai|stheadline|apnews|anuenews|theregister|tomshardware|datacenterdynamics|36kr\.com|chinatimes|ltn\.com|barrons|axios|nytimes|washingtonpost|theverge|wired|businessinsider|insidermonkey|seekingalpha|thenextweb|siliconangle|finance\.yahoo|aol\.com|marketwatch|techrepublic|electrive|engadget|nownews|ifeng|sina\.c|eastmoney|mining\.com|world-nuclear-news|ans\.org|verdict\.co|energytrend|businesstoday|business-standard|livemint|heise\.de|calcalistech|timesofisrael|ynetnews/.test(u)||/Reuters|Bloomberg|路透|彭博|AP（|WSJ/.test(t)) return 'B';
+ if(/新聞稿|Newsroom|官方公告|重大訊息|10-Q|8-K|10-K|20-F|press release|Reports (First|Second|Third|Fourth)/i.test(t)) return 'A';
+ return 'C';};
+const gradeOf=x=>{const s=S[x];return (s[2]&&/^[ABCD]$/.test(s[2]))?s[2]:autoGrade(s[0],s[1])};
+const src = (...k)=>k.map(x=>{if(!S[x])throw new Error('未知來源 key：'+x);return {t:S[x][0],u:S[x][1],g:gradeOf(x)}});
+const gbadge=g=>`<span class="gb g${g}" title="${GRADE_TXT[g]}">${g}</span>`;
+/* 金額口徑 */
+const AMT_TYPES={equity:'股權成本',capex:'自建投資',commitment:'承諾上限',contract:'合約價值',project:'專案總額',inflow:'流入資金',disposal:'處分回收',return:'股東回饋',liability:'會計負債',none:'未揭露'};
+const IN_TYPES=new Set(['inflow','disposal']);
+const TODAY=new Date(); const STALE_DAYS=(M.staleDays||90);
+const daysSince=d=>d?Math.floor((TODAY-new Date(d+'T00:00:00'))/864e5):null;
+/* 風險旗標、我方部位、條款 */
+const RISK_TYPES={reg:'監管',geo:'地緣／出口管制',conc:'客戶集中',acct:'會計',exec:'執行／未定案',fin:'財務／擔保'};
+const POS_TYPES={held:'已持有',same:'同輪參與',coinv:'可共同投資',watch:'關注中'};
+const POS_KEY='ecomap_pos_'+(M.fileSlug||M.entity);
+let POS={}; try{POS=JSON.parse(localStorage.getItem(POS_KEY)||'{}')}catch(e){}
+const savePos=()=>{try{localStorage.setItem(POS_KEY,JSON.stringify(POS))}catch(e){}};
+const posOf=n=>(POS[n.id]&&POS[n.id].p!==undefined)?POS[n.id].p:(n.pos||'');
+const TERM_LBL={sec:'證券類型',price:'價格／轉換價／行使價',maturity:'到期日',lockup:'鎖定期',liqPref:'清算優先權',vote:'表決權',board:'董事席位',antiDilution:'反稀釋',vesting:'歸屬條件'};
+const termsHTML=n=>{const t=n.terms;const ks=Object.keys(TERM_LBL).filter(k=>t[k]!=null&&t[k]!=='');if(!ks.length)return '';
+ const f=v=>v===true?'有':v===false?'無':esc(v);
+ return `<dt>條款${t.auto?'<span class="hint">（依說明文字自動擷取，待確認）</span>':''}</dt><dd><table class="terms">${ks.map(k=>`<tr><td>${TERM_LBL[k]}</td><td>${f(t[k])}</td></tr>`).join('')}</table></dd>`};
+const srcLinks=ks=>' '+(ks||[]).filter(k=>S[k]).map((k,i)=>`<a href="${S[k][1]}" target="_blank" title="${esc(S[k][0])}">[${i+1}]</a>`).join(' ');
+const CATS = DATA.categories;
+const CAT = Object.fromEntries(CATS.map(c=>[c.id,c]));
+const colorOf = c => c==='accent'?M.accent:(CAT[c]?CAT[c].color:c);
+const N = DATA.nodes.map(n=>{const o={tk:'',status:'',flow:'',amtText:'',short:'',...n,src:src(...n.src)};
+ o.amtType=o.amtType||(o.amt==null?'none':'equity'); if(o.per==='year')o.excludeFromSum=true; o.direction=o.direction||(IN_TYPES.has(o.amtType)?'in':'out');
+ o.grade=o.src.map(s=>s.g).sort()[0]||'D';
+ o.rumor=o.unconfirmed===true||o.grade==='D'; o.weak=!o.rumor&&o.grade==='C';
+ o.verified=o.verified===undefined?M.asOf:o.verified; o.age=daysSince(o.verified); o.stale=o.verified===null||o.age>STALE_DAYS;
+ o.risks=(o.risks||[]).filter(r=>RISK_TYPES[r.k]); o.terms=o.terms||{};
+ o.val=(typeof o.val==='number')?o.val:null; o.costB=(o.amt&&!o.costUnknown)?(o.paid!=null&&o.paid>0&&o.amtType==='commitment'?o.paid:o.amt):null; o.moic=(o.val!=null&&o.costB)?(typeof o.realized==='number'?(o.val+o.realized)/o.costB:o.val/(o.costB*(o.soldPct>0&&o.soldPct<100?1-o.soldPct/100:1))):null;
+ o.noGov=(o.terms.board===false||o.terms.vote===false)&&o.terms.board!==true&&o.terms.vote!==true;
+ return o;});
+const NODE = Object.fromEntries(N.map(n=>[n.id,n]));
+const XL = DATA.flows||[];
+const KPI = (DATA.kpis||[]).map(k=>[k.v,k.l,k.src||[]]);
+const EV = (DATA.events||[]).map(e=>[e.d,e.t,e.x||'',e.cat,e.src||[]]);
+const LOOPS = (DATA.loops||[]).map(l=>({...l,nodes:l.nodes.map(([lab,c])=>[lab,colorOf(c)]),src:src(...(l.src||[]))}));
+document.title = `${M.entity} 生態資本投資循環架構｜投資族譜 Dashboard`;
+document.documentElement.style.setProperty('--nv', M.accent||'#76b900');
+document.getElementById('hEnt').textContent = M.entity;
+document.getElementById('hSub').textContent = `資料整理時間：${M.asOf}${M.tz?'（'+M.tz+'）':''}｜${M.subtitle||'涵蓋股權投資、認股權證、擔保、收購、技術授權與融資合作'}｜每個節點均附資訊來源`;
+(function(){
+ /* 近半年重大動態：notice.items（手動）＋ events 中落在 asOf 前 N 個月內者，依日期新到舊 */
+ const N0=DATA.notice||{}, MON=N0.months||6, SHOW=N0.show||6;
+ const asOf=new Date((M.asOf||new Date().toISOString().slice(0,10))+'T00:00:00');
+ const start=new Date(asOf); start.setMonth(start.getMonth()-MON);
+ const pd=d=>{const p=String(d||'').split('-');return p.length<2?null:new Date(+p[0],+p[1]-1,p[2]?+p[2]:1)};
+ const fmt=x=>x.toISOString().slice(0,10);
+ const seen=new Set(), list=[];
+ const add=(e,manual)=>{const dt=pd(e.d); if(!dt||dt<start||dt>new Date(asOf.getTime()+864e5)) return;
+   const k=e.d+'|'+e.t; if(seen.has(k)) return; seen.add(k); list.push({...e,dt,manual});};
+ (N0.items||[]).forEach(e=>add(e,true)); (DATA.events||[]).forEach(e=>add(e,false));
+ list.sort((a,b)=>b.dt-a.dt||(b.d.length-a.d.length));
+ const box=document.getElementById('gov');
+ if(!list.length&&!N0.html){box.style.display='none';return;}
+ document.getElementById('govT').textContent='📰 '+(N0.title||'近半年重大動態');
+ document.getElementById('govR').textContent=`${fmt(start)} ～ ${M.asOf}｜共 ${list.length} 則`;
+ const lead=document.getElementById('govH'); if(N0.html) lead.innerHTML='<b>重點摘要</b>：'+N0.html; else lead.style.display='none';
+ const tagOf=e=>e.tag||(e.cat==='gov'?'公告／財報':(CAT[e.cat]?CAT[e.cat].name:'事件'));
+ const colOf=e=>e.cat==='gov'?'#f87171':(CAT[e.cat]?CAT[e.cat].color:'#94a3b8');
+ const ago=dt=>{const n=Math.round((asOf-dt)/864e5);return n<=0?'本日':n<31?n+' 天前':Math.round(n/30)+' 個月前'};
+ const srcA=ks=>{const c={};return (ks||[]).filter(k=>DATA.sources[k]).map(k=>{const s=DATA.sources[k],nm=String(s[0]).split('｜')[0];c[nm]=(c[nm]||0)+1;return `<a href="${s[1]}" target="_blank" title="${String(s[0]).replace(/"/g,'&quot;')}">↗${nm}${c[nm]>1?' '+c[nm]:''}</a>`}).join('')};
+ const hasX=x=>x&&!/^[—\-–\s]*$/.test(x);
+ let mode='all', expanded=false;
+ const F=document.getElementById('govF');
+ const hasGov=list.some(e=>e.cat==='gov'), hasInv=list.some(e=>e.cat!=='gov');
+ if(hasGov&&hasInv){F.innerHTML='<button data-m="all" class="on">全部</button><button data-m="gov">公告／財報</button><button data-m="inv">投資與合作</button>';
+   F.onclick=ev=>{const b=ev.target.closest('button'); if(!b) return; mode=b.dataset.m; F.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b)); render();};}
+ const L=document.getElementById('govL'), MB=document.getElementById('govM');
+ function render(){
+  const f=list.filter(e=>mode==='all'||(mode==='gov'?e.cat==='gov':e.cat!=='gov'));
+  const v=expanded?f:f.slice(0,SHOW);
+  L.innerHTML=v.map(e=>`<li><div class="gd">${e.d}<small>${ago(e.dt)}</small></div><div><span class="gtag" style="--c:${colOf(e)}">${tagOf(e)}</span><span class="gt">${e.t}</span>${hasX(e.x)?` <span class="gx">— ${e.x}</span>`:''} <span class="gs">${srcA(e.src)}</span></div></li>`).join('')||'<li><div></div><div class="gx">此分類近半年無紀錄</div></li>';
+  MB.style.display=f.length>SHOW?'':'none'; MB.textContent=expanded?'收合 ▲':`展開全部 ${f.length} 則 ▼`;
+ }
+ MB.onclick=()=>{expanded=!expanded;render();};
+ render();
+})();
+document.getElementById('verifyT').textContent = `資料校驗紀錄（${M.asOf}）`;
+document.getElementById('verifyList').innerHTML = (DATA.verify||[]).map(v=>`<li><b>${v.tag}</b>：${v.html}</li>`).join('') || '<li>無</li>';
+document.getElementById('method').innerHTML = DATA.method||'';
+/* ============================ 共用 ============================ */
+const $ = s=>document.querySelector(s);
+const tip = $('#tip');
+const esc = s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const srcHTML = arr => '<ol class="srcs">'+arr.map(s=>`<li>${s.g?gbadge(s.g)+' ':''}<a href="${s.u}" target="_blank" rel="noopener">${esc(s.t)}</a></li>`).join('')+'</ol>';
+function showTip(e,html){tip.innerHTML=html;tip.style.display='block';tip.style.left=(e.clientX+14)+'px';tip.style.top=(e.clientY+14)+'px'}
+function hideTip(){tip.style.display='none'}
+// legend & kpis
+$('#legend').innerHTML = CATS.map(c=>`<span><i style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${c.color};margin-right:4px"></i>${c.name}</span>`).join('');
+$('#kpis').innerHTML = KPI.map(k=>`<div class="kpi"><div class="v mono">${k[0]}</div><div class="l">${k[1]}</div><div class="s">${k[2].map((x,i)=>`<a href="${S[x][1]}" target="_blank" title="${esc(S[x][0])}">[${i+1}]</a>`).join(' ')}</div></div>`).join('');
+// tabs
+document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{
+document.querySelectorAll('nav.tabs button').forEach(x=>x.classList.toggle('on',x===b));
+document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id===b.dataset.v));
+if(b.dataset.v==='v-tree') drawLinks();
+});
+/* ============================ 族譜圖（固定版面） ============================ */
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a={},p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e};
+const activeCats = new Set(CATS.filter(c=>!c.hidden).map(c=>c.id));
+let selected=null;
+const TYPES=[...new Set(N.map(n=>n.type))];
+$('#typeSel').innerHTML += TYPES.map(t=>`<option>${t}</option>`).join('');
+$('#catchips').innerHTML = CATS.map(c=>`<span class="chip ${activeCats.has(c.id)?'':'off'}" data-c="${c.id}"><i style="background:${c.color}"></i>${c.name}</span>`).join(' ');
+document.querySelectorAll('#catchips .chip').forEach(ch=>ch.onclick=()=>{const c=ch.dataset.c;activeCats.has(c)?activeCats.delete(c):activeCats.add(c);ch.classList.toggle('off');drawTree()});
+$('#typeSel').onchange=drawTree; $('#q').oninput=applyHighlight; $('#gradeSel').onchange=drawTree; $('#staleOnly').onchange=drawTree; $('#riskSel').onchange=drawTree; $('#posSel').onchange=drawTree; $('#noGov').onchange=drawTree;
+$('#riskSel').innerHTML+=Object.entries(RISK_TYPES).filter(([k])=>N.some(n=>n.risks.some(r=>r.k===k))).map(([k,v])=>`<option value="${k}">⚑ ${v}（${N.filter(n=>n.risks.some(r=>r.k===k)).length}）</option>`).join('');
+$('#posSel').innerHTML+='<option value="any">任何我方部位</option>'+Object.entries(POS_TYPES).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
+let amtFilter='';
+function drawAmtBar(){const tot={};N.forEach(n=>{if(n.amt==null||n.excludeFromSum||CAT[n.cat].counterparty)return;tot[n.amtType]=(tot[n.amtType]||0)+n.amt;});
+ const cnt={};N.forEach(n=>cnt[n.amtType]=(cnt[n.amtType]||0)+1);
+ const st=N.filter(n=>n.stale).length, rm=N.filter(n=>n.rumor).length;
+ const order=Object.keys(AMT_TYPES).filter(k=>cnt[k]);
+ $('#amtbar').innerHTML='<span class="hint" style="margin-right:2px">💰 金額口徑（只加總同口徑，不含對手方）</span>'+order.map(k=>`<span class="ab${IN_TYPES.has(k)?' in':''}" data-k="${k}">${IN_TYPES.has(k)?'↙':'↗'}${AMT_TYPES[k]}<b>${tot[k]?fmtB(tot[k]):'—'}</b> <small style="color:var(--muted)">${cnt[k]} 筆</small></span>`).join('')+
+ `<span class="lg">可信度（節點最高來源）${['A','B','C','D'].map(g=>gbadge(g)+' '+N.filter(n=>n.grade===g).length).join('　')}　｜　虛線＝傳聞／未定案 ${rm}　｜　<span class="${st?'freshw':''}">🕒 待更新 ${st}</span>（>${STALE_DAYS} 天或未重新查證）</span>`;
+ document.querySelectorAll('#amtbar .ab').forEach(b=>b.onclick=()=>{amtFilter=amtFilter===b.dataset.k?'':b.dataset.k;document.querySelectorAll('#amtbar .ab').forEach(x=>x.classList.toggle('on',x.dataset.k===amtFilter));drawTree();});
+}
+const barW = n => n.amt==null ? 0 : Math.max(4, Math.log10(n.amt*10+1)/Math.log10(301)*100);
+const fmtB = v => v>=1 ? '$'+(v*10).toLocaleString('zh-TW',{maximumFractionDigits:0})+'億' : '$'+(v*10).toFixed(1)+'億';
+drawAmtBar();
+function drawTree(){
+const ft=$('#typeSel').value;
+const fg=$('#gradeSel').value, so=$('#staleOnly').checked, fr=$('#riskSel').value, fp=$('#posSel').value, ng=$('#noGov').checked;
+const pass=n=>(!ft||n.type===ft)&&(!fg||n.grade<=fg)&&(!so||n.stale)&&(!amtFilter||n.amtType===amtFilter)&&(!fr||n.risks.some(r=>r.k===fr))&&(!fp||(fp==='any'?!!posOf(n):posOf(n)===fp))&&(!ng||n.noGov);
+const groups=CATS.filter(c=>activeCats.has(c.id)).map(c=>({c,items:N.filter(n=>n.cat===c.id&&pass(n)).sort((a,b)=>(b.amt??-1)-(a.amt??-1))})).filter(x=>x.items.length);
+const rows=groups.map(({c,items})=>{
+const by={}; items.forEach(n=>{if(n.excludeFromSum||n.amt==null)return; by[n.amtType]=(by[n.amtType]||0)+n.amt;});
+const disclosed=items.filter(n=>n.amt!=null).length;
+const brk=Object.entries(by).map(([k,v])=>`${AMT_TYPES[k]} ${fmtB(v)}`).join('｜')||'金額未揭露';
+const sub = `${brk}（${disclosed}/${items.length} 家揭露）${c.sumNote?'<br>'+esc(c.sumNote):''}`;
+return `<div class="crow" data-cat="${c.id}">
+<div class="ccard" style="--c:${c.color}"><div class="cn">${c.name}</div><div class="cs">${items.length} 個節點<br>${sub}</div></div>
+<div class="leafgrid">${items.map(n=>`<div class="lcard${n.rumor?' rumor':''}${n.stale?' stale':''}${(n.guarantee||n.type.includes('擔保'))?' hasflag':''}" data-id="${n.id}" style="--c:${c.color}">
+<span class="badges">${(n.guarantee||n.type.includes('擔保'))?'<span class="flag">擔保</span>':''}${gbadge(n.grade)}</span>
+<div class="ln">${esc(n.name)}<small>${esc(n.tk&&n.tk!=='未上市'?n.tk:'')}</small></div>
+<div class="la">${esc(n.short||'—')}${n.per==='year'?'<span class="moic">年度金額，不計入加總</span>':''}${n.moic!=null?`<span class="moic">現值 ${fmtB(n.val)}・${n.moic.toFixed(2)}x</span>`:(n.val!=null&&n.costUnknown?`<span class="moic">現值 ${fmtB(n.val)}</span>`:'')}</div>
+<div class="lm"><span class="at${n.direction==='in'?' in':''}">${n.direction==='in'?'↙':'↗'}${AMT_TYPES[n.amtType]}</span>${esc(n.type)}・${esc(n.date.slice(0,7))}${n.stale?`<span class="stl">🕒${n.verified===null?'未重新查證':'待更新'}</span>`:''}</div>
+${n.risks.length||posOf(n)?`<div class="rks">${posOf(n)?`<span class="pos">${POS_TYPES[posOf(n)]}</span>`:''}${n.risks.map(r=>`<span class="rk" title="${esc(r.x||'')}">⚑${RISK_TYPES[r.k]}</span>`).join('')}</div>`:''}
+<div class="bar"><i style="width:${barW(n)}%"></i></div></div>`).join('')}</div></div>`}).join('');
+$('#ftree').innerHTML=`<svg class="links"></svg><div class="froot" id="froot"><b>${esc(M.entity)}</b><span>${esc(M.ticker||'')}・${esc(M.centerLabel||'資本中樞')}</span></div><div class="rows">${rows||'<p class="hint">無符合條件的節點</p>'}</div>`;
+$('#froot').onclick=showCenter;
+document.querySelectorAll('.lcard').forEach(card=>card.onclick=()=>{selected=card.dataset.id;showDetail(NODE[selected]);applyHighlight()});
+applyHighlight(); drawLinks();
+}
+function drawLinks(){
+const wrap=$('#ftree'); if(!wrap||!wrap.offsetParent) return;
+const svgL=wrap.querySelector('svg.links'); svgL.innerHTML='';
+svgL.setAttribute('width',wrap.scrollWidth); svgL.setAttribute('height',wrap.scrollHeight);
+const W=wrap.getBoundingClientRect(); const R=e=>{const r=e.getBoundingClientRect();return{l:r.left-W.left,r:r.right-W.left,t:r.top-W.top,b:r.bottom-W.top,m:(r.top+r.bottom)/2-W.top}};
+const root=R($('#froot')); const cards=[...wrap.querySelectorAll('.crow')];
+if(!cards.length) return;
+const trunkX=root.r+26;
+const mids=cards.map(r=>R(r.querySelector('.ccard')).m);
+el('path',{d:`M${root.r},${root.m} H${trunkX}`,stroke:M.accent,'stroke-width':2,fill:'none'},svgL);
+el('path',{d:`M${trunkX},${Math.min(...mids,root.m)} V${Math.max(...mids,root.m)}`,stroke:M.accent,'stroke-width':2,fill:'none',opacity:.7},svgL);
+cards.forEach(row=>{
+const c=CAT[row.dataset.cat].color; const cc=R(row.querySelector('.ccard')); const lg=R(row.querySelector('.leafgrid'));
+el('path',{d:`M${trunkX},${cc.m} H${cc.l}`,stroke:c,'stroke-width':2,fill:'none'},svgL);
+el('circle',{cx:trunkX,cy:cc.m,r:3.5,fill:c},svgL);
+const bx=lg.l-16;
+el('path',{d:`M${cc.r},${cc.m} H${bx}`,stroke:c,'stroke-width':1.6,fill:'none',opacity:.8},svgL);
+el('path',{d:`M${bx+8},${lg.t+4} H${bx} V${lg.b-4} H${bx+8}`,stroke:c,'stroke-width':1.6,fill:'none',opacity:.8},svgL);
+});
+}
+let rz; window.addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(drawLinks,120)});
+function applyHighlight(){
+const q=$('#q').value.trim().toLowerCase();
+const rel=new Set(); if(selected) XL.forEach(([a,b])=>{if(a===selected)rel.add(b);if(b===selected)rel.add(a)});
+document.querySelectorAll('.lcard').forEach(card=>{
+const n=NODE[card.dataset.id];
+card.classList.toggle('dim', !!q && !(n.name+n.tk+n.type).toLowerCase().includes(q));
+card.classList.toggle('sel', selected===n.id);
+card.classList.toggle('rel', rel.has(n.id));
+});
+}
+function showDetail(n){
+const c=CAT[n.cat];
+const rel=XL.filter(x=>x[0]===n.id||x[1]===n.id).map(x=>`<li>${esc(NODE[x[0]].name)} → ${esc(NODE[x[1]].name)}：${esc(x[2])}</li>`).join('');
+$('#detailBody').innerHTML=`
+<h2>${esc(n.name)}</h2>
+<span class="tag" style="border-color:${c.color};color:${c.color}">${c.name}</span><span class="tag">${esc(n.type)}</span>${n.tk?`<span class="tag mono">${esc(n.tk)}</span>`:''}
+<dl class="kv">
+<dt>投資／交易金額</dt><dd><b style="color:var(--nv)">${esc(n.short||'—')}</b>　${esc(n.amtText)}</dd>
+<dt>金額口徑／方向</dt><dd><span class="at${n.direction==='in'?' in':''}">${n.direction==='in'?'↙ 流入':'↗ 流出'}</span>${AMT_TYPES[n.amtType]}${n.per==='year'?'｜年度金額（每年），不與累計金額加總':''}${n.paid!=null?`｜已付 ${fmtB(n.paid)}${n.amt!=null?`、未付 ${fmtB(Math.max(0,n.amt-n.paid))}`:''}`:''}${n.excludeFromSum?'｜不計入加總':''}</dd>
+<dt>可信度／查證</dt><dd>${gbadge(n.grade)} ${GRADE_TXT[n.grade]}${n.rumor?'｜<span style="color:#fbbf24">僅傳聞、推估或未定案</span>':n.weak?'｜<span style="color:var(--muted)">僅次級來源，建議補官方出處</span>':''}<br>最後查證：<span class="mono">${n.verified||'未重新查證'}</span>${n.age!=null?`（${n.age} 天前）`:''}${n.stale?' <span class="freshw">🕒 待更新</span>':''}</dd>
+<dt>日期（最近關鍵事件）</dt><dd class="mono">${esc(n.date)}</dd>
+${n.val!=null||n.valNote?`<dt>成本 vs 現值</dt><dd>${n.costUnknown?'成本未揭露（金額欄為申報市值）':'成本 '+(n.paid!=null&&n.paid>0&&n.amtType==='commitment'?fmtB(n.paid)+'（已付）':(n.amt!=null?fmtB(n.amt):'—'))} → 現值 <b>${n.val!=null?fmtB(n.val):'—'}</b>${n.moic!=null?`（${n.moic.toFixed(2)}x）`:''}${typeof n.realized==='number'?`｜已回收 ${fmtB(n.realized)}（計入倍數）`:(n.soldPct>0?`｜已減持 ${n.soldPct}%（倍數以剩餘部位的成本計算）`:'')}${n.valDate?`｜估值日 ${esc(n.valDate)}`:''}${n.since?`｜持有自 ${esc(n.since)}`:''}${n.shares&&n.pxTk?`｜<span class="mono">${Number(n.shares).toLocaleString('en-US')} 股 × ${esc(n.pxTk)}</span>（每週自動更新）`:''}${n.valNote?`<br><span class="hint">${esc(n.valNote)}</span>`:''}${n.valSrc&&n.valSrc.length?srcHTML(src(...n.valSrc)):''}</dd>`:''}
+${termsHTML(n)}
+${n.risks.length?`<dt>風險旗標</dt><dd>${n.risks.map(r=>`<div><span class="rk">⚑${RISK_TYPES[r.k]}</span>${esc(r.x||'')}${r.auto?' <span class="hint">（依說明文字自動標記，待確認）</span>':''}</div>`).join('')}</dd>`:''}
+<dt>最新狀態</dt><dd>${esc(n.status)}</dd>
+<dt>資金循環／回流機制</dt><dd>${esc(n.flow)}</dd>
+${rel?`<dt>相關循環連線（已於左側標示「循環關聯」）</dt><dd><ul style="margin:4px 0;padding-left:18px">${rel}</ul></dd>`:''}
+<dt>資訊來源（${n.src.length}）</dt><dd>${srcHTML(n.src)}</dd>
+<dt>我方部位／備註（只存在這台電腦的瀏覽器）</dt><dd><select id="posEdit"><option value="">無</option>${Object.entries(POS_TYPES).map(([k,v])=>`<option value="${k}" ${posOf(n)===k?'selected':''}>${v}</option>`).join('')}</select> <input id="posNote" placeholder="備註" style="width:58%;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:4px 7px" value="${esc((POS[n.id]||{}).note||'')}"></dd>
+</dl>`;
+const pe=$('#posEdit'),pn=$('#posNote');
+const sv=()=>{POS[n.id]={p:pe.value,note:pn.value}; if(!pe.value&&!pn.value) delete POS[n.id]; savePos(); drawTree(); selected=n.id; applyHighlight();};
+pe.onchange=sv; pn.onchange=sv;
+}
+function showCenter(){
+selected=null;applyHighlight();
+$('#detailBody').innerHTML=`<h2 style="color:var(--nv)">${esc(M.entity)}（${esc(M.ticker||'')}）${esc(M.centerLabel||'資本中樞')}</h2>
+<p class="hint">版面固定不會隨滑鼠移動。點選任一公司卡片查看金額、日期、循環機制與資訊來源；與其有資金往來的公司會標示「循環關聯」。勾選上方灰色類別可顯示非持股的循環對手方。</p>
+<dl class="kv">${(DATA.center||[]).map(c=>`<dt>${esc(c.title)}</dt><dd>${esc(c.text)}</dd>${c.src&&c.src.length?`<dd>${srcHTML(src(...c.src))}</dd>`:''}`).join('')}</dl>`;
+}
+/* ============================ 資金循環圖 ============================ */
+const fsvg=$('#flow');
+const DEP={high:['高','#f87171'],mid:['中','#fbbf24'],low:['低','#4ade80']};
+const loopQ=l=>(l.back!=null||l.share!=null||l.dep)?`<small>回流 ${l.back!=null?fmtB(l.back):'—'}${l.share!=null?`｜占營收 ${l.share}%`:''}${l.dep&&DEP[l.dep]?`｜依存度 <span style="color:${DEP[l.dep][1]}">●${DEP[l.dep][0]}</span>`:''}</small>`:'<small style="opacity:.6">回流金額未量化</small>';
+$('#looplist').innerHTML=`<div class="hint" style="margin-bottom:10px">選擇一個循環，查看資金如何流出並回到 ${esc(M.entity)}。實線＝循環主路徑，虛線＝內部捷徑（擔保、反向承購等）。</div>`+
+LOOPS.map((l,i)=>`<button data-i="${i}" class="${i?'':'on'}">${l.title}<small>${l.sub}</small>${loopQ(l)}</button>`).join('');
+document.querySelectorAll('#looplist button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#looplist button').forEach(x=>x.classList.toggle('on',x===b));drawLoop(+b.dataset.i)});
+function multiText(parent,x,y,str,attrs,lh=15*FS()){
+const lines=str.split('\n'); const t=el('text',{x,y:y-(lines.length-1)*lh/2,'text-anchor':'middle','dominant-baseline':'middle',...attrs},parent);
+lines.forEach((ln,i)=>{const s=el('tspan',{x,dy:i?lh:0},t);s.textContent=ln});return t;
+}
+let curLoop=0;
+const FS=()=>parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--fs'))||1;
+function drawLoop(i){
+curLoop=i; const L=LOOPS[i]; fsvg.innerHTML='';
+const defs=el('defs',{},fsvg);
+const mk=(id,col)=>{const m=el('marker',{id,viewBox:'0 0 10 10',refX:8,refY:5,markerWidth:7,markerHeight:7,orient:'auto-start-reverse'},defs);el('path',{d:'M0,0 L10,5 L0,10 z',fill:col},m)};
+mk('fa',M.accent);mk('fb','#f87171');
+const R=270, n=L.nodes.length, P=L.nodes.map((_,k)=>{const a=-Math.PI/2+k*2*Math.PI/n;return{x:R*Math.cos(a)*1.25,y:R*Math.sin(a),a}});
+el('ellipse',{cx:0,cy:0,rx:R*1.25,ry:R,fill:'none',style:'stroke:var(--line2)','stroke-dasharray':'2 8'},fsvg);
+const NR=74*Math.max(1,FS());
+L.edges.forEach(([a,b,lab,kind],k)=>{
+const p=P[a],q=P[b]; const dx=q.x-p.x,dy=q.y-p.y,d=Math.hypot(dx,dy);
+const sx=p.x+dx/d*NR, sy=p.y+dy/d*NR, ex=q.x-dx/d*(NR+6), ey=q.y-dy/d*(NR+6);
+let path,lx,ly;
+if(kind==='chord'){
+const mx=(sx+ex)/2, my=(sy+ey)/2; const nx=-dy/d, ny=dx/d; const off=-40;
+path=`M${sx},${sy} Q${mx+nx*off},${my+ny*off} ${ex},${ey}`; lx=mx+nx*off*0.6; ly=my+ny*off*0.6;
+} else {
+const mx=(sx+ex)/2, my=(sy+ey)/2; const len=Math.hypot(mx,my)||1; const bow=70;
+const cx=mx+mx/len*bow, cy=my+my/len*bow; path=`M${sx},${sy} Q${cx},${cy} ${ex},${ey}`; lx=mx+mx/len*(bow+38); ly=my+my/len*(bow+30);
+}
+const col=kind==='chord'?'#f87171':M.accent;
+const pe=el('path',{d:path,fill:'none',stroke:col,'stroke-width':kind==='chord'?1.8:2.6,'stroke-dasharray':kind==='chord'?'6 5':'','marker-end':`url(#${kind==='chord'?'fb':'fa'})`,opacity:.9},fsvg);
+const anim=el('circle',{r:4,fill:col},fsvg); const am=el('animateMotion',{dur:(3+k*0.4)+'s',repeatCount:'indefinite',path},anim);
+const bg=el('g',{},fsvg);
+const t=multiText(bg,lx,ly,lab,{style:kind==='chord'?'fill:var(--chord-t)':'fill:var(--edge-t)','font-size':12.5*FS()});
+try{const bb=t.getBBox();bg.insertBefore(el('rect',{x:bb.x-6,y:bb.y-4,width:bb.width+12,height:bb.height+8,rx:6,style:'fill:var(--node)',stroke:col,'stroke-opacity':.4}),t)}catch(e){}
+});
+L.nodes.forEach(([name,col],k)=>{
+const p=P[k]; const g=el('g',{},fsvg);
+el('circle',{cx:p.x,cy:p.y,r:NR,style:'fill:var(--node)',stroke:col,'stroke-width':3},g);
+multiText(g,p.x,p.y,name,{fill:col,'font-size':(name.includes('\n')?11:15)*FS(),'font-weight':700},13.5*FS());
+});
+$('#loopBody').innerHTML=`<h2>${L.title}</h2><p class="hint" style="color:var(--text)">${esc(L.text)}</p><div class="hint" style="margin:6px 0">${loopQ(L)}${L.backNote?`<br>${esc(L.backNote)}`:''}</div>${L.backSrc&&L.backSrc.length?srcHTML(src(...L.backSrc)):''}<dl class="kv"><dt>資訊來源（${L.src.length}）</dt><dd>${srcHTML(L.src)}</dd></dl>
+${DATA.loopNote?`<dl class="kv"><dt>判讀提醒</dt><dd class="hint">${esc(DATA.loopNote.text)}</dd>${DATA.loopNote.src&&DATA.loopNote.src.length?`<dd>${srcHTML(src(...DATA.loopNote.src))}</dd>`:''}</dl>`:''}`;
+}
+/* ============================ 明細表 ============================ */
+const COLS=[['name','公司'],['tk','代號'],['cat','類別'],['type','交易型態'],['amt','金額 (US$億)'],['amtType','口徑'],['grade','可信度'],['verified','最後查證'],['date','日期'],['status','最新狀態'],['flow','循環／回流機制'],['src','資訊來源']];
+let sortK='amt', sortD=-1;
+$('#tcat').innerHTML+=CATS.map(c=>`<option value="${c.id}">${c.name}</option>`).join('');
+function drawTable(){
+const q=$('#tq').value.trim().toLowerCase(), fc=$('#tcat').value, cp=$('#tcp').checked;
+let rows=N.filter(n=>(!fc||n.cat===fc)&&(cp||!CAT[n.cat].counterparty)&&(!q||JSON.stringify(n).toLowerCase().includes(q)));
+rows.sort((a,b)=>{let x=a[sortK],y=b[sortK];if(sortK==='cat'){x=CAT[x].name;y=CAT[y].name}if(x==null)return 1;if(y==null)return -1;return (x>y?1:x<y?-1:0)*sortD});
+$('#tbl thead').innerHTML='<tr>'+COLS.map(([k,l])=>`<th data-k="${k}">${l}${sortK===k?(sortD>0?' ▲':' ▼'):''}</th>`).join('')+'</tr>';
+$('#tbl tbody').innerHTML=rows.map(n=>`<tr>
+<td><b>${esc(n.name)}</b></td><td class="mono">${esc(n.tk)}</td>
+<td><span style="color:${CAT[n.cat].color}">●</span> ${CAT[n.cat].name}</td><td>${esc(n.type)}</td>
+<td class="amt">${n.amt==null?'—':(n.amt*10).toLocaleString('zh-TW',{maximumFractionDigits:1})}<div style="color:var(--muted);font-size:calc(11px*var(--fs));text-align:right">${esc(n.short)}</div></td>
+<td><span class="at${n.direction==='in'?' in':''}">${n.direction==='in'?'↙':'↗'}${AMT_TYPES[n.amtType]}</span></td><td>${gbadge(n.grade)}${n.rumor?' 傳聞':''}</td><td class="mono">${n.verified||'未查證'}${n.stale?' 🕒':''}</td>
+<td class="mono">${esc(n.date)}</td><td>${esc(n.status)}</td><td style="min-width:240px">${esc(n.amtText)}<br><span style="color:var(--muted)">${esc(n.flow)}</span></td>
+<td class="srcmini" style="min-width:150px">${n.src.map((s,i)=>`${gbadge(s.g)} <a href="${s.u}" target="_blank" title="${esc(s.t)}">[${i+1}] ${esc(s.t.split('｜')[0])}</a>`).join('<br>')}</td></tr>`).join('');
+window.tableRows=rows; $('#tcount').textContent=`共 ${rows.length} 筆`;
+document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k==='src'||k==='flow')return;sortD=sortK===k?-sortD:-1;sortK=k;drawTable()});
+}
+['#tq','#tcat','#tcp'].forEach(s=>$(s).addEventListener('input',drawTable));
+/* ============================ 時間軸 ============================ */
+function drawTL(){
+const col=c=>c==='gov'?'#f87171':(CAT[c]?CAT[c].color:'#94a3b8');
+let html='',yr='';
+EV.slice().sort((a,b)=>a[0]<b[0]?1:a[0]>b[0]?-1:0).forEach(([d,t,x,c,s])=>{
+const y=d.slice(0,4); if(y!==yr){html+=`<div class="yr">${y}</div>`;yr=y}
+html+=`<div class="ev"><div class="d">${d}</div><div class="dot" style="background:${col(c)}"></div><div><div class="t">${esc(t)}</div><div class="x">${esc(x)}　${s.map((k,i)=>`<a href="${S[k][1]}" target="_blank" title="${esc(S[k][0])}">[來源${s.length>1?i+1:''}]</a>`).join(' ')}</div></div></div>`;
+});
+$('#tl').innerHTML='<p class="hint">紅點＝公司治理／財報／監管事件；其餘顏色對應投資類別。</p>'+html;
+}
+function drawIC(){
+ const ic=DATA.ic||{}, box=$('#ic'), asOf=M.asOf;
+ const li=a=>a.map(x=>`<li>${typeof x==='string'?esc(x):esc(x.t)+(x.d?` <span class="mono hint">${esc(x.d)}</span>`:'')+srcLinks(x.src)}</li>`).join('');
+ const big=N.filter(n=>!CAT[n.cat].counterparty&&n.amt!=null&&!n.excludeFromSum).sort((a,b)=>b.amt-a.amt).slice(0,3)
+   .map(n=>({t:`${n.name}：${n.short}（${AMT_TYPES[n.amtType]}）`,src:[]}));
+ const rk={}; N.forEach(n=>n.risks.forEach(r=>{(rk[r.k]=rk[r.k]||[]).push(n.name)}));
+ const rkTop=Object.entries(rk).sort((a,b)=>b[1].length-a[1].length).slice(0,3).map(([k,v])=>`${RISK_TYPES[k]}：${v.length} 個節點（${v.slice(0,3).join('、')}${v.length>3?'…':''}）`);
+ const fut=[...(DATA.events||[]),...((DATA.notice||{}).items||[])].filter(e=>e.d>asOf).sort((a,b)=>a.d<b.d?-1:1).map(e=>({t:e.t,d:e.d,src:e.src}));
+ const pendN=N.filter(n=>n.unconfirmed).slice(0,4).map(n=>({t:`${n.name}：${n.status||'未定案'}`,src:[]}));
+ const auto='<span class="auto">自動整理，未含判斷</span>';
+ const cols=[
+  ['主要機會',ic.opps?li(ic.opps):'',ic.opps?'':`<b>金額最大的節點${auto}</b><ul>${li(big)}</ul>`],
+  ['主要風險',ic.risks?li(ic.risks):'',ic.risks?'':`<b>風險旗標最多${auto}</b><ul>${rkTop.length?li(rkTop):'<li>尚無風險旗標</li>'}</ul>`],
+  ['觀察觸發事件',ic.triggers?li(ic.triggers):'',ic.triggers?'':`<b>觀察觸發事件${auto}</b><ul>${(fut.length||pendN.length)?li([...fut,...pendN].slice(0,5)):'<li>無已排定事件</li>'}</ul>`]];
+ const pend=(DATA.pending||[]);
+ if(!ic.thesis&&!N.length){box.style.display='none';return;}
+ box.innerHTML=`<div class="ich"><b>🧭 投資委員會摘要</b><span class="hint">${ic.thesis?'「判斷」由分析師撰寫，與事實資料分開':'尚未撰寫判斷，以下為自動整理'}</span><span class="xslot" data-x="ic"></span></div>
+ ${ic.thesis?`<p class="thesis"><b>資本策略（判斷）</b>：${esc(ic.thesis)}${srcLinks(ic.src)}</p>`:''}
+ <div class="icg">${cols.map(([t,man,au])=>man?`<div><b>${t}（判斷）</b><ul>${man}</ul></div>`:`<div>${au}</div>`).join('')}
+ ${pend.length?`<div><b>🔔 待人工確認（${pend.length}）</b><ul>${pend.slice(0,6).map(p=>`<li class="pend">${p.d?`<span class="mono">${esc(p.d)}</span> `:''}${esc(p.t)}${p.url?` <a href="${p.url}" target="_blank">↗</a>`:''}</li>`).join('')}</ul></div>`:''}</div>`;
+}
+function drawDiff(){const d=DATA.diff, b=$('#diffbar'); if(!d){b.style.display='none';return;}
+ const A=d.added||[],D=d.removed||[],C=d.changed||[], n=A.length+D.length+C.length;
+ b.innerHTML=`<details><summary>🔄 與上一版（${esc(d.prevAsOf||'?')}）相比：<span class="add">新增 ${A.length}</span>・<span class="del">移除 ${D.length}</span>・<span class="chg">變動 ${C.length}</span>${n?'（點開看明細）':'，沒有變動'}</summary><ul>${A.map(x=>`<li class="add">＋ ${esc(x.name)}${x.short?'　'+esc(x.short):''}</li>`).join('')}${D.map(x=>`<li class="del">－ ${esc(x.name)}${x.short?'　'+esc(x.short):''}</li>`).join('')}${C.map(x=>`<li class="chg">△ ${esc(x.name)}｜${esc(x.field)}：${esc(x.old)} → ${esc(x.new)}</li>`).join('')}</ul></details>`;}
+function initStress(){
+ const used=Object.keys(RISK_TYPES).filter(k=>N.some(n=>n.risks.some(r=>r.k===k)));
+ $('#stCtl').innerHTML=`<b>情境假設</b>
+ <label>被投資部位估值折減 <span class="rv" id="v1">0%</span></label><input type="range" id="s1" min="0" max="90" step="5" value="0">
+ <label>AI／資本支出縮減（承諾、合約與循環回流） <span class="rv" id="v2">0%</span></label><input type="range" id="s2" min="0" max="90" step="5" value="0">
+ <label>外部流入資金取消 <span class="rv" id="v3">0%</span></label><input type="range" id="s3" min="0" max="100" step="10" value="0">
+ <label>下列風險成真（相關節點部位歸零、承諾取消）</label>${used.map(k=>`<label class="tg" style="display:flex;margin:4px 0"><input type="checkbox" class="sr" value="${k}"> ⚑${RISK_TYPES[k]}（${N.filter(n=>n.risks.some(r=>r.k===k)).length}）</label>`).join('')||'<span class="hint">本頁沒有風險旗標</span>'}
+ <p class="hint">部位價值優先用「現值」，沒有現值時用成本；承諾與合約以未付金額計算。不含循環對手方與不計入加總的節點。</p>`;
+ document.querySelectorAll('#stCtl input').forEach(i=>i.oninput=runStress); runStress();}
+function runStress(){
+ const h=+$('#s1').value/100, c=+$('#s2').value/100, f=+$('#s3').value/100;
+ ['1','2','3'].forEach(i=>$('#v'+i).textContent=$('#s'+i).value+'%');
+ const hit=new Set([...document.querySelectorAll('.sr:checked')].map(x=>x.value));
+ const B={hold:0,com:0,inf:0}, Sx={hold:0,com:0,inf:0}, imp=[];
+ N.filter(n=>!CAT[n.cat].counterparty&&!n.excludeFromSum&&n.amt!=null).forEach(n=>{
+  const killed=n.risks.some(r=>hit.has(r.k)); let k=null,b=0,s=0;
+  if(['equity','project'].includes(n.amtType)&&n.direction!=='in'){k='hold';b=n.val??n.amt;s=killed?0:b*(1-h);}
+  else if(['commitment','contract','capex'].includes(n.amtType)){k='com';b=n.paid!=null?Math.max(0,n.amt-n.paid):n.amt;s=killed?0:b*(1-c);}
+  else if(n.amtType==='inflow'){k='inf';b=n.amt;s=killed?0:b*(1-f);}
+  if(!k)return; B[k]+=b; Sx[k]+=s; if(b-s>1e-9) imp.push([n,k,b,s,killed]);});
+ const lb=LOOPS.filter(l=>l.back!=null), L0=lb.reduce((a,l)=>a+l.back,0), L1=L0*(1-c);
+ const LBL={hold:'被投資部位',com:'未付承諾／合約',inf:'外部流入資金'};
+ const row=(t,a,b,note)=>`<tr><td>${t}</td><td class="amt">${fmtB(a)}</td><td class="amt">${fmtB(b)}</td><td class="amt" style="color:${b<a?'#f87171':'inherit'}">${a?((b-a)/a*100).toFixed(0)+'%':'—'}</td><td class="hint">${note}</td></tr>`;
+ imp.sort((a,b)=>(b[2]-b[3])-(a[2]-a[3]));
+ $('#stOut').innerHTML=`<table><thead><tr><th>項目</th><th>基準</th><th>情境</th><th>變動</th><th>說明</th></tr></thead><tbody>
+ ${row('被投資部位價值',B.hold,Sx.hold,'股權成本或現值、專案總額')}
+ ${row('未付承諾與合約',B.com,Sx.com,'對手方縮減或取消的金額')}
+ ${row('外部流入資金',B.inf,Sx.inf,'入股、可轉債、發債等')}
+ ${lb.length?row('循環回流金額',L0,L1,`${lb.length} 條已量化的循環`):'<tr><td>循環回流金額</td><td colspan="4" class="hint">循環尚未量化回流金額</td></tr>'}
+ </tbody></table>
+ <h3 style="margin:16px 0 6px;font-size:calc(14px*var(--fs))">受影響最大的節點</h3>
+ <table><thead><tr><th>節點</th><th>口徑</th><th>基準</th><th>情境</th><th>減少</th></tr></thead><tbody>${imp.slice(0,12).map(([n,k,b,s,kd])=>`<tr><td>${esc(n.name)}${kd?' <span class="rk">風險成真</span>':''}</td><td>${LBL[k]}</td><td class="amt">${fmtB(b)}</td><td class="amt">${fmtB(s)}</td><td class="amt" style="color:#f87171">−${fmtB(b-s)}</td></tr>`).join('')||'<tr><td colspan="5" class="hint">調整左側假設即可看到影響</td></tr>'}</tbody></table>`;
+ window.stressRows=imp.map(([n,k,b,s])=>[n.name,LBL[k],+b.toFixed(3),+s.toFixed(3)]);}
+drawIC(); drawDiff(); initStress();
+drawTree(); showCenter(); if(LOOPS.length) drawLoop(0); else document.querySelector('[data-v="v-flow"]').style.display='none'; drawTable(); drawTL();
+</script>
+<script>
+/* ============================ 外觀設定 ============================ */
+const ROOT=document.documentElement;
+const PREF_KEY='ecomap_prefs_v1';
+let prefs={theme:'',bg:'',fs:1};
+try{prefs={...prefs,...JSON.parse(localStorage.getItem(PREF_KEY)||'{}')}}catch(e){}
+function savePrefs(){try{localStorage.setItem(PREF_KEY,JSON.stringify(prefs))}catch(e){}}
+function redrawAll(){try{drawLinks()}catch(e){} try{if(LOOPS.length)drawLoop(curLoop)}catch(e){}}
+function applyPrefs(){
+if(prefs.theme) ROOT.dataset.theme=prefs.theme; else delete ROOT.dataset.theme;
+if(prefs.bg) ROOT.style.setProperty('--bg',prefs.bg); else ROOT.style.removeProperty('--bg');
+ROOT.style.setProperty('--fs',prefs.fs);
+$('#themeSel').value=prefs.theme;
+$('#bgPick').value=prefs.bg||getComputedStyle(ROOT).getPropertyValue('--bg').trim().slice(0,7)||'#0a0e13';
+$('#fsVal').textContent=Math.round(prefs.fs*100)+'%';
+savePrefs(); requestAnimationFrame(redrawAll);
+}
+$('#themeSel').onchange=e=>{prefs.theme=e.target.value;prefs.bg='';applyPrefs()};
+$('#bgPick').oninput=e=>{prefs.bg=e.target.value;applyPrefs()};
+$('#fsDown').onclick=()=>{prefs.fs=Math.max(0.8,Math.round((prefs.fs-0.1)*10)/10);applyPrefs()};
+$('#fsUp').onclick=()=>{prefs.fs=Math.min(1.6,Math.round((prefs.fs+0.1)*10)/10);applyPrefs()};
+$('#prefReset').onclick=()=>{prefs={theme:'',bg:'',fs:1};applyPrefs()};
+/* ============================ 輸出工具 ============================ */
+const STAMP=M.asOf; const PFX=(M.fileSlug||M.entity).replace(/[\\/:*?"<>| ]+/g,'_');
+function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',2200)}
+function download(name,data,mime){const b=data instanceof Blob?data:new Blob([data],{type:mime});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000);toast('已輸出：'+name)}
+const csvCell=v=>`"${String(v??'').replace(/"/g,'""')}"`;
+const toCSV=rows=>'\ufeff'+rows.map(r=>r.map(csvCell).join(',')).join('\r\n');
+const mdEsc=v=>String(v??'').replace(/\|/g,'\\|').replace(/\n/g,' ');
+const toMDTable=(head,rows)=>`| ${head.join(' | ')} |\n| ${head.map(()=>'---').join(' | ')} |\n`+rows.map(r=>`| ${r.map(mdEsc).join(' | ')} |`).join('\n');
+const srcMD=arr=>arr.map((x,i)=>`${i+1}. [${x.t}](${x.u})`).join('\n');
+function toXLS(sheets){ // sheets:[{name,head,rows}]
+const tb=sh=>`<h3>${esc(sh.name)}</h3><table border="1"><tr>${sh.head.map(h=>`<th style="background:#e2efda">${esc(h)}</th>`).join('')}</tr>${sh.rows.map(r=>`<tr>${r.map(v=>`<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</table><br>`;
+return `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel"><head><meta charset="UTF-8"></head><body>${sheets.map(tb).join('')}</body></html>`;
+}
+const nodeRow=n=>[n.name,n.tk,CAT[n.cat].name,n.type,n.amt??'',n.short,AMT_TYPES[n.amtType],n.direction==='in'?'流入':'流出',n.val??'',n.moic!=null?n.moic.toFixed(2):'',n.risks.map(r=>RISK_TYPES[r.k]).join('、'),Object.keys(TERM_LBL).filter(k=>n.terms[k]!=null&&n.terms[k]!=='').map(k=>TERM_LBL[k]+'：'+(n.terms[k]===true?'有':n.terms[k]===false?'無':n.terms[k])).join('；'),POS_TYPES[posOf(n)]||'',n.grade,n.verified||'未查證',n.amtText,n.date,n.status,n.flow,n.src.map(x=>`[${x.g}] `+x.t+' '+x.u).join(' ; ')];
+const NODE_HEAD=['公司','代號','類別','交易型態','金額(US$十億)','金額(顯示)','金額口徑','方向','現值(US$十億)','MOIC','風險旗標','條款','我方部位','來源可信度','最後查證','金額說明','日期','最新狀態','循環/回流機制','資訊來源'];
+const nodeMD=n=>`### ${n.name}（${n.tk||'—'}）\n- 類別：${CAT[n.cat].name}\n- 交易型態：${n.type}\n- 金額：${n.short||'—'}｜${n.amtText}\n- 日期：${n.date}\n- 最新狀態：${n.status}\n- 循環／回流：${n.flow}\n- 來源：\n${srcMD(n.src).replace(/^/gm,'  ')}\n`;
+const kpiRows=()=>KPI.map(k=>[k[0],k[1],k[2].map(x=>S[x][0]+' '+S[x][1]).join(' ; ')]);
+const evRows=()=>EV.slice().sort((a,b)=>a[0]<b[0]?1:a[0]>b[0]?-1:0).map(e=>[e[0],e[1],e[2],e[3]==='gov'?'治理／財報':CAT[e[3]].name,e[4].map(k=>S[k][0]+' '+S[k][1]).join(' ; ')]);
+const EV_HEAD=['日期','事件','說明','類別','來源'];
+const loopMD=L=>`## ${L.title}\n${L.sub}\n\n${L.text}\n\n**資金流向**\n${L.edges.map(([a,b,lab,k])=>`- ${L.nodes[a][0].replace(/\n/g,' ')} → ${L.nodes[b][0].replace(/\n/g,' ')}：${lab.replace(/\n/g,' ')}${k==='chord'?'（內部捷徑）':''}`).join('\n')}\n\n**來源**\n${srcMD(L.src)}\n`;
+const visibleNodes=()=>[...document.querySelectorAll('#ftree .lcard')].map(c=>NODE[c.dataset.id]);
+const blockText=el=>el.innerText.replace(/⬇ 輸出 ▾/g,'').trim();
+/* 列印單一區塊 */
+function printBlock(el){
+document.body.classList.add('printing');el.classList.add('print-target');
+const done=()=>{document.body.classList.remove('printing');el.classList.remove('print-target');window.removeEventListener('afterprint',done)};
+window.addEventListener('afterprint',done);window.print();setTimeout(done,1500);
+}
+/* 區塊轉 PNG（foreignObject；失敗時改輸出 SVG） */
+async function elToPNG(el,name){
+const w=Math.ceil(Math.max(el.scrollWidth,el.getBoundingClientRect().width)), h=Math.ceil(el.scrollHeight);
+const clone=el.cloneNode(true);
+clone.querySelectorAll('.xwrap,.xslot').forEach(x=>x.remove());
+Object.assign(clone.style,{margin:'0',width:w+'px',maxHeight:'none',overflow:'visible'});
+if(getComputedStyle(el).position==='sticky') clone.style.position='static';
+const css=[...document.querySelectorAll('style')].map(x=>x.textContent).join('\n').replace(/:root/g,':root,.xroot').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const vars=(ROOT.getAttribute('style')||'').replace(/"/g,"'");
+const theme=ROOT.dataset.theme||'';
+const body=new XMLSerializer().serializeToString(clone);
+const svgStr=`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><foreignObject x="0" y="0" width="${w}" height="${h}"><div xmlns="http://www.w3.org/1999/xhtml" class="xroot" ${theme?`data-theme="${theme}"`:''} style="${vars};width:${w}px;height:${h}px;background:var(--bg);color:var(--text);font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif;font-size:calc(14px*var(--fs))"><style>${css}</style>${body}</div></foreignObject></svg>`;
+const url='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svgStr);
+try{
+const img=new Image(); img.src=url; await img.decode();
+const k=2, cv=document.createElement('canvas'); cv.width=w*k; cv.height=h*k;
+const ctx=cv.getContext('2d'); ctx.scale(k,k); ctx.drawImage(img,0,0);
+const blob=await new Promise((res,rej)=>{try{cv.toBlob(b=>b?res(b):rej(new Error('blob')),'image/png')}catch(e){rej(e)}});
+download(name+'.png',blob);
+}catch(e){ download(name+'.svg',svgStr,'image/svg+xml'); toast('此瀏覽器限制 PNG 轉換，已改輸出 SVG（可用瀏覽器開啟）'); }
+}
+/* 循環圖 SVG（將 CSS 變數解析為實際色彩） */
+function flowSVGString(){
+const cs=getComputedStyle(ROOT); const vars=['--bg','--node','--line2','--edge-t','--chord-t','--text'].map(v=>`${v}:${cs.getPropertyValue(v).trim()}`).join(';');
+const c=$('#flow').cloneNode(true); const vb=c.getAttribute('viewBox').split(' ').map(Number);
+c.setAttribute('xmlns','http://www.w3.org/2000/svg'); c.setAttribute('width',vb[2]*1.4); c.setAttribute('height',vb[3]*1.4);
+c.setAttribute('style',vars+";font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif");
+c.querySelectorAll('animateMotion').forEach(a=>a.parentNode.remove());
+const bg=document.createElementNS(NS,'rect'); Object.entries({x:vb[0],y:vb[1],width:vb[2],height:vb[3],style:'fill:var(--bg)'}).forEach(([k,v])=>bg.setAttribute(k,v)); c.insertBefore(bg,c.firstChild);
+const t=document.createElementNS(NS,'text'); Object.entries({x:vb[0]+16,y:vb[1]+28,'font-size':18,'font-weight':700,style:'fill:var(--text)'}).forEach(([k,v])=>t.setAttribute(k,v)); t.textContent=M.entity+' 資金循環｜'+LOOPS[curLoop].title; c.appendChild(t);
+return {str:new XMLSerializer().serializeToString(c),w:vb[2]*1.4,h:vb[3]*1.4};
+}
+async function flowPNG(){
+const {str,w,h}=flowSVGString(); const img=new Image(); img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(str); await img.decode();
+const cv=document.createElement('canvas'); cv.width=w*2; cv.height=h*2; const ctx=cv.getContext('2d'); ctx.scale(2,2); ctx.drawImage(img,0,0);
+cv.toBlob(b=>download(`${PFX}_資金循環_${LOOPS[curLoop].id}_${STAMP}.png`,b),'image/png');
+}
+/* 各區塊輸出選單 */
+const X={
+all:[
+['全部資料 JSON',()=>download(`${PFX}_生態資本_全部資料_${STAMP}.json`,JSON.stringify({meta:M,categories:CATS,nodes:N,flows:XL,kpi:KPI.map(k=>({value:k[0],label:k[1],sources:k[2].map(x=>({t:S[x][0],u:S[x][1]}))})),loops:LOOPS,timeline:EV,sources:S},null,2),'application/json')],
+['全部資料 Excel（.xls 多表）',()=>download(`${PFX}_生態資本_全部資料_${STAMP}.xls`,toXLS([{name:'投資節點',head:NODE_HEAD,rows:N.map(nodeRow)},{name:'資金循環連線',head:['From','To','說明'],rows:XL.map(([a,b,l])=>[NODE[a].name,NODE[b].name,l])},{name:'關鍵指標',head:['數值','說明','來源'],rows:kpiRows()},{name:'時間軸',head:EV_HEAD,rows:evRows()}]),'application/vnd.ms-excel')],
+['完整報告 Markdown',()=>download(`${PFX}_生態資本_報告_${STAMP}.md`,`# ${M.entity} 生態資本投資循環架構（${STAMP}）\n\n## 關鍵指標\n${toMDTable(['數值','說明','來源'],kpiRows())}\n\n## 投資節點\n${CATS.map(c=>`\n### ${c.name}\n`+N.filter(n=>n.cat===c.id).map(nodeMD).join('\n')).join('')}\n\n## 資金循環\n${LOOPS.map(loopMD).join('\n')}\n\n## 時間軸\n${toMDTable(EV_HEAD,evRows())}\n`,'text/markdown')],
+['匯出我方部位 JSON',()=>download(`${PFX}_我方部位_${STAMP}.json`,JSON.stringify(POS,null,2),'application/json')],
+['匯入我方部位 JSON',()=>{const i=document.createElement('input');i.type='file';i.accept='.json';i.onchange=async()=>{try{POS=JSON.parse(await i.files[0].text());savePos();drawTree();toast('已匯入我方部位')}catch(e){toast('匯入失敗：檔案格式不對')}};i.click()}],
+['清除我方部位',()=>{POS={};savePos();drawTree();toast('已清除我方部位')}],
+['列印／存成 PDF（整頁）',()=>window.print()]
+],
+gov:[['Markdown',()=>download(`${PFX}_重要動態_${STAMP}.md`,'## '+($('#govT').textContent||'重要動態')+'\n\n'+blockText($('#gov')),'text/markdown')],['PNG 圖片',()=>elToPNG($('#gov'),`${PFX}_重要動態_${STAMP}`)],['列印／PDF',()=>printBlock($('#gov'))]],
+kpi:[['CSV',()=>download(`${PFX}_關鍵指標_${STAMP}.csv`,toCSV([['數值','說明','來源'],...kpiRows()]),'text/csv')],
+['JSON',()=>download(`${PFX}_關鍵指標_${STAMP}.json`,JSON.stringify(KPI.map(k=>({value:k[0],label:k[1],sources:k[2].map(x=>({t:S[x][0],u:S[x][1]}))})),null,2),'application/json')],
+['Markdown',()=>download(`${PFX}_關鍵指標_${STAMP}.md`,toMDTable(['數值','說明','來源'],kpiRows()),'text/markdown')],
+['PNG 圖片',()=>elToPNG($('#kpis'),`${PFX}_關鍵指標_${STAMP}`)],['列印／PDF',()=>printBlock($('#kpis'))]],
+tree:[['PNG 圖片（族譜圖）',()=>elToPNG($('#ftree'),`${PFX}_投資族譜_${STAMP}`)],
+['CSV（目前顯示節點）',()=>download(`${PFX}_投資族譜_${STAMP}.csv`,toCSV([NODE_HEAD,...visibleNodes().map(nodeRow)]),'text/csv')],
+['JSON（目前顯示節點）',()=>download(`${PFX}_投資族譜_${STAMP}.json`,JSON.stringify(visibleNodes(),null,2),'application/json')],
+['Markdown（依類別分層）',()=>{const v=new Set(visibleNodes().map(n=>n.id));download(`${PFX}_投資族譜_${STAMP}.md`,`# ${M.entity} 投資族譜（${STAMP}）\n`+CATS.map(c=>{const it=N.filter(n=>n.cat===c.id&&v.has(n.id));return it.length?`\n## ${c.name}\n`+it.map(nodeMD).join('\n'):''}).join(''),'text/markdown')}],
+['列印／PDF',()=>printBlock($('#ftree'))]],
+detail:[['Markdown',()=>download(`${PFX}_節點_${selected||PFX}_${STAMP}.md`,selected?nodeMD(NODE[selected]):blockText($('#detailBody')),'text/markdown')],
+['JSON',()=>download(`${PFX}_節點_${selected||PFX}_${STAMP}.json`,JSON.stringify(selected?{...NODE[selected],relatedFlows:XL.filter(x=>x.includes(selected))}:{note:blockText($('#detailBody'))},null,2),'application/json')],
+['PNG 圖片',()=>elToPNG($('#detail'),`${PFX}_節點_${selected||PFX}_${STAMP}`)],['列印／PDF',()=>printBlock($('#detail'))]],
+flow:[['SVG 向量圖（本循環）',()=>download(`${PFX}_資金循環_${LOOPS[curLoop].id}_${STAMP}.svg`,flowSVGString().str,'image/svg+xml')],
+['PNG 圖片（本循環）',()=>flowPNG()],
+['Markdown（本循環說明）',()=>download(`${PFX}_資金循環_${LOOPS[curLoop].id}_${STAMP}.md`,loopMD(LOOPS[curLoop]),'text/markdown')],
+['Markdown（全部循環）',()=>download(`${PFX}_資金循環_全部_${STAMP}.md`,`# ${M.entity} 資金循環架構（${STAMP}）\n\n`+LOOPS.map(loopMD).join('\n'),'text/markdown')],
+['JSON（全部循環）',()=>download(`${PFX}_資金循環_${STAMP}.json`,JSON.stringify(LOOPS,null,2),'application/json')],
+['列印／PDF',()=>printBlock(document.querySelector('.flowwrap'))]],
+table:[['CSV（目前篩選）',()=>download(`${PFX}_投資明細_${STAMP}.csv`,toCSV([NODE_HEAD,...(window.tableRows||N).map(nodeRow)]),'text/csv')],
+['Excel（.xls）',()=>download(`${PFX}_投資明細_${STAMP}.xls`,toXLS([{name:M.entity+' 投資明細（'+STAMP+'）',head:NODE_HEAD,rows:(window.tableRows||N).map(nodeRow)}]),'application/vnd.ms-excel')],
+['JSON',()=>download(`${PFX}_投資明細_${STAMP}.json`,JSON.stringify(window.tableRows||N,null,2),'application/json')],
+['Markdown 表格',()=>download(`${PFX}_投資明細_${STAMP}.md`,toMDTable(NODE_HEAD,(window.tableRows||N).map(nodeRow)),'text/markdown')],
+['PNG 圖片',()=>elToPNG($('#tbl'),`${PFX}_投資明細_${STAMP}`)],['列印／PDF',()=>printBlock($('.tablewrap'))]],
+tl:[['CSV',()=>download(`${PFX}_時間軸_${STAMP}.csv`,toCSV([EV_HEAD,...evRows()]),'text/csv')],
+['Markdown',()=>download(`${PFX}_時間軸_${STAMP}.md`,toMDTable(EV_HEAD,evRows()),'text/markdown')],
+['JSON',()=>download(`${PFX}_時間軸_${STAMP}.json`,JSON.stringify(evRows().map(r=>Object.fromEntries(EV_HEAD.map((h,i)=>[h,r[i]]))),null,2),'application/json')],
+['PNG 圖片',()=>elToPNG($('#tl'),`${PFX}_時間軸_${STAMP}`)],['列印／PDF',()=>printBlock($('#tl'))]],
+stress:[['CSV（受影響節點）',()=>download(`${PFX}_壓力測試_${STAMP}.csv`,toCSV([['節點','口徑','基準(US$十億)','情境(US$十億)'],...(window.stressRows||[])]),'text/csv')],['PNG 圖片',()=>elToPNG($('.stress'),`${PFX}_壓力測試_${STAMP}`)],['列印／PDF',()=>printBlock($('.stress'))]],
+ic:[['Markdown',()=>download(`${PFX}_投委會摘要_${STAMP}.md`,'## 投資委員會摘要\n\n'+blockText($('#ic')),'text/markdown')],['PNG 圖片',()=>elToPNG($('#ic'),`${PFX}_投委會摘要_${STAMP}`)],['列印／PDF',()=>printBlock($('#ic'))]],
+verify:[['Markdown',()=>download(`${PFX}_資料校驗紀錄_${STAMP}.md`,'## 資料校驗紀錄\n\n'+[...document.querySelectorAll('#verify li')].map(li=>'- '+li.innerText).join('\n'),'text/markdown')],
+['PNG 圖片',()=>elToPNG($('#verify'),`${PFX}_資料校驗紀錄_${STAMP}`)],['列印／PDF',()=>printBlock($('#verify'))]]
+};
+document.querySelectorAll('.xslot').forEach(slot=>{
+const items=X[slot.dataset.x]; if(!items) return;
+const w=document.createElement('span'); w.className='xwrap';
+w.innerHTML=`<button class="xbtn">⬇ 輸出 ▾</button><div class="xmenu">${items.map((it,i)=>`<button data-i="${i}">${it[0]}</button>`).join('')}</div>`;
+const menu=w.querySelector('.xmenu');
+w.querySelector('.xbtn').onclick=e=>{e.stopPropagation();document.querySelectorAll('.xmenu.on').forEach(m=>m!==menu&&m.classList.remove('on'));menu.classList.toggle('on')};
+menu.querySelectorAll('button').forEach(b=>b.onclick=e=>{e.stopPropagation();menu.classList.remove('on');items[+b.dataset.i][1]()});
+slot.appendChild(w);
+});
+document.addEventListener('click',()=>document.querySelectorAll('.xmenu.on').forEach(m=>m.classList.remove('on')));
+if(!LOOPS.length){const f=document.querySelector('[data-x="flow"]');if(f)f.innerHTML='';}
+applyPrefs();
+</script>
+</body>
+</html>

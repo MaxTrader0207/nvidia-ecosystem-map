@@ -1,0 +1,1403 @@
+{
+ "meta": {
+  "entity": "OpenAI",
+  "ticker": "未上市",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#10a37f",
+  "centerLabel": "資金匯流點",
+  "fileSlug": "OpenAI",
+  "subtitle": "涵蓋股東入股、雲端與晶片算力合約、Stargate 資料中心、收購與上市計畫"
+ },
+ "notice": {
+  "title": "近半年重大動態",
+  "months": 6,
+  "show": 6,
+  "html": "11/6 據報完成新一輪首批約 $110 億、估值 $1.25 兆，金額與估值都低於原目標（<a href=\"https://unite.ai/openai-secures-11b-in-initial-funding-at-1-25t-valuation\" target=\"_blank\">Unite.AI／Reuters</a>）；IPO 據報傾向延到 2027 年（<a href=\"https://qz.com/openai-ipo-delay-2027-valuation-062626\" target=\"_blank\">Quartz／NYT</a>）。"
+ },
+ "sources": {
+  "ms_10q25": [
+   "Microsoft 10-Q（2025/9/30）｜附註 17：持股約 27%、OpenAI 增購 $2,500 億 Azure、$130 億出資承諾採權益法",
+   "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+   "A"
+  ],
+  "oai_ms": [
+   "OpenAI｜The next chapter of the Microsoft–OpenAI partnership（2025-10-28）",
+   "https://openai.com/index/next-chapter-of-microsoft-openai-partnership/",
+   "A"
+  ],
+  "tc_ms10": [
+   "TechCrunch｜Microsoft recorded $10 billion in revenue from OpenAI（2026-10-28）",
+   "https://techcrunch.com/?p=3182880"
+  ],
+  "gw_ms10": [
+   "GeekWire｜Microsoft 來自 OpenAI 的季營收達 $100 億；持股約 24%",
+   "https://geekwire.com/2026/bigger-than-bing-or-xbox-microsofts-openai-haul-reaches-10b-in-quarterly-revenue/"
+  ],
+  "w247_ms10": [
+   "24/7 Wall St.｜OpenAI 占 Microsoft 營收 11%；$130 億承諾已撥 $120 億（2026-10-29）",
+   "https://247wallst.com/investing/2026/10/29/openai-now-makes-up-11-of-microsofts-revenue/"
+  ],
+  "tnw_ms10": [
+   "The Next Web｜OpenAI 欠 Microsoft $72 億；2026 資本支出預估降至 $1,700 億",
+   "https://thenextweb.com/news/microsoft-openai-revenue-10bn-quarter"
+  ],
+  "aiw_ms10": [
+   "AI Weekly｜營收分成據報為 20%，2026/4 協議延續至 2030 年並設上限",
+   "https://aiweekly.co/alerts/microsoft-books-10b-from-openai-11-of-quarterly-revenue"
+  ],
+  "oai_pr": [
+   "OpenAI｜AMD × OpenAI 6GW 策略合作（2025-10-06）",
+   "https://openai.com/index/openai-amd-strategic-partnership"
+  ],
+  "fw_war": [
+   "FourWeekMBA｜OpenAI／Meta 權證條款、10-Q 會計與部署現況",
+   "https://fourweekmba.com/ai-how-amds-openai-meta-deals-work-12-gw-up-to-320m-shares/"
+  ],
+  "tc_openai110": [
+   "TechCrunch｜OpenAI raises $110B (2026-02-27)",
+   "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/"
+  ],
+  "sbg_fo": [
+   "SoftBank Group 新聞稿｜Follow-on Investments in OpenAI（2026-02-27）",
+   "https://group.softbank/en/news/press/20260227",
+   "A"
+  ],
+  "star_final": [
+   "The Star/Reuters｜SoftBank completes final phase of $30 billion investment in OpenAI（2026-10-02）",
+   "https://www.thestar.com.my/tech/tech-news/2026/10/02/softbank-completes-final-phase-of-30-billion-investment-in-openai"
+  ],
+  "edge_arm": [
+   "The Edge/Bloomberg｜Arm 質押貸款增至 $250 億；以 OpenAI 股權取得 $100 億貸款（2026-09-18）",
+   "https://theedgemalaysia.com/node/818515"
+  ],
+  "or_oai": [
+   "TechRadar／WSJ｜OpenAI 五年 $3,000 億運算合約，自 2027 起，平均每年 $600 億",
+   "https://www.techradar.com/pro/openai-bets-usd300-billion-on-oracle-contract-to-power-artificial-intelligence-expansion-despite-ongoing-losses"
+  ],
+  "or_oai2": [
+   "The Register｜Oracle 堅稱 $3,000 億 OpenAI 合約如期，約 4.5 GW",
+   "https://www.theregister.com/2025/12/15/oracle_denies_openai_delays/"
+  ],
+  "lds_board": [
+   "Let's Data Science｜11/10 董事會：Anthropic、OpenAI 各 ≤$5 億；資本預算約 $409 億",
+   "https://letsdatascience.com/news/tsmc-board-approves-up-to-1-billion-in-anthropic-openai-stak-2ce4f59c"
+  ],
+  "scmp_ai": [
+   "SCMP｜入股 OpenAI、Anthropic 可取得 AI 需求的直接洞察",
+   "https://www.scmp.com/tech/big-tech/article/3374037/what-taiwanese-chip-giant-tsmc-gains-taking-stakes-openai-and-anthropics-ai-race"
+  ],
+  "ap_oai": [
+   "Al Jazeera｜Apple 控告 OpenAI 竊取營業秘密（2026-07-10）",
+   "https://aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets"
+  ],
+  "ap_oai2": [
+   "MacRumors｜OpenAI 法院文件：Siri 中的 ChatGPT「嚴重表現不佳」（2026-09-23）",
+   "https://macrumors.com/2026/09/23/openai-siri-chatgpt-underperforming"
+  ],
+  "bbg_122": [
+   "Bloomberg｜OpenAI Valued at $852 Billion After Completing $122 Billion Round（2026-03-31）",
+   "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round"
+  ],
+  "yh_122": [
+   "Yahoo Finance／Verdict｜$1,220 億輪：Amazon $500 億（首期 $150 億）、投前 $7,300 億",
+   "https://finance.yahoo.com/markets/stocks/articles/openai-closes-122bn-funding-round-093126735.html"
+  ],
+  "mwl_122": [
+   "Mobile World Live｜其他投資人 MGX、D.E. Shaw、TPG；散戶約 $30 億",
+   "https://www.mobileworldlive.com/ai-cloud/openai-closes-122b-funding-round/"
+  ],
+  "yh_cond": [
+   "Yahoo Finance｜Amazon 其餘 $350 億取決於 IPO 或 AGI 條件（分析師說法）",
+   "https://finance.yahoo.com/markets/stocks/articles/openai-122-billion-mega-round-084025352.html"
+  ],
+  "bd_11": [
+   "bdnews24／Reuters｜OpenAI 取得 $110 億、估值 $1.25 兆；SoftBank、MGX 參與（2026-11-07）",
+   "https://bdnews24.com/business/mkewb2l3ha"
+  ],
+  "ua_11": [
+   "Unite.AI｜首批 $110 億，原目標最高 $300 億；估值自 $1.5 兆下修",
+   "https://unite.ai/openai-secures-11b-in-initial-funding-at-1-25t-valuation"
+  ],
+  "ti_11": [
+   "Tech Insider｜Bloomberg：約 $110 億已於 11/6 匯入；整輪最多約 $200 億",
+   "https://tech-insider.org/?p=54279"
+  ],
+  "oai_amzn": [
+   "OpenAI｜OpenAI and Amazon announce strategic partnership（2026-02-27）",
+   "https://openai.com/index/amazon-partnership/",
+   "A"
+  ],
+  "hpc_amzn": [
+   "HPCwire（新聞稿轉載）｜Amazon 投資 $500 億：首期 $150 億＋條件達成後 $350 億；2GW Trainium",
+   "https://www.hpcwire.com/off-the-wire/openai-and-amazon-announce-strategic-partnership/",
+   "B"
+  ],
+  "abi_aws": [
+   "ABI Research｜AWS 既有 $380 億合約再擴大 $1,000 億、8 年",
+   "https://www.abiresearch.com/market-research/insight/7787577-aws-secures-a-strategic-advantage-through-"
+  ],
+  "sa_aws": [
+   "SiliconANGLE｜OpenAI 與 AWS 簽 7 年 $380 億合約（2025-11-03）",
+   "https://siliconangle.com/?p=719267"
+  ],
+  "amc": [
+   "AM Compute｜OpenAI 公開算力合約清單（CoreWeave $119 億＋$40 億＋$65 億、Cerebras $100 億）",
+   "https://www.amcompute.com/companies/openai"
+  ],
+  "tung": [
+   "Tomasz Tunguz｜OpenAI 2025–2035 硬體與雲端承諾約 $1.15 兆（分析師估算）",
+   "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+  ],
+  "bi_cloud": [
+   "Built In｜OpenAI 的雲端合約：AWS、Oracle、CoreWeave、Google Cloud、Microsoft",
+   "https://builtin.com/articles/openai-cloud-deals"
+  ],
+  "oai_sbe": [
+   "OpenAI｜OpenAI and SoftBank Group partner with SB Energy（2026-01-09）",
+   "https://openai.com/index/stargate-sb-energy-partnership/",
+   "A"
+  ],
+  "nm_statsig": [
+   "Nairametrics｜Statsig $11 億全股票收購；io Products $65 億全股票收購於 2025/7 完成",
+   "https://nairametrics.com/2025/09/03/openai-to-acquire-product-testing-startup-statsig-in-1-1-billion-all-stock-deal"
+  ],
+  "sa_statsig": [
+   "SiliconANGLE｜OpenAI 以 $11 億收購 Statsig（2025-09-02）",
+   "https://siliconangle.com/?p=709797"
+  ],
+  "cb_mna": [
+   "Crunchbase News｜OpenAI 2026 年已完成 6 件收購，三年共 17 件",
+   "https://news.crunchbase.com/?p=93286"
+  ],
+  "qz_ipo": [
+   "Quartz｜NYT：OpenAI 傾向把 IPO 延到 2027；2025 年營收 $130.7 億、淨損 $385 億",
+   "https://qz.com/openai-ipo-delay-2027-valuation-062626"
+  ],
+  "ms_ipo": [
+   "Morningstar｜OpenAI 今年不太可能上市；$1.15 兆基礎設施義務",
+   "https://www.morningstar.com/markets/openai-missed-multiple-revenue-targetsheres-why-it-likely-wont-ipo-this-year"
+  ],
+  "cfi_ipo": [
+   "Crowdfund Insider／PitchBook｜月營收約 $20 億；Oracle 合約自 2027 年起每年 $600 億",
+   "https://www.crowdfundinsider.com/?p=276693"
+  ],
+  "pj_burn": [
+   "Paperjam／PitchBook｜營運現金消耗 2026 年 $270 億、2027 年 $630 億（估計）",
+   "https://en.paperjam.lu/article/openais-1trn-wait-puts-luxembourg-investors-on-hold"
+  ],
+  "kc_q2": [
+   "KuCoin／WSJ｜Q2 2026 營收 $67 億（Q1 $57 億）；營業虧損 $123 億（Q1 $93 億）",
+   "https://www.kucoin.com/blog/es-openai-q2-earnings-losses-ipo-outlook"
+  ],
+  "kc_q2b": [
+   "Crypto Briefing／KuCoin｜Q2 2026 營收 $67 億；2025 全年 $130.7 億",
+   "https://www.kucoin.com/news/flash/openai-q2-2026-revenue-hits-6-7b-surpassing-2024-total"
+  ],
+  "bd_sbe": [
+   "BusinessDay/Reuters｜SB Energy 遞件 IPO：上半年淨損 $32.1 億、backlog 約 $4,390 億（2026-09-01）",
+   "https://www.businessday.co.za/world/international-companies/2026-09-01-softbank-backed-sb-energy-moves-closer-to-public-markets-with-us-ipo-filing/"
+  ]
+ },
+ "categories": [
+  {
+   "id": "inv",
+   "name": "股東與投資人（資金流入）",
+   "color": "#facc15",
+   "sumNote": "流入 OpenAI 的股權資金；各輪金額與個別股東金額有重疊，不可相加"
+  },
+  {
+   "id": "cloud",
+   "name": "雲端與算力合約（資金流出）",
+   "color": "#38bdf8",
+   "sumNote": "多年期合約總額，非單年支出"
+  },
+  {
+   "id": "semi",
+   "name": "晶片夥伴",
+   "color": "#f472b6"
+  },
+  {
+   "id": "infra",
+   "name": "Stargate 與資料中心",
+   "color": "#fb923c"
+  },
+  {
+   "id": "mna",
+   "name": "收購",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "other",
+   "name": "上市與其他",
+   "color": "#94a3b8"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非 OpenAI 持股，僅標示資金或合作關係"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "msft_eq",
+   "name": "Microsoft（股東）",
+   "tk": "MSFT",
+   "cat": "inv",
+   "type": "股權（權益法）",
+   "amt": 13.0,
+   "paid": 12.0,
+   "short": "$130億承諾（已撥$120億）",
+   "date": "2026-10-28",
+   "amtText": "Microsoft 對 OpenAI 的出資承諾共 $130 億，截至 2026/9/30 已撥 $120 億。2025/10 資本重組後持股約 27%（當時估值約 $1,350 億），之後因新輪次稀釋，2026/6 約 25%、2026/9 約 24%（as-converted）。",
+   "status": "持有中；持股約 24%",
+   "flow": "OpenAI 向 Azure 採購算力並支付營收分成，回到 Microsoft（見 Azure 節點）",
+   "src": [
+    "ms_10q25",
+    "oai_ms",
+    "w247_ms10",
+    "gw_ms10"
+   ],
+   "amtType": "equity",
+   "direction": "in",
+   "terms": {
+    "sec": "OpenAI Group PBC 股權（as-converted 約 24%）"
+   },
+   "risks": [
+    {
+     "k": "conc",
+     "x": "最大外部股東同時是最大雲端供應商與通路",
+     "src": [
+      "gw_ms10"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "azure",
+   "name": "Microsoft Azure",
+   "tk": "MSFT",
+   "cat": "cloud",
+   "type": "雲端採購承諾＋營收分成",
+   "amt": 250.0,
+   "short": "增購$2,500億",
+   "date": "2025-10-28",
+   "amtText": "2025/10/28 新協議：OpenAI 承諾再向 Azure 採購 $2,500 億服務，Microsoft 不再享有優先供應權。營收分成比例據報為 20%，2026/4 協議延續至 2030 年並設上限（比例與上限未經官方證實）。",
+   "status": "Microsoft 2026/7–9 月認列來自 OpenAI 的營收 $100 億；OpenAI 期末應付 Microsoft $72 億",
+   "flow": "OpenAI 的算力支出與營收分成直接成為 Microsoft 營收",
+   "src": [
+    "ms_10q25",
+    "oai_ms",
+    "tc_ms10",
+    "tnw_ms10",
+    "aiw_ms10"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "應付 Microsoft 款項一季增加 $12 億至 $72 億",
+     "src": [
+      "tnw_ms10"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "softbank",
+   "name": "SoftBank",
+   "tk": "9984.T",
+   "cat": "inv",
+   "type": "特別股（經 SVF2）",
+   "amt": 64.6,
+   "short": "$646億（約13%）",
+   "date": "2026-10-01",
+   "amtText": "2025 年 $346 億＋2026 年追加 $300 億（投前估值 $7,300 億，分三期各 $100 億，第三期 2026/10/1 完成），累計 $646 億、約 13%。據報 SoftBank 也參與 2026/11 新一輪，金額未揭露。",
+   "status": "持有中",
+   "flow": "OpenAI 承租 SoftBank 旗下 SB Energy 的資料中心；SoftBank 另以 OpenAI 持股取得 $100 億貸款",
+   "src": [
+    "sbg_fo",
+    "star_final",
+    "edge_arm",
+    "bd_11"
+   ],
+   "amtType": "equity",
+   "direction": "in",
+   "terms": {
+    "sec": "特別股（上市時自動轉普通股）",
+    "price": "投前估值 $7,300 億"
+   },
+   "risks": [
+    {
+     "k": "fin",
+     "x": "SoftBank 以 OpenAI 股權質押借款 $100 億，OpenAI 估值下跌會影響其再投資能力",
+     "src": [
+      "edge_arm"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "tk": "NVDA",
+   "cat": "inv",
+   "type": "股權",
+   "amt": 30.0,
+   "short": "$300億",
+   "date": "2026-02-27",
+   "amtText": "2026/2 輪投資 $300 億（投前估值 $7,300 億）。2025/9「最高 $1,000 億」意向書之後改為這筆純股權投資。",
+   "status": "持有中",
+   "flow": "OpenAI 取得 Vera Rubin 算力，GPU 採購回到 NVIDIA 營收",
+   "src": [
+    "tc_openai110",
+    "bbg_122"
+   ],
+   "amtType": "equity",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "conc",
+     "x": "主要晶片供應商同時是股東，採購與投資互相綁定",
+     "src": [
+      "tc_openai110"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "tk": "AMZN",
+   "cat": "inv",
+   "type": "股權（分期、附條件）",
+   "amt": 50.0,
+   "paid": 15.0,
+   "short": "$500億（首期$150億）",
+   "date": "2026-02-27",
+   "amtText": "承諾投資 $500 億：首期 $150 億，其餘 $350 億在特定條件達成後撥付；有分析師指出條件為 IPO 或達成 AGI 目標（未經官方證實）。",
+   "status": "首期已撥；其餘待條件達成",
+   "flow": "同日把 AWS 合約擴大 $1,000 億，並承諾使用 2GW Trainium（見 AWS 節點）",
+   "src": [
+    "oai_amzn",
+    "hpc_amzn",
+    "yh_122",
+    "yh_cond"
+   ],
+   "amtType": "equity",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "$350 億取決於未公開的條件",
+     "src": [
+      "hpc_amzn",
+      "yh_cond"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "finvest",
+   "name": "MGX・a16z・D.E. Shaw・TPG 等",
+   "tk": "—",
+   "cat": "inv",
+   "type": "參與 2026/3 輪",
+   "amt": 12.0,
+   "short": "約$120億（自行計算）",
+   "date": "2026-03-31",
+   "excludeFromSum": true,
+   "amtText": "$1,220 億輪扣除 Amazon、NVIDIA、SoftBank 合計 $1,100 億後約 $120 億（自行計算），其中約 $30 億來自透過銀行通路認購的個人投資人。個別金額未揭露。",
+   "status": "已完成",
+   "flow": "純財務投資，無回流合約",
+   "src": [
+    "bbg_122",
+    "mwl_122",
+    "yh_122"
+   ],
+   "amtType": "equity",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "round11",
+   "name": "2026/11 新一輪（首次交割）",
+   "tk": "—",
+   "cat": "inv",
+   "type": "募資輪（據報）",
+   "amt": 11.0,
+   "short": "約$110億（估值$1.25兆）",
+   "date": "2026-11-06",
+   "unconfirmed": true,
+   "excludeFromSum": true,
+   "amtText": "Reuters、Bloomberg 引述消息人士：首批約 $110 億已交割，估值 $1.25 兆；原目標最高 $300 億、估值 $1.4–1.5 兆，整輪可能約 $200 億。SoftBank、MGX 參與。OpenAI 未公開證實。",
+   "status": "首批交割（據報）；其餘數週內",
+   "flow": "補充算力支出所需現金",
+   "src": [
+    "bd_11",
+    "ua_11",
+    "ti_11"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "募資金額與估值都低於原目標",
+     "src": [
+      "ua_11"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "tsmc",
+   "name": "台積電 TSMC",
+   "tk": "2330.TW",
+   "cat": "inv",
+   "type": "特別股（董事會核准）",
+   "amt": 0.5,
+   "short": "≤$5億",
+   "date": "2026-11-10",
+   "amtText": "台積電董事會 11/10 核准以不超過 $5 億認購 OpenAI 特別股；是否完成本次未查到公告。",
+   "status": "已核准、待確認",
+   "flow": "OpenAI 的 GPU 與自研晶片最終由台積電代工",
+   "src": [
+    "lds_board",
+    "scmp_ai"
+   ],
+   "amtType": "equity",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "aws",
+   "name": "Amazon Web Services",
+   "tk": "AMZN",
+   "cat": "cloud",
+   "type": "雲端合約",
+   "amt": 138.0,
+   "short": "$380億＋$1,000億",
+   "date": "2026-02-27",
+   "amtText": "2025/11/3 簽 7 年 $380 億；2026/2/27 再擴大 $1,000 億、8 年，包含約 2GW Trainium 算力。合計 $1,380 億（自行相加）。",
+   "status": "執行中",
+   "flow": "雲端費用流向 AWS；Amazon 同時是股東",
+   "src": [
+    "sa_aws",
+    "oai_amzn",
+    "abi_aws"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle",
+   "tk": "ORCL",
+   "cat": "cloud",
+   "type": "五年雲端運算合約",
+   "amt": 300.0,
+   "short": "約$3,000億",
+   "date": "2025-09",
+   "amtText": "WSJ 報導五年約 $3,000 億，自 2027 年起平均每年 $600 億、約 4.5GW；Oracle 未正式公布金額。PitchBook 指出每年 $600 億已高於 OpenAI 自估的 2027 年淨營收。",
+   "status": "執行中",
+   "flow": "雲端費用流向 Oracle；Oracle 再向 NVIDIA 等採購並舉債興建",
+   "src": [
+    "or_oai",
+    "or_oai2",
+    "cfi_ipo"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "單一合約年付款高於 OpenAI 自估的 2027 年淨營收",
+     "src": [
+      "cfi_ipo"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "coreweave",
+   "name": "CoreWeave",
+   "tk": "CRWV",
+   "cat": "cloud",
+   "type": "GPU 算力合約",
+   "amt": 22.4,
+   "short": "$224億",
+   "date": "2025-09-23",
+   "amtText": "三份合約：$119 億（2025/3）＋$40 億（2025/5）＋$65 億（2025/9），合計 $224 億。",
+   "status": "執行中",
+   "flow": "租用 NVIDIA GPU 算力",
+   "src": [
+    "amc",
+    "tung"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "cerebras",
+   "name": "Cerebras",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "推論算力合約（據報）",
+   "amt": 10.0,
+   "short": "約$100億",
+   "date": "2026-01-14",
+   "amtText": "Bloomberg 報導約 $100 億的雲端算力承諾。",
+   "status": "執行中",
+   "flow": "推論算力來源分散，降低對單一 GPU 供應商的依賴",
+   "src": [
+    "amc"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "google",
+   "name": "Google Cloud",
+   "tk": "GOOGL",
+   "cat": "cp",
+   "type": "雲端供應商",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025",
+   "amtText": "OpenAI 2025 年起也使用 Google Cloud，金額未揭露。",
+   "status": "合作中",
+   "flow": "算力來源之一；Google 同時是模型競爭者",
+   "src": [
+    "bi_cloud"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "tk": "AMD",
+   "cat": "semi",
+   "type": "6GW GPU 採購＋反向認股權證",
+   "amt": null,
+   "short": "≤1.6億股權證",
+   "date": "2025-10-06",
+   "excludeFromSum": true,
+   "amtText": "OpenAI 承諾部署 6GW AMD GPU；AMD 發給 OpenAI 最多 1.6 億股認股權證（行使價 $0.01），依部署量與股價門檻分批授予。AMD 10-Q：截至 2026/9/26 尚無權證授予。",
+   "status": "首批 1GW 自 2026 下半年出貨",
+   "flow": "OpenAI 付款買 GPU，AMD 以權證回饋；權證價值會沖減 AMD 營收",
+   "src": [
+    "oai_pr",
+    "fw_war"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "broadcom",
+   "name": "Broadcom",
+   "tk": "AVGO",
+   "cat": "semi",
+   "type": "10GW 自研晶片合作",
+   "amt": null,
+   "short": "未揭露（10GW）",
+   "date": "2025-10-13",
+   "amtText": "共同開發並部署 10GW 自研 AI 晶片系統，財務條件未揭露；分析師 Tomasz Tunguz 估算約 $3,500 億（非官方數字）。",
+   "status": "開發中",
+   "flow": "自研晶片採購流向 Broadcom，由台積電代工",
+   "src": [
+    "tung"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "stargate",
+   "name": "Stargate 計畫",
+   "tk": "—",
+   "cat": "infra",
+   "type": "基礎設施計畫",
+   "amt": 500.0,
+   "short": "$5,000億（計畫總額）",
+   "date": "2025-01",
+   "excludeFromSum": true,
+   "amtText": "2025/1 在白宮宣布的 $5,000 億美國 AI 基礎設施計畫，夥伴包括 SoftBank、Oracle；為計畫總額，非 OpenAI 單獨出資。",
+   "status": "興建中",
+   "flow": "資料中心由夥伴興建，OpenAI 以長期租約或雲端合約付費",
+   "src": [
+    "oai_sbe"
+   ],
+   "amtType": "project",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "sbenergy",
+   "name": "SB Energy 資料中心",
+   "tk": "未上市",
+   "cat": "infra",
+   "type": "股權＋1.2GW 租約",
+   "amt": 0.5,
+   "short": "$5億",
+   "date": "2026-01-09",
+   "amtText": "2026/1 OpenAI 與 SoftBank Group 各投入 $5 億（合計 $10 億），並簽下 1.2GW 資料中心租約。",
+   "status": "興建中；首批設施 2026 年起啟用",
+   "flow": "OpenAI 出資給房東，再向房東租資料中心",
+   "src": [
+    "oai_sbe",
+    "bd_sbe"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "io",
+   "name": "io Products",
+   "tk": "—",
+   "cat": "mna",
+   "type": "收購（全股票）",
+   "amt": 6.5,
+   "short": "$65億",
+   "date": "2025-07",
+   "amtText": "以約 $65 億全股票收購 Jony Ive 共同創辦的 AI 硬體公司，2025/7 完成。",
+   "status": "已完成",
+   "flow": "無現金流出；用於開發 AI 硬體",
+   "src": [
+    "nm_statsig",
+    "sa_statsig"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "statsig",
+   "name": "Statsig",
+   "tk": "—",
+   "cat": "mna",
+   "type": "收購（全股票）",
+   "amt": 1.1,
+   "short": "$11億",
+   "date": "2025-09-02",
+   "amtText": "以 $11 億全股票收購產品測試公司 Statsig（以 OpenAI 估值 $3,000 億計）。",
+   "status": "已宣布",
+   "flow": "無現金流出；執行長轉任應用技術長",
+   "src": [
+    "nm_statsig",
+    "sa_statsig"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "mna26",
+   "name": "2026 年其他收購",
+   "tk": "—",
+   "cat": "mna",
+   "type": "收購",
+   "amt": null,
+   "short": "6 件（金額多未揭露）",
+   "date": "2026",
+   "amtText": "Crunchbase：2026 年已完成 6 件收購，三年合計 17 件；多數金額未揭露。",
+   "status": "持續進行",
+   "flow": "以人才與產品補強為主",
+   "src": [
+    "cb_mna"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "tk": "AAPL",
+   "cat": "cp",
+   "type": "合作轉訴訟",
+   "amt": null,
+   "short": "無金流",
+   "date": "2026-07-10",
+   "amtText": "2024 年把 ChatGPT 整合進 Siri（不收費）；2026/7 Apple 控告 OpenAI 竊取營業秘密，OpenAI 則稱 Siri 整合表現不佳。",
+   "status": "訴訟中",
+   "flow": "無資金往來",
+   "src": [
+    "ap_oai",
+    "ap_oai2"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "reg",
+     "x": "與 Apple 的營業秘密訴訟",
+     "src": [
+      "ap_oai"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "ipo",
+   "name": "上市計畫",
+   "tk": "—",
+   "cat": "other",
+   "type": "IPO（已秘密遞件）",
+   "amt": null,
+   "short": "可能延至 2027",
+   "date": "2026-06-26",
+   "amtText": "已向 SEC 秘密遞交 S-1。NYT 報導公司傾向延到 2027 年、目標估值 $1 兆；Morningstar 認為較可能的時點是 2027 年中後。",
+   "status": "未定案",
+   "flow": "上市可取得公開市場資金，並觸發 Amazon 等附條件出資",
+   "src": [
+    "qz_ipo",
+    "ms_ipo"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  }
+ ],
+ "flows": [
+  [
+   "softbank",
+   "sbenergy",
+   "各出資 $5億"
+  ],
+  [
+   "sbenergy",
+   "stargate",
+   "1.2GW 租約"
+  ],
+  [
+   "oracle",
+   "stargate",
+   "Stargate 夥伴"
+  ],
+  [
+   "softbank",
+   "stargate",
+   "Stargate 夥伴"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$1.25兆",
+   "l": "2026/11 新一輪估值（據報，首批約 $110 億）",
+   "src": [
+    "bd_11",
+    "ti_11"
+   ]
+  },
+  {
+   "v": "$1,220億",
+   "l": "2026/3 募資輪（投後估值 $8,520 億）",
+   "src": [
+    "bbg_122",
+    "yh_122"
+   ]
+  },
+  {
+   "v": "$130.7億",
+   "l": "2025 年營收（淨損 $385 億）",
+   "src": [
+    "qz_ipo"
+   ]
+  },
+  {
+   "v": "$67億",
+   "l": "2026 Q2 營收（營業虧損 $123 億）",
+   "src": [
+    "kc_q2",
+    "kc_q2b"
+   ]
+  },
+  {
+   "v": "約$1.15兆",
+   "l": "基礎設施義務（Morningstar 引用）",
+   "src": [
+    "ms_ipo"
+   ]
+  },
+  {
+   "v": "約24%",
+   "l": "Microsoft 持股（2026/9，as-converted）",
+   "src": [
+    "gw_ms10",
+    "w247_ms10"
+   ]
+  },
+  {
+   "v": "$100億",
+   "l": "Microsoft 單季認列來自 OpenAI 的營收（2026/7–9）",
+   "src": [
+    "tc_ms10"
+   ]
+  },
+  {
+   "v": "2027?",
+   "l": "IPO 時點：據報傾向延後",
+   "src": [
+    "qz_ipo",
+    "ms_ipo"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "資本定位",
+   "text": "OpenAI 是資金的匯流點而非投資方：主要股東（Microsoft、Amazon、NVIDIA、SoftBank）同時是它的雲端、晶片或資料中心供應商，股權資金進來後，多數以算力合約的形式再流回這些股東。",
+   "src": [
+    "bbg_122",
+    "oai_amzn",
+    "ms_10q25"
+   ]
+  },
+  {
+   "title": "收支落差",
+   "text": "2025 年營收 $130.7 億、淨損 $385 億；2026 Q2 營收 $67 億、營業虧損 $123 億。相對之下，多年期基礎設施義務約 $1.15 兆。",
+   "src": [
+    "qz_ipo",
+    "kc_q2",
+    "ms_ipo"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① Microsoft 循環",
+   "sub": "入股 → Azure 採購＋營收分成 → Microsoft 營收",
+   "nodes": [
+    [
+     "Microsoft",
+     "inv"
+    ],
+    [
+     "OpenAI",
+     "accent"
+    ],
+    [
+     "Azure",
+     "cloud"
+    ],
+    [
+     "Microsoft\n營收",
+     "inv"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$130億承諾\n（約24%）"
+    ],
+    [
+     1,
+     2,
+     "增購 $2,500億"
+    ],
+    [
+     2,
+     3,
+     "單季 $100億"
+    ],
+    [
+     3,
+     0,
+     "回流"
+    ],
+    [
+     1,
+     3,
+     "營收分成\n（據報20%）",
+     "chord"
+    ]
+   ],
+   "text": "Microsoft 出資 $130 億取得約 24% 持股；OpenAI 再承諾向 Azure 增購 $2,500 億，並支付營收分成。Microsoft 2026/7–9 月來自 OpenAI 的營收達 $100 億。",
+   "src": [
+    "ms_10q25",
+    "tc_ms10",
+    "w247_ms10"
+   ],
+   "back": 24.1,
+   "share": 7.3,
+   "dep": "high",
+   "backSrc": [
+    "tc_ms10",
+    "w247_ms10"
+   ],
+   "backNote": "Microsoft 2026 財年（至 6/30）來自 OpenAI 的營收 $241 億，約占其營收 7.3%；最近一季升至 $100 億、約 11%。已遠高於 Microsoft 已撥的 $120 億"
+  },
+  {
+   "id": "L2",
+   "title": "② Amazon 循環",
+   "sub": "入股 → AWS 合約＋Trainium → AWS 營收",
+   "nodes": [
+    [
+     "Amazon",
+     "inv"
+    ],
+    [
+     "OpenAI",
+     "accent"
+    ],
+    [
+     "AWS\n含 2GW Trainium",
+     "cloud"
+    ],
+    [
+     "AWS 營收",
+     "inv"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$500億\n（首期$150億）"
+    ],
+    [
+     1,
+     2,
+     "$380億＋$1,000億"
+    ],
+    [
+     2,
+     3,
+     "雲端費用"
+    ],
+    [
+     3,
+     0,
+     "回流"
+    ]
+   ],
+   "text": "Amazon 承諾投資 $500 億的同一天，OpenAI 把 AWS 合約擴大 $1,000 億並承諾使用 Amazon 自研的 Trainium 晶片。",
+   "src": [
+    "oai_amzn",
+    "hpc_amzn",
+    "abi_aws"
+   ],
+   "back": 138.0,
+   "dep": "mid",
+   "backSrc": [
+    "abi_aws",
+    "sa_aws"
+   ],
+   "backNote": "AWS 合約合計 $1,380 億（7–8 年），為 Amazon 承諾投資額 $500 億的約 2.8 倍（自行計算）；已撥僅 $150 億"
+  },
+  {
+   "id": "L3",
+   "title": "③ 晶片商循環",
+   "sub": "NVIDIA 入股／AMD 權證 → GPU 採購",
+   "nodes": [
+    [
+     "NVIDIA",
+     "inv"
+    ],
+    [
+     "OpenAI",
+     "accent"
+    ],
+    [
+     "Oracle・CoreWeave\n等雲端",
+     "cloud"
+    ],
+    [
+     "GPU 營收",
+     "semi"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$300億股權"
+    ],
+    [
+     1,
+     2,
+     "$3,000億＋$224億"
+    ],
+    [
+     2,
+     3,
+     "採購 GPU"
+    ],
+    [
+     3,
+     0,
+     "回流 NVIDIA"
+    ],
+    [
+     3,
+     1,
+     "AMD 權證\n≤1.6億股",
+     "chord"
+    ]
+   ],
+   "text": "NVIDIA 投資 $300 億；OpenAI 付給 Oracle、CoreWeave 的雲端費用，大部分再用來買 NVIDIA GPU。AMD 則用認股權證換取 6GW 訂單。",
+   "src": [
+    "tc_openai110",
+    "or_oai",
+    "amc",
+    "oai_pr"
+   ],
+   "back": 30.0,
+   "dep": "high",
+   "backSrc": [
+    "tc_openai110"
+   ],
+   "backNote": "NVIDIA 投入 $300 億；回流金額取決於各雲端業者實際採購的 GPU，沒有公開的對應數字"
+  },
+  {
+   "id": "L4",
+   "title": "④ SoftBank／Stargate 循環",
+   "sub": "入股 → 共同投資房東 → 租約",
+   "nodes": [
+    [
+     "SoftBank",
+     "inv"
+    ],
+    [
+     "OpenAI",
+     "accent"
+    ],
+    [
+     "SB Energy",
+     "infra"
+    ],
+    [
+     "租金",
+     "infra"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$646億\n（約13%）"
+    ],
+    [
+     1,
+     2,
+     "出資 $5億\n1.2GW 租約"
+    ],
+    [
+     2,
+     3,
+     "長期租金"
+    ],
+    [
+     3,
+     0,
+     "回到 SoftBank 集團"
+    ],
+    [
+     1,
+     0,
+     "股權質押\n借 $100億",
+     "chord"
+    ]
+   ],
+   "text": "SoftBank 是 OpenAI 第二大外部股東，旗下 SB Energy 又是 OpenAI 的資料中心房東；SoftBank 還拿 OpenAI 股權去質押借款。",
+   "src": [
+    "star_final",
+    "oai_sbe",
+    "edge_arm",
+    "bd_sbe"
+   ],
+   "dep": "mid",
+   "backSrc": [
+    "star_final",
+    "oai_sbe"
+   ],
+   "backNote": "1.2GW 租約金額未揭露，無法量化"
+  }
+ ],
+ "loopNote": {
+  "text": "支持者認為營收成長快、算力是必要投資；質疑者指出股東出資與算力採購互相綁定，義務規模遠高於營收，且最新一輪募資已低於目標。",
+  "src": [
+   "kc_q2b",
+   "ms_ipo",
+   "ua_11"
+  ]
+ },
+ "events": [
+  {
+   "d": "2025-01",
+   "t": "Stargate 計畫宣布",
+   "x": "$5,000 億美國 AI 基礎設施計畫。",
+   "cat": "infra",
+   "src": [
+    "oai_sbe"
+   ]
+  },
+  {
+   "d": "2025-07",
+   "t": "完成收購 io Products",
+   "x": "約 $65 億全股票。",
+   "cat": "mna",
+   "src": [
+    "nm_statsig"
+   ]
+  },
+  {
+   "d": "2025-09",
+   "t": "Oracle 五年約 $3,000 億合約",
+   "x": "自 2027 年起。",
+   "cat": "cloud",
+   "src": [
+    "or_oai"
+   ]
+  },
+  {
+   "d": "2025-09-02",
+   "t": "收購 Statsig",
+   "x": "$11 億全股票。",
+   "cat": "mna",
+   "src": [
+    "sa_statsig"
+   ]
+  },
+  {
+   "d": "2025-10-06",
+   "t": "AMD 6GW 合作與認股權證",
+   "x": "最多 1.6 億股。",
+   "cat": "semi",
+   "src": [
+    "oai_pr"
+   ]
+  },
+  {
+   "d": "2025-10-28",
+   "t": "資本重組；Microsoft 持股約 27%",
+   "x": "增購 $2,500 億 Azure，Microsoft 失去優先供應權。",
+   "cat": "inv",
+   "src": [
+    "oai_ms",
+    "ms_10q25"
+   ]
+  },
+  {
+   "d": "2025-11-03",
+   "t": "AWS 7 年 $380 億合約",
+   "x": "",
+   "cat": "cloud",
+   "src": [
+    "sa_aws"
+   ]
+  },
+  {
+   "d": "2026-01-09",
+   "t": "與 SoftBank 投資 SB Energy $10 億",
+   "x": "簽 1.2GW 租約。",
+   "cat": "infra",
+   "src": [
+    "oai_sbe"
+   ]
+  },
+  {
+   "d": "2026-01-14",
+   "t": "Cerebras 約 $100 億算力合約",
+   "x": "據 Bloomberg 報導。",
+   "cat": "cloud",
+   "src": [
+    "amc"
+   ]
+  },
+  {
+   "d": "2026-02-27",
+   "t": "$1,100 億募資：Amazon、NVIDIA、SoftBank",
+   "x": "AWS 合約同步擴大 $1,000 億。",
+   "cat": "inv",
+   "src": [
+    "tc_openai110",
+    "oai_amzn"
+   ]
+  },
+  {
+   "d": "2026-03-31",
+   "t": "募資輪以 $1,220 億完成",
+   "x": "投後估值 $8,520 億。",
+   "cat": "inv",
+   "src": [
+    "bbg_122"
+   ]
+  },
+  {
+   "d": "2026-06-26",
+   "t": "NYT：IPO 傾向延到 2027",
+   "x": "",
+   "cat": "gov",
+   "src": [
+    "qz_ipo"
+   ]
+  },
+  {
+   "d": "2026-07-10",
+   "t": "Apple 控告 OpenAI",
+   "x": "竊取營業秘密。",
+   "cat": "gov",
+   "src": [
+    "ap_oai"
+   ]
+  },
+  {
+   "d": "2026-08-29",
+   "t": "Q2 營收 $67 億、營業虧損 $123 億",
+   "x": "虧損擴大速度高於營收。",
+   "cat": "gov",
+   "src": [
+    "kc_q2"
+   ]
+  },
+  {
+   "d": "2026-10-01",
+   "t": "SoftBank 完成 $300 億追加投資",
+   "x": "累計 $646 億。",
+   "cat": "inv",
+   "src": [
+    "star_final"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "t": "Microsoft 揭露單季來自 OpenAI 營收 $100 億",
+   "x": "持股降至約 24%。",
+   "cat": "cloud",
+   "src": [
+    "tc_ms10"
+   ]
+  },
+  {
+   "d": "2026-11-06",
+   "t": "新一輪首批約 $110 億交割（據報）",
+   "x": "估值 $1.25 兆，低於原目標。",
+   "cat": "inv",
+   "src": [
+    "bd_11",
+    "ua_11"
+   ]
+  },
+  {
+   "d": "2026-11-10",
+   "t": "台積電董事會核准認購 ≤$5 億特別股",
+   "x": "",
+   "cat": "inv",
+   "src": [
+    "lds_board"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "2026/3 輪：Amazon $500 億＋NVIDIA $300 億＋SoftBank $300 億＝$1,100 億；總額 $1,220 億，其餘約 $120 億（含個人投資人約 $30 億）。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "CoreWeave：$119 億＋$40 億＋$65 億＝$224 億；AWS：$380 億＋$1,000 億＝$1,380 億。"
+  },
+  {
+   "tag": "已比對",
+   "html": "與其他 Dashboard 的對應節點金額一致：NVIDIA $300 億、SoftBank $646 億、Oracle 約 $3,000 億、台積電 ≤$5 億、AMD 權證 ≤1.6 億股。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "2025 年虧損有兩種口徑：淨損 $385 億（Quartz）與營業虧損約 $209 億；本頁 KPI 採淨損並註明。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "算力承諾總額：Morningstar 引用 $1.15 兆，其他來源另有 $1.4 兆等說法，口徑與涵蓋期間不同。"
+  },
+  {
+   "tag": "未定案",
+   "html": "2026/11 新一輪金額、估值與參與者均來自消息人士，OpenAI 未公開證實；Amazon 其餘 $350 億的撥付條件未公開。"
+  },
+  {
+   "tag": "未定案",
+   "html": "營收分成比例（20%）與上限為媒體報導，未經官方證實。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）OpenAI 未上市，財務數字多來自媒體取得的投資人文件，非經審計的公開財報。（2）股東類節點方向為「流入」，雲端與晶片合約為「流出」。（3）合約金額為多年期總額，不等於已支付。（4）各輪募資與個別股東金額重疊，已用 excludeFromSum 避免重複加總。（5）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "OpenAI 的資金循環是「股東出錢、OpenAI 再把錢付回給股東買算力」。這讓它能在虧損下持續擴張，但前提是每一輪募資都要順利：2026/11 新一輪金額與估值已低於原目標，IPO 也據報延後。",
+  "src": [
+   "bbg_122",
+   "ua_11",
+   "qz_ipo"
+  ],
+  "opps": [
+   {
+    "t": "Q2 營收 $67 億，半年已超過 2025 全年",
+    "src": [
+     "kc_q2b"
+    ]
+   },
+   {
+    "t": "算力來源已分散到 Microsoft、Oracle、AWS、CoreWeave、Cerebras、Google",
+    "src": [
+     "amc",
+     "bi_cloud"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "基礎設施義務約 $1.15 兆，遠高於目前營收",
+    "src": [
+     "ms_ipo"
+    ]
+   },
+   {
+    "t": "Oracle 合約自 2027 年起每年 $600 億，高於自估的 2027 年淨營收",
+    "src": [
+     "cfi_ipo"
+    ]
+   },
+   {
+    "t": "PitchBook 估營運現金消耗 2026 年 $270 億、2027 年 $630 億",
+    "src": [
+     "pj_burn"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "新一輪其餘資金是否到位（目標約 $200 億）",
+    "src": [
+     "ti_11"
+    ]
+   },
+   {
+    "t": "IPO 時點與 Amazon $350 億附條件出資",
+    "src": [
+     "qz_ipo",
+     "hpc_amzn"
+    ]
+   }
+  ]
+ }
+}

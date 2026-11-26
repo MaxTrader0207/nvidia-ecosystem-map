@@ -1,0 +1,1271 @@
+{
+ "meta": {
+  "entity": "ByteDance 字節跳動",
+  "ticker": "未上市",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#fe2c55",
+  "centerLabel": "資本中樞",
+  "fileSlug": "ByteDance",
+  "subtitle": "涵蓋 AI 資本支出、海外資料中心、晶片供應、TikTok 美國合資、戰略投資與資產輪替"
+ },
+ "notice": {
+  "title": "重大動態",
+  "html": "11/13 提案以約 $4,000 億估值回購最多 $60 億，並把 IPO 或全額回售期限延至 2030（<a href=\"https://theedgemalaysia.com/node/825623\" target=\"_blank\">Bloomberg</a>）→ 2026 上半年營收約 $1,200 億（+30%），但淨利降至 $200 億（<a href=\"https://finance.technews.tw/2026/09/16/bytedance-1h-revenue-grows-about-30-year-on-year/\" target=\"_blank\">The Information</a>）→ <b>AI 面</b>：2026 AI capex 上調至 ¥2,000 億以上，並加重國產晶片比重（<a href=\"https://www.scmp.com/tech/article/3352906/bytedance-raises-2026-capex-least-25-amid-ai-boom-rising-memory-costs-sources-say?pgtype=live\" target=\"_blank\">SCMP</a>）。"
+ },
+ "sources": {
+  "bi_jv": [
+   "Business Insider/AOL｜TikTok 美國合資：Oracle、Silver Lake、MGX 各 15%，ByteDance 19.9%",
+   "https://www.aol.com/articles/heres-know-whos-buying-tiktoks-204415750.html"
+  ],
+  "week_jv": [
+   "The Week｜$140 億交易完成，ByteDance 19.9%、非中資 80.1%",
+   "https://theweek.com/tech/tiktok-finalizes-deal-us-version"
+  ],
+  "ts_jv": [
+   "TechSpot｜既有投資人 30.1%；ByteDance 授權演算法、由合資重新訓練",
+   "https://www.techspot.com/news/111036-tiktok-long-running-us-saga-ends-deal-averts.html"
+  ],
+  "reu_jv": [
+   "Reuters/Yahoo｜電商、廣告、行銷由 ByteDance 控制的 TikTok 經營",
+   "https://finance.yahoo.com/news/chinas-bytedance-signs-deal-form-015244764.html"
+  ],
+  "eng_jv": [
+   "Engadget｜合資保護範圍涵蓋 CapCut、Lemon8；Oracle 雲端託管",
+   "https://www.engadget.com/big-tech/tiktok-finalizes-deal-for-its-us-entity-010543484.html?src=rss"
+  ],
+  "caixin_jv": [
+   "Caixin｜ByteDance 保留演算法 IP 並授權給合資",
+   "https://www.caixinglobal.com/2025-12-19/bytedance-strikes-deal-to-keep-tiktok-online-in-us-102395052.html"
+  ],
+  "scmp_capex": [
+   "SCMP｜2026 AI capex 上調至 ¥2,000 億以上（約 $300 億），加重國產晶片比重",
+   "https://www.scmp.com/tech/article/3352906/bytedance-raises-2026-capex-least-25-amid-ai-boom-rising-memory-costs-sources-say?pgtype=live"
+  ],
+  "sa_capex": [
+   "SiliconANGLE/FT｜初步 ¥1,600 億（約 $231 億），2025 年約 ¥1,500 億",
+   "https://siliconangle.com/2025/12/23/tiktok-parent-bytedance-beef-ai-spending-23b-next-year/"
+  ],
+  "ct_70b": [
+   "旺得富｜外媒：2026 年支出討論至多 $700 億、2027 年約 $1,000 億",
+   "https://wantrich.chinatimes.com/news/20260527900832-420101"
+  ],
+  "tn_capex": [
+   "科技新報/FT｜¥850 億購 AI 處理器；海外資料中心租賃多列營運支出",
+   "https://technews.tw/2025/12/23/bytedance-plans-to-increase-ai-spending/"
+  ],
+  "tn_1h": [
+   "科技新報/The Information｜2026 上半年營收約 $1,200 億（+30%）、淨利 $200 億",
+   "https://finance.technews.tw/2026/09/16/bytedance-1h-revenue-grows-about-30-year-on-year/"
+  ],
+  "cnyes_1h": [
+   "鉅亨號/The Information｜海外收入占比逾 30%、淨利率降至約 16.7%",
+   "https://hao.cnyes.com/post/268198"
+  ],
+  "edge_bb": [
+   "The Edge/Bloomberg｜以約 $4,000 億估值回購最多 $60 億；IPO 期限延至 2030",
+   "https://theedgemalaysia.com/node/825623"
+  ],
+  "scmp_ga": [
+   "SCMP/Reuters｜General Atlantic 出售持股，估值 $5,500 億",
+   "https://www.scmp.com/tech/big-tech/article/3344631/bytedance-valuation-said-hit-record-us550-billion-proposed-equity-sale"
+  ],
+  "std_sb": [
+   "The Standard/Bloomberg｜SoftBank、Fidelity、T. Rowe 內部估值上調至逾 $4,000 億",
+   "https://www.thestandard.com.hk/finance/article/229133/ByteDance-to-buy-back-US-staff-shares-at-US312b-valuation"
+  ],
+  "pg_moonton": [
+   "PocketGamer.biz｜以約 $60 億出售沐瞳（Moonton）給 Savvy Games",
+   "https://www.pocketgamer.biz/bytedance-to-sell-moonton-to-savvy-games-group-in-6bn-deal"
+  ],
+  "ti_moonton": [
+   "Tech Insider｜Savvy Games 由沙烏地 PIF 全資持有；3/20 簽約",
+   "https://tech-insider.org/savvy-games-moonton-acquisition-2026/"
+  ],
+  "jm_moonton": [
+   "界面新聞｜2025 Q4 起利潤下滑，出售沐瞳以聚焦 AI",
+   "https://en.jiemian.com/article/14142915.html"
+  ],
+  "inc_br": [
+   "Inc.｜巴西 Ceará 資料中心約 $390 億、20 年 $20 億風電合約",
+   "https://inc.com/ashley-couto/ai-data-centers-race-brazil-us-china-bytedance-tiktok/91370418"
+  ],
+  "cb_br": [
+   "Crypto Briefing｜巴西園區 R$2,000 億+（約 $377–399 億）、目標近 1GW、2027 年啟用",
+   "https://cryptobriefing.com/bytedance-39b-data-center-brazil/"
+  ],
+  "tnw_th": [
+   "The Next Web｜泰國 BOI 核准 TikTok 約 $250 億資料中心擴建",
+   "https://thenextweb.com/news/thailand-29-billion-tiktok-data-center-approval"
+  ],
+  "dcd_th": [
+   "DCD｜泰國 5 年 $88 億（含 $38 億）；TikTok 多採租用機房",
+   "https://datacenterdynamics.com/en/news/tiktok-commits-88bn-to-data-centers-in-thailand"
+  ],
+  "dcd_my": [
+   "DCD｜馬來西亞 RM100 億 AI 樞紐；Bridge DC MY06 主力租戶",
+   "https://datacenterdynamics.com/en/news/tiktok-owner-bytedance-to-expand-malaysia-data-center-footprint-in-21bn-ai-deal"
+  ],
+  "mtd_my": [
+   "Mingtiandi｜另 RM15 億擴建；ByteDance 為 Chindata 最大租戶",
+   "https://www.mingtiandi.com/real-estate/data-centres/bytedance-eyes-2-4b-investment-in-malaysia-data-centres-ai-hub"
+  ],
+  "ct_nv": [
+   "旺得富/SCMP｜若獲准，2026 年擬花約 ¥1,000 億購 NVIDIA；另傳華為昇騰訂單逾 ¥400 億",
+   "https://wantrich.chinatimes.com/news/20251231900362-420201"
+  ],
+  "inside_nv": [
+   "INSIDE/SCMP｜晶片部門約千人，已移至新加坡子公司 Picoheart",
+   "https://www.inside.com.tw/article/40408-rising-compute-demand-bytedance-plans-massive-nvidia-chip-purchases-in-2026"
+  ],
+  "udn_seed": [
+   "聯合新聞網/Reuters｜自研 SeedChip，與三星洽談代工與記憶體",
+   "https://udn.com/news/story/7333/9325093"
+  ],
+  "wj_seed": [
+   "世界日報/Reuters｜SeedChip 目標年產 10 萬→35 萬顆；儲備約 12 萬張 NVIDIA 高階卡",
+   "https://www.worldjournal.com/wj/amp/story/121347/9336181"
+  ],
+  "tnw_qcom": [
+   "The Next Web｜Qualcomm 供應數百萬顆 ASIC，並協助自研晶片量產",
+   "https://thenextweb.com/news/qualcomm-bytedance-ai-chip-deal-asics"
+  ],
+  "bbg_qcom": [
+   "Bloomberg Tax｜Qualcomm 與 ByteDance 達成 AI 資料中心晶片協議",
+   "https://news.bloombergtax.com/artificial-intelligence/qualcomm-strikes-ai-chip-deal-with-tiktok-owner-bytedance-1"
+  ],
+  "th_avgo": [
+   "Tom's Hardware/The Information｜與 Broadcom 設計、台積電代工兩款 AI 晶片",
+   "https://tomshardware.com/tech-industry/artificial-intelligence/tiktok-owner-bytedance-taps-tsmc-to-make-its-own-ai-gpus-to-stop-relying-on-nvidia-the-company-has-reportedly-spent-over-dollar2-billion-on-nvidia-ai-gpus"
+  ],
+  "cls_yitu": [
+   "財聯社｜量子躍動入股弋途科技（車載 AI 軟體）",
+   "https://www.cls.cn/detail/2272339"
+  ],
+  "em_yitu": [
+   "上證報｜量子躍動由抖音有限公司 100% 持股",
+   "https://finance.eastmoney.com/a/202601283633709255.html"
+  ],
+  "em_zbl": [
+   "人民財訊｜量子躍動、上汽創投入股自變量機器人",
+   "https://finance.eastmoney.com/a/202605143736838047.html"
+  ],
+  "udn_anew": [
+   "經濟日報｜新生探途（Anew Labs）分拆，天使輪 $2.9 億、ByteDance 保留 56%",
+   "https://money.udn.com/money/story/5603/9761905"
+  ],
+  "fortune_jv12": [
+   "Fortune/AP｜一半由投資人群組持有，Oracle、Silver Lake、MGX 各 15%",
+   "https://fortune.com/2025/12/19/tiktok-agrees-u-s-joint-venture-deal-with-oracle-silver-lake-and-mgx/"
+  ],
+  "fortune_jv": [
+   "Fortune｜TikTok 美國交易沿用 Project Texas 架構，ByteDance 仍可獲收入",
+   "https://fortune.com/2026/01/27/tiktok-deal-china-us-bytedance-winner-trump/"
+  ],
+  "kr_bd400": [
+   "36Kr｜字節以約 $4,000 億估值回購最多 $60 億（2026-11-13）",
+   "https://eu.36kr.com/en/p/4067760793704065"
+  ]
+ },
+ "categories": [
+  {
+   "id": "lab",
+   "name": "AI 投入（豆包・Seed・火山引擎）",
+   "color": "#a78bfa",
+   "sumNote": "年度資本支出預算"
+  },
+  {
+   "id": "cloud",
+   "name": "海外資料中心",
+   "color": "#38bdf8",
+   "sumNote": "公告投資額（多年期）"
+  },
+  {
+   "id": "supply",
+   "name": "晶片供應鏈（外購＋自研）",
+   "color": "#fb923c",
+   "sumNote": "報導的採購預算"
+  },
+  {
+   "id": "semi",
+   "name": "TikTok 美國合資",
+   "color": "#f472b6"
+  },
+  {
+   "id": "other",
+   "name": "戰略投資與分拆",
+   "color": "#94a3b8"
+  },
+  {
+   "id": "mna",
+   "name": "出售與資產輪替",
+   "color": "#2dd4bf",
+   "sumNote": "出售所得（流入）"
+  },
+  {
+   "id": "fin",
+   "name": "股東、估值與回購",
+   "color": "#facc15",
+   "sumNote": "估值與回購，非對外投資",
+   "hidden": false
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非 ByteDance 持股，僅標示資金流向"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "capex",
+   "name": "2026 AI 資本支出",
+   "tk": "內部",
+   "cat": "lab",
+   "type": "資本支出預算",
+   "amt": 30.0,
+   "short": "≥¥2,000億（~$300億）",
+   "date": "2026-05-08",
+   "amtText": "SCMP：上調至 ¥2,000 億以上（約 $300 億），較初步 ¥1,600 億（約 $231 億）至少增加 25%，並加重國產 AI 晶片比重。另有外媒報導內部討論至多 $700 億、2027 年約 $1,000 億，屬初步構想。",
+   "status": "執行中；2026 上半年淨利率降至約 16.7%",
+   "flow": "投向資料中心與晶片 → 豆包、Seedance 與火山引擎雲端服務。",
+   "src": [
+    "scmp_capex",
+    "sa_capex",
+    "ct_70b",
+    "cnyes_1h"
+   ],
+   "amtType": "capex",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "seedchip",
+   "name": "SeedChip 自研晶片",
+   "tk": "Picoheart（新加坡）",
+   "cat": "lab",
+   "type": "自研 AI 晶片",
+   "amt": null,
+   "short": "千人團隊",
+   "date": "2026-02-11",
+   "amtText": "自研 AI 推理晶片 SeedChip，目標年產至少 10 萬顆、逐步提升至 35 萬顆；晶片部門約千人，已移至新加坡註冊子公司 Picoheart。研發金額未揭露。",
+   "status": "樣品／量產準備中",
+   "flow": "降低豆包推理成本，減少對 NVIDIA 的依賴。",
+   "src": [
+    "udn_seed",
+    "wj_seed",
+    "inside_nv"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "brazil",
+   "name": "巴西 Ceará 資料中心",
+   "tk": "—",
+   "cat": "cloud",
+   "type": "自建資料中心",
+   "amt": 39.0,
+   "short": "~$390億",
+   "date": "2026-07-01",
+   "amtText": "總投資逾 R$2,000 億，依匯率約 $377–399 億；目標近 1GW、2027 年啟用；搭配與 Casa dos Ventos 的 20 年 $20 億風電合約。為 ByteDance 中國以外最大資料中心。",
+   "status": "興建中",
+   "flow": "服務 TikTok 海外用戶與 AI 訓練，可合法使用美國先進晶片。",
+   "src": [
+    "inc_br",
+    "cb_br"
+   ],
+   "amtType": "capex",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "thailand",
+   "name": "泰國資料中心",
+   "tk": "TikTok Pte",
+   "cat": "cloud",
+   "type": "資料中心投資",
+   "amt": 25.0,
+   "short": "~$250億（擴建）",
+   "date": "2026-05-06",
+   "amtText": "泰國 BOI 2026/5 核准 TikTok 約 ฿8,420 億（約 $250 億）擴建；先前已承諾 5 年 $88 億（含 2025/1 核准的 $38 億）。兩者關係（是否重疊）公開資料未說明。",
+   "status": "已核准",
+   "flow": "東南亞資料託管與 AI 服務。",
+   "src": [
+    "tnw_th",
+    "dcd_th"
+   ],
+   "amtType": "capex",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "malaysia",
+   "name": "馬來西亞 AI 樞紐",
+   "tk": "ByteDance System",
+   "cat": "cloud",
+   "type": "AI 樞紐＋機房擴建",
+   "amt": 2.45,
+   "short": "~$24.5億",
+   "date": "2024-06-07",
+   "amtText": "RM100 億（約 $21.3 億）AI 樞紐，另 RM15 億（約 $3.2 億）擴建 Johor 資料中心；ByteDance 是 Bridge Data Centres MY06 的主力租戶。",
+   "status": "營運／擴建中",
+   "flow": "租用 Bridge DC（母公司 Chindata）機房。",
+   "src": [
+    "dcd_my",
+    "mtd_my"
+   ],
+   "amtType": "capex",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "tk": "NVDA",
+   "cat": "supply",
+   "type": "GPU 採購（待核准）",
+   "amt": 15.0,
+   "short": "≤¥1,000億",
+   "date": "2025-12-31",
+   "amtText": "SCMP：若 H200 獲准銷售，2026 年擬花約 ¥1,000 億（2025 年約 ¥850 億）；另傳先以 2 萬顆 H200 測試訂單。截至 2026/5，北京尚未核准企業進口 H200。截至 2025 年底儲備約 12 萬張 A100/A800/H800 與近百萬片 H20/L20/L40。美元金額以 SCMP ¥2,000 億≈$300 億的口徑換算。",
+   "status": "待中方核准",
+   "flow": "採購 GPU → 訓練與推理 → 豆包、TikTok 推薦。",
+   "src": [
+    "ct_nv",
+    "scmp_capex",
+    "wj_seed",
+    "tn_capex"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "GPU 採購（待核准） SCMP：若 H200 獲准銷售",
+     "auto": true
+    }
+   ],
+   "unconfirmed": true
+  },
+  {
+   "id": "huawei",
+   "name": "華為昇騰等國產晶片",
+   "tk": "未上市",
+   "cat": "supply",
+   "type": "國產 AI 晶片採購",
+   "amt": 6.0,
+   "short": "傳 >¥400億",
+   "date": "2025-12-31",
+   "amtText": "報導稱 2026 年向華為採購昇騰晶片訂單或逾 ¥400 億；另採用寒武紀、海光、昆侖芯等，數量數千至數萬不等。",
+   "status": "報導",
+   "flow": "配合國產化政策、分散地緣政治風險。",
+   "src": [
+    "ct_nv",
+    "wj_seed",
+    "scmp_capex"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "unconfirmed": true,
+   "risks": [
+    {
+     "k": "geo",
+     "x": "報導 配合國產化政策、分散地緣政治風險",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "qualcomm",
+   "name": "Qualcomm",
+   "tk": "QCOM",
+   "cat": "supply",
+   "type": "ASIC 採購＋量產服務",
+   "amt": null,
+   "short": "數百萬顆 ASIC",
+   "date": "2026-05-26",
+   "amtText": "Bloomberg：Qualcomm 將供應數百萬顆 AI ASIC，並協助 ByteDance 自研晶片進入量產；金額未揭露，雙方未證實。",
+   "status": "報導",
+   "flow": "支援 AI 代理軟體；結構設計上符合美國出口管制門檻。",
+   "src": [
+    "bbg_qcom",
+    "tnw_qcom"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "geo",
+     "x": "結構設計上符合美國出口管制門檻",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "samsung",
+   "name": "Samsung・Broadcom・TSMC",
+   "tk": "—",
+   "cat": "supply",
+   "type": "代工／設計夥伴",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-02-11",
+   "amtText": "SeedChip 與三星洽談代工與記憶體供應；2024 年報導與 Broadcom 合作設計、由台積電代工兩款 AI 晶片。",
+   "status": "洽談／報導",
+   "flow": "自研晶片的製造與記憶體來源。",
+   "src": [
+    "udn_seed",
+    "th_avgo"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "unconfirmed": true,
+   "risks": [
+    {
+     "k": "exec",
+     "x": "代工／設計夥伴 SeedChip 與三星洽談代工與記憶體供應",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "tiktokus",
+   "name": "TikTok USDS Joint Venture",
+   "tk": "未上市",
+   "cat": "semi",
+   "type": "保留 19.9% 股權＋演算法授權",
+   "amt": 2.79,
+   "short": "19.9%（~$28億）",
+   "date": "2026-01-22",
+   "amtText": "合資估值約 $140 億；Oracle、Silver Lake、MGX 各 15%，ByteDance 既有投資人的關係企業 30.1%，ByteDance 19.9%（法律允許上限）。19.9% 約 $27.9 億為本表依 $140 億推算。ByteDance 保留演算法 IP 並授權給合資，由合資用美國資料重新訓練。",
+   "status": "2026/1 完成",
+   "flow": "美國的電商、廣告、行銷仍由 ByteDance 控制的 TikTok 實體經營，持續為 ByteDance 帶來收入。",
+   "src": [
+    "bi_jv",
+    "week_jv",
+    "ts_jv",
+    "reu_jv",
+    "caixin_jv",
+    "fortune_jv",
+    "fortune_jv12",
+    "eng_jv"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   },
+   "valNote": "19.9% × 合資估值約 $140 億 ≈ $28 億（以合資成立時估值計，非市價）",
+   "valSrc": [
+    "bi_jv",
+    "week_jv"
+   ]
+  },
+  {
+   "id": "anew",
+   "name": "新生探途（Anew Labs）",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "分拆＋保留控股",
+   "amt": null,
+   "short": "保留 56%",
+   "date": "2026-06",
+   "amtText": "內部 AI 製藥團隊於 2026/6 分拆，天使輪募資 $2.9 億、投後估值 $15 億；ByteDance 保留 56%（以投後估值計約 $8.4 億，本表推算）。",
+   "status": "控股子公司",
+   "flow": "AI for Science：分子結構預測、抗體設計與藥物發現。",
+   "src": [
+    "udn_anew"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "zbl",
+   "name": "自變量機器人",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "參與輪次（量子躍動）",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-05-14",
+   "amtText": "ByteDance 旗下北京量子躍動與上汽創投新增為股東；金額未揭露。",
+   "status": "持有中",
+   "flow": "具身智能大模型與人形機器人。",
+   "src": [
+    "em_zbl"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "yitu",
+   "name": "弋途科技",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "參與輪次（量子躍動）",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-01-27",
+   "amtText": "量子躍動（抖音有限公司 100% 持股）新增為股東；金額未揭露。",
+   "status": "持有中",
+   "flow": "車載推理大模型、AI 座艙 OS。",
+   "src": [
+    "cls_yitu",
+    "em_yitu"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "moonton",
+   "name": "沐瞳科技（出售）",
+   "tk": "—",
+   "cat": "mna",
+   "type": "出售子公司",
+   "amt": 6.0,
+   "short": "~$60億",
+   "date": "2026-03-20",
+   "amtText": "以逾 $60 億售予沙烏地 PIF 旗下 Savvy Games Group；2021 年以約 $40 億收購。",
+   "status": "簽約",
+   "flow": "回收資金、聚焦 AI。",
+   "src": [
+    "pg_moonton",
+    "ti_moonton",
+    "jm_moonton"
+   ],
+   "amtType": "disposal",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "buyback",
+   "name": "2026 股份回購",
+   "tk": "內部",
+   "cat": "fin",
+   "type": "回購",
+   "amt": 6.0,
+   "short": "≤$60億 @ $4,000億",
+   "date": "2026-11-13",
+   "amtText": "以約 $4,000 億估值向投資人回購最多 $60 億，比一年前高 20%；同時將 IPO 或全額回售期限延至 2030/12/11，並向 AI 部門員工發放 3 億股追蹤 AI 業務價值的股份。",
+   "status": "提案中",
+   "flow": "以回購代替 IPO 提供股東流動性。",
+   "src": [
+    "edge_bb"
+   ],
+   "amtType": "return",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "ga",
+   "name": "General Atlantic・SoftBank 等",
+   "tk": "—",
+   "cat": "fin",
+   "type": "股東／二級市場交易",
+   "amt": null,
+   "short": "估值 $5,500億",
+   "date": "2026-02-25",
+   "amtText": "General Atlantic 出售部分持股，估值 $5,500 億；SoftBank、Fidelity、T. Rowe Price 內部估值上調至逾 $4,000 億；CapLight 估值約 $6,300 億。",
+   "status": "持有中",
+   "flow": "外部股東獲得流動性。",
+   "src": [
+    "scmp_ga",
+    "std_sb",
+    "tn_1h"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle・Silver Lake・MGX",
+   "tk": "ORCL",
+   "cat": "cp",
+   "type": "循環對手方（合資管理投資人）",
+   "amt": null,
+   "short": "",
+   "date": "2026-01-22",
+   "amtText": "各持 TikTok 美國合資 15%；Oracle 負責雲端託管與資料安全。",
+   "status": "—",
+   "flow": "取得合資股權與雲端合約。",
+   "src": [
+    "bi_jv",
+    "eng_jv"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "savvy",
+   "name": "Savvy Games（PIF）",
+   "tk": "—",
+   "cat": "cp",
+   "type": "循環對手方（買方）",
+   "amt": null,
+   "short": "",
+   "date": "2026-03-20",
+   "amtText": "沙烏地 PIF 全資的遊戲控股公司。",
+   "status": "—",
+   "flow": "收購沐瞳。",
+   "src": [
+    "ti_moonton"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "dcops",
+   "name": "Casa dos Ventos・Bridge DC",
+   "tk": "—",
+   "cat": "cp",
+   "type": "循環對手方（能源／機房）",
+   "amt": null,
+   "short": "",
+   "date": "2026-05-18",
+   "amtText": "巴西風電供應商（20 年 $20 億 PPA）；馬來西亞機房業者 Bridge Data Centres。",
+   "status": "—",
+   "flow": "提供電力與機房。",
+   "src": [
+    "cb_br",
+    "mtd_my"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  }
+ ],
+ "flows": [
+  [
+   "oracle",
+   "tiktokus",
+   "各持 15%、Oracle 雲端託管"
+  ],
+  [
+   "savvy",
+   "moonton",
+   "以逾 $60 億收購"
+  ],
+  [
+   "dcops",
+   "brazil",
+   "20 年 $20 億風電 PPA"
+  ],
+  [
+   "dcops",
+   "malaysia",
+   "出租 MY06 機房"
+  ],
+  [
+   "qualcomm",
+   "seedchip",
+   "協助自研晶片量產"
+  ],
+  [
+   "samsung",
+   "seedchip",
+   "洽談代工與記憶體"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "≥¥2,000億",
+   "l": "2026 AI 資本支出（約 $300億）",
+   "src": [
+    "scmp_capex"
+   ]
+  },
+  {
+   "v": "$1,200億",
+   "l": "2026 上半年營收（+30%），淨利 $200億",
+   "src": [
+    "tn_1h"
+   ]
+  },
+  {
+   "v": ">30%",
+   "l": "海外（TikTok 為主）收入占比",
+   "src": [
+    "cnyes_1h"
+   ]
+  },
+  {
+   "v": "$4,000億",
+   "l": "回購估值（最多 $60億）",
+   "src": [
+    "edge_bb"
+   ]
+  },
+  {
+   "v": "$5,500億",
+   "l": "General Atlantic 二級交易估值",
+   "src": [
+    "scmp_ga"
+   ]
+  },
+  {
+   "v": "19.9%",
+   "l": "TikTok 美國合資持股（合資估值 ~$140億）",
+   "src": [
+    "bi_jv",
+    "week_jv"
+   ]
+  },
+  {
+   "v": "~$390億",
+   "l": "巴西單一資料中心園區",
+   "src": [
+    "inc_br"
+   ]
+  },
+  {
+   "v": "~$60億",
+   "l": "出售沐瞳（2021 年以約 $40億收購）",
+   "src": [
+    "pg_moonton"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "投資架構",
+   "text": "ByteDance 的「投資」以自身 AI 基礎設施為主：資料中心（巴西、泰國、馬來西亞）與晶片（外購＋自研）；對外少數股權投資規模小，主要經量子躍動投資機器人、車載 AI 等。",
+   "src": [
+    "scmp_capex",
+    "inc_br",
+    "em_zbl"
+   ]
+  },
+  {
+   "title": "規模",
+   "text": "2026 AI capex ≥¥2,000 億；上半年營收約 $1,200 億、淨利 $200 億，淨利率降至約 16.7%。",
+   "src": [
+    "scmp_capex",
+    "tn_1h",
+    "cnyes_1h"
+   ]
+  },
+  {
+   "title": "資本運作",
+   "text": "美國：讓出 TikTok 美國合資 80.1%；出售沐瞳回收逾 $60 億；以 $4,000 億估值回購並延後 IPO 期限。",
+   "src": [
+    "bi_jv",
+    "pg_moonton",
+    "edge_bb"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① TikTok 美國合資循環",
+   "sub": "讓出控制權 → 保留演算法與商業營收",
+   "nodes": [
+    [
+     "ByteDance",
+     "accent"
+    ],
+    [
+     "TikTok USDS\n合資",
+     "semi"
+    ],
+    [
+     "Oracle・Silver Lake・MGX\n（各 15%）",
+     "cp"
+    ],
+    [
+     "美國電商・廣告\n（ByteDance 控制）",
+     "semi"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "保留 19.9%\n授權演算法"
+    ],
+    [
+     2,
+     1,
+     "入股＋Oracle 雲端託管"
+    ],
+    [
+     1,
+     3,
+     "美國用戶流量"
+    ],
+    [
+     3,
+     0,
+     "營收回流"
+    ]
+   ],
+   "text": "ByteDance 只保留美國合資 19.9%，但保留演算法 IP 並授權給合資；美國的電商、廣告與行銷仍由 ByteDance 控制的 TikTok 實體經營，因此美國用戶流量仍能轉為 ByteDance 的收入。",
+   "src": [
+    "bi_jv",
+    "ts_jv",
+    "reu_jv",
+    "caixin_jv",
+    "fortune_jv"
+   ],
+   "dep": "high",
+   "backNote": "美國電商與廣告營收未單獨揭露，無法量化",
+   "backSrc": [
+    "bi_jv",
+    "ts_jv"
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "② 晶片多源循環",
+   "sub": "外購＋自研 → 豆包推理 → 雲端營收",
+   "nodes": [
+    [
+     "ByteDance",
+     "accent"
+    ],
+    [
+     "外購晶片\nNVIDIA・華為・Qualcomm",
+     "supply"
+    ],
+    [
+     "SeedChip 自研\n（三星代工洽談）",
+     "lab"
+    ],
+    [
+     "豆包・火山引擎",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "NVIDIA ≤¥1,000億\n華為 傳 >¥400億"
+    ],
+    [
+     0,
+     2,
+     "千人晶片團隊"
+    ],
+    [
+     1,
+     3,
+     "訓練與推理算力"
+    ],
+    [
+     2,
+     3,
+     "推理晶片"
+    ],
+    [
+     3,
+     0,
+     "AI 服務營收"
+    ]
+   ],
+   "text": "受出口管制影響，ByteDance 採「外購＋自研」雙軌：NVIDIA 預算取決於 H200 能否進口，同時加重華為等國產晶片比重，並自研 SeedChip、找 Qualcomm 協助量產。",
+   "src": [
+    "ct_nv",
+    "scmp_capex",
+    "wj_seed",
+    "tnw_qcom",
+    "inside_nv"
+   ],
+   "dep": "mid",
+   "backNote": "豆包與火山引擎的營收未揭露；晶片採購金額多為報導或預算",
+   "backSrc": [
+    "ct_nv",
+    "scmp_capex"
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "③ 海外資料中心循環",
+   "sub": "海外建置 → 合法使用先進晶片 → 海外營收",
+   "nodes": [
+    [
+     "ByteDance",
+     "accent"
+    ],
+    [
+     "海外資料中心\n巴西・泰國・馬來西亞",
+     "cloud"
+    ],
+    [
+     "能源／機房業者",
+     "cp"
+    ],
+    [
+     "TikTok 海外營收\n（占比 >30%）",
+     "semi"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "巴西 ~$390億\n泰國 ~$250億"
+    ],
+    [
+     2,
+     1,
+     "風電 PPA・機房出租"
+    ],
+    [
+     1,
+     3,
+     "服務海外用戶＋AI 訓練"
+    ],
+    [
+     3,
+     0,
+     "營收回流"
+    ]
+   ],
+   "text": "ByteDance 在中國以外大量建置或租用資料中心，一方面服務 TikTok 海外用戶，一方面可在當地合法使用美國先進晶片；海外收入占比已逾 30%。租賃多列為營運支出，不在資本支出數字內。",
+   "src": [
+    "inc_br",
+    "tnw_th",
+    "dcd_my",
+    "tn_capex",
+    "cnyes_1h"
+   ],
+   "dep": "mid",
+   "backNote": "海外營收占比逾 30%，但未揭露對應各資料中心的金額",
+   "backSrc": [
+    "inc_br",
+    "tnw_th"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ 資產輪替循環",
+   "sub": "出售非核心 → 投入 AI → 回購維持股東流動性",
+   "nodes": [
+    [
+     "ByteDance",
+     "accent"
+    ],
+    [
+     "Savvy Games\n（沙烏地 PIF）",
+     "cp"
+    ],
+    [
+     "AI 資本支出\n≥¥2,000億",
+     "lab"
+    ],
+    [
+     "外部股東",
+     "fin"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "出售沐瞳\n回收逾 $60億"
+    ],
+    [
+     0,
+     2,
+     "聚焦 AI"
+    ],
+    [
+     0,
+     3,
+     "回購 ≤$60億\n@ $4,000億"
+    ]
+   ],
+   "text": "利潤率受 AI 支出壓縮後，ByteDance 出售遊戲子公司沐瞳回收資金，把資源集中到 AI；同時延後 IPO 期限，以定期回購提供股東流動性。",
+   "src": [
+    "pg_moonton",
+    "jm_moonton",
+    "scmp_capex",
+    "edge_bb"
+   ],
+   "back": 6.0,
+   "dep": "low",
+   "backSrc": [
+    "pg_moonton",
+    "edge_bb"
+   ],
+   "backNote": "出售沐瞳約 $60 億，與 2026 年最多 $60 億回購規模相當"
+  }
+ ],
+ "loopNote": {
+  "text": "ByteDance 的資金循環以「內部再投資」為主：獲利主要來自抖音與 TikTok 廣告、電商，再投入 AI 算力。支持者認為營收增長與海外占比上升顯示體質強勁；疑慮則包括 AI 支出壓縮利潤率、美中出口管制使晶片來源不確定，以及 TikTok 美國合資的治理與收入分配仍不透明。",
+  "src": [
+   "tn_1h",
+   "cnyes_1h",
+   "scmp_capex",
+   "ct_nv",
+   "reu_jv"
+  ]
+ },
+ "events": [
+  {
+   "d": "2024-06-07",
+   "t": "馬來西亞 RM100 億 AI 樞紐",
+   "x": "另 RM15 億擴建機房。",
+   "cat": "cloud",
+   "src": [
+    "dcd_my"
+   ]
+  },
+  {
+   "d": "2025-02-28",
+   "t": "泰國 5 年 $88 億",
+   "x": "含先前 $38 億。",
+   "cat": "cloud",
+   "src": [
+    "dcd_th"
+   ]
+  },
+  {
+   "d": "2025-12-19",
+   "t": "TikTok 美國合資簽約",
+   "x": "Oracle、Silver Lake、MGX 各 15%。",
+   "cat": "semi",
+   "src": [
+    "caixin_jv"
+   ]
+  },
+  {
+   "d": "2025-12-23",
+   "t": "2026 capex 初步 ¥1,600 億",
+   "x": "約一半用於晶片。",
+   "cat": "lab",
+   "src": [
+    "sa_capex"
+   ]
+  },
+  {
+   "d": "2026-01-22",
+   "t": "TikTok 美國合資完成",
+   "x": "ByteDance 保留 19.9%。",
+   "cat": "semi",
+   "src": [
+    "week_jv"
+   ]
+  },
+  {
+   "d": "2026-01-27",
+   "t": "量子躍動入股弋途科技",
+   "x": "車載 AI。",
+   "cat": "other",
+   "src": [
+    "cls_yitu"
+   ]
+  },
+  {
+   "d": "2026-02-11",
+   "t": "SeedChip 與三星洽談代工",
+   "x": "目標年產 10 萬顆。",
+   "cat": "supply",
+   "src": [
+    "udn_seed"
+   ]
+  },
+  {
+   "d": "2026-02-25",
+   "t": "General Atlantic 二級交易",
+   "x": "估值 $5,500 億。",
+   "cat": "fin",
+   "src": [
+    "scmp_ga"
+   ]
+  },
+  {
+   "d": "2026-03-20",
+   "t": "出售沐瞳給 Savvy Games",
+   "x": "逾 $60 億。",
+   "cat": "mna",
+   "src": [
+    "pg_moonton"
+   ]
+  },
+  {
+   "d": "2026-05-06",
+   "t": "泰國核准約 $250 億擴建",
+   "x": "BOI 核准。",
+   "cat": "cloud",
+   "src": [
+    "tnw_th"
+   ]
+  },
+  {
+   "d": "2026-05-08",
+   "t": "capex 上調至 ¥2,000 億+",
+   "x": "加重國產晶片。",
+   "cat": "lab",
+   "src": [
+    "scmp_capex"
+   ]
+  },
+  {
+   "d": "2026-05-14",
+   "t": "量子躍動入股自變量機器人",
+   "x": "上汽創投同輪。",
+   "cat": "other",
+   "src": [
+    "em_zbl"
+   ]
+  },
+  {
+   "d": "2026-05-18",
+   "t": "巴西 20 年 $20 億風電合約",
+   "x": "Casa dos Ventos。",
+   "cat": "cloud",
+   "src": [
+    "cb_br"
+   ]
+  },
+  {
+   "d": "2026-05-26",
+   "t": "Qualcomm ASIC 協議",
+   "x": "數百萬顆（報導）。",
+   "cat": "supply",
+   "src": [
+    "bbg_qcom"
+   ]
+  },
+  {
+   "d": "2026-06",
+   "t": "Anew Labs 分拆募資 $2.9 億",
+   "x": "保留 56%。",
+   "cat": "other",
+   "src": [
+    "udn_anew"
+   ]
+  },
+  {
+   "d": "2026-07-01",
+   "t": "巴西資料中心曝光",
+   "x": "約 $390 億、中國以外最大。",
+   "cat": "cloud",
+   "src": [
+    "inc_br"
+   ]
+  },
+  {
+   "d": "2026-09-15",
+   "t": "上半年財務（The Information）",
+   "x": "營收 $1,200 億、淨利 $200 億。",
+   "cat": "gov",
+   "src": [
+    "tn_1h"
+   ]
+  },
+  {
+   "d": "2026-11-13",
+   "t": "以 $4,000 億估值回購",
+   "x": "最多 $60 億；IPO 期限延至 2030。",
+   "cat": "fin",
+   "src": [
+    "edge_bb"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "TikTok 美國合資股權：新投資人群組 50%（Oracle、Silver Lake、MGX 各 15%，另含 Dell 等）＋既有投資人關係企業 30.1%＋ByteDance 19.9% ＝ 100%；19.9% × $140 億 ≈ $27.9 億（自行計算）。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "Anew Labs：56% × $15 億 ≈ $8.4 億（自行計算）；華為 ¥400 億、NVIDIA ¥1,000 億以 SCMP「¥2,000 億≈$300 億」口徑換算為約 $60 億、$150 億。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "2026 capex：FT 初步 ¥1,600 億 vs SCMP ¥2,000 億+ vs 另有報導內部討論至多 $700 億（¥4,000–5,000 億）；估值：回購 $4,000 億 vs General Atlantic $5,500 億 vs CapLight 約 $6,300 億。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "泰國：2025 年承諾 5 年 $88 億，2026/5 BOI 核准約 $250 億擴建，兩者是否重疊未說明；巴西：R$2,000 億依匯率約 $377–399 億。"
+  },
+  {
+   "tag": "未定案",
+   "html": "NVIDIA H200 採購取決於中方核准；Qualcomm 協議、華為訂單為媒體報導，公司未證實；回購為提案階段。"
+  },
+  {
+   "tag": "資料限制",
+   "html": "ByteDance 未上市，財務數字多來自 The Information、Bloomberg、SCMP 等報導；戰略投資（量子躍動）只能從工商登記看到入股，金額通常不揭露。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）ByteDance 為未上市公司，金額多為媒體引述知情人士，非公司揭露；人民幣金額以 SCMP「¥2,000 億≈$300 億」口徑換算（約 6.67，2026/5）。（2）資料中心金額為公告的多年期投資，租賃多列營運支出。（3）回購與估值是 ByteDance 自身股權交易，不是對外投資。（4）戰略投資多透過抖音有限公司 100% 持股的北京量子躍動進行，金額未揭露。（5）本 Dashboard 為資訊整理，非投資建議。<br>主要來源：Reuters、Bloomberg、SCMP、The Information、FT 轉載，以及天眼查／企查查工商資料報導，各節點附個別連結。",
+ "ic": {
+  "thesis": "字節的資本主要投向自己的 AI 基礎設施（2026 AI 資本支出約 $300 億、海外資料中心數百億美元），對外股權投資很少；回購以約 $4,000 億估值定價，低於二級市場 $5,500 億，顯示公司自訂價格偏保守。",
+  "src": [
+   "scmp_capex",
+   "kr_bd400",
+   "scmp_ga"
+  ],
+  "opps": [
+   {
+    "t": "2026 上半年營收 $1,200 億、淨利 $200 億",
+    "src": [
+     "tn_1h"
+    ]
+   },
+   {
+    "t": "自研晶片與 Qualcomm ASIC 降低對單一 GPU 供應商依賴",
+    "src": [
+     "wj_seed",
+     "bbg_qcom"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "先進晶片取得受出口管制，海外資料中心是主要繞道方式",
+    "src": [
+     "inc_br",
+     "tnw_th"
+    ]
+   },
+   {
+    "t": "TikTok 美國業務只保留 19.9%，控制權已讓出",
+    "src": [
+     "bi_jv"
+    ]
+   },
+   {
+    "t": "未上市，回購估值與二級市場估值差距大",
+    "src": [
+     "kr_bd400",
+     "scmp_ga"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "以 $4,000 億估值回購執行；IPO 期限延至 2030",
+    "src": [
+     "edge_bb"
+    ]
+   },
+   {
+    "t": "巴西約 $390 億資料中心園區進度",
+    "src": [
+     "inc_br"
+    ]
+   }
+  ]
+ }
+}

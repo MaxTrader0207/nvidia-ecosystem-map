@@ -1,0 +1,1103 @@
+{
+ "meta": {
+  "entity": "Apple",
+  "ticker": "AAPL",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#a3a3a3",
+  "centerLabel": "資本中樞",
+  "fileSlug": "Apple",
+  "subtitle": "涵蓋美國製造計畫採購承諾、晶片代工、AI 夥伴、收購與搜尋分潤"
+ },
+ "notice": {
+  "title": "近半年重大動態",
+  "months": 6,
+  "show": 6,
+  "html": "John Ternus 接任 CEO 後首份財報：FY26 Q4 營收 $1,145 億、年增 12%（<a href=\"https://www.mobileworldlive.com/?p=517111\" target=\"_blank\">Mobile World Live</a>）。"
+ },
+ "sources": {
+  "ap_q4": [
+   "Apple 財報（Barchart 轉載）｜FY26 Q4 營收 $1,145 億（2026-10-29）",
+   "https://www.webull.com/news/15856336821249024",
+   "B"
+  ],
+  "ap_fy": [
+   "ProPakistani｜FY2026 營收 $4,788 億、淨利 $1,322 億、服務 $1,233 億",
+   "https://propakistani.pk/2026/11/03/apple-breaks-revenue-records-with-114-5-billion-in-just-3-months/"
+  ],
+  "ap_mw": [
+   "Mobile World Live｜Ternus 首次以 CEO 身分主持財報",
+   "https://www.mobileworldlive.com/?p=517111"
+  ],
+  "ap_amp": [
+   "Apple Newsroom｜美國承諾增至 $6,000 億並推出 AMP（2025-08-06）",
+   "https://www.apple.com/newsroom/2025/08/apple-increases-us-commitment-to-600-billion-usd-announces-ambitious-program",
+   "A"
+  ],
+  "ap_corning": [
+   "Apple Newsroom｜與 Corning 合作，$25 億在肯塔基生產全部 iPhone 蓋板玻璃",
+   "https://www.apple.com/newsroom/2025/08/apple-corning-to-manufacture-all-iphone-apple-watch-cover-glass-in-kentucky",
+   "A"
+  ],
+  "ap_mp": [
+   "Fortune｜Apple 承諾 $5 億採購 MP Materials 稀土磁鐵（2025-07-15）",
+   "https://fortune.com/2025/07/15/apple-mp-materials-rare-earth-deal-china/"
+  ],
+  "ap_mp2": [
+   "SiliconANGLE｜國防部一週前以 $4 億買入 MP 特別股",
+   "https://siliconangle.com/2025/07/15/apple-spending-500-million-government-backed-rare-minerals-program/"
+  ],
+  "ap_avgo": [
+   "Apple Newsroom｜與 Broadcom 新多年期協議，預期超過 $300 億（2026-07-08）",
+   "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+   "A"
+  ],
+  "ap_avgo2": [
+   "Constellation Research｜Broadcom 投入 $15 億擴建 Fort Collins，協議至 2031",
+   "https://www.constellationr.com/insights/news/apple-broadcom-confirm-30-billion-custom-chip-pact"
+  ],
+  "ap_tsmc": [
+   "MacDailyNews／Arizona Republic｜2026 年向台積電亞利桑那採購逾 1 億顆晶片；Apple 為 Amkor 廠投資方",
+   "https://macdailynews.com/2026/02/27/apple-to-buy-100-million-made-in-america-chips-from-tsmc-arizona-this-year/"
+  ],
+  "ap_tsmc2": [
+   "MacRumors｜Cook：Apple 是 TSMC Arizona 第一且最大客戶",
+   "https://www.macrumors.com/2026/07/16/tsmc-pledges-100-billion-for-us-plants/"
+  ],
+  "ap_intel": [
+   "SiliconANGLE｜WSJ：Apple 與 Intel 達成初步代工協議（2026-05-08）",
+   "https://siliconangle.com/2026/05/08/intel-shares-jump-reported-chip-production-deal-apple/"
+  ],
+  "ap_intel2": [
+   "eWeek｜WSJ：白宮施壓促成 Apple 採用 Intel 代工（2026-07-14）",
+   "https://www.eweek.com/news/apple-intel-chip-deal-white-house/"
+  ],
+  "ap_intel3": [
+   "TechRepublic｜川普宣布 Apple 將與 Intel 在美生產晶片（2026-06-19）",
+   "https://techrepublic.com/article/news-apple-intel-us-chip-production-trump/"
+  ],
+  "ap_gem": [
+   "Axios｜Apple 與 Google 宣布 Gemini 驅動 Siri 多年期協議（2026-01-13）",
+   "https://www.axios.com/2026/01/13/apple-intelligence-google-gemini-siri"
+  ],
+  "ap_gem2": [
+   "MacRumors｜Bloomberg：Apple 每年付 Google 約 $10 億；Google 2022 年付 Apple $200 億搜尋預設費",
+   "https://www.macrumors.com/2025/11/05/apple-google-new-siri-payment/"
+  ],
+  "ap_gem3": [
+   "The Register｜Gemini 協議回流 Google 付給 Apple 約 $200 億的一小部分",
+   "https://www.theregister.com/2026/01/12/apple_taps_google_gemini_siri/"
+  ],
+  "ap_oai": [
+   "Al Jazeera｜Apple 控告 OpenAI 竊取營業秘密（2026-07-10）",
+   "https://aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets"
+  ],
+  "ap_oai2": [
+   "MacRumors｜OpenAI 法院文件：Siri 中的 ChatGPT「嚴重表現不佳」（2026-09-23）",
+   "https://macrumors.com/2026/09/23/openai-siri-chatgpt-underperforming"
+  ],
+  "ap_qai": [
+   "SiliconANGLE｜Apple 收購 Q.ai，FT 報導約 $20 億（2026-01-29）",
+   "https://siliconangle.com/?p=729433"
+  ],
+  "ap_qai2": [
+   "PYMNTS｜Reuters 無法獨立證實 $20 億估值；GV 為 Q.ai 投資人",
+   "https://www.pymnts.com/cpi-posts/apple-buys-israeli-ai-audio-startup-q-ai-in-undisclosed-deal"
+  ],
+  "ap_hou": [
+   "Arizona Tech Council｜Apple 擴大休士頓 AI 伺服器與 Mac mini 生產",
+   "https://www.aztechcouncil.org/apple-chips-tsmc-fab/"
+  ],
+  "ap_q2": [
+   "Apple Newsroom｜FY26 Q2 營收 $1,112 億、股利升 4% 至 $0.27（2026-04-30）",
+   "https://apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+   "A"
+  ],
+  "ap_gsat": [
+   "Capacity Media｜Apple 以 $4 億取得 Globalstar 20%，另承諾 $11 億建置資金",
+   "https://capacitymedia.com/article-apple-globalstar"
+  ],
+  "ap_gsat2": [
+   "DCD｜Globalstar 85% 網路容量供 Apple 使用；2023 年曾借款 $2.52 億",
+   "https://datacenterdynamics.com/en/news/apple-takes-20-percent-stake-in-globalstar-commits-11bn-for-iphone-satellite-services"
+  ],
+  "mr_gsat": [
+   "MacRumors｜Amazon 以約 $115.7 億收購 Globalstar，預計 2027 年完成；Amazon Leo 接手 iPhone 衛星功能（2026-04-14）",
+   "https://macrumors.com/2026/04/14/apple-and-amazon-ink-satellite-deal-globalstar/"
+  ],
+  "mr_gsat2": [
+   "MacRumors｜Amazon 將一併收購 Apple 持有的 Globalstar 股權（FCC 文件，2026-05-27）",
+   "https://macrumors.com/2026/05/27/amazon-apple-globalstar-deal/"
+  ]
+ },
+ "categories": [
+  {
+   "id": "supply",
+   "name": "美國製造計畫（AMP）供應商",
+   "color": "#fb923c"
+  },
+  {
+   "id": "semi",
+   "name": "晶片代工與設計夥伴",
+   "color": "#f472b6"
+  },
+  {
+   "id": "lab",
+   "name": "AI 模型夥伴",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "other",
+   "name": "策略股權",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "mna",
+   "name": "收購",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "fin",
+   "name": "承諾總額與股東回饋",
+   "color": "#facc15",
+   "sumNote": "總額已含各供應商節點，不重複加總"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "amp",
+   "name": "美國投資承諾（含 AMP）",
+   "tk": "—",
+   "cat": "fin",
+   "type": "四年投資承諾",
+   "amt": 600,
+   "short": "$6,000億",
+   "date": "2025-08-06",
+   "amtText": "2025 年 2 月承諾 $5,000 億，8 月加碼 $1,000 億至四年 $6,000 億，並成立美國製造計畫（AMP）。夥伴含 Corning、Coherent、GlobalWafers、Applied Materials、TI、Samsung、GlobalFoundries、Amkor、Broadcom。",
+   "status": "執行中",
+   "flow": "供應商在美擴產後供貨給 Apple，同時換取關稅豁免",
+   "src": [
+    "ap_amp"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "excludeFromSum": true,
+   "risks": [
+    {
+     "k": "geo",
+     "x": "承諾與關稅談判掛鉤，政策變動會影響執行",
+     "src": [
+      "ap_intel2"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "broadcom",
+   "name": "Broadcom",
+   "tk": "AVGO",
+   "cat": "semi",
+   "type": "多年期採購承諾",
+   "amt": 30,
+   "short": ">$300億",
+   "date": "2026-07-08",
+   "amtText": "新多年期協議預期超過 $300 億，在美生產逾 150 億顆晶片（客製 ASIC、射頻 FBAR、Wi-Fi／藍牙）；Broadcom 投入 $15 億擴建 Colorado 廠，協議至 2031 年。為 AMP 最大單筆承諾。",
+   "status": "執行中",
+   "flow": "Apple 採購金額直接成為 Broadcom 營收，Broadcom 再投入產能",
+   "src": [
+    "ap_avgo",
+    "ap_avgo2"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "maturity": "至 2031 年"
+   }
+  },
+  {
+   "id": "corning",
+   "name": "Corning",
+   "tk": "GLW",
+   "cat": "supply",
+   "type": "採購＋產線投資",
+   "amt": 2.5,
+   "short": "$25億",
+   "date": "2025-08-06",
+   "amtText": "Apple 投入 $25 億，Corning 肯塔基 Harrodsburg 廠全數供應 iPhone 與 Apple Watch 蓋板玻璃，並設 Apple-Corning 創新中心。",
+   "status": "執行中",
+   "flow": "專屬產線供貨給 Apple",
+   "src": [
+    "ap_corning"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "mp",
+   "name": "MP Materials",
+   "tk": "MP",
+   "cat": "supply",
+   "type": "預付採購＋回收合作",
+   "amt": 0.5,
+   "short": "$5億",
+   "date": "2025-07-15",
+   "amtText": "多年期承諾 $5 億採購德州廠稀土磁鐵，並在加州 Mountain Pass 建回收產線；美國國防部一週前以 $4 億買入 MP 特別股成為最大股東。",
+   "status": "執行中",
+   "flow": "磁鐵供 iPhone、Mac 使用",
+   "src": [
+    "ap_mp",
+    "ap_mp2"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "amkor",
+   "name": "Amkor",
+   "tk": "AMKR",
+   "cat": "supply",
+   "type": "封裝廠投資＋首家客戶",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-02",
+   "amtText": "Apple 為 Amkor 亞利桑那 $70 億封裝廠的投資方，也將是首家且最大客戶；投資金額未揭露。",
+   "status": "建廠中",
+   "flow": "封裝台積電亞利桑那晶片後回供 Apple",
+   "src": [
+    "ap_tsmc"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "tsmc",
+   "name": "TSMC 台積電",
+   "tk": "2330",
+   "cat": "semi",
+   "type": "錨定客戶",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-07-16",
+   "amtText": "Apple 自稱 TSMC Arizona 第一且最大客戶；2026 年計畫採購逾 1 億顆亞利桑那晶片，「能買多少就買多少」。台積電美國投資總承諾升至 $2,650 億。",
+   "status": "採購中",
+   "flow": "Apple 訂單支撐台積電美國擴產",
+   "src": [
+    "ap_tsmc",
+    "ap_tsmc2"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "intel",
+   "name": "Intel",
+   "tk": "INTC",
+   "cat": "semi",
+   "type": "初步代工協議",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-06-18",
+   "amtText": "WSJ 報導雙方達成初步協議，由 Intel 代工部分 Apple 晶片；川普 6 月在社群宣布。是否含入股、哪些晶片、何時量產都未揭露。",
+   "status": "初步協議",
+   "flow": "分散對台積電的依賴；回應政府在美製造要求",
+   "src": [
+    "ap_intel",
+    "ap_intel3",
+    "ap_intel2"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "unconfirmed": true,
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "google",
+   "name": "Google／Alphabet",
+   "tk": "GOOGL",
+   "cat": "lab",
+   "type": "搜尋分潤＋Gemini 授權",
+   "amt": 20,
+   "short": "約$200億/年流入",
+   "date": "2026-01-13",
+   "amtText": "Google 每年付 Apple 約 $200 億成為 Safari 預設搜尋（2022 年數字，之後可能更高）；反向 Apple 每年付約 $10 億使用客製 Gemini 驅動 Siri（Bloomberg 報導，雙方未公布條款）。",
+   "status": "執行中",
+   "flow": "淨流入 Apple 約 $190 億/年",
+   "src": [
+    "ap_gem2",
+    "ap_gem",
+    "ap_gem3"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "reg",
+     "x": "搜尋預設協議長期受反壟斷審查",
+     "src": [
+      "ap_gem"
+     ]
+    }
+   ],
+   "verified": "2026-11-26",
+   "per": "year"
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "合作轉訴訟",
+   "amt": null,
+   "short": "無金流",
+   "date": "2026-07-10",
+   "amtText": "2024 年整合 ChatGPT 至 Siri（不收費）；2026 年 5 月傳 OpenAI 考慮控告 Apple，7 月 Apple 反控 OpenAI 與前員工竊取營業秘密；OpenAI 法院文件稱 Siri 整合「嚴重表現不佳」。",
+   "status": "訴訟中",
+   "flow": "原本無金流；現為法律與人才競爭關係",
+   "src": [
+    "ap_oai",
+    "ap_oai2"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "逾 400 名前員工轉往 OpenAI，硬體競爭升溫",
+     "src": [
+      "ap_oai"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "qai",
+   "name": "Q.ai",
+   "tk": "已收購",
+   "cat": "mna",
+   "type": "收購",
+   "amt": 2.0,
+   "short": "約$20億",
+   "date": "2026-01-29",
+   "amtText": "以色列 AI 音訊與臉部微動作辨識新創；FT 報導約 $20 億，Reuters 無法獨立證實。約 100 人併入 Apple，為 Beats 之後第二大收購。",
+   "status": "已完成",
+   "flow": "強化 AirPods、Siri 與穿戴裝置 AI",
+   "src": [
+    "ap_qai",
+    "ap_qai2"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "houston",
+   "name": "休士頓 AI 伺服器與 Mac mini",
+   "tk": "—",
+   "cat": "fin",
+   "type": "自建產能",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026",
+   "amtText": "休士頓工廠提前出貨 AI 伺服器，並開始在美生產 Mac mini。",
+   "status": "執行中",
+   "flow": "自用 Private Cloud Compute",
+   "src": [
+    "ap_hou"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "globalstar",
+   "name": "Globalstar",
+   "tk": "GSAT",
+   "cat": "other",
+   "type": "股權 20%＋預付款",
+   "amt": 1.5,
+   "short": "$15億（含 $4億股權）",
+   "date": "2026-05-27",
+   "amtText": "$4 億取得 20% 股權（Class B 單位），另承諾 $11 億現金供新衛星與地面設施，其中 $2.32 億用於償債；Globalstar 約 85% 網路容量供 Apple 使用。 2026/4 Amazon 宣布以約 $115.7 億收購 Globalstar，並與 Apple 另簽協議由 Amazon Leo 接手 iPhone 衛星功能；Apple 的持股將由 Amazon 收購，對價未揭露。",
+   "status": "持有中；Amazon 已宣布收購 Globalstar（預計 2027 完成），並將收購 Apple 持股",
+   "flow": "衛星容量回供 iPhone 緊急 SOS 與訊息功能",
+   "src": [
+    "ap_gsat",
+    "ap_gsat2",
+    "mr_gsat",
+    "mr_gsat2"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "paid": 0.4,
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "Class B 單位（20%）"
+   },
+   "risks": [
+    {
+     "k": "conc",
+     "x": "Globalstar 約 85% 容量供單一客戶 Apple",
+     "src": [
+      "ap_gsat2"
+     ]
+    },
+    {
+     "k": "exec",
+     "x": "Globalstar 被 Amazon 收購尚未完成，Apple 持股的處分對價未揭露",
+     "src": [
+      "mr_gsat2"
+     ]
+    }
+   ]
+  }
+ ],
+ "flows": [
+  [
+   "broadcom",
+   "amp",
+   "AMP 最大單筆"
+  ],
+  [
+   "corning",
+   "amp",
+   "AMP 首批"
+  ],
+  [
+   "amkor",
+   "tsmc",
+   "封裝台積電晶片"
+  ],
+  [
+   "mp",
+   "amp",
+   "AMP 前身"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$4,788億",
+   "l": "FY2026 營收（年增 15%）",
+   "src": [
+    "ap_fy"
+   ]
+  },
+  {
+   "v": "$1,145億",
+   "l": "FY26 Q4 營收（年增 12%）",
+   "src": [
+    "ap_q4"
+   ]
+  },
+  {
+   "v": "$1,322億",
+   "l": "FY2026 淨利",
+   "src": [
+    "ap_fy"
+   ]
+  },
+  {
+   "v": "$1,233億",
+   "l": "FY2026 服務營收",
+   "src": [
+    "ap_fy"
+   ]
+  },
+  {
+   "v": "$6,000億",
+   "l": "四年美國投資承諾",
+   "src": [
+    "ap_amp"
+   ]
+  },
+  {
+   "v": ">$300億",
+   "l": "Broadcom 單筆採購承諾（至 2031）",
+   "src": [
+    "ap_avgo"
+   ]
+  },
+  {
+   "v": "約$200億/年",
+   "l": "Google 搜尋預設付款（流入）",
+   "src": [
+    "ap_gem2"
+   ]
+  },
+  {
+   "v": "約$20億",
+   "l": "Q.ai 收購（史上第二大）",
+   "src": [
+    "ap_qai"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "投資策略定位",
+   "text": "Apple 很少做財務性投資，資本多以「採購承諾＋專屬產線」形式投到供應商，再透過 AMP 換取在美製造與關稅豁免。真正的大額現金流入來自 Google 搜尋分潤。",
+   "src": [
+    "ap_amp",
+    "ap_gem2"
+   ]
+  },
+  {
+   "title": "治理動態",
+   "text": "John Ternus 已接任 CEO，FY26 Q4 為他首次主持財報；Tim Cook 卸任前完成 Broadcom $300 億協議。",
+   "src": [
+    "ap_mw",
+    "ap_avgo2"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① Google 搜尋與 Gemini 雙向循環",
+   "sub": "Google 付預設費 → Apple 付 Gemini 授權",
+   "nodes": [
+    [
+     "Google",
+     "lab"
+    ],
+    [
+     "Safari 預設搜尋",
+     "accent"
+    ],
+    [
+     "Apple",
+     "accent"
+    ],
+    [
+     "Gemini 驅動 Siri",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "約 $200 億/年"
+    ],
+    [
+     1,
+     2,
+     "流量分潤"
+    ],
+    [
+     2,
+     3,
+     "約 $10 億/年"
+    ],
+    [
+     3,
+     0,
+     "授權費回流"
+    ]
+   ],
+   "text": "Google 為了 iPhone 上的搜尋流量每年付 Apple 約 $200 億；Apple 再拿其中一小部分付 Google 使用客製 Gemini，兩家在搜尋與 AI 上互相綁定。",
+   "src": [
+    "ap_gem2",
+    "ap_gem3"
+   ],
+   "back": 19,
+   "dep": "high",
+   "backSrc": [
+    "ap_gem2"
+   ],
+   "backNote": "以 $200 億 −$10 億推算淨流入約 $190 億/年；搜尋金額為 2022 年數字"
+  },
+  {
+   "id": "L2",
+   "title": "② AMP 在美製造循環",
+   "sub": "承諾採購 → 供應商在美擴產 → 供貨 Apple → 關稅豁免",
+   "nodes": [
+    [
+     "Apple",
+     "accent"
+    ],
+    [
+     "Broadcom・Corning\nMP・Amkor",
+     "supply"
+    ],
+    [
+     "美國產線",
+     "supply"
+    ],
+    [
+     "美國政府\n關稅豁免",
+     "fin"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$6,000 億承諾"
+    ],
+    [
+     1,
+     2,
+     "擴產"
+    ],
+    [
+     2,
+     0,
+     "供貨"
+    ],
+    [
+     0,
+     3,
+     "投資承諾"
+    ],
+    [
+     3,
+     0,
+     "豁免 100% 晶片關稅",
+     "chord"
+    ]
+   ],
+   "text": "Apple 用長期採購承諾讓供應商在美國擴產，產品再回供 Apple；WSJ 報導這也是 Apple 換取晶片關稅豁免的條件。",
+   "src": [
+    "ap_amp",
+    "ap_avgo",
+    "ap_intel2"
+   ],
+   "dep": "mid",
+   "backNote": "回流形式是供貨與關稅豁免，不是現金；$6,000 億為四年承諾總額",
+   "backSrc": [
+    "ap_amp",
+    "ap_avgo"
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "③ 晶片代工分散循環",
+   "sub": "錨定台積電亞利桑那 → 加入 Intel 代工",
+   "nodes": [
+    [
+     "Apple 晶片設計",
+     "accent"
+    ],
+    [
+     "TSMC Arizona",
+     "semi"
+    ],
+    [
+     "Amkor 封裝",
+     "supply"
+    ],
+    [
+     "Intel 代工",
+     "semi"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "逾 1 億顆訂單"
+    ],
+    [
+     1,
+     2,
+     "在美封裝"
+    ],
+    [
+     2,
+     0,
+     "成品晶片"
+    ],
+    [
+     0,
+     3,
+     "初步協議",
+     "chord"
+    ]
+   ],
+   "text": "Apple 是台積電亞利桑那最大客戶，並投資 Amkor 封裝廠；2026 年再與 Intel 達成初步代工協議，分散供應風險。",
+   "src": [
+    "ap_tsmc",
+    "ap_tsmc2",
+    "ap_intel"
+   ],
+   "dep": "high",
+   "backNote": "回流形式是晶片供貨，沒有對應金額",
+   "backSrc": [
+    "ap_tsmc",
+    "ap_tsmc2"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ AI 夥伴更替",
+   "sub": "OpenAI → Google Gemini，合作轉為訴訟",
+   "nodes": [
+    [
+     "Apple Siri",
+     "accent"
+    ],
+    [
+     "OpenAI\nChatGPT",
+     "lab"
+    ],
+    [
+     "Google\nGemini",
+     "lab"
+    ],
+    [
+     "Q.ai\n自有 AI 硬體",
+     "mna"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "2024 整合"
+    ],
+    [
+     1,
+     0,
+     "訴訟",
+     "chord"
+    ],
+    [
+     0,
+     2,
+     "2026 改用"
+    ],
+    [
+     0,
+     3,
+     "$20 億收購"
+    ]
+   ],
+   "text": "Siri 先整合 ChatGPT，2026 年改以 Gemini 為核心；雙方關係惡化為互控，Apple 同時以收購補強自有 AI 硬體能力。",
+   "src": [
+    "ap_gem",
+    "ap_oai",
+    "ap_qai"
+   ],
+   "dep": "low",
+   "backNote": "與 OpenAI 無金流；改用 Gemini 的付費條件未揭露",
+   "backSrc": [
+    "ap_gem",
+    "ap_oai"
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "⑤ Globalstar 衛星容量循環",
+   "sub": "入股＋預付 → 建衛星 → 容量回供 iPhone",
+   "nodes": [
+    [
+     "Apple",
+     "accent"
+    ],
+    [
+     "Globalstar\n20% 股權",
+     "other"
+    ],
+    [
+     "新衛星與\n地面設施",
+     "other"
+    ],
+    [
+     "iPhone\n衛星功能",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$4 億股權"
+    ],
+    [
+     0,
+     2,
+     "$11 億預付"
+    ],
+    [
+     2,
+     3,
+     "85% 容量"
+    ],
+    [
+     3,
+     0,
+     "產品功能"
+    ]
+   ],
+   "text": "Apple 既是 Globalstar 的股東，也是預付建置資金的最大客戶，換得約 85% 的網路容量。",
+   "src": [
+    "ap_gsat",
+    "ap_gsat2",
+    "mr_gsat2"
+   ],
+   "dep": "mid",
+   "backNote": "投入 $4 億股權＋$11 億預付，換得約 85% 網路容量；Amazon 收購 Globalstar 後，Apple 持股將出售（對價未揭露）",
+   "backSrc": [
+    "ap_gsat",
+    "ap_gsat2"
+   ]
+  }
+ ],
+ "loopNote": {
+  "text": "支持者認為採購承諾讓 Apple 以較低成本掌握在美產能；質疑者指出這些承諾多為既有採購的重新包裝，且與關稅談判綁定。",
+  "src": [
+   "ap_intel2",
+   "ap_avgo2"
+  ]
+ },
+ "events": [
+  {
+   "d": "2024-11",
+   "t": "入股 Globalstar 20% 並承諾 $11 億",
+   "x": "",
+   "cat": "other",
+   "src": [
+    "ap_gsat"
+   ]
+  },
+  {
+   "d": "2025-07-15",
+   "t": "MP Materials $5 億稀土協議",
+   "x": "",
+   "cat": "supply",
+   "src": [
+    "ap_mp"
+   ]
+  },
+  {
+   "d": "2025-08-06",
+   "t": "美國承諾增至 $6,000 億，推出 AMP",
+   "x": "Corning $25 億。",
+   "cat": "fin",
+   "src": [
+    "ap_amp",
+    "ap_corning"
+   ]
+  },
+  {
+   "d": "2025-11-05",
+   "t": "傳每年付 Google $10 億用 Gemini",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "ap_gem2"
+   ]
+  },
+  {
+   "d": "2026-01-13",
+   "t": "Apple 與 Google 正式宣布 Gemini 合作",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "ap_gem"
+   ]
+  },
+  {
+   "d": "2026-01-29",
+   "t": "收購 Q.ai（約 $20 億）",
+   "x": "",
+   "cat": "mna",
+   "src": [
+    "ap_qai"
+   ]
+  },
+  {
+   "d": "2026-02-27",
+   "t": "2026 年將採購逾 1 億顆台積電亞利桑那晶片",
+   "x": "",
+   "cat": "semi",
+   "src": [
+    "ap_tsmc"
+   ]
+  },
+  {
+   "d": "2026-04-14",
+   "t": "Amazon 宣布收購 Globalstar",
+   "x": "Amazon Leo 接手 iPhone 衛星功能；Apple 持股將由 Amazon 收購。",
+   "cat": "other",
+   "src": [
+    "mr_gsat",
+    "mr_gsat2"
+   ]
+  },
+  {
+   "d": "2026-04-30",
+   "t": "FY26 Q2 財報：營收 $1,112 億",
+   "x": "股利升 4%。",
+   "cat": "gov",
+   "src": [
+    "ap_q2"
+   ]
+  },
+  {
+   "d": "2026-05-08",
+   "t": "WSJ：與 Intel 達成初步代工協議",
+   "x": "",
+   "cat": "semi",
+   "src": [
+    "ap_intel"
+   ]
+  },
+  {
+   "d": "2026-06-19",
+   "t": "川普宣布 Apple 將與 Intel 合作",
+   "x": "",
+   "cat": "semi",
+   "src": [
+    "ap_intel3"
+   ]
+  },
+  {
+   "d": "2026-07-08",
+   "t": "Broadcom 協議逾 $300 億",
+   "x": "AMP 最大單筆承諾。",
+   "cat": "semi",
+   "src": [
+    "ap_avgo"
+   ]
+  },
+  {
+   "d": "2026-07-10",
+   "t": "Apple 控告 OpenAI 竊取營業秘密",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "ap_oai"
+   ]
+  },
+  {
+   "d": "2026-07-16",
+   "t": "台積電美國投資增至 $2,650 億",
+   "x": "Apple 為亞利桑那最大客戶。",
+   "cat": "semi",
+   "src": [
+    "ap_tsmc2"
+   ]
+  },
+  {
+   "d": "2026-09-23",
+   "t": "OpenAI：Siri 中的 ChatGPT 表現不佳",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "ap_oai2"
+   ]
+  },
+  {
+   "d": "2026-10-29",
+   "t": "FY26 Q4 財報：營收 $1,145 億",
+   "x": "Ternus 首次以 CEO 身分主持。",
+   "cat": "gov",
+   "src": [
+    "ap_q4",
+    "ap_mw"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "FY2026 營收 $4,788 億 ÷ FY2025 $4,162 億 ≈ +15.0%，與報導一致。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "Q.ai 金額：FT 稱近 $20 億，Reuters 表示無法獨立證實；Apple 未揭露。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "Google 搜尋付款 $200 億為 2022 年數字；Gemini 每年 $10 億為 Bloomberg 報導，雙方未公布。"
+  },
+  {
+   "tag": "未定案",
+   "html": "Intel 代工僅為初步協議，晶片種類、是否入股都未揭露。"
+  },
+  {
+   "tag": "已補充",
+   "html": "AMP 總額 $6,000 億包含 Broadcom、Corning、MP 等節點，設為不重複加總。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "FY26 Q4 分項：多數來源為 iPhone $576 億、服務 $316 億；MacTrast 寫 iPhone $543 億、服務 $307 億。本檔採前者（與全年表一致）。"
+  },
+  {
+   "tag": "已補充",
+   "html": "Google 節點 $200 億為「每年」且是 2022 年數字，與其他節點的累計金額口徑不同，跨節點加總時需留意。"
+  },
+  {
+   "tag": "已補充",
+   "html": "新增 Globalstar（Apple 少數的實際股權投資）；Google 搜尋分潤標為年度金額，不與累計金額加總。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）採購承諾為公開宣布的上限或預期金額，不等於已支付。（2）AMP 總額已含個別供應商，不重複加總。（3）Google 搜尋付款為流入。（4）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "Apple 的資本循環以「採購承諾換產能」為主：用長約讓 Broadcom、Corning、台積電等在美擴產，再回供自家產品；最大的外部現金流入是 Google 的搜尋分潤，AI 則轉向向 Google 購買而非自建前沿模型。",
+  "src": [
+   "ap_amp",
+   "ap_gem2",
+   "ap_gem"
+  ],
+  "opps": [
+   {
+    "t": "FY2026 營收年增 15%、服務營收創新高",
+    "src": [
+     "ap_fy"
+    ]
+   },
+   {
+    "t": "Broadcom、台積電、Intel 多元在美供應鏈成形",
+    "src": [
+     "ap_avgo",
+     "ap_tsmc",
+     "ap_intel"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "Google 搜尋分潤受反壟斷審查",
+    "src": [
+     "ap_gem"
+    ]
+   },
+   {
+    "t": "AI 依賴 Google，與 OpenAI 由合作轉為訴訟",
+    "src": [
+     "ap_gem",
+     "ap_oai"
+    ]
+   },
+   {
+    "t": "在美投資承諾與關稅談判綁定",
+    "src": [
+     "ap_intel2"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "Intel 代工協議是否正式簽約並揭露晶片種類",
+    "src": [
+     "ap_intel"
+    ]
+   },
+   {
+    "t": "Gemini 版 Siri 上線後的使用與付費成效",
+    "src": [
+     "ap_gem"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,1378 @@
+{
+ "meta": {
+  "entity": "SpaceX",
+  "ticker": "SPCX",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#22d3ee",
+  "centerLabel": "資本中樞",
+  "fileSlug": "SpaceX",
+  "subtitle": "涵蓋全股票收購、算力出租、關係人交易、合資建廠與主要股東"
+ },
+ "notice": {
+  "title": "重大動態",
+  "html": "Q3 營收 $146 億（+161%）、淨利 $44 億，SI（AI）營收 $75.6 億已超過一半（<a href=\"https://www.alpha-sense.com/earnings/spcx/\" target=\"_blank\">AlphaSense</a>）→ Q3 capex $196 億、Q4 指引 $350–400 億（<a href=\"https://marketbeat.com/instant-alerts/transcript-what-spacex-spcx-said-on-its-q3-earnings-call-2026-10-20\" target=\"_blank\">MarketBeat</a>）→ <b>治理面</b>：S-1 揭露 Valor（董事 Gracias）約 $202 億 AI 設備租約與 Tesla 關係人交易（<a href=\"https://www.devdiscourse.com/article/technology/3916226-spacex-reveals-musk-company-links-from-cybertrucks-and-jets-to-stock-investments\" target=\"_blank\">Reuters</a>）。"
+ },
+ "sources": {
+  "dawn_xai": [
+   "Dawn/Reuters｜SpaceX 收購 xAI：每股換 0.1433 股、高管可選 $75.46 現金",
+   "https://www.dawn.com/news/1970823"
+  ],
+  "bbgl_xai": [
+   "Bloomberg Law｜SpaceX $1 兆＋xAI $2,500 億＝$1.25 兆",
+   "https://news.bloomberglaw.com/tech-and-telecom-law/elon-musks-spacex-said-to-combine-with-xai-ahead-of-mega-ipo"
+  ],
+  "sacra_xai": [
+   "Sacra｜xAI 1/6 以 $2,300 億募 $200 億 Series E，2/2 以 $2,500 億併入",
+   "https://sacra.com/chat/h/d21dcd1e-dc25-4b78-80b4-2a006f18d575/"
+  ],
+  "aol_xai": [
+   "SlashGear/AOL｜合併時 xAI $75.46、SpaceX $526.59／股",
+   "https://www.aol.com/lifestyle/spacex-acquires-xai-much-combined-154500552.html"
+  ],
+  "seed_xai": [
+   "Seedtable｜xAI 估值為內部議定、每月燒錢約 $10 億",
+   "https://seedtable.com/exits/xai"
+  ],
+  "reu_x": [
+   "Reuters/Fidelity｜xAI 全股票收購 X：X $330 億（$450 億減 $120 億債務）",
+   "https://fidelity.com/news/article/default/202503290125RTRSNEWSCOMBINED_L3N3QB1KK_1"
+  ],
+  "tnw_cursor": [
+   "The Next Web｜8-K：$600 億全股票收購 Cursor（Anysphere）",
+   "https://thenextweb.com/news/spacex-cursor-acquisition-official-60-billion"
+  ],
+  "qz_cursor": [
+   "Quartz｜Cursor 前一輪估值 $293 億",
+   "https://qz.com/spacex-buying-cursor-anysphere-60-billion-deal-061626"
+  ],
+  "bin_cursor": [
+   "Cryptopress｜原協議：未獲監管通過則付 $15 億現金＋$85 億算力",
+   "https://www.binance.com/fr/square/post/335136290259090"
+  ],
+  "pulse_q3": [
+   "Pulse 2.0｜Q3 成長來自雲端合約、收購 Cursor 與 Grok",
+   "https://pulse2.com/spacex-q3-revenue-surges-161-to-14-6-billion-as-super-intelligence-and-starlink-growth-accelerate/"
+  ],
+  "pbs_echo": [
+   "AP/PBS｜EchoStar 頻譜 $170 億：最多 $85 億現金＋$85 億股票",
+   "https://www.pbs.org/newshour/nation/spacex-pays-17-billion-to-acquire-spectrum-licenses-from-echostar"
+  ],
+  "thr_echo": [
+   "Hollywood Reporter｜另代付約 $20 億利息；Boost Mobile 使用 Direct to Cell",
+   "https://www.hollywoodreporter.com/business/business-news/elon-musk-spacex-echostar-spectrum-licenses-debt-deal-1236364873/"
+  ],
+  "alpha_q3": [
+   "AlphaSense｜Q3：營收 $146 億、淨利 $44 億、capex $196 億、backlog $630 億",
+   "https://www.alpha-sense.com/earnings/spcx/"
+  ],
+  "digg_q3": [
+   "CNBC/FT（Digg 彙整）｜SI 營收 $75.6 億、Connectivity $52.5 億",
+   "https://digg.com/tech/2cf51dqi"
+  ],
+  "mb_q3": [
+   "MarketBeat｜Q3 電話會議：Q4 capex $350–400 億",
+   "https://marketbeat.com/instant-alerts/transcript-what-spacex-spcx-said-on-its-q3-earnings-call-2026-10-20"
+  ],
+  "kh_q3": [
+   "Kaohoon｜Q3 現金 $512.9 億、有價證券 $385.6 億、負債約 $280.8 億",
+   "https://www.kaohooninternational.com/?p=593001"
+  ],
+  "ew_nv": [
+   "eWeek｜Musk：未來 AI 算力獨家採用 NVIDIA Vera Rubin",
+   "https://eweek.com/news/musk-nvidia-exclusive-ai-compute"
+  ],
+  "dc_nv": [
+   "Digital Citizen｜2026 年底 2GW、2027 年底 10GW",
+   "https://www.digitalcitizen.life/spacex-commits-to-nvidia-gpus-with-10gw-of-ai-compute-planned-by-2027/"
+  ],
+  "lds_nv": [
+   "Let's Data Science｜「獨家」為前瞻計畫，未揭露合約金額",
+   "https://letsdatascience.com/news/spacex-commits-its-ai-buildout-to-nvidia-vera-rubin-1dc90479"
+  ],
+  "hh_nv": [
+   "HotHardware｜Q2 AI 營收 $25.6 億；與 NVIDIA 設計 Starmind 衛星運算",
+   "https://hothardware.com/news/nvidia-wins-exclusive-spacex-pact-for-space-based-ai-servers"
+  ],
+  "el_tsla": [
+   "Electrek｜S-1：Tesla 持 18,990,195 股（由 $20 億 xAI 投資轉換）；Terafab 僅框架",
+   "https://electrek.co/2026/05/20/spacex-s1-tesla-terafab-macrohard-not-done-deal/"
+  ],
+  "it_tsla": [
+   "Irish Times/NYT｜xAI 買 Megapack $5.06 億、SpaceX 買 Cybertruck $1.31 億",
+   "https://www.irishtimes.com/business/2026/05/21/spacex-filing-reveals-musk-company-links-ahead-of-ipo/"
+  ],
+  "yh_tsla": [
+   "Yahoo Finance｜Tesla 2026/1 以 $20 億認購 xAI Series E",
+   "https://finance.yahoo.com/markets/stocks/articles/tesla-2-billion-xai-bet-150014749.html"
+  ],
+  "dd_valor": [
+   "Reuters/Devdiscourse｜Valor 相關 AI 租約逾 $200 億、部分列為失敗售後回租",
+   "https://www.devdiscourse.com/article/technology/3916226-spacex-reveals-musk-company-links-from-cybertrucks-and-jets-to-stock-investments"
+  ],
+  "sw_valor": [
+   "SpaceWar｜Valor 算力租約總付款約 $202 億；Q1 AI capex $77 億",
+   "https://www.spacewar.com/reports/The_S1_What_SpaceX_Own_Filing_Reveals_About_The_Distance_Between_The_Story_And_The_Business_999.html"
+  ],
+  "gvw_tf": [
+   "Reuters/GV Wire｜Terafab 首期 $168 億；提案 $550 億、最高 $1,190 億",
+   "https://gvwire.com/2026/08/06/spacex-tesla-to-initially-spend-16-8-billion-on-terafab-chip-plant-in-texas/"
+  ],
+  "tnw_intel": [
+   "The Next Web｜Intel 成為 Terafab 晶圓代工夥伴（報導 $250 億）",
+   "https://thenextweb.com/news/intel-terafab-elon-musk-foundry-partnership"
+  ],
+  "sw_anth": [
+   "Simon Willison｜SpaceX S-1：Anthropic 每月 $12.5 億至 2029/5、90 天可終止",
+   "https://simonwillison.net/2026/May/20/spacex-s1/"
+  ],
+  "bc_anth": [
+   "Barchart｜Musk：實為 180 天租約，之後 90 天互相通知終止",
+   "https://www.barchart.com/story/news/2203479/the-180-day-lease-holding-up-spacex-s-2-trillion-ipo"
+  ],
+  "ms_anth": [
+   "Morningstar｜早期 S-1 草稿：Colossus II 每 MW 建置成本 $270 萬",
+   "https://global.morningstar.com/en-ca/stocks/deleted-disclosure-spacexs-ipo-filing-shows-its-ai-infrastructure-cash-cow"
+  ],
+  "tc_920": [
+   "TechCrunch｜Google 每月付 SpaceX $9.2 億租算力",
+   "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
+  ],
+  "edge_goog": [
+   "The Edge/Reuters｜Alphabet 6/30 持 5.512 億股、約 $942 億（2015 年投資 $9 億）",
+   "https://theedgemalaysia.com/node/814577"
+  ],
+  "fool_sh": [
+   "Motley Fool｜總股數 131.8 億：Alphabet 4.2%、NVIDIA 0.9%",
+   "https://fool.com/investing/2026/08/20/alphabet-and-nvidia-own-more-spacex-than-blackrock"
+  ],
+  "kc_13f": [
+   "KuCoin/BlockBeats｜Q2 13F：Valor 5.03 億股 $860 億、FMR $517 億、NVIDIA $210 億",
+   "https://www.kucoin.com/news/flash/alphabet-holds-94-18b-in-spacex-largest-stake-among-institutional-investors"
+  ],
+  "cb_13f": [
+   "Citybiz｜Saudi PIF 新持 1.542 億股、D1 1.26 億股",
+   "https://www.citybiz.co/?p=889555"
+  ],
+  "cb_ff": [
+   "Crypto Briefing｜Founders Fund 約 3% 持股、以 IPO 價逾 $500 億",
+   "https://cryptobriefing.com/investment-firms-billions-spacex-exposure/"
+  ],
+  "dr_ipo": [
+   "Dealroom｜IPO 含超額配售 $862 億、同月 $250 億債券、Musk 持 46%",
+   "https://dealroom.co/charts/spacex-ipo"
+  ],
+  "rc_ipo": [
+   "Renaissance Capital｜IPO 5.556 億股 × $135 ＝ $750 億",
+   "https://www.renaissancecapital.com/IPO-Center/News/119775/spacex-prices-record-setting-75-billion-ipo-at-135-as-expected"
+  ],
+  "tc_ipo": [
+   "TechCrunch｜IPO 募資最終擴大至 $857 億",
+   "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/"
+  ],
+  "mz_vote": [
+   "Mezha/CNN｜S-1：Musk 掌握 85% 投票權",
+   "https://mezha.net/eng/news/b2c3ba55_spacex_filed_an/"
+  ],
+  "fut_s1": [
+   "Futurum｜S-1：2025 營收 $186.7 億、Q1 76% 資本支出投向 AI",
+   "https://futurumgroup.com/insights/spacex-s-1-is-elon-musk-building-the-ultimate-ai-foundation/"
+  ],
+  "bi_jp": [
+   "Business Insider Japan｜S-1：關係企業往來逾 $6.6 億，SpaceX 承認可能有利益衝突",
+   "https://www.businessinsider.jp/article/2605-spacex-filing-reveals-elon-musks-companies-tesla-pay-each-other/"
+  ],
+  "st_own": [
+   "Stocktwits｜Anthropic S-1/A：IPO 後 Google 持 13.7%",
+   "https://stocktwits.com/news-articles/markets/equity/anthropic-s-new-ipo-filing-shows-amazon-google-will-own-over-a-quarter-of-the-claude-maker/cNbaxuHR9Ws"
+  ],
+  "axios_q3": [
+   "Axios｜Q3 capex $195.9 億；2028 capex 預估 $1,943 億",
+   "https://axios.com/2026/10/20/spacex-earnings-ai-elon-musk"
+  ],
+  "fwmba_spx": [
+   "FourWeekMBA｜SpaceX ticker hub：12/8 解禁（2026-11-15）",
+   "https://fourweekmba.com/spacex-stock/"
+  ],
+  "amd_amd_13f_q3": [
+   "AMD IR｜Form 13F 資訊表（2026/9/30，6 檔、$12.42 億）",
+   "https://ir.amd.com/financial-information/sec-filings/content/0001193125-26-463642/60574.html"
+  ],
+  "amd_w247_spx": [
+   "24/7 Wall St｜AMD 持 SpaceX 約 330 萬股、$5.66 億（2026-08-15）",
+   "https://247wallst.com/investing/2026/08/15/amds-566-million-spacex-stake-raises-a-bigger-question-than-ai-chip-orders/"
+  ]
+ },
+ "categories": [
+  {
+   "id": "mna",
+   "name": "收購（以股票為主）",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "cloud",
+   "name": "AI 算力客戶（SI 營收來源）",
+   "color": "#38bdf8",
+   "sumNote": "合約總額估算（流入營收）"
+  },
+  {
+   "id": "supply",
+   "name": "供應鏈與關係企業",
+   "color": "#fb923c",
+   "sumNote": "含租約、關係人採購與合資承諾"
+  },
+  {
+   "id": "fin",
+   "name": "主要股東（13F，2026/6/30）",
+   "color": "#facc15",
+   "sumNote": "持股市值，非 SpaceX 的投資"
+  },
+  {
+   "id": "other",
+   "name": "募資與資本市場",
+   "color": "#94a3b8"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非 SpaceX 持股，僅標示資金流向"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "xai",
+   "name": "xAI（含 Grok、Colossus）",
+   "tk": "子公司",
+   "cat": "mna",
+   "type": "全股票合併",
+   "amt": 250.0,
+   "short": "$2,500億",
+   "date": "2026-02-02",
+   "amtText": "xAI 股東每股換 0.1433 股 SpaceX，部分高管可選每股 $75.46 現金；合併時 SpaceX 估值 $1 兆、xAI $2,500 億，合計 $1.25 兆，為史上最大併購。xAI 一個月前才以 $2,300 億估值募得 $200 億 Series E。",
+   "status": "已併入，AI 業務更名為 Super Intelligence（SI）",
+   "flow": "xAI 原股東（NVIDIA、Tesla、Valor、Saudi PIF 等）轉為 SpaceX 股東；Colossus 算力對外出租，成為 SI 營收。",
+   "src": [
+    "dawn_xai",
+    "bbgl_xai",
+    "sacra_xai",
+    "aol_xai",
+    "seed_xai"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "price": "每股 $75.46 ",
+    "auto": true
+   }
+  },
+  {
+   "id": "x",
+   "name": "X（原 Twitter）",
+   "tk": "子公司",
+   "cat": "mna",
+   "type": "全股票合併（經 xAI）",
+   "amt": 33.0,
+   "short": "$330億",
+   "date": "2025-03-28",
+   "amtText": "xAI 以全股票收購 X：X 股權價值 $330 億（企業價值 $450 億減 $120 億債務），xAI 當時估值 $800 億；之後隨 xAI 併入 SpaceX。",
+   "status": "子公司",
+   "flow": "X 的資料與流量供 Grok 訓練與分發；Tesla 2025 年在 X 投放 $400 萬廣告。",
+   "src": [
+    "reu_x",
+    "it_tsla"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "cursor",
+   "name": "Cursor（Anysphere）",
+   "tk": "子公司",
+   "cat": "mna",
+   "type": "全股票收購",
+   "amt": 60.0,
+   "short": "$600億",
+   "date": "2026-06-16",
+   "amtText": "8-K：子公司 X67 與 Anysphere 合併，Cursor 股份依收盤前 7 個交易日均價換成 SpaceX A 股，隱含股權價值 $600 億（前一輪估值 $293 億）。4 月的原始協議為二選一：$600 億收購，或付 $100 億合作費。",
+   "status": "預計 Q3 完成；Q3 財報已將 Cursor 列為成長來源",
+   "flow": "Cursor 的開發者用量與資料併入 SI 業務。",
+   "src": [
+    "tnw_cursor",
+    "qz_cursor",
+    "bin_cursor",
+    "pulse_q3"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "收購",
+    "auto": true
+   }
+  },
+  {
+   "id": "echostar",
+   "name": "EchoStar 頻譜",
+   "tk": "SATS",
+   "cat": "mna",
+   "type": "資產收購（現金＋股票）",
+   "amt": 17.0,
+   "short": "$170億",
+   "date": "2025-09-08",
+   "amtText": "取得 AWS-4 與 H-block 頻譜：最多 $85 億現金＋最多 $85 億 SpaceX 股票，另代付約 $20 億 EchoStar 債務利息（至 2027/11）。",
+   "status": "EchoStar 因此成為 SpaceX 股東",
+   "flow": "頻譜用於 Starlink Direct to Cell；EchoStar 的 Boost Mobile 用戶可使用該服務。",
+   "src": [
+    "pbs_echo",
+    "thr_echo"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "收購",
+    "auto": true
+   }
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "tk": "ANT",
+   "cat": "cloud",
+   "type": "算力租用合約（客戶）",
+   "amt": 45.0,
+   "short": "~$450億",
+   "date": "2026-05-20",
+   "amtText": "S-1：每月 $12.5 億至 2029/5（2026/5–6 爬坡期費用較低），任一方可 90 天通知終止，總額近 $450 億。Musk 稱實為 180 天租約，之後 90 天互相通知即可終止。",
+   "status": "使用 Colossus 1 與 Colossus II",
+   "flow": "租金計入 SI 營收；Morningstar 依早期 S-1 草稿估算，Colossus II 每 MW 建置成本約 $270 萬，回本期極短。",
+   "src": [
+    "sw_anth",
+    "bc_anth",
+    "ms_anth"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "任一方可 90 天通知終止",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "google_c",
+   "name": "Google（算力客戶）",
+   "tk": "GOOGL",
+   "cat": "cloud",
+   "type": "算力租用合約（客戶）",
+   "amt": 30.0,
+   "short": "~$300億",
+   "date": "2026-06-05",
+   "amtText": "Google 自 2026/10 至 2029/6 每月付 SpaceX $9.2 億，租用約 11 萬顆 NVIDIA GPU（總額約 $300 億，為本表依月付額推算）。",
+   "status": "合約中",
+   "flow": "Google 同時是 SpaceX 最大的機構股東（見「主要股東」）。",
+   "src": [
+    "tc_920"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "tk": "NVDA",
+   "cat": "supply",
+   "type": "GPU 獨家供應商＋股東",
+   "amt": 21.0,
+   "short": "持股 $210億",
+   "date": "2026-08-04",
+   "amtText": "股東：持 1.2276 億股（6/30 市值約 $210 億，約 0.9%），源自 2026/1 對 xAI 的 $100 億投資。供應：Musk 宣布未來 AI 算力獨家採用 Vera Rubin，目標 2026 年底 2GW、2027 年底約 10GW；未揭露合約金額。",
+   "status": "股東＋獨家 GPU 供應商",
+   "flow": "NVIDIA 投資 xAI → 轉為 SpaceX 股票 → SpaceX 採購 NVIDIA GPU。",
+   "src": [
+    "kc_13f",
+    "fool_sh",
+    "ew_nv",
+    "dc_nv",
+    "lds_nv",
+    "hh_nv"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "valor",
+   "name": "Valor Equity Partners",
+   "tk": "未上市",
+   "cat": "supply",
+   "type": "關係人算力租約＋股東",
+   "amt": 20.2,
+   "short": "租約 ~$202億",
+   "date": "2026-05-20",
+   "amtText": "S-1：xAI 相關子公司向 Valor 租用 AI 設備，總付款約 $202 億；部分交易認定為「失敗售後回租」，須列為債務，並由 SpaceX 擔保。Valor 創辦人 Antonio Gracias 為 SpaceX 董事；Valor 管理約 5.03 億股（6/30 約 $860 億）。",
+   "status": "關係人交易",
+   "guarantee": true,
+   "flow": "Valor 用投資人資金購置 GPU 設備 → 租給 SpaceX/xAI → 收取租金。",
+   "src": [
+    "dd_valor",
+    "sw_valor",
+    "kc_13f"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "並由 SpaceX 擔保",
+     "auto": true
+    }
+   ]
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "tk": "TSLA",
+   "cat": "supply",
+   "type": "關係企業（股東＋供應商）",
+   "amt": 0.65,
+   "short": "採購 ~$6.5億",
+   "date": "2026-05-20",
+   "amtText": "2025 年 SpaceX/xAI 向 Tesla 採購約 $6.5 億（xAI Megapack $5.06 億、SpaceX $1.44 億，其中 Cybertruck $1.31 億）。Tesla 2026/1 以 $20 億認購 xAI Series E，併購後轉為 18,990,195 股 SpaceX A 股（<1%）。",
+   "status": "股東＋供應商",
+   "flow": "Megapack 供電給 xAI 資料中心；Tesla 投資 xAI 的錢回到 SpaceX 體系。",
+   "src": [
+    "el_tsla",
+    "it_tsla",
+    "yh_tsla"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "terafab",
+   "name": "Terafab（晶片廠合資）",
+   "tk": "籌建中",
+   "cat": "supply",
+   "type": "合資建廠",
+   "amt": 16.8,
+   "short": "首期 $168億",
+   "date": "2026-08-06",
+   "amtText": "SpaceX 與 Tesla 首期投資 $168 億，於德州 Grimes County 興建；5 月申報提案首期 $550 億、全部完成最高 $1,190 億。S-1 稱僅有「一般框架」，尚無具約束力的財務條款。",
+   "status": "籌建中",
+   "flow": "自產 AI 晶片，供 SpaceX、Tesla 與太空資料中心使用。",
+   "src": [
+    "gvw_tf",
+    "el_tsla",
+    "tnw_intel"
+   ],
+   "amtType": "project",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "alphabet",
+   "name": "Alphabet（Google）",
+   "tk": "GOOGL",
+   "cat": "fin",
+   "type": "股東（2015 年起）",
+   "amt": 94.2,
+   "short": "$942億",
+   "date": "2026-06-30",
+   "amtText": "6/30 持 5.512 億股，約 $942 億（以 $170.86 計），約 4.2%；源自 2015 年 $9 億投資。",
+   "status": "最大機構股東",
+   "flow": "Google 同時向 SpaceX 租用算力（每月 $9.2 億），並持有 Anthropic。",
+   "src": [
+    "edge_goog",
+    "fool_sh"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "fmr",
+   "name": "Fidelity（FMR）",
+   "tk": "—",
+   "cat": "fin",
+   "type": "股東",
+   "amt": 51.7,
+   "short": "$517億",
+   "date": "2026-06-30",
+   "amtText": "Q2 13F 申報約 $516.6 億。",
+   "status": "持有中",
+   "flow": "早期投資人，分散於多檔共同基金。",
+   "src": [
+    "kc_13f",
+    "cb_ff"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "founders",
+   "name": "Founders Fund",
+   "tk": "—",
+   "cat": "fin",
+   "type": "股東（2008 年起）",
+   "amt": null,
+   "short": ">$500億（IPO 價）",
+   "date": "2026-06-12",
+   "amtText": "約 3% 持股，以 IPO 價計逾 $500 億。",
+   "status": "持有中",
+   "flow": "早期創投。",
+   "src": [
+    "cb_ff"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "pif",
+   "name": "Saudi PIF",
+   "tk": "—",
+   "cat": "fin",
+   "type": "股東",
+   "amt": 26.3,
+   "short": "~$263億",
+   "date": "2026-06-30",
+   "amtText": "Q2 13F 新申報約 1.542 億股；以 6/30 收盤 $170.86 推算約 $263 億（本表自行計算）。",
+   "status": "持有中",
+   "flow": "主權基金。",
+   "src": [
+    "cb_13f"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "musk",
+   "name": "Elon Musk",
+   "tk": "—",
+   "cat": "fin",
+   "type": "控股股東",
+   "amt": null,
+   "short": "持股 46%",
+   "date": "2026-06-12",
+   "amtText": "持股約 46%（含 13 億股未授予股份），掌握約 85% 投票權（雙層股權）。",
+   "status": "CEO",
+   "flow": "同時控制 Tesla，關係人交易需由董事會審查。",
+   "src": [
+    "dr_ipo",
+    "mz_vote"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "ipo",
+   "name": "IPO（Nasdaq: SPCX）",
+   "tk": "SPCX",
+   "cat": "other",
+   "type": "首次公開發行",
+   "amt": 75.0,
+   "short": "$750億",
+   "date": "2026-06-12",
+   "amtText": "5.556 億股 × $135 ＝ $750 億，估值 $1.77 兆；含超額配售後，TechCrunch 稱 $857 億、Dealroom 稱 $862 億。",
+   "status": "已上市",
+   "flow": "資金投入 AI 算力、Starship 與衛星製造。",
+   "src": [
+    "rc_ipo",
+    "tc_ipo",
+    "dr_ipo"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "bond",
+   "name": "公司債",
+   "tk": "—",
+   "cat": "other",
+   "type": "債券",
+   "amt": 25.0,
+   "short": "$250億",
+   "date": "2026-06",
+   "amtText": "IPO 同月發行 $250 億債券。Q3 末總負債與融資租賃約 $280.8 億。",
+   "status": "流通中",
+   "flow": "支應 capex。",
+   "src": [
+    "dr_ipo",
+    "kh_q3"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "公司債",
+    "auto": true
+   }
+  },
+  {
+   "id": "intel",
+   "name": "Intel",
+   "tk": "INTC",
+   "cat": "cp",
+   "type": "循環對手方（晶圓代工夥伴）",
+   "amt": null,
+   "short": "",
+   "date": "2026-04-07",
+   "amtText": "Terafab 的晶圓代工夥伴。",
+   "status": "—",
+   "flow": "提供製程技術與製造經驗。",
+   "src": [
+    "tnw_intel"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "boost",
+   "name": "Boost Mobile 用戶",
+   "tk": "—",
+   "cat": "cp",
+   "type": "循環對手方（通路）",
+   "amt": null,
+   "short": "",
+   "date": "2025-09-08",
+   "amtText": "EchoStar 旗下行動品牌，依長期商業協議使用 Starlink Direct to Cell。",
+   "status": "—",
+   "flow": "把頻譜交易轉為 Starlink 營收。",
+   "src": [
+    "thr_echo"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "tk": "AMD",
+   "cat": "fin",
+   "type": "股東（13F）",
+   "amt": 0.499,
+   "short": "持股 $4.99億（9/30）",
+   "date": "2026-09-30",
+   "amtText": "AMD 的 13F 列有 3,309,470 股 SpaceX，9/30 市值 $4.99 億；取得時間與成本未揭露，可能由 xAI 持股轉換而來（推論，未證實）。",
+   "status": "持有中",
+   "flow": "股東關係；未見對應的採購合約",
+   "src": [
+    "amd_amd_13f_q3",
+    "amd_w247_spx"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26"
+  }
+ ],
+ "flows": [
+  [
+   "nvidia",
+   "xai",
+   "2026/1 投資 xAI $100 億（後轉為 SpaceX 股）"
+  ],
+  [
+   "tesla",
+   "xai",
+   "$20 億 Series E（後轉為 1,899 萬股）"
+  ],
+  [
+   "alphabet",
+   "google_c",
+   "同一集團：股東兼算力客戶"
+  ],
+  [
+   "echostar",
+   "boost",
+   "Boost Mobile 使用 Direct to Cell"
+  ],
+  [
+   "intel",
+   "terafab",
+   "晶圓代工夥伴"
+  ],
+  [
+   "valor",
+   "xai",
+   "出租 AI 設備（約 $202 億）"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$750億",
+   "l": "IPO（含超額配售 $857–862億）",
+   "src": [
+    "rc_ipo",
+    "tc_ipo",
+    "dr_ipo"
+   ]
+  },
+  {
+   "v": "$2,500億",
+   "l": "xAI 全股票合併",
+   "src": [
+    "bbgl_xai"
+   ]
+  },
+  {
+   "v": "$600億",
+   "l": "Cursor 全股票收購",
+   "src": [
+    "tnw_cursor"
+   ]
+  },
+  {
+   "v": "$146億",
+   "l": "Q3 營收（+161%）；淨利 $44億",
+   "src": [
+    "alpha_q3"
+   ]
+  },
+  {
+   "v": "$75.6億",
+   "l": "Q3 SI（AI）營收，已超過營收一半",
+   "src": [
+    "digg_q3"
+   ]
+  },
+  {
+   "v": "$196億",
+   "l": "Q3 capex；Q4 指引 $350–400億",
+   "src": [
+    "alpha_q3",
+    "mb_q3"
+   ]
+  },
+  {
+   "v": "~$202億",
+   "l": "Valor 關係人 AI 設備租約",
+   "src": [
+    "sw_valor"
+   ]
+  },
+  {
+   "v": "$942億",
+   "l": "Alphabet 持股市值（6/30，4.2%）",
+   "src": [
+    "edge_goog",
+    "fool_sh"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "投資架構",
+   "text": "SpaceX 以高估值股票作為收購貨幣：併入 xAI（$2,500 億）、收購 Cursor（$600 億），並以半股票方式取得 EchoStar 頻譜（$170 億），把 AI 模型、開發者工具與頻譜整合進 Starlink 與 SI 業務。",
+   "src": [
+    "bbgl_xai",
+    "tnw_cursor",
+    "pbs_echo"
+   ]
+  },
+  {
+   "title": "算力房東",
+   "text": "Colossus 叢集出租給 Anthropic（每月 $12.5 億）與 Google（每月 $9.2 億），推動 Q3 SI 營收達 $75.6 億，並由虧轉盈。",
+   "src": [
+    "sw_anth",
+    "tc_920",
+    "digg_q3"
+   ]
+  },
+  {
+   "title": "資金面",
+   "text": "IPO $750 億＋同月 $250 億債券；Q3 末現金 $512.9 億、有價證券 $385.6 億；Q3 capex $196 億，Q4 指引 $350–400 億。",
+   "src": [
+    "rc_ipo",
+    "dr_ipo",
+    "kh_q3",
+    "mb_q3",
+    "fut_s1"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① 算力房東循環（Anthropic × Google）",
+   "sub": "自建 Colossus → 出租 → SI 營收",
+   "nodes": [
+    [
+     "SpaceX",
+     "accent"
+    ],
+    [
+     "Google",
+     "fin"
+    ],
+    [
+     "Anthropic",
+     "cloud"
+    ],
+    [
+     "Colossus 1・II\n（NVIDIA GPU）",
+     "supply"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "4.2% 股東＋\n每月 $9.2億租算力"
+    ],
+    [
+     1,
+     2,
+     "13.7% 股東"
+    ],
+    [
+     2,
+     3,
+     "每月 $12.5億"
+    ],
+    [
+     3,
+     0,
+     "SI 營收\nQ3 $75.6億"
+    ],
+    [
+     0,
+     3,
+     "自建 GPU 叢集",
+     "chord"
+    ]
+   ],
+   "text": "SpaceX 把 xAI 的 Colossus 叢集出租給競爭對手 Anthropic 與 Google。Google 同時是 SpaceX 最大機構股東與 Anthropic 大股東，因此三方之間形成股權與租金交錯的循環。",
+   "src": [
+    "sw_anth",
+    "tc_920",
+    "edge_goog",
+    "st_own",
+    "digg_q3"
+   ],
+   "back": 26.0,
+   "share": 45,
+   "dep": "high",
+   "backSrc": [
+    "sw_anth",
+    "tc_920",
+    "alpha_q3"
+   ],
+   "backNote": "Anthropic 每月 $12.5 億＋Google 每月 $9.2 億，年化約 $260 億，約為 Q3 年化營收（$146 億 × 4）的 45%（自行計算）；Anthropic 合約可 90 天通知終止"
+  },
+  {
+   "id": "L2",
+   "title": "② NVIDIA 投資 → 獨家採購循環",
+   "sub": "投資 xAI → 轉為 SpaceX 股 → 採購 GPU",
+   "nodes": [
+    [
+     "SpaceX",
+     "accent"
+    ],
+    [
+     "xAI\n（2026/2 併入）",
+     "mna"
+    ],
+    [
+     "NVIDIA",
+     "supply"
+    ],
+    [
+     "Vera Rubin\n2GW→10GW",
+     "cloud"
+    ]
+   ],
+   "edges": [
+    [
+     2,
+     1,
+     "$100億 Series E"
+    ],
+    [
+     1,
+     0,
+     "全股票併入"
+    ],
+    [
+     0,
+     3,
+     "獨家採用"
+    ],
+    [
+     3,
+     2,
+     "GPU 營收"
+    ],
+    [
+     2,
+     0,
+     "持 1.23 億股\n（$210億）",
+     "chord"
+    ]
+   ],
+   "text": "NVIDIA 先投資 xAI，xAI 併入 SpaceX 後轉為 SpaceX 股票；SpaceX 再宣布 AI 算力獨家採用 NVIDIA Vera Rubin。NVIDIA 因此同時是股東與獨家供應商，但這份獨家承諾沒有揭露合約金額。",
+   "src": [
+    "kc_13f",
+    "fool_sh",
+    "ew_nv",
+    "dc_nv",
+    "lds_nv"
+   ],
+   "dep": "high",
+   "backNote": "獨家採用 Vera Rubin 的合約金額未揭露；此循環中 SpaceX 是採購方",
+   "backSrc": [
+    "kc_13f",
+    "fool_sh"
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "③ Musk 關係企業循環（Tesla × Terafab）",
+   "sub": "互相入股、採購與合資建廠",
+   "nodes": [
+    [
+     "SpaceX",
+     "accent"
+    ],
+    [
+     "Tesla",
+     "supply"
+    ],
+    [
+     "Terafab\n首期 $168億",
+     "supply"
+    ],
+    [
+     "Intel",
+     "cp"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "$20億 xAI 投資→1,899萬股\n（反向：採購約 $6.5億）"
+    ],
+    [
+     0,
+     2,
+     "共同出資"
+    ],
+    [
+     1,
+     2,
+     "共同出資"
+    ],
+    [
+     3,
+     2,
+     "晶圓代工夥伴"
+    ]
+   ],
+   "text": "Tesla 投資 xAI 的錢轉為 SpaceX 股票；SpaceX/xAI 反過來向 Tesla 採購 Megapack 與 Cybertruck；兩家公司再合資興建 Terafab 晶片廠。S-1 也承認關係人交易可能產生利益衝突。",
+   "src": [
+    "el_tsla",
+    "it_tsla",
+    "yh_tsla",
+    "gvw_tf",
+    "tnw_intel",
+    "bi_jp"
+   ],
+   "dep": "mid",
+   "backNote": "Tesla 投資 $20 億換得 SpaceX 股票，SpaceX 向 Tesla 採購約 $6.5 億；Terafab 首期 $168 億由雙方共同出資",
+   "backSrc": [
+    "el_tsla",
+    "it_tsla"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ Valor 關係人租賃循環",
+   "sub": "董事的基金出資購置設備 → 租回 → 計為債務",
+   "nodes": [
+    [
+     "SpaceX／xAI",
+     "accent"
+    ],
+    [
+     "Valor\n（董事 Gracias）",
+     "supply"
+    ],
+    [
+     "GPU 設備",
+     "cloud"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     2,
+     "購置設備"
+    ],
+    [
+     2,
+     0,
+     "出租\n（失敗售後回租→列債務）"
+    ],
+    [
+     0,
+     1,
+     "租金約 $202億\n（SpaceX 擔保）"
+    ],
+    [
+     1,
+     0,
+     "管理 5.03 億股\n（$860億）",
+     "chord"
+    ]
+   ],
+   "text": "由 SpaceX 董事經營的 Valor 同時是大股東與設備出租人：它購置 AI 設備租給 xAI，總付款約 $202 億，部分交易因會計認定須列為債務，並由 SpaceX 擔保。",
+   "src": [
+    "dd_valor",
+    "sw_valor",
+    "kc_13f"
+   ],
+   "dep": "high",
+   "backNote": "此循環中 SpaceX 是付款方：對 Valor 的租金總額約 $202 億，並提供擔保",
+   "backSrc": [
+    "dd_valor",
+    "sw_valor"
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "⑤ 以股票為貨幣的收購循環",
+   "sub": "高估值股票 → 換取 AI 與頻譜資產",
+   "nodes": [
+    [
+     "SpaceX 股票",
+     "accent"
+    ],
+    [
+     "xAI 股東",
+     "mna"
+    ],
+    [
+     "Cursor 股東",
+     "mna"
+    ],
+    [
+     "EchoStar",
+     "mna"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "每股換 0.1433 股\n（$2,500億）"
+    ],
+    [
+     0,
+     2,
+     "$600億 全股票"
+    ],
+    [
+     0,
+     3,
+     "$85億股票＋$85億現金\n換 AWS-4／H-block 頻譜"
+    ]
+   ],
+   "text": "SpaceX 三筆最大交易都以自家股票支付，等於用公開市場給的高估值換取 AI 模型、開發者工具與頻譜。賣方則成為 SpaceX 股東，未來報酬與 SpaceX 股價綁在一起。",
+   "src": [
+    "dawn_xai",
+    "tnw_cursor",
+    "pbs_echo",
+    "seed_xai"
+   ],
+   "back": 327.0,
+   "dep": "mid",
+   "backSrc": [
+    "bbgl_xai",
+    "tnw_cursor",
+    "pbs_echo"
+   ],
+   "backNote": "以股票支付 xAI $2,500 億、Cursor $600 億、EchoStar 頻譜 $170 億（自行加總）"
+  }
+ ],
+ "loopNote": {
+  "text": "SpaceX 的循環特色是「關係人＋股票貨幣」：NVIDIA、Tesla、Valor 同時是股東與供應商或出租人，Google 同時是股東與算力客戶。支持者認為 Q3 由虧轉盈、SI 營收占一半以上，證明算力出租模式可行；疑慮則在於最大客戶合約可在短期內終止、未來 capex 規模龐大，以及 Musk 掌握 85% 投票權下的關係人交易治理。",
+  "src": [
+   "alpha_q3",
+   "bc_anth",
+   "axios_q3",
+   "mz_vote",
+   "dd_valor"
+  ]
+ },
+ "events": [
+  {
+   "d": "2015-01",
+   "t": "Google 投資 $9 億",
+   "x": "Fidelity 共同投資。",
+   "cat": "fin",
+   "src": [
+    "edge_goog"
+   ]
+  },
+  {
+   "d": "2025-03-28",
+   "t": "xAI 收購 X",
+   "x": "X $330 億、xAI $800 億。",
+   "cat": "mna",
+   "src": [
+    "reu_x"
+   ]
+  },
+  {
+   "d": "2025-09-08",
+   "t": "收購 EchoStar 頻譜 $170 億",
+   "x": "半現金、半股票。",
+   "cat": "mna",
+   "src": [
+    "pbs_echo"
+   ]
+  },
+  {
+   "d": "2026-01",
+   "t": "NVIDIA 投資 xAI $100 億；Tesla $20 億",
+   "x": "Series E。",
+   "cat": "supply",
+   "src": [
+    "yh_tsla",
+    "kc_13f"
+   ]
+  },
+  {
+   "d": "2026-01-06",
+   "t": "xAI Series E $200 億",
+   "x": "估值 $2,300 億。",
+   "cat": "mna",
+   "src": [
+    "sacra_xai"
+   ]
+  },
+  {
+   "d": "2026-02-02",
+   "t": "SpaceX 併入 xAI",
+   "x": "合計 $1.25 兆。",
+   "cat": "mna",
+   "src": [
+    "bbgl_xai"
+   ]
+  },
+  {
+   "d": "2026-03-24",
+   "t": "宣布 Terafab",
+   "x": "SpaceX、Tesla、xAI 合資。",
+   "cat": "supply",
+   "src": [
+    "gvw_tf"
+   ]
+  },
+  {
+   "d": "2026-04-07",
+   "t": "Intel 加入 Terafab",
+   "x": "晶圓代工夥伴。",
+   "cat": "supply",
+   "src": [
+    "tnw_intel"
+   ]
+  },
+  {
+   "d": "2026-04",
+   "t": "取得 Cursor 收購選擇權",
+   "x": "$600 億或 $100 億合作費。",
+   "cat": "mna",
+   "src": [
+    "bin_cursor"
+   ]
+  },
+  {
+   "d": "2026-05",
+   "t": "Anthropic 租用 Colossus",
+   "x": "每月 $12.5 億。",
+   "cat": "cloud",
+   "src": [
+    "sw_anth"
+   ]
+  },
+  {
+   "d": "2026-05-20",
+   "t": "公開 S-1",
+   "x": "揭露 Valor 租約、Tesla 關係人交易。",
+   "cat": "gov",
+   "src": [
+    "el_tsla",
+    "dd_valor"
+   ]
+  },
+  {
+   "d": "2026-06-05",
+   "t": "Google 租用 SpaceX 算力",
+   "x": "每月 $9.2 億（2026/10 起）。",
+   "cat": "cloud",
+   "src": [
+    "tc_920"
+   ]
+  },
+  {
+   "d": "2026-06-12",
+   "t": "Nasdaq 上市",
+   "x": "$135、募資 $750 億。",
+   "cat": "other",
+   "src": [
+    "rc_ipo"
+   ]
+  },
+  {
+   "d": "2026-06-16",
+   "t": "簽約收購 Cursor $600 億",
+   "x": "全股票。",
+   "cat": "mna",
+   "src": [
+    "tnw_cursor"
+   ]
+  },
+  {
+   "d": "2026-08-04",
+   "t": "首次財報：獨家採用 NVIDIA",
+   "x": "2GW→10GW。",
+   "cat": "supply",
+   "src": [
+    "ew_nv"
+   ]
+  },
+  {
+   "d": "2026-08-06",
+   "t": "Terafab 首期 $168 億",
+   "x": "德州 Grimes County。",
+   "cat": "supply",
+   "src": [
+    "gvw_tf"
+   ]
+  },
+  {
+   "d": "2026-08",
+   "t": "Q2 13F 揭露股東",
+   "x": "Alphabet $942 億、Valor $860 億。",
+   "cat": "fin",
+   "src": [
+    "kc_13f"
+   ]
+  },
+  {
+   "d": "2026-10-20",
+   "t": "Q3 財報",
+   "x": "營收 $146 億、淨利 $44 億、capex $196 億。",
+   "cat": "gov",
+   "src": [
+    "alpha_q3",
+    "axios_q3"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "IPO：5.556 億股 × $135 ≈ $750.1 億；xAI 換股：0.1433 × $526.59 ≈ $75.46，與現金選項一致。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "Alphabet：5.512 億股 × $170.86 ≈ $941.8 億；NVIDIA：1.2276 億股 × $170.86 ≈ $209.7 億，與 13F 相符。Saudi PIF $263 億、Tesla 約 $32 億為自行推算。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "IPO 總額：TechCrunch $857 億 vs Dealroom $862 億（含超額配售，口徑不同）；Anthropic 合約：S-1 寫每月 $12.5 億至 2029/5，Musk 稱實為 180 天租約；Terafab 預算：報導 $250 億 vs 申報首期 $550 億／最高 $1,190 億 vs 正式公告首期 $168 億。"
+  },
+  {
+   "tag": "未定案",
+   "html": "Terafab 依 S-1 僅有「一般框架」，無具約束力的財務條款；NVIDIA 獨家採購未揭露合約金額；Google 合約總額 $300 億為依月付額推算。"
+  },
+  {
+   "tag": "關係人",
+   "html": "Valor 創辦人為 SpaceX 董事；Tesla、X、xAI 皆由 Musk 控制。S-1 自承這些交易可能產生利益衝突。"
+  },
+  {
+   "tag": "方向說明",
+   "html": "「主要股東」節點的金額是對方持有 SpaceX 的市值，不是 SpaceX 的投資；「算力客戶」是流入的營收；兩者不可與收購金額相加。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）SpaceX 的對外投資以「股票換資產」的收購為主，幾乎沒有少數股權投資；因此族譜同時呈現收購、算力客戶、供應鏈、股東與資本市場。（2）股東持股取自 2026/6/30 的 13F，以 $170.86 計價。（3）租約與算力合約為多年期金額，部分可提前終止。（4）xAI、Cursor 等全股票交易的金額，取決於交易時的 SpaceX 股價。（5）本 Dashboard 為資訊整理，非投資建議。<br>主要來源：SpaceX S-1 與 8-K 彙整、Reuters、Bloomberg、TechCrunch、13F 彙整等，各節點附個別連結。",
+ "ic": {
+  "thesis": "SpaceX 已從火箭公司變成「算力房東」：Q3 有一半以上營收來自 AI 業務，主要租戶 Anthropic 與 Google 同時是股東或股東的被投資公司；而且租約短、可提前終止，收入穩定性不如營收規模看起來高。",
+  "src": [
+   "digg_q3",
+   "sw_anth",
+   "tc_920"
+  ],
+  "opps": [
+   {
+    "t": "Q3 營收 $146 億（+161%）、淨利 $44 億",
+    "src": [
+     "alpha_q3"
+    ]
+   },
+   {
+    "t": "兩大算力租戶年化租金約 $260 億（自行計算）",
+    "src": [
+     "sw_anth",
+     "tc_920"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "Anthropic 合約任一方 90 天通知即可終止",
+    "src": [
+     "sw_anth",
+     "bc_anth"
+    ]
+   },
+   {
+    "t": "Q4 資本支出指引 $350–400 億，高於營收",
+    "src": [
+     "mb_q3"
+    ]
+   },
+   {
+    "t": "Valor 關係人設備租約約 $202 億，計為債務",
+    "src": [
+     "sw_valor"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "d": "2026-12-08",
+    "t": "下一批解禁",
+    "src": [
+     "fwmba_spx"
+    ]
+   },
+   {
+    "t": "Terafab 首期 $168 億晶片廠建設進度",
+    "src": [
+     "gvw_tf"
+    ]
+   }
+  ]
+ }
+}

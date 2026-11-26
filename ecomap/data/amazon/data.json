@@ -1,0 +1,1083 @@
+{
+ "meta": {
+  "entity": "Amazon",
+  "ticker": "AMZN",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#ff9900",
+  "centerLabel": "資本中樞",
+  "fileSlug": "Amazon",
+  "subtitle": "涵蓋 Anthropic／OpenAI 入股與 AWS 承諾、資本支出與發債、能源投資與 Globalstar 收購"
+ },
+ "notice": {
+  "title": "近半年重大動態",
+  "months": 6,
+  "show": 6,
+  "html": "Q3 AWS 營收年增 39.3%、合約積壓 $5,780 億（<a href=\"https://aiweekly.co/alerts/amazon-q3-aws-reaccelerates-to-39-growth-at-4598b-capex-pace-holds-at-220b-for\" target=\"_blank\">AI Weekly／CNBC</a>）；Anthropic 11/19 上市後，Amazon 14.7% 的持股改按市價評價（<a href=\"https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/\" target=\"_blank\">TechCrunch</a>）。"
+ },
+ "sources": {
+  "decrypt_amzn": [
+   "Decrypt｜Amazon 最多 $250 億（立即 $50 億）＋AWS $1,000 億+／10 年",
+   "https://decrypt.co/365034/amazon-invest-25-billion-anthropic-ai-demand-surges"
+  ],
+  "qz_amzn": [
+   "Quartz/Yahoo｜$50 億以 $3,800 億估值投入；累計可達 $330 億",
+   "https://finance.yahoo.com/sectors/technology/articles/amazon-investing-25-billion-more-113801183.html"
+  ],
+  "unite_s1": [
+   "Unite.AI｜Anthropic 修正版 S-1：Google ≥$1,213 億、Amazon ≥$1,100 億、Microsoft ≥$449 億最低承諾（2026-11）",
+   "https://www.unite.ai/anthropic-details-long-term-compute-commitments-in-amended-ipo-filing/"
+  ],
+  "axios_ant": [
+   "Axios｜Anthropic shares fall again, closing under IPO price（2026-11-24，收 $81.91）",
+   "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks"
+  ],
+  "oai_amzn": [
+   "OpenAI｜OpenAI and Amazon announce strategic partnership（2026-02-27）",
+   "https://openai.com/index/amazon-partnership/",
+   "A"
+  ],
+  "hpc_amzn": [
+   "HPCwire（新聞稿轉載）｜Amazon 投資 $500 億：首期 $150 億＋條件達成後 $350 億；2GW Trainium",
+   "https://www.hpcwire.com/off-the-wire/openai-and-amazon-announce-strategic-partnership/",
+   "B"
+  ],
+  "yh_cond": [
+   "Yahoo Finance｜Amazon 其餘 $350 億取決於 IPO 或 AGI 條件（分析師說法）",
+   "https://finance.yahoo.com/markets/stocks/articles/openai-122-billion-mega-round-084025352.html"
+  ],
+  "sa_aws": [
+   "SiliconANGLE｜OpenAI 與 AWS 簽 7 年 $380 億合約（2025-11-03）",
+   "https://siliconangle.com/?p=719267"
+  ],
+  "abi_aws": [
+   "ABI Research｜AWS 既有 $380 億合約再擴大 $1,000 億、8 年",
+   "https://www.abiresearch.com/market-research/insight/7787577-aws-secures-a-strategic-advantage-through-"
+  ],
+  "ap_gsat": [
+   "Capacity Media｜Apple 以 $4 億取得 Globalstar 20%，另承諾 $11 億建置資金",
+   "https://capacitymedia.com/article-apple-globalstar"
+  ],
+  "cr_q3": [
+   "Constellation Research｜AWS Q3 營收 $460 億（+39%）、營業利益 $178 億；Amazon 營收 $2,019 億（2026-10-29）",
+   "https://www.constellationr.com/insights/news/aws-q3-revenue-growth-surges-39-capex-stings-amazons-cash-flow"
+  ],
+  "ua_q3": [
+   "Unite.AI｜Amazon Q3：營業利益 $281 億（+61%）、淨利 $207 億；2026 現金資本支出約 $2,200 億",
+   "https://www.unite.ai/?p=498107"
+  ],
+  "aiw_q3": [
+   "AI Weekly／CNBC｜AWS 合約積壓 $5,780 億，年增逾一倍；2027、2028 年成長指引逾 40%",
+   "https://aiweekly.co/alerts/amazon-q3-aws-reaccelerates-to-39-growth-at-4598b-capex-pace-holds-at-220b-for"
+  ],
+  "cc_q3": [
+   "Cord Cutters News｜Q3 新簽 AWS 客戶：Meta、NVIDIA、OpenAI、Salesforce、Oracle 等",
+   "https://cordcuttersnews.com/?p=258926"
+  ],
+  "wr_q3": [
+   "Windows Report｜AWS 占營收不到四分之一，貢獻約 63% 營業利益",
+   "https://windowsreport.com/?p=1513857"
+  ],
+  "tc_18": [
+   "TechCrunch｜Amazon 對 Anthropic 共投入約 $180 億：2023–2025 可轉債 $80 億＋最近兩輪各 $50 億（2026-10-27）",
+   "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+  ],
+  "tc_147": [
+   "TechCrunch｜IPO 後 Amazon 持有 Anthropic 14.7%（2026-11-17）",
+   "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+  ],
+  "w247_411": [
+   "24/7 Wall St.／Reuters｜以每股 $78 計，Amazon 持股值 $2,718 億、投入 $180 億（2026-11-11）",
+   "https://247wallst.com/investing/2026/11/11/amazon-and-google-are-sitting-on-a-411-billion-anthropic-windfall/"
+  ],
+  "fw_43": [
+   "FourWeekMBA｜10-Q：前 9 月 Anthropic 特別股上調 $628 億，占稅前淨利 43%；可轉債未實現利益 $1,403 億列在其他綜合損益",
+   "https://fourweekmba.com/ai-amazons-anthropic-stake-made-43-of-its-2026-pretax-profit/"
+  ],
+  "ft_cap": [
+   "Fortune｜Amazon 的可轉債只能在持股不超過 12% 時轉換，IPO 未豁免此上限（2026-11-19）",
+   "https://fortune.com/2026/11/19/anthropic-ipo-amazon-google-stake-windfall-nonvoting/"
+  ],
+  "mr_gsat": [
+   "MacRumors｜Amazon 以約 $115.7 億收購 Globalstar，預計 2027 年完成；Amazon Leo 接手 iPhone 衛星功能（2026-04-14）",
+   "https://macrumors.com/2026/04/14/apple-and-amazon-ink-satellite-deal-globalstar/"
+  ],
+  "mr_gsat2": [
+   "MacRumors｜Amazon 將一併收購 Apple 持有的 Globalstar 股權（FCC 文件，2026-05-27）",
+   "https://macrumors.com/2026/05/27/amazon-apple-globalstar-deal/"
+  ],
+  "trp_gsat": [
+   "TechRepublic｜每股 $90，股東可選現金或 Amazon 股票；直連手機服務預計 2028 年開始部署",
+   "https://www.techrepublic.com/article/news-amazon-globalstar-acquisition-satellite-starlink-competition/"
+  ],
+  "gw_gsat": [
+   "GeekWire｜Amazon：以 4/9 換股比例計，交易價值約 $108 億",
+   "https://www.geekwire.com/2026/amazon-and-apple-vs-starlink-globalstar-satellite-acquisition-comes-with-a-big-iphone-bonus/"
+  ],
+  "bw_xe": [
+   "Business Wire｜Amazon 領投 X-energy 約 $5 億 C-1 輪；目標 2039 年前 5GW（2024-10-16）",
+   "https://www.businesswire.com/news/home/20241016547140/en/Amazon-Invests-in-X-energy-to-Support-Advanced-Small-Modular-Nuclear-Reactors-and-Expand-Carbon-Free-Power",
+   "A"
+  ],
+  "blz_talen": [
+   "The Blaze｜2024/3 以 $6.5 億收購 Talen 核電廠旁園區；維吉尼亞 2040 年前投資 $350 億",
+   "https://www.theblaze.com/tech/amazon-500m-small-modular-reactors"
+  ],
+  "sa_bond": [
+   "SiliconANGLE｜7 月發債 $250 億；今年稍早美歐約 $540 億、6 月加拿大 $100 億（2026-07-07）",
+   "https://siliconangle.com/2026/07/07/amazon-launches-25b-bond-sale-fund-ai-infrastructure/"
+  ],
+  "qz_bond": [
+   "Quartz｜八期債券至少 $250 億；公司表示今年不再發債",
+   "https://qz.com/amazon-bond-sale-ai-infrastructure-070726"
+  ],
+  "bc_bond": [
+   "Barchart｜7 月債券認購高峰約 $620 億",
+   "https://www.barchart.com/story/news/3223992/amazons-25-billion-ai-gamble-is-building-its-next-trillion-dollar-business"
+  ],
+  "yh_bond": [
+   "Yahoo Finance｜2025/11 發債 $150 億，為三年來首次",
+   "https://finance.yahoo.com/news/ai-coming-trillion-dollar-hangover-150642244.html"
+  ],
+  "fv_moody": [
+   "Finviz｜Moody's 展望由正向調為穩定：資本支出增逾 50%，需外部融資（2026-02-23）",
+   "https://finviz.com/news/319252/amazon-amzn-navigates-investment-cycle-and-strategic-developments"
+  ],
+  "w247_letter": [
+   "24/7 Wall St.｜股東信：AWS AI 年化營收逾 $150 億；2025 年營收 $7,169 億（2026-04-09）",
+   "https://247wallst.com/investing/2026/04/09/amazon-gains-5-on-shareholder-letter-globalstar-deal-15-billion-aws-ai-revenue/"
+  ],
+  "px_auto_ANT": [
+   "Axios｜ANT 2026-11-24 收盤 $81.91",
+   "https://www.axios.com/2026/11/24/anthropic-stock-ipo-banks",
+   "B"
+  ]
+ },
+ "categories": [
+  {
+   "id": "lab",
+   "name": "AI 模型夥伴（入股＋AWS 客戶）",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "infra",
+   "name": "自建算力與能源",
+   "color": "#fb923c"
+  },
+  {
+   "id": "mna",
+   "name": "收購",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "fin",
+   "name": "融資（發債）",
+   "color": "#facc15",
+   "sumNote": "流入 Amazon 的舉債資金，不是對外投資"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非 Amazon 持股，僅標示供應或合作關係"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "anth_eq",
+   "name": "Anthropic（入股）",
+   "tk": "ANT",
+   "cat": "lab",
+   "type": "無表決權特別股＋可轉債",
+   "amt": 33.0,
+   "paid": 18.0,
+   "short": "≤$330億（已投入$180億）",
+   "date": "2026-11-19",
+   "amtText": "2023–2025 年以可轉債投入 $80 億；2026/4 再承諾最多 $250 億（立即 $50 億，其餘 $200 億取決於商業里程碑），之後又在下一輪投入 $50 億，現金合計約 $180 億。IPO 後持股 14.7%，為最大股東。可轉債只能在持股不超過 12% 時轉換，Amazon 未在 IPO 豁免此上限。",
+   "status": "持有中；Anthropic 已於 11/19 上市",
+   "flow": "Anthropic 承諾在 AWS 支出 ≥$1,100 億並使用最多 5GW Trainium（見下一節點）",
+   "src": [
+    "tc_18",
+    "qz_amzn",
+    "decrypt_amzn",
+    "tc_147",
+    "ft_cap"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "shares": 3484600000,
+   "pxTk": "ANT",
+   "val": 285.4236,
+   "valDate": "2026-11-24",
+   "since": "2023",
+   "valSrc": [
+    "px_auto_ANT",
+    "w247_411",
+    "axios_ant"
+   ],
+   "valNote": "3,484,600,000 股 × 2026-11-24 收盤 81.91 USD ≈ $2,854 億（自動計算）；股數由 Reuters 估值 ÷ $78 推算，含未轉換可轉債",
+   "pxNote": "股數由 Reuters 估值 ÷ $78 推算，含未轉換可轉債",
+   "terms": {
+    "sec": "無表決權特別股＋可轉債（轉換上限 12%）",
+    "vote": false
+   },
+   "risks": [
+    {
+     "k": "acct",
+     "x": "前 9 月 Anthropic 特別股上調 $628 億，占 Amazon 稅前淨利約 43%；上市後改按市價評價，損益波動加大",
+     "src": [
+      "fw_43"
+     ]
+    },
+    {
+     "k": "conc",
+     "x": "同一家公司既是最大被投資方，也是 AWS 最大客戶之一",
+     "src": [
+      "unite_s1"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "anth_aws",
+   "name": "Anthropic（AWS 客戶）",
+   "tk": "ANT",
+   "cat": "lab",
+   "type": "雲端採購承諾",
+   "amt": 110.0,
+   "short": "≥$1,100億",
+   "date": "2026-04-20",
+   "amtText": "Anthropic 承諾 10 年內在 AWS 支出逾 $1,000 億，S-1/A 揭露最低承諾 $1,100 億，並取得最多 5GW Trainium 算力。",
+   "status": "執行中",
+   "flow": "AWS 營收；同時推動 Amazon 自研晶片 Trainium 的用量",
+   "src": [
+    "decrypt_amzn",
+    "unite_s1"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "oai_eq",
+   "name": "OpenAI（入股）",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "股權（分期、附條件）",
+   "amt": 50.0,
+   "paid": 15.0,
+   "short": "$500億（首期$150億）",
+   "date": "2026-02-27",
+   "amtText": "承諾投資 $500 億：首期 $150 億，其餘 $350 億在特定條件達成後撥付；有分析師指出條件為 IPO 或達成 AGI 目標（未經官方證實）。",
+   "status": "首期已撥；其餘待條件達成",
+   "flow": "同日 OpenAI 把 AWS 合約擴大 $1,000 億（見下一節點）",
+   "src": [
+    "oai_amzn",
+    "hpc_amzn",
+    "yh_cond"
+   ],
+   "amtType": "commitment",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "$350 億的撥付條件未公開；OpenAI 上市時點據報延後",
+     "src": [
+      "hpc_amzn",
+      "yh_cond"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "oai_aws",
+   "name": "OpenAI（AWS 客戶）",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "雲端合約",
+   "amt": 138.0,
+   "short": "$380億＋$1,000億",
+   "date": "2026-02-27",
+   "amtText": "2025/11/3 簽 7 年 $380 億；2026/2/27 再擴大 $1,000 億、8 年，包含約 2GW Trainium 算力。合計 $1,380 億（自行相加）。AWS 也成為 OpenAI Frontier 的獨家第三方雲端通路。",
+   "status": "執行中",
+   "flow": "AWS 營收",
+   "src": [
+    "sa_aws",
+    "oai_amzn",
+    "abi_aws"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "OpenAI 仍在虧損，付款能力依賴持續募資",
+     "src": [
+      "yh_cond"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "capex",
+   "name": "資本支出",
+   "tk": "—",
+   "cat": "infra",
+   "type": "資料中心、晶片與設備",
+   "amt": 220.0,
+   "per": "year",
+   "short": "2026 年約$2,200億",
+   "date": "2026-10-29",
+   "amtText": "公司維持 2026 年現金資本支出約 $2,200 億的預估（年初指引約 $2,000 億，2025 年約 $1,310 億）。",
+   "status": "持續擴張",
+   "flow": "建置 AWS 產能以消化 $5,780 億合約積壓",
+   "src": [
+    "ua_q3",
+    "aiw_q3",
+    "sa_bond"
+   ],
+   "amtType": "capex",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "支出超過營運現金流，Moody's 已把展望由正向調為穩定",
+     "src": [
+      "fv_moody"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "xenergy",
+   "name": "X-energy",
+   "tk": "未上市",
+   "cat": "infra",
+   "type": "股權（領投 C-1 輪）",
+   "amt": 0.5,
+   "short": "約$5億（整輪）",
+   "date": "2024-10-16",
+   "excludeFromSum": true,
+   "amtText": "Amazon 領投 X-energy 約 $5 億的 C-1 輪（Amazon 個別金額未揭露），並直接出資 Energy Northwest 首期 320MW 小型模組化反應爐專案；雙方目標 2039 年前上線 5GW。",
+   "status": "持有中",
+   "flow": "未來以購電合約供應 Amazon 資料中心",
+   "src": [
+    "bw_xe"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "talen",
+   "name": "Talen 核電廠旁園區",
+   "tk": "TLN",
+   "cat": "infra",
+   "type": "資產收購",
+   "amt": 0.65,
+   "short": "$6.5億",
+   "date": "2024-03",
+   "amtText": "以 $6.5 億收購 Talen Energy 在賓州 Susquehanna 核電廠旁的資料中心園區。",
+   "status": "已完成",
+   "flow": "就近取得核電供電",
+   "src": [
+    "blz_talen"
+   ],
+   "amtType": "capex",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "globalstar",
+   "name": "Globalstar",
+   "tk": "GSAT",
+   "cat": "mna",
+   "type": "收購（現金或換股）",
+   "amt": 11.57,
+   "short": "約$115.7億",
+   "date": "2026-04-14",
+   "amtText": "每股 $90、約 $115.7 億，股東可選現金或 Amazon 股票；Amazon 表示以 4/9 換股比例計約 $108 億。取得 24 顆衛星與行動衛星頻譜執照，並將一併收購 Apple 持有的股權。預計 2027 年完成，須經主管機關核准並達成衛星發射里程碑。",
+   "status": "待完成（預計 2027）",
+   "flow": "頻譜併入 Amazon Leo；Leo 接手 iPhone 與 Apple Watch 的衛星功能",
+   "src": [
+    "mr_gsat",
+    "trp_gsat",
+    "gw_gsat",
+    "mr_gsat2"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "尚未完成，取決於核准與發射里程碑",
+     "src": [
+      "mr_gsat"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "bonds",
+   "name": "2026 年發債",
+   "tk": "—",
+   "cat": "fin",
+   "type": "公司債",
+   "amt": 89.0,
+   "short": "約$890億（自行相加）",
+   "date": "2026-07-07",
+   "amtText": "2026 年美國與歐洲約 $540 億、6 月加拿大 $100 億、7 月八期債券 $250 億（認購高峰約 $620 億），合計約 $890 億（自行相加）；另 2025/11 發行 $150 億。公司表示 2026 年不再發債。",
+   "status": "已完成",
+   "flow": "補足資本支出超過營運現金流的缺口",
+   "src": [
+    "sa_bond",
+    "qz_bond",
+    "bc_bond",
+    "yh_bond"
+   ],
+   "amtType": "liability",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "tk": "AAPL",
+   "cat": "cp",
+   "type": "衛星服務夥伴",
+   "amt": null,
+   "short": "金額未揭露",
+   "date": "2026-04-14",
+   "amtText": "Amazon 與 Apple 另簽協議：Amazon Leo 將支援 iPhone 與 Apple Watch 既有的衛星功能，並合作未來服務；Apple 原持有 Globalstar 20%（$4 億），將由 Amazon 收購。",
+   "status": "協議已簽",
+   "flow": "Apple 成為 Amazon Leo 的旗艦客戶",
+   "src": [
+    "mr_gsat",
+    "mr_gsat2",
+    "ap_gsat"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "tk": "NVDA",
+   "cat": "cp",
+   "type": "GPU 供應商／AWS 客戶",
+   "amt": null,
+   "short": "—",
+   "date": "2026-10-29",
+   "amtText": "AWS 向 NVIDIA 採購 GPU（OpenAI 的 $380 億合約即使用 NVIDIA 晶片）；Q3 也列出 NVIDIA 為新簽 AWS 協議的客戶之一。金額未揭露。",
+   "status": "供應中",
+   "flow": "Amazon 的資本支出有一部分成為 NVIDIA 營收",
+   "src": [
+    "sa_aws",
+    "cc_q3"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  }
+ ],
+ "flows": [
+  [
+   "bonds",
+   "capex",
+   "舉債支應資本支出"
+  ],
+  [
+   "capex",
+   "nvidia",
+   "採購 GPU"
+  ],
+  [
+   "globalstar",
+   "apple",
+   "收購 Apple 持股"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$2,019億",
+   "l": "Q3 2026 營收（年增 12%）",
+   "src": [
+    "cr_q3"
+   ]
+  },
+  {
+   "v": "$460億",
+   "l": "AWS 營收（年增 39.3%，近五年最快）",
+   "src": [
+    "cr_q3",
+    "wr_q3"
+   ]
+  },
+  {
+   "v": "$5,780億",
+   "l": "AWS 合約積壓（年增逾一倍）",
+   "src": [
+    "aiw_q3"
+   ]
+  },
+  {
+   "v": "約$2,200億",
+   "l": "2026 年現金資本支出預估",
+   "src": [
+    "ua_q3"
+   ]
+  },
+  {
+   "v": "$180億",
+   "l": "對 Anthropic 的現金投入（持股 14.7%）",
+   "src": [
+    "tc_18",
+    "tc_147"
+   ]
+  },
+  {
+   "v": "$628億",
+   "l": "前 9 月 Anthropic 特別股上調（占稅前淨利 43%）",
+   "src": [
+    "fw_43"
+   ]
+  },
+  {
+   "v": "$500億",
+   "l": "對 OpenAI 的投資承諾（已撥 $150 億）",
+   "src": [
+    "hpc_amzn"
+   ]
+  },
+  {
+   "v": "約$890億",
+   "l": "2026 年發債（自行相加）",
+   "src": [
+    "sa_bond"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "資本定位",
+   "text": "Amazon 同時入股 Anthropic 與 OpenAI，兩家都回頭簽下 AWS 長約：已投入現金約 $330 億（Anthropic $180 億＋OpenAI $150 億），換回的 AWS 承諾合計約 $2,480 億。",
+   "src": [
+    "tc_18",
+    "hpc_amzn",
+    "unite_s1",
+    "abi_aws"
+   ]
+  },
+  {
+   "title": "資金來源",
+   "text": "2026 年資本支出約 $2,200 億，超過營運現金流，因此一年內發債約 $890 億。",
+   "src": [
+    "ua_q3",
+    "sa_bond",
+    "fv_moody"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① Anthropic 循環",
+   "sub": "入股 → AWS／Trainium 承諾 → AWS 營收＋評價利益",
+   "nodes": [
+    [
+     "Amazon",
+     "accent"
+    ],
+    [
+     "Anthropic",
+     "lab"
+    ],
+    [
+     "AWS\n含 5GW Trainium",
+     "infra"
+    ],
+    [
+     "AWS 營收",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "已投入 $180億\n（上限 $330億）"
+    ],
+    [
+     1,
+     2,
+     "承諾 ≥$1,100億"
+    ],
+    [
+     2,
+     3,
+     "雲端費用"
+    ],
+    [
+     3,
+     0,
+     "回流"
+    ],
+    [
+     1,
+     0,
+     "持股上調\n前 9 月 $628億",
+     "chord"
+    ]
+   ],
+   "text": "Amazon 投入 $180 億現金，Anthropic 承諾在 AWS 支出至少 $1,100 億並採用 Trainium。除了雲端營收，Anthropic 估值上升也直接變成 Amazon 的帳面利益。",
+   "src": [
+    "tc_18",
+    "unite_s1",
+    "fw_43"
+   ],
+   "back": 110.0,
+   "dep": "high",
+   "backSrc": [
+    "unite_s1",
+    "tc_18"
+   ],
+   "backNote": "最低承諾 ≥$1,100 億（約 10 年），約為已投入現金 $180 億的 6 倍（自行計算）；另有前 9 月 $628 億的持股上調利益，屬帳面而非現金"
+  },
+  {
+   "id": "L2",
+   "title": "② OpenAI 循環",
+   "sub": "入股 → AWS 合約＋Trainium → AWS 營收",
+   "nodes": [
+    [
+     "Amazon",
+     "accent"
+    ],
+    [
+     "OpenAI",
+     "lab"
+    ],
+    [
+     "AWS\n含 2GW Trainium",
+     "infra"
+    ],
+    [
+     "AWS 營收",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$500億\n（首期$150億）"
+    ],
+    [
+     1,
+     2,
+     "$380億＋$1,000億"
+    ],
+    [
+     2,
+     3,
+     "雲端費用"
+    ],
+    [
+     3,
+     0,
+     "回流"
+    ]
+   ],
+   "text": "Amazon 承諾投資 OpenAI $500 億的同一天，OpenAI 把 AWS 合約擴大 $1,000 億並承諾使用 Trainium。",
+   "src": [
+    "oai_amzn",
+    "hpc_amzn",
+    "abi_aws"
+   ],
+   "back": 138.0,
+   "dep": "mid",
+   "backSrc": [
+    "abi_aws",
+    "sa_aws"
+   ],
+   "backNote": "AWS 合約合計 $1,380 億（7–8 年），為承諾投資額 $500 億的約 2.8 倍（自行計算）；已撥僅 $150 億"
+  },
+  {
+   "id": "L3",
+   "title": "③ 舉債建置循環",
+   "sub": "發債 → 資本支出 → 合約積壓 → AWS 營收",
+   "nodes": [
+    [
+     "債券投資人",
+     "fin"
+    ],
+    [
+     "Amazon",
+     "accent"
+    ],
+    [
+     "資本支出\n2026 約 $2,200億",
+     "infra"
+    ],
+    [
+     "AWS\n積壓 $5,780億",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "2026 年約 $890億"
+    ],
+    [
+     1,
+     2,
+     "建置資料中心與晶片"
+    ],
+    [
+     2,
+     3,
+     "產能"
+    ],
+    [
+     3,
+     1,
+     "Q3 營收 $460億"
+    ],
+    [
+     2,
+     0,
+     "GPU 採購流向 NVIDIA",
+     "chord"
+    ]
+   ],
+   "text": "資本支出超過營運現金流，Amazon 以發債補足；新增產能用來履行 AWS 的合約積壓。",
+   "src": [
+    "sa_bond",
+    "ua_q3",
+    "aiw_q3",
+    "cr_q3"
+   ],
+   "back": 46.0,
+   "dep": "high",
+   "backSrc": [
+    "cr_q3",
+    "aiw_q3"
+   ],
+   "backNote": "回流為 Q3 單季 AWS 營收 $460 億（營業利益 $178 億）；合約積壓 $5,780 億尚未認列"
+  },
+  {
+   "id": "L4",
+   "title": "④ 衛星頻譜循環",
+   "sub": "收購 Globalstar → Amazon Leo → Apple 服務",
+   "nodes": [
+    [
+     "Amazon",
+     "accent"
+    ],
+    [
+     "Globalstar\n頻譜＋24 顆衛星",
+     "mna"
+    ],
+    [
+     "Amazon Leo",
+     "infra"
+    ],
+    [
+     "Apple\niPhone 衛星功能",
+     "cp"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "約 $115.7億"
+    ],
+    [
+     1,
+     2,
+     "頻譜併入"
+    ],
+    [
+     2,
+     3,
+     "提供衛星服務"
+    ],
+    [
+     3,
+     0,
+     "服務費（未揭露）"
+    ],
+    [
+     0,
+     3,
+     "收購 Apple 持股",
+     "chord"
+    ]
+   ],
+   "text": "Amazon 買下 Globalstar 取得直連手機所需的頻譜，並接手 Apple 的衛星服務合約；Apple 的 Globalstar 持股也一併由 Amazon 收購。",
+   "src": [
+    "mr_gsat",
+    "mr_gsat2",
+    "trp_gsat"
+   ],
+   "dep": "low",
+   "backSrc": [
+    "mr_gsat"
+   ],
+   "backNote": "Apple 支付的服務費未揭露，交易也尚未完成，無法量化回流"
+  }
+ ],
+ "loopNote": {
+  "text": "支持者認為入股換來的 AWS 長約與 Trainium 用量遠大於投資額；質疑者指出客戶仍在虧損、Amazon 自己要先舉債建置，且帳面獲利高度依賴 Anthropic 估值。",
+  "src": [
+   "aiw_q3",
+   "fw_43",
+   "fv_moody"
+  ]
+ },
+ "events": [
+  {
+   "d": "2024-03",
+   "t": "收購 Talen 核電廠旁園區",
+   "x": "$6.5 億。",
+   "cat": "infra",
+   "src": [
+    "blz_talen"
+   ]
+  },
+  {
+   "d": "2024-10-16",
+   "t": "領投 X-energy 約 $5 億 C-1 輪",
+   "x": "目標 2039 年前 5GW。",
+   "cat": "infra",
+   "src": [
+    "bw_xe"
+   ]
+  },
+  {
+   "d": "2025-11",
+   "t": "發債 $150 億",
+   "x": "三年來首次。",
+   "cat": "fin",
+   "src": [
+    "yh_bond"
+   ]
+  },
+  {
+   "d": "2025-11-03",
+   "t": "OpenAI 簽 7 年 $380 億 AWS 合約",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "sa_aws"
+   ]
+  },
+  {
+   "d": "2026-02-23",
+   "t": "Moody's 展望調為穩定",
+   "x": "資本支出增逾 50%，需外部融資。",
+   "cat": "gov",
+   "src": [
+    "fv_moody"
+   ]
+  },
+  {
+   "d": "2026-02-27",
+   "t": "承諾投資 OpenAI $500 億",
+   "x": "首期 $150 億；AWS 合約擴大 $1,000 億。",
+   "cat": "lab",
+   "src": [
+    "oai_amzn",
+    "hpc_amzn"
+   ]
+  },
+  {
+   "d": "2026-04-09",
+   "t": "股東信：AWS AI 年化營收逾 $150 億",
+   "x": "",
+   "cat": "gov",
+   "src": [
+    "w247_letter"
+   ]
+  },
+  {
+   "d": "2026-04-14",
+   "t": "宣布收購 Globalstar",
+   "x": "約 $115.7 億；與 Apple 簽衛星服務協議。",
+   "cat": "mna",
+   "src": [
+    "mr_gsat"
+   ]
+  },
+  {
+   "d": "2026-04-20",
+   "t": "再承諾投資 Anthropic 最多 $250 億",
+   "x": "Anthropic 承諾 AWS 支出逾 $1,000 億。",
+   "cat": "lab",
+   "src": [
+    "decrypt_amzn",
+    "qz_amzn"
+   ]
+  },
+  {
+   "d": "2026-05-27",
+   "t": "將一併收購 Apple 的 Globalstar 持股",
+   "x": "FCC 文件揭露。",
+   "cat": "mna",
+   "src": [
+    "mr_gsat2"
+   ]
+  },
+  {
+   "d": "2026-07-07",
+   "t": "發債 $250 億",
+   "x": "認購高峰約 $620 億；表示今年不再發債。",
+   "cat": "fin",
+   "src": [
+    "sa_bond",
+    "bc_bond"
+   ]
+  },
+  {
+   "d": "2026-10-29",
+   "t": "Q3 財報：AWS 年增 39.3%",
+   "x": "合約積壓 $5,780 億；淨利因去年同期 Anthropic 利益而年減。",
+   "cat": "gov",
+   "src": [
+    "cr_q3",
+    "aiw_q3"
+   ]
+  },
+  {
+   "d": "2026-11-17",
+   "t": "Anthropic 揭露 Amazon 持股 14.7%",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "tc_147"
+   ]
+  },
+  {
+   "d": "2026-11-19",
+   "t": "Anthropic 上市",
+   "x": "Amazon 持股改按市價評價。",
+   "cat": "lab",
+   "src": [
+    "ft_cap"
+   ]
+  },
+  {
+   "d": "2026-11-24",
+   "t": "Anthropic 收 $81.91，跌破 IPO 價",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "axios_ant"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "Anthropic 現金投入：$80 億（2023–2025 可轉債）＋$50 億＋$50 億＝$180 億，與 TechCrunch、Reuters 一致。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "2026 年發債：約 $540 億＋$100 億＋$250 億＝約 $890 億（自行相加）；AWS 對 OpenAI 合約：$380 億＋$1,000 億＝$1,380 億。"
+  },
+  {
+   "tag": "已比對",
+   "html": "與 Anthropic Dashboard 一致：AWS 最低承諾 ≥$1,100 億、投資上限 $80 億＋$250 億。與 OpenAI Dashboard 一致：投資 $500 億（首期 $150 億）、AWS 合約 $1,380 億。"
+  },
+  {
+   "tag": "已補充",
+   "html": "Anthropic 持股現值為自行計算：以 Reuters 估值（每股 $78 時 $2,718 億）反推約 34.85 億股，乘以 11/24 收盤 $81.91，約 $2,854 億；其中包含受 12% 上限限制、尚未轉換的可轉債。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "Globalstar 交易金額：媒體多報 $115.7 億（每股 $90），Amazon 表示以 4/9 換股比例計約 $108 億；節點採前者並註明。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "2026 年資本支出：年初指引約 $2,000 億，Q3 維持「現金資本支出約 $2,200 億」；KPI 採後者。"
+  },
+  {
+   "tag": "未定案",
+   "html": "OpenAI 其餘 $350 億、Anthropic 其餘 $200 億都附條件，條件未完整公開；Globalstar 收購預計 2027 年才完成。X-energy 的 $5 億是整輪金額，Amazon 個別出資未揭露。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）Anthropic、OpenAI 各拆成「入股」與「AWS 客戶」兩個節點，方向相反。（2）入股節點的金額為承諾上限，報酬倍數以已付金額計算。（3）資本支出為年度金額、發債為流入資金，都不納入對外投資加總。（4）零售、物流與 Rivian 等非 AI 資本循環的投資未納入。（5）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "Amazon 用兩筆大額入股（Anthropic、OpenAI）鎖住約 $2,480 億的 AWS 長約，並推動自研晶片 Trainium 的用量。代價是資本支出超過現金流、一年發債近 $900 億，且獲利對 Anthropic 股價變得敏感。",
+  "src": [
+   "unite_s1",
+   "abi_aws",
+   "sa_bond",
+   "fw_43"
+  ],
+  "opps": [
+   {
+    "t": "AWS 年增 39.3%，公司指引 2027、2028 年成長逾 40%",
+    "src": [
+     "aiw_q3"
+    ]
+   },
+   {
+    "t": "Anthropic 持股現值約為現金投入的十多倍",
+    "src": [
+     "w247_411"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "Anthropic 上調利益占前 9 月稅前淨利 43%；上市後股價下跌會直接衝擊損益",
+    "src": [
+     "fw_43"
+    ]
+   },
+   {
+    "t": "資本支出超過營運現金流，Moody's 已調降展望",
+    "src": [
+     "fv_moody"
+    ]
+   },
+   {
+    "t": "兩大客戶 Anthropic、OpenAI 都仍在大量燒錢",
+    "src": [
+     "yh_cond"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "Q4 財報中 Anthropic 持股按市價評價的損益",
+    "src": [
+     "fw_43"
+    ]
+   },
+   {
+    "t": "OpenAI 上市與 $350 億附條件出資",
+    "src": [
+     "hpc_amzn"
+    ]
+   },
+   {
+    "t": "Globalstar 收購的核准進度",
+    "src": [
+     "mr_gsat"
+    ]
+   }
+  ]
+ }
+}

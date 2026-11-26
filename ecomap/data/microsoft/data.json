@@ -1,0 +1,984 @@
+{
+ "meta": {
+  "entity": "Microsoft",
+  "ticker": "MSFT",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#00a4ef",
+  "centerLabel": "資本中樞",
+  "fileSlug": "Microsoft",
+  "subtitle": "涵蓋 OpenAI／Anthropic 入股與雲端承諾、新雲算力租約、資本支出與資料中心投資"
+ },
+ "notice": {
+  "title": "近半年重大動態",
+  "months": 6,
+  "show": 6,
+  "html": "單季來自 OpenAI 的營收達 $100 億、約占 11%（<a href=\"https://techcrunch.com/?p=3182880\" target=\"_blank\">TechCrunch</a>）；11 月據報對 Nscale、Nebius、IREN 等新雲合約加強查核並取消部分案件（<a href=\"https://aiweekly.co/alerts/microsoft-pulls-back-from-neocloud-bets-with-nscale-nebius-iren\" target=\"_blank\">AI Weekly／Bloomberg</a>）。"
+ },
+ "sources": {
+  "ms_10q25": [
+   "Microsoft 10-Q（2025/9/30）｜附註 17：持股約 27%、OpenAI 增購 $2,500 億 Azure、$130 億出資承諾採權益法",
+   "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+   "A"
+  ],
+  "ms_blog_oai": [
+   "Microsoft Blog｜The next chapter of the Microsoft–OpenAI partnership（2025-10-28）",
+   "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+   "A"
+  ],
+  "tc_ms10": [
+   "TechCrunch｜Microsoft recorded $10 billion in revenue from OpenAI（2026-10-28）",
+   "https://techcrunch.com/?p=3182880"
+  ],
+  "w247_ms10": [
+   "24/7 Wall St.｜OpenAI 占 Microsoft 營收 11%；$130 億承諾已撥 $120 億（2026-10-29）",
+   "https://247wallst.com/investing/2026/10/29/openai-now-makes-up-11-of-microsofts-revenue/"
+  ],
+  "tnw_ms10": [
+   "The Next Web｜OpenAI 欠 Microsoft $72 億；2026 資本支出預估降至 $1,700 億",
+   "https://thenextweb.com/news/microsoft-openai-revenue-10bn-quarter"
+  ],
+  "aiw_ms10": [
+   "AI Weekly｜營收分成據報為 20%，2026/4 協議延續至 2030 年並設上限",
+   "https://aiweekly.co/alerts/microsoft-books-10b-from-openai-11-of-quarterly-revenue"
+  ],
+  "ms_blog": [
+   "Microsoft Blog｜Azure $300 億；Nvidia ≤$100 億、Microsoft ≤$50 億（2025-11-18）",
+   "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/"
+  ],
+  "cb_895": [
+   "Crypto Briefing｜Microsoft 最低承諾升至 $449 億、Google 約 $1,213 億",
+   "https://cryptobriefing.com/anthropic-compute-commitments-microsoft-google-ipo/"
+  ],
+  "fw_place": [
+   "FourWeekMBA｜$260 億配售拆分：Nvidia、Google 各 $100 億…",
+   "https://fourweekmba.com/ai-nvidia-google-buy-10b-each-of-anthropics-26b-placement/"
+  ],
+  "fw_war": [
+   "FourWeekMBA｜OpenAI／Meta 權證條款、10-Q 會計與部署現況",
+   "https://fourweekmba.com/ai-how-amds-openai-meta-deals-work-12-gw-up-to-320m-shares/"
+  ],
+  "tnw_iren": [
+   "The Next Web｜IREN $21 億認股權證、5GW",
+   "https://thenextweb.com/news/nvidia-iren-2-1bn-warrant-5gw-sweetwater-ai-data-centers"
+  ],
+  "anth_news": [
+   "Anthropic｜Microsoft、NVIDIA、Anthropic 策略合作 (2025-11-18)",
+   "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+   "A"
+  ],
+  "ua_q1": [
+   "Unite.AI｜Microsoft FY27 Q1：營收 $923 億（+19%）、淨利 $366 億；Azure $332 億（+48%）",
+   "https://www.unite.ai/?p=496953"
+  ],
+  "zk_q1": [
+   "Zacks｜Microsoft Cloud $639 億（+30%）；商業訂單年減 12%；2026 資本支出約 $1,700 億",
+   "https://www.zacks.com/stock/news/3018768/microsoft-q1-earnings-beat-estimates-as-cloud-accelerates"
+  ],
+  "rm_q1": [
+   "Redmond Magazine｜單季資本支出 $452 億（2026-10-30）",
+   "https://redmondmag.com/articles/2026/10/30/microsoft-revenue-jumps-as-azure-and-ai-demand--fuel-growth.aspx"
+  ],
+  "lds_q1": [
+   "Let's Data Science｜商業剩餘履約義務 $6,770 億（+73%）",
+   "https://letsdatascience.com/news/microsoft-reports-19-revenue-growth-and-48-azure-growth-in-q-bd5ee9a7"
+  ],
+  "sa_q1": [
+   "SiliconANGLE｜首次揭露 Azure 營收 $331.7 億；部分第三方供應商延遲（2026-10-28）",
+   "https://siliconangle.com/?p=852356"
+  ],
+  "w247_q1": [
+   "24/7 Wall St.｜現金資本支出 $394 億，為去年同期兩倍以上",
+   "https://247wallst.com/cards/microsoft-q1-2027-earnings-msft-01m6223bcjxyqzvby9cw8yzzqb"
+  ],
+  "fw_ms10": [
+   "FourWeekMBA｜10-Q：OpenAI 投資淨利益 $2.72 億；持股 27%→25%→24%",
+   "https://fourweekmba.com/ai-microsoft-booked-10b-from-openai-11-of-quarterly-sales/"
+  ],
+  "aiw_neo": [
+   "AI Weekly／Bloomberg｜Microsoft 從新雲合約抽身；三家揭露合約最高 $709 億",
+   "https://aiweekly.co/alerts/microsoft-pulls-back-from-neocloud-bets-with-nscale-nebius-iren"
+  ],
+  "fw_neo": [
+   "FourWeekMBA｜Nscale ≤$438 億（至 2033）、Nebius ≤$174 億、IREN 約 $97 億；資本支出少 $50 億",
+   "https://fourweekmba.com/ai-how-microsoft-rents-ai-capacity-3-neocloud-deals-70-9b/"
+  ],
+  "ti_neo": [
+   "Tech Insider｜Microsoft 10 月取消約 $30 億 Nscale 英國案；派員查核工地",
+   "https://tech-insider.org/?p=53501"
+  ],
+  "lds_neo": [
+   "Let's Data Science｜放棄西維吉尼亞 1.35GW 意向書；Nebius、IREN 股價跌約 16–20%",
+   "https://letsdatascience.com/blog/microsoft-dropping-gpu-landlords-iren-nebius-fell-20-percent"
+  ],
+  "wr_iren": [
+   "Windows Report｜IREN $97 億合約；Microsoft 預付款支應 IREN 向 Dell 採購 $58 億；Lambda 數十億美元協議",
+   "https://windowsreport.com/microsoft-inks-9-7b-deal-with-iren-to-access-nvidias-advanced-gb300-ai-chips/"
+  ],
+  "yh_aligned": [
+   "Yahoo Finance／Reuters｜BlackRock、Microsoft、NVIDIA 等財團以 $400 億收購 Aligned Data Centers",
+   "https://finance.yahoo.com/news/factbox-openai-meta-firms-channel-165203455.html"
+  ],
+  "fk_maia": [
+   "ForkLog｜10 月發表第三代自研 AI 晶片 Maia 300，2027 年起導入",
+   "https://forklog.com/en/?p=106004"
+  ]
+ },
+ "categories": [
+  {
+   "id": "lab",
+   "name": "AI 模型夥伴（入股＋雲端客戶）",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "cloud",
+   "name": "第三方算力（新雲租用合約）",
+   "color": "#38bdf8",
+   "sumNote": "多年期合約上限，Microsoft 為付款方"
+  },
+  {
+   "id": "infra",
+   "name": "自建與資料中心投資",
+   "color": "#fb923c"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非 Microsoft 持股，僅標示供應或合作關係"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "股權（權益法）",
+   "amt": 13.0,
+   "paid": 12.0,
+   "short": "$130億承諾（約24%）",
+   "date": "2026-10-28",
+   "amtText": "出資承諾共 $130 億，截至 2026/9/30 已撥 $120 億，以權益法認列。2025/10 資本重組後持股約 27%，官方稱價值約 $1,350 億；之後被新輪次稀釋，2026/6 約 25%、2026/9 約 24%。單季認列投資淨利益 $2.72 億。",
+   "status": "持有中；持股約 24%",
+   "flow": "OpenAI 增購 $2,500 億 Azure 並支付營收分成（見下一節點）",
+   "src": [
+    "ms_10q25",
+    "ms_blog_oai",
+    "w247_ms10",
+    "fw_ms10"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "val": 135.0,
+   "valDate": "2025-10",
+   "since": "2019",
+   "valSrc": [
+    "ms_blog_oai"
+   ],
+   "valNote": "官方在 2025/10 資本重組時公布的持股價值（當時約 27%）；之後持股降至約 24%、OpenAI 估值上升，未有新的官方數字",
+   "terms": {
+    "sec": "OpenAI Group PBC 股權（as-converted 約 24%）"
+   },
+   "risks": [
+    {
+     "k": "conc",
+     "x": "OpenAI 占 Microsoft 單季營收約 11%",
+     "src": [
+      "tc_ms10"
+     ]
+    },
+    {
+     "k": "acct",
+     "x": "權益法下，持股比例變動與 OpenAI 損益會影響 Microsoft 業外損益",
+     "src": [
+      "ms_10q25"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "oai_azure",
+   "name": "OpenAI（Azure 客戶）",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "雲端採購承諾＋營收分成",
+   "amt": 250.0,
+   "short": "增購$2,500億",
+   "date": "2025-10-28",
+   "amtText": "2025/10/28 協議：OpenAI 承諾再採購 $2,500 億 Azure 服務；Microsoft 放棄優先供應權。2026 財年來自 OpenAI 的營收 $241 億，2026/7–9 月單季 $100 億；期末應收 OpenAI $72 億（6 月底 $60 億）。營收分成據報為 20%，延續至 2030 年並設上限。",
+   "status": "執行中",
+   "flow": "OpenAI 的算力支出與營收分成直接成為 Microsoft 營收",
+   "src": [
+    "ms_10q25",
+    "tc_ms10",
+    "tnw_ms10",
+    "aiw_ms10"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "fin",
+     "x": "應收 OpenAI 款項 $72 億，約為單季 OpenAI 營收的 72%",
+     "src": [
+      "tnw_ms10"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "anth_eq",
+   "name": "Anthropic（入股）",
+   "tk": "ANT",
+   "cat": "lab",
+   "type": "股權",
+   "amt": 6.0,
+   "short": "≤$50億＋$10億配售",
+   "date": "2026-11-18",
+   "amtText": "2025/11/18 承諾投資最多 $50 億；2026/11 再於 IPO 同步配售認購 $10 億。已撥金額未揭露。",
+   "status": "股東",
+   "flow": "Anthropic 承諾購買 Azure 算力（見下一節點）；Claude 上架 Microsoft Foundry",
+   "src": [
+    "ms_blog",
+    "fw_place"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "anth_azure",
+   "name": "Anthropic（Azure 客戶）",
+   "tk": "ANT",
+   "cat": "lab",
+   "type": "雲端採購承諾",
+   "amt": 44.9,
+   "short": "≥$449億",
+   "date": "2026-11-02",
+   "amtText": "2025/11 承諾購買 $300 億 Azure 算力；Anthropic S-1/A 揭露最低承諾升至 $449 億（2026/11–2033/6）。",
+   "status": "執行中",
+   "flow": "Azure 營收；算力採用 NVIDIA 系統",
+   "src": [
+    "ms_blog",
+    "cb_895"
+   ],
+   "amtType": "commitment",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nscale",
+   "name": "Nscale",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "GPU 算力租用合約",
+   "amt": 43.8,
+   "short": "≤$438億",
+   "date": "2025-10-15",
+   "amtText": "Nscale S-1 揭露與 Microsoft 的合約最高約 $438 億，至 2033/12。Bloomberg：Microsoft 2026/10 取消約 $30 億的英國案，並放棄西維吉尼亞 1.35GW 意向書。",
+   "status": "部分取消、加強查核",
+   "flow": "Microsoft 付租金取得 GPU 算力，再以 Azure 轉售",
+   "src": [
+    "fw_neo",
+    "aiw_neo",
+    "ti_neo",
+    "lds_neo"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "英國案因電力取得延遲多年而取消",
+     "src": [
+      "ti_neo"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nebius",
+   "name": "Nebius",
+   "tk": "NBIS",
+   "cat": "cloud",
+   "type": "GPU 算力租用合約",
+   "amt": 17.4,
+   "short": "$174億（上限$194億）",
+   "date": "2025-09",
+   "amtText": "五年 $174 億、最高 $194 億，至 2031 年（Nebius 20-F）。紐澤西工地因無照運轉發電機被罰 $100 萬，Microsoft 派員查核。",
+   "status": "執行中、受查核",
+   "flow": "同上",
+   "src": [
+    "fw_neo",
+    "lds_neo"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "reg",
+     "x": "紐澤西工地違規罰款",
+     "src": [
+      "lds_neo"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "iren",
+   "name": "IREN",
+   "tk": "IREN",
+   "cat": "cloud",
+   "type": "GPU 算力租用合約",
+   "amt": 9.7,
+   "short": "約$97億",
+   "date": "2025-11-03",
+   "amtText": "五年約 $97 億（NVIDIA GB300），至 2031 年；Microsoft 的預付款用來支應 IREN 向 Dell 採購 $58 億設備。2026/11 雙方重訂時程，完工可能延後數週到數月。",
+   "status": "時程延後",
+   "flow": "預付款 → IREN 向 Dell／NVIDIA 採購 → 算力交回 Microsoft",
+   "src": [
+    "wr_iren",
+    "aiw_neo",
+    "fw_neo"
+   ],
+   "amtType": "contract",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "德州工地交付延後；未達里程碑合約可取消",
+     "src": [
+      "wr_iren",
+      "aiw_neo"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "lambda",
+   "name": "Lambda",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "GPU 算力協議",
+   "amt": null,
+   "short": "數十億美元（未揭露）",
+   "date": "2025-11-03",
+   "amtText": "Lambda 證實與 Microsoft 簽訂數十億美元協議，部署 NVIDIA AI 基礎設施；金額未揭露。",
+   "status": "執行中",
+   "flow": "同上",
+   "src": [
+    "wr_iren"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "capex",
+   "name": "資本支出",
+   "tk": "—",
+   "cat": "infra",
+   "type": "自建資料中心與設備",
+   "amt": 170.0,
+   "per": "year",
+   "short": "2026 年約$1,700億",
+   "date": "2026-10-28",
+   "amtText": "2026/7–9 月資本支出 $452 億（含融資租賃；現金部分 $394 億）。公司預估 2026 曆年約 $1,700 億，據報因第三方供應商延遲而下修。",
+   "status": "持續擴張",
+   "flow": "向 NVIDIA、AMD 等採購晶片並自建資料中心",
+   "src": [
+    "rm_q1",
+    "w247_q1",
+    "zk_q1",
+    "tnw_ms10"
+   ],
+   "amtType": "capex",
+   "direction": "out",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "第三方資料中心延遲使資本支出低於原計畫約 $50 億",
+     "src": [
+      "fw_neo"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "aligned",
+   "name": "Aligned Data Centers（財團收購）",
+   "tk": "未上市",
+   "cat": "infra",
+   "type": "財團收購",
+   "amt": 40.0,
+   "short": "$400億（財團總額）",
+   "date": "2025-10",
+   "excludeFromSum": true,
+   "amtText": "BlackRock、Microsoft、NVIDIA 等組成的投資團以 $400 億收購 Aligned Data Centers（近 80 座設施）；Microsoft 個別出資額未揭露。",
+   "status": "已宣布",
+   "flow": "取得資料中心容量",
+   "src": [
+    "yh_aligned"
+   ],
+   "amtType": "project",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "maia",
+   "name": "Maia 300 自研晶片",
+   "tk": "—",
+   "cat": "infra",
+   "type": "自研 AI 晶片",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-10",
+   "amtText": "2026/10 發表第三代自研 AI 晶片 Maia 300，預計 2027 年起導入工作負載。",
+   "status": "2027 年導入",
+   "flow": "降低對外購 GPU 的依賴",
+   "src": [
+    "fk_maia"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "tk": "NVDA",
+   "cat": "cp",
+   "type": "GPU 供應商／共同投資人",
+   "amt": null,
+   "short": "—",
+   "date": "2025-11-18",
+   "amtText": "Microsoft 與 NVIDIA 同步投資 Anthropic（Microsoft ≤$50 億、NVIDIA ≤$100 億）；Azure 與新雲合約都採用 NVIDIA 系統。",
+   "status": "供應中",
+   "flow": "Microsoft 的資本支出與新雲租金，最終大多成為 NVIDIA 營收",
+   "src": [
+    "ms_blog",
+    "anth_news",
+    "wr_iren"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "tk": "AMD",
+   "cat": "cp",
+   "type": "GPU 供應商（Helios 客戶）",
+   "amt": null,
+   "short": "—",
+   "date": "2026-11-03",
+   "amtText": "AMD 表示 Microsoft 等客戶已在首批 Helios 機櫃上運行工作負載；金額未揭露。",
+   "status": "供應中",
+   "flow": "第二 GPU 來源",
+   "src": [
+    "fw_war"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  }
+ ],
+ "flows": [
+  [
+   "iren",
+   "nvidia",
+   "採購 GB300"
+  ],
+  [
+   "capex",
+   "nvidia",
+   "採購 GPU"
+  ],
+  [
+   "anth_azure",
+   "nvidia",
+   "Azure 採 NVIDIA 系統"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$923億",
+   "l": "FY27 Q1 營收（2026/7–9，年增 19%）",
+   "src": [
+    "ua_q1"
+   ]
+  },
+  {
+   "v": "$332億",
+   "l": "Azure 營收（年增 48%，首次揭露金額）",
+   "src": [
+    "ua_q1",
+    "sa_q1"
+   ]
+  },
+  {
+   "v": "$639億",
+   "l": "Microsoft Cloud 營收（年增 30%）",
+   "src": [
+    "zk_q1"
+   ]
+  },
+  {
+   "v": "$6,770億",
+   "l": "商業剩餘履約義務（年增 73%）",
+   "src": [
+    "lds_q1"
+   ]
+  },
+  {
+   "v": "$452億",
+   "l": "單季資本支出（含融資租賃）",
+   "src": [
+    "rm_q1"
+   ]
+  },
+  {
+   "v": "$100億",
+   "l": "單季來自 OpenAI 的營收（約 11%）",
+   "src": [
+    "tc_ms10"
+   ]
+  },
+  {
+   "v": "約24%",
+   "l": "OpenAI 持股（已撥 $120 億）",
+   "src": [
+    "w247_ms10"
+   ]
+  },
+  {
+   "v": "≤$709億",
+   "l": "三家新雲揭露的 Microsoft 合約上限",
+   "src": [
+    "aiw_neo",
+    "fw_neo"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "資本定位",
+   "text": "Microsoft 同時是 OpenAI 與 Anthropic 的股東和雲端供應商：投資金額不大（合計約 $190 億），但換回的 Azure 採購承諾合計近 $3,000 億。",
+   "src": [
+    "ms_10q25",
+    "ms_blog",
+    "cb_895"
+   ]
+  },
+  {
+   "title": "算力來源",
+   "text": "除了自建（2026 年資本支出約 $1,700 億），Microsoft 也向新雲業者租用算力；2026/11 起據報對這些合約轉趨保守。",
+   "src": [
+    "zk_q1",
+    "aiw_neo"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① OpenAI 循環",
+   "sub": "入股 → Azure 採購＋營收分成 → 營收",
+   "nodes": [
+    [
+     "Microsoft",
+     "accent"
+    ],
+    [
+     "OpenAI",
+     "lab"
+    ],
+    [
+     "Azure",
+     "infra"
+    ],
+    [
+     "營收",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$130億承諾\n（已撥$120億）"
+    ],
+    [
+     1,
+     2,
+     "增購 $2,500億"
+    ],
+    [
+     2,
+     3,
+     "單季 $100億"
+    ],
+    [
+     3,
+     0,
+     "回流"
+    ],
+    [
+     1,
+     0,
+     "應收 $72億",
+     "chord"
+    ]
+   ],
+   "text": "Microsoft 已撥 $120 億，2026 財年來自 OpenAI 的營收就有 $241 億，最近一季更達 $100 億；但應收帳款也升到 $72 億。",
+   "src": [
+    "ms_10q25",
+    "tc_ms10",
+    "w247_ms10",
+    "tnw_ms10"
+   ],
+   "back": 24.1,
+   "share": 7.3,
+   "dep": "high",
+   "backSrc": [
+    "tc_ms10",
+    "w247_ms10"
+   ],
+   "backNote": "2026 財年來自 OpenAI 的營收 $241 億，占總營收約 7.3%；最近一季 $100 億、約 11%"
+  },
+  {
+   "id": "L2",
+   "title": "② Anthropic 循環",
+   "sub": "與 NVIDIA 同步入股 → Azure 承諾",
+   "nodes": [
+    [
+     "Microsoft",
+     "accent"
+    ],
+    [
+     "Anthropic",
+     "lab"
+    ],
+    [
+     "Azure",
+     "infra"
+    ],
+    [
+     "NVIDIA",
+     "cp"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "≤$50億＋$10億"
+    ],
+    [
+     1,
+     2,
+     "承諾 ≥$449億"
+    ],
+    [
+     2,
+     3,
+     "採購 GPU"
+    ],
+    [
+     2,
+     0,
+     "營收回流"
+    ],
+    [
+     3,
+     1,
+     "NVIDIA 入股",
+     "chord"
+    ]
+   ],
+   "text": "Microsoft 與 NVIDIA 同時投資 Anthropic，Anthropic 承諾購買 Azure 算力，Azure 再向 NVIDIA 採購系統。",
+   "src": [
+    "ms_blog",
+    "cb_895",
+    "anth_news"
+   ],
+   "back": 44.9,
+   "dep": "mid",
+   "backSrc": [
+    "cb_895"
+   ],
+   "backNote": "最低承諾 ≥$449 億（2026/11–2033/6），約為 Microsoft 投資上限 $60 億的 7.5 倍（自行計算）"
+  },
+  {
+   "id": "L3",
+   "title": "③ 新雲租用循環",
+   "sub": "預付款與長約 → 新雲買 GPU → 算力轉售",
+   "nodes": [
+    [
+     "Microsoft",
+     "accent"
+    ],
+    [
+     "Nscale・Nebius\nIREN",
+     "cloud"
+    ],
+    [
+     "NVIDIA／Dell",
+     "cp"
+    ],
+    [
+     "Azure 客戶",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "合約上限 $709億"
+    ],
+    [
+     1,
+     2,
+     "採購 GPU"
+    ],
+    [
+     1,
+     0,
+     "交付算力"
+    ],
+    [
+     0,
+     3,
+     "Azure 轉售"
+    ],
+    [
+     2,
+     1,
+     "NVIDIA 入股新雲",
+     "chord"
+    ]
+   ],
+   "text": "Microsoft 用長約和預付款讓新雲業者得以融資買 GPU，再把算力併入 Azure 賣給客戶。2026/11 起因延遲與成本問題，Microsoft 開始取消或重談部分案件。",
+   "src": [
+    "aiw_neo",
+    "fw_neo",
+    "wr_iren",
+    "tnw_iren"
+   ],
+   "dep": "mid",
+   "backSrc": [
+    "aiw_neo",
+    "fw_neo"
+   ],
+   "backNote": "此循環中 Microsoft 是付款方（合約上限 $709 億）；轉售算力的 Azure 營收沒有公開的對應數字"
+  }
+ ],
+ "loopNote": {
+  "text": "支持者認為投資換來的雲端承諾遠大於投資額；質疑者指出主要客戶仍在虧損，且 Microsoft 為供應算力而承擔的資本支出與租約風險正在上升。",
+  "src": [
+   "tc_ms10",
+   "aiw_neo"
+  ]
+ },
+ "events": [
+  {
+   "d": "2025-09",
+   "t": "與 Nebius 簽 $174 億算力合約",
+   "x": "",
+   "cat": "cloud",
+   "src": [
+    "fw_neo"
+   ]
+  },
+  {
+   "d": "2025-10",
+   "t": "與 BlackRock、NVIDIA 等收購 Aligned Data Centers",
+   "x": "財團總額 $400 億。",
+   "cat": "infra",
+   "src": [
+    "yh_aligned"
+   ]
+  },
+  {
+   "d": "2025-10-15",
+   "t": "Nscale 合約",
+   "x": "約 20 萬顆 GB300。",
+   "cat": "cloud",
+   "src": [
+    "lds_neo"
+   ]
+  },
+  {
+   "d": "2025-10-28",
+   "t": "與 OpenAI 簽新協議",
+   "x": "持股約 27%；OpenAI 增購 $2,500 億 Azure。",
+   "cat": "lab",
+   "src": [
+    "ms_blog_oai",
+    "ms_10q25"
+   ]
+  },
+  {
+   "d": "2025-11-03",
+   "t": "IREN $97 億合約；Lambda 協議",
+   "x": "",
+   "cat": "cloud",
+   "src": [
+    "wr_iren"
+   ]
+  },
+  {
+   "d": "2025-11-18",
+   "t": "與 NVIDIA 同步投資 Anthropic",
+   "x": "Microsoft ≤$50 億；Anthropic 承諾 $300 億 Azure。",
+   "cat": "lab",
+   "src": [
+    "ms_blog"
+   ]
+  },
+  {
+   "d": "2026-10",
+   "t": "取消約 $30 億 Nscale 英國案",
+   "x": "據 Bloomberg 報導。",
+   "cat": "cloud",
+   "src": [
+    "ti_neo"
+   ]
+  },
+  {
+   "d": "2026-10",
+   "t": "發表 Maia 300 自研晶片",
+   "x": "",
+   "cat": "infra",
+   "src": [
+    "fk_maia"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "t": "FY27 Q1 財報",
+   "x": "營收 $923 億、Azure +48%；來自 OpenAI 營收 $100 億。",
+   "cat": "gov",
+   "src": [
+    "ua_q1",
+    "tc_ms10"
+   ]
+  },
+  {
+   "d": "2026-11-02",
+   "t": "Anthropic 對 Azure 最低承諾升至 $449 億",
+   "x": "S-1/A 揭露。",
+   "cat": "lab",
+   "src": [
+    "cb_895"
+   ]
+  },
+  {
+   "d": "2026-11-05",
+   "t": "Bloomberg：Microsoft 對新雲合約轉趨保守",
+   "x": "Nebius、IREN 股價重挫。",
+   "cat": "cloud",
+   "src": [
+    "aiw_neo",
+    "lds_neo"
+   ]
+  },
+  {
+   "d": "2026-11-18",
+   "t": "認購 Anthropic IPO 同步配售 $10 億",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "fw_place"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "OpenAI 營收占比：$100 億 ÷ $922.8 億 ≈ 10.8%；新雲合約：$438 億＋$174 億＋$97 億＝$709 億。"
+  },
+  {
+   "tag": "已比對",
+   "html": "與 Anthropic Dashboard 一致：Azure 最低承諾 ≥$449 億、Microsoft 投資 ≤$50 億＋配售 $10 億。與 OpenAI Dashboard 一致：$130 億承諾、增購 $2,500 億。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "資本支出有兩種口徑：含融資租賃 $452 億、現金購置 $394 億；KPI 採前者。"
+  },
+  {
+   "tag": "未定案",
+   "html": "新雲合約的取消與重談來自 Bloomberg 引述消息人士；OpenAI 營收分成比例（20%）為媒體報導。"
+  },
+  {
+   "tag": "已補充",
+   "html": "OpenAI 持股現值沿用 2025/10 官方數字 $1,350 億（當時 27%）；目前持股約 24%，無新的官方估值。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）OpenAI、Anthropic 各拆成「入股」與「Azure 客戶」兩個節點，方向相反。（2）新雲合約金額為對方申報文件揭露的上限，Microsoft 未逐筆公布。（3）資本支出為年度金額，不納入加總。（4）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "Microsoft 用相對小的股權投資，鎖住 OpenAI 與 Anthropic 兩家最大模型公司的雲端支出；風險在於這些客戶仍在虧損，而且為了供應它們，Microsoft 自己得先投入大量資本支出與第三方租約。",
+  "src": [
+   "tc_ms10",
+   "cb_895",
+   "zk_q1"
+  ],
+  "opps": [
+   {
+    "t": "Azure 年增 48%，商業剩餘履約義務 $6,770 億",
+    "src": [
+     "ua_q1",
+     "lds_q1"
+    ]
+   },
+   {
+    "t": "已撥 $120 億的 OpenAI 投資，單一財年帶回 $241 億營收",
+    "src": [
+     "tc_ms10",
+     "w247_ms10"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "OpenAI 占單季營收約 11%，應收款 $72 億",
+    "src": [
+     "tc_ms10",
+     "tnw_ms10"
+    ]
+   },
+   {
+    "t": "新雲夥伴延遲、成本超支，已拖累資本支出進度",
+    "src": [
+     "aiw_neo",
+     "fw_neo"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "下一季 OpenAI 營收占比與應收款變化",
+    "src": [
+     "tnw_ms10"
+    ]
+   },
+   {
+    "t": "新雲合約是否進一步取消或重談",
+    "src": [
+     "aiw_neo"
+    ]
+   }
+  ]
+ }
+}

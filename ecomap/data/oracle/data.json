@@ -1,0 +1,1030 @@
+{
+ "meta": {
+  "entity": "Oracle",
+  "ticker": "ORCL",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#f80000",
+  "centerLabel": "資本中樞",
+  "fileSlug": "Oracle",
+  "subtitle": "涵蓋 AI 雲端長約、GPU 採購、TikTok 股權、債券與增資、專案融資"
+ },
+ "notice": {
+  "title": "近半年重大動態",
+  "months": 6,
+  "show": 6,
+  "html": "11 月同步發行 $100 億股票與 $100 億票據，票息 7%–8.65%，距投資人日宣布募資上限僅五天（<a href=\"https://finviz.com/news/413887/oracle-announces-pricing-of-20-billion-of-common-stock-and-senior-notes\" target=\"_blank\">Oracle 公告</a>）。"
+ },
+ "sources": {
+  "or_q1": [
+   "Oracle 新聞稿｜Q1 FY27：營收 $193 億、RPO $6,640 億（2026-09-10）",
+   "https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/",
+   "A"
+  ],
+  "or_q1b": [
+   "Oracle IR｜Q1 FY27 自由現金流 −$50 億、Q2 指引",
+   "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx",
+   "A"
+  ],
+  "or_zacks": [
+   "Zacks｜Q1 新簽 AI 合約逾 $300 億；完成 $200 億 ATM 增資",
+   "https://zacks.com/stock/news/2988454/oracle-q1-earnings-beat-estimates-cloud-growth-accelerates"
+  ],
+  "or_oai": [
+   "TechRadar／WSJ｜OpenAI 五年 $3,000 億運算合約，自 2027 起，平均每年 $600 億",
+   "https://www.techradar.com/pro/openai-bets-usd300-billion-on-oracle-contract-to-power-artificial-intelligence-expansion-despite-ongoing-losses"
+  ],
+  "or_oai2": [
+   "The Register｜Oracle 堅稱 $3,000 億 OpenAI 合約如期，約 4.5 GW",
+   "https://www.theregister.com/2025/12/15/oracle_denies_openai_delays/"
+  ],
+  "or_bond": [
+   "Bloomberg｜Oracle $250 億債券創紀錄需求（2026-02-02）",
+   "https://www.bloomberg.com/news/articles/2026-02-02/oracle-kicks-off-8-part-dollar-bond-sale-amid-ai-borrowing-push"
+  ],
+  "or_plan": [
+   "Constellation Research｜2026 年以股債募 $450–500 億，含 $200 億 ATM 與強制可轉特別股",
+   "https://www.constellationr.com/insights/news/oracle-raise-45-billion-50-billion-debt-equity-data-center-buildout"
+  ],
+  "or_nov": [
+   "Oracle 定價公告（Finviz/PR Newswire）｜8,620 萬股 @$116＋$100 億票據（2026-11-02）",
+   "https://finviz.com/news/413887/oracle-announces-pricing-of-20-billion-of-common-stock-and-senior-notes",
+   "B"
+  ],
+  "or_nov2": [
+   "Neoteo｜$100 億票據票息 7.00%–8.65%，2029–2046 到期",
+   "https://www.neoteo.com/en/oracle-priced-20-billion-in-stock-and-senior-notes"
+  ],
+  "or_debt": [
+   "Unite.AI｜8/31 總負債 $1,253.37 億",
+   "https://www.unite.ai/?p=500038"
+  ],
+  "or_tt": [
+   "TechTimes｜投資人日設 $200 億上限，五天後一次用完",
+   "https://techtimes.com/articles/329927/20261103/oracle-burns-entire-four-year-capital-promise-one-week-shares-shed-60b.htm"
+  ],
+  "or_mich": [
+   "The Star／Bloomberg｜Michigan 資料中心 $160 億融資完成，Pimco 買約 $100 億債券",
+   "https://www.thestar.com.my/business/business-news/2026/04/27/oracles-us16bil-data-centre-financing-wraps"
+  ],
+  "or_tik": [
+   "Yahoo Finance／Benzinga｜Oracle 投資約 $22 億取得 TikTok USDS 15%",
+   "https://finance.yahoo.com/news/oracle-reveals-2-2-billion-120047526.html"
+  ],
+  "or_tik2": [
+   "The Register｜TikTok USDS 合資：Oracle、Silver Lake、MGX 各 15%，ByteDance 19.9%",
+   "https://www.theregister.com/2026/01/23/jv_announces_tiktok_us_acquisition/"
+  ],
+  "or_amp": [
+   "SEC 10-K FY2025｜Ampere 帳面價值 $16 億；SoftBank 收購",
+   "https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm",
+   "A"
+  ],
+  "or_amp2": [
+   "TechCrunch｜SoftBank $65 億全現金收購 Ampere，Oracle 持股 32.27%",
+   "https://techcrunch.com/?p=2983927"
+  ],
+  "or_amp3": [
+   "Blockonomi/MEXC｜Q2 FY26 含 $27 億 Ampere 出售利得；Meta、NVIDIA 新承諾推升 RPO",
+   "https://www.mexc.com/news/257666"
+  ],
+  "or_amd": [
+   "AMD 新聞稿｜OCI 自 2026 Q3 起部署 5 萬顆 MI450",
+   "https://www.amd.com/en/newsroom/press-releases/oracle-and-amd-expand-partnership-to-help-customers-ach.html",
+   "A"
+  ],
+  "or_nv": [
+   "SiliconANGLE｜OCI Zettascale10 最多 80 萬顆 NVIDIA GPU，支撐 Abilene",
+   "https://siliconangle.com/?p=716065"
+  ],
+  "or_sb": [
+   "Fidelity/MT Newswires｜SoftBank、OpenAI、Oracle 為 Stargate 初始出資者",
+   "https://fidelity.com/news/article/mergers-and-acquisitions/202503201304MIDNIGHTUSEQUITY_A3339357"
+  ],
+  "or_mcp": [
+   "IFR｜$50 億強制可轉特別股定價：股息 6.5%、轉換溢價 25%（2026-02）",
+   "https://www.ifre.com/equities/2379787/oracle-takes-bottom-up-approach-to-funding-2026-capex"
+  ],
+  "or_fin": [
+   "Oracle IR｜2026 年股債融資計畫（2026-02-01）",
+   "https://investor.oracle.com/investor-news/news-details/2026/Oracle-announces-Equity-and-Debt-Financing-Plan-for-Calendar-Year-2026/default.aspx",
+   "A"
+  ],
+  "or_meta": [
+   "Bloomberg｜Oracle 與 Meta 洽談約 $200 億 AI 雲端合約（2025-09-19）",
+   "https://www.bloomberg.com/news/articles/2025-09-19/oracle-in-talks-with-meta-on-20-billion-ai-cloud-computing-deal"
+  ],
+  "or_amp4": [
+   "AOL／Motley Fool｜Oracle Q2 FY26 法說逐字稿：Ampere 出售認列稅前利得 $27 億；RPO 增加來自 Meta、NVIDIA 等新合約",
+   "https://www.aol.com/finance/oracle-orcl-q2-2026-earnings-232232703.html"
+  ],
+  "or_meta2": [
+   "TipRanks｜Oracle 在 AI World 證實與 Meta 簽有雲端合約（2025-10）",
+   "https://www.tipranks.com/news/oracle-stock-orcl-jumps-after-confirming-cloud-deal-with-meta"
+  ]
+ },
+ "categories": [
+  {
+   "id": "lab",
+   "name": "AI 雲端客戶",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "semi",
+   "name": "GPU 供應商",
+   "color": "#f472b6"
+  },
+  {
+   "id": "other",
+   "name": "策略股權",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "fin",
+   "name": "融資（債券／增資）",
+   "color": "#facc15",
+   "sumNote": "為 Oracle 自身負債或增資，不是對外投資"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非 Oracle 持股，僅標示資金流向"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "五年雲端運算合約",
+   "amt": 300,
+   "short": "約$3,000億",
+   "date": "2025-09",
+   "amtText": "WSJ 報導五年約 $3,000 億，自 2027 年起，平均每年 $600 億，約 4.5 GW；Oracle 稱如期進行。Oracle 未正式公布金額。",
+   "status": "執行中",
+   "flow": "OpenAI 付雲端費用回到 Oracle；Oracle 先借錢建資料中心",
+   "src": [
+    "or_oai",
+    "or_oai2"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "risks": [
+    {
+     "k": "conc",
+     "x": "單一客戶占 RPO 主要部分",
+     "src": [
+      "or_oai"
+     ]
+    },
+    {
+     "k": "fin",
+     "x": "OpenAI 仍在虧損，付款能力依賴持續募資",
+     "src": [
+      "or_oai"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "tk": "META",
+   "cat": "lab",
+   "type": "雲端承諾",
+   "amt": 20,
+   "short": "約$200億（金額為報導）",
+   "date": "2025-09-19",
+   "amtText": "Bloomberg 2025/9 報導雙方洽談約 $200 億的多年期雲端合約。Oracle 2025/10 在 AI World 證實與 Meta 簽有雲端合約，2025/12 法說也把 Meta 列為 RPO 增加的來源，但都沒有公布金額；$200 億仍是洽談階段的報導數字。",
+   "status": "Oracle 已證實簽約；金額未公布",
+   "flow": "雲端營收",
+   "src": [
+    "or_meta",
+    "or_fin",
+    "or_amp3",
+    "or_meta2",
+    "or_amp4"
+   ],
+   "amtType": "contract",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "unconfirmed": true
+  },
+  {
+   "id": "xai",
+   "name": "xAI（現屬 SpaceX）",
+   "tk": "SpaceX",
+   "cat": "lab",
+   "type": "雲端客戶",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-02",
+   "amtText": "Oracle 公開提及 OCI 客戶包括 OpenAI、xAI、TikTok。",
+   "status": "客戶",
+   "flow": "雲端營收",
+   "src": [
+    "or_plan"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok USDS 合資",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "股權 15%＋資料託管",
+   "amt": 2.2,
+   "short": "$22億（15%）",
+   "date": "2026-01-22",
+   "amtText": "投資約 $22 億取得 15%，並有董事席位；與 Silver Lake、MGX 同為管理投資人，ByteDance 保留 19.9%。美國用戶資料與推薦演算法放在 Oracle 雲端。",
+   "status": "持有中",
+   "flow": "既是股東也是雲端與資安供應商",
+   "src": [
+    "or_tik",
+    "or_tik2"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "val": 2.1,
+   "valDate": "2026",
+   "valSrc": [
+    "or_tik"
+   ],
+   "valNote": "JD Vance 稱合資估值約 $140 億 ×15% ≈ $21 億（自行換算）",
+   "terms": {
+    "board": "1 席"
+   },
+   "risks": [
+    {
+     "k": "geo",
+     "x": "美中政治與資料安全審查",
+     "src": [
+      "or_tik2"
+     ]
+    }
+   ],
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "ampere",
+   "name": "Ampere Computing",
+   "tk": "已出售",
+   "cat": "other",
+   "type": "出售股權",
+   "amt": 2.7,
+   "short": "利得$27億",
+   "date": "2025-11",
+   "amtText": "原持股 32.27%（帳面 $16 億），隨 SoftBank $65 億全現金收購出售，Q2 FY26 認列約 $27 億利得。 注意：$27 億是處分利得，不是收到的現金；按持股比例推算的對價約 $21 億，利得較高代表 Oracle 另有其他 Ampere 權益，實際處分所得未在來源揭露。",
+   "status": "已出售",
+   "flow": "處分回收資金；買方 SoftBank 同為 Stargate 夥伴",
+   "src": [
+    "or_amp",
+    "or_amp2",
+    "or_amp3",
+    "or_amp4"
+   ],
+   "amtType": "disposal",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "tk": "NVDA",
+   "cat": "semi",
+   "type": "GPU 採購",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025-10-14",
+   "amtText": "OCI Zettascale10 可連接最多 80 萬顆 NVIDIA GPU，支撐 OpenAI 在 Abilene 的超級電腦。",
+   "status": "採購中",
+   "flow": "Oracle 融資買 GPU，再租給 AI 客戶",
+   "src": [
+    "or_nv",
+    "or_amp3"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "tk": "AMD",
+   "cat": "semi",
+   "type": "GPU 採購",
+   "amt": null,
+   "short": "5 萬顆 MI450",
+   "date": "2026-07",
+   "amtText": "自 2026 Q3 起部署 5 萬顆 MI450（Helios 機架），2027 年後擴大。",
+   "status": "部署中",
+   "flow": "分散 NVIDIA 依賴",
+   "src": [
+    "or_amd"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "bond26",
+   "name": "2026 年 2 月債券",
+   "tk": "ORCL",
+   "cat": "fin",
+   "type": "投資級債券",
+   "amt": 25,
+   "short": "$250億",
+   "date": "2026-02-02",
+   "amtText": "八個系列共 $250 億，需求創紀錄；同時宣布 $200 億 ATM 增資與強制可轉特別股。",
+   "status": "已發行",
+   "flow": "資金投入資料中心",
+   "src": [
+    "or_bond",
+    "or_plan"
+   ],
+   "amtType": "liability",
+   "direction": "in",
+   "netSkip": true,
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "atm",
+   "name": "ATM 增資",
+   "tk": "ORCL",
+   "cat": "fin",
+   "type": "普通股增資",
+   "amt": 20,
+   "short": "$200億",
+   "date": "2026-08",
+   "amtText": "$200 億 ATM 增資計畫已於 Q1 FY27 完成。",
+   "status": "已完成",
+   "flow": "稀釋股東換取建置資金",
+   "src": [
+    "or_zacks",
+    "or_plan"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "netSkip": true,
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "nov26",
+   "name": "2026 年 11 月股債同步發行",
+   "tk": "ORCL",
+   "cat": "fin",
+   "type": "增資＋票據",
+   "amt": 20,
+   "short": "$200億",
+   "date": "2026-11-04",
+   "amtText": "8,620 萬股 @$116（約 $99 億淨額）＋$100 億五檔票據（票息 7.00%–8.65%）。投資人日五天前才說至 2030 財年只再募 $200 億，一次用完。",
+   "status": "已交割",
+   "flow": "資本支出、償債與未來投資",
+   "src": [
+    "or_nov",
+    "or_nov2",
+    "or_tt"
+   ],
+   "amtType": "liability",
+   "direction": "in",
+   "netSkip": true,
+   "risks": [
+    {
+     "k": "fin",
+     "x": "新票據票息達 7%–8.65%，融資成本明顯上升",
+     "src": [
+      "or_nov2"
+     ]
+    }
+   ],
+   "verified": "2026-11-26",
+   "terms": {
+    "price": "增資每股 $116",
+    "maturity": "票據 2029–2046 到期，票息 7.00%–8.65%"
+   }
+  },
+  {
+   "id": "mich",
+   "name": "Michigan 資料中心（Related Digital）",
+   "tk": "—",
+   "cat": "cp",
+   "type": "專案融資",
+   "amt": 16,
+   "short": "$160億",
+   "date": "2026-04-24",
+   "amtText": "開發商 Related Digital 主導，美銀賣出 $140 億債券、Pimco 買約 $100 億；Oracle 為承租方，用於 OpenAI。",
+   "status": "已完成融資",
+   "flow": "表外融資：開發商借錢蓋、Oracle 租",
+   "src": [
+    "or_mich"
+   ],
+   "amtType": "project",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "softbank",
+   "name": "SoftBank",
+   "tk": "9984",
+   "cat": "cp",
+   "type": "Stargate 夥伴＋Ampere 買方",
+   "amt": null,
+   "short": "—",
+   "date": "2025",
+   "amtText": "SoftBank、OpenAI、Oracle 為 Stargate 初始出資者；SoftBank 也買下 Oracle 持有的 Ampere 股權。",
+   "status": "合作中",
+   "flow": "同屬 Stargate 資金鏈",
+   "src": [
+    "or_sb",
+    "or_amp2"
+   ],
+   "amtType": "none",
+   "direction": "in",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "mcp",
+   "name": "強制可轉換特別股",
+   "tk": "ORCL",
+   "cat": "fin",
+   "type": "股權連結證券",
+   "amt": 5,
+   "short": "$50億",
+   "date": "2026-02",
+   "amtText": "$50 億強制可轉換特別股，股息 6.5%、轉換溢價 25%；為史上最大強制可轉債之一。",
+   "status": "已發行",
+   "flow": "資金投入資料中心",
+   "src": [
+    "or_mcp",
+    "or_fin"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "netSkip": true,
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "強制可轉換特別股",
+    "liqPref": "股息 6.5%",
+    "price": "轉換溢價 25%"
+   }
+  }
+ ],
+ "flows": [
+  [
+   "ampere",
+   "softbank",
+   "SoftBank 收購"
+  ],
+  [
+   "mich",
+   "openai",
+   "供 OpenAI 使用"
+  ],
+  [
+   "nvidia",
+   "openai",
+   "Abilene 超級電腦"
+  ],
+  [
+   "bond26",
+   "nvidia",
+   "借錢買 GPU"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "$6,640億",
+   "l": "剩餘履約義務 RPO（8/31）",
+   "src": [
+    "or_q1"
+   ]
+  },
+  {
+   "v": "$193億",
+   "l": "Q1 FY27 營收（年增 30%）",
+   "src": [
+    "or_q1"
+   ]
+  },
+  {
+   "v": "+121%",
+   "l": "雲端基礎設施（IaaS）營收年增",
+   "src": [
+    "or_q1"
+   ]
+  },
+  {
+   "v": "−$50億",
+   "l": "Q1 FY27 自由現金流",
+   "src": [
+    "or_q1b"
+   ]
+  },
+  {
+   "v": "$1,253億",
+   "l": "總負債（8/31，未含 11 月 $100 億票據）",
+   "src": [
+    "or_debt"
+   ]
+  },
+  {
+   "v": "$700億",
+   "l": "2026 年股債募資合計（債 $350 億＋股與可轉特別股 $350 億）",
+   "src": [
+    "or_bond",
+    "or_nov",
+    "or_zacks",
+    "or_mcp"
+   ]
+  },
+  {
+   "v": "約$3,000億",
+   "l": "OpenAI 五年合約（報導）",
+   "src": [
+    "or_oai"
+   ]
+  },
+  {
+   "v": "≥$900億",
+   "l": "FY2027 營收指引",
+   "src": [
+    "or_q1"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "投資策略定位",
+   "text": "Oracle 的生態圈不是靠對外持股，而是「長約→借錢建廠→買 GPU→出租」。RPO 衝到 $6,640 億，但自由現金流為負，資金缺口靠發債、增資與表外專案融資補足。",
+   "src": [
+    "or_q1",
+    "or_q1b",
+    "or_mich"
+   ]
+  },
+  {
+   "title": "對外持股",
+   "text": "主要持股只有 TikTok USDS 15%；原持有的 Ampere 已賣給 SoftBank。",
+   "src": [
+    "or_tik",
+    "or_amp2"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① OpenAI Stargate 循環",
+   "sub": "長約 → 融資 → 買 GPU → 出租算力",
+   "nodes": [
+    [
+     "OpenAI",
+     "lab"
+    ],
+    [
+     "Oracle\nRPO",
+     "accent"
+    ],
+    [
+     "債券・增資\n專案融資",
+     "fin"
+    ],
+    [
+     "NVIDIA・AMD\nGPU",
+     "semi"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "約 $3,000 億合約"
+    ],
+    [
+     1,
+     2,
+     "以合約支撐融資"
+    ],
+    [
+     2,
+     3,
+     "買 GPU"
+    ],
+    [
+     3,
+     0,
+     "提供算力"
+    ],
+    [
+     0,
+     1,
+     "雲端費用",
+     "chord"
+    ]
+   ],
+   "text": "OpenAI 的長約讓 Oracle 能借錢與增資，資金再拿去買 GPU 建資料中心租給 OpenAI；OpenAI 的付款能力又取決於它自己能否持續募資。",
+   "src": [
+    "or_oai",
+    "or_bond",
+    "or_nv"
+   ],
+   "back": 60,
+   "dep": "high",
+   "backSrc": [
+    "or_oai"
+   ],
+   "backNote": "報導平均每年約 $600 億，自 2027 年起"
+  },
+  {
+   "id": "L2",
+   "title": "② 表外專案融資循環",
+   "sub": "開發商發債 → 建廠 → Oracle 承租 → 租金",
+   "nodes": [
+    [
+     "Pimco 等債權人",
+     "cp"
+    ],
+    [
+     "Related Digital\nMichigan",
+     "cp"
+    ],
+    [
+     "Oracle 承租",
+     "accent"
+    ],
+    [
+     "OpenAI 用量",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$140 億債券"
+    ],
+    [
+     1,
+     2,
+     "出租"
+    ],
+    [
+     2,
+     3,
+     "提供算力"
+    ],
+    [
+     3,
+     2,
+     "付費"
+    ],
+    [
+     2,
+     1,
+     "租金",
+     "chord"
+    ]
+   ],
+   "text": "部分資料中心由開發商籌資興建、Oracle 承租，負債不直接進入 Oracle 資產負債表，但租約義務仍在。",
+   "src": [
+    "or_mich"
+   ],
+   "dep": "mid",
+   "backNote": "OpenAI 付給 Oracle 的費用見 OpenAI 合約節點；此循環重點是表外租約義務",
+   "backSrc": [
+    "or_mich"
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "③ TikTok 股權＋託管循環",
+   "sub": "15% 股權 → 資料放在 OCI → 雲端營收",
+   "nodes": [
+    [
+     "Oracle",
+     "accent"
+    ],
+    [
+     "TikTok USDS",
+     "other"
+    ],
+    [
+     "OCI 託管\n資料與演算法",
+     "accent"
+    ],
+    [
+     "雲端營收",
+     "accent"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$22 億・15%"
+    ],
+    [
+     1,
+     2,
+     "美國資料"
+    ],
+    [
+     2,
+     3,
+     "託管費"
+    ],
+    [
+     3,
+     0,
+     "回流"
+    ]
+   ],
+   "text": "Oracle 同時是 TikTok 美國合資的股東、雲端供應商與資安夥伴，股權投資直接綁定雲端營收。",
+   "src": [
+    "or_tik",
+    "or_tik2"
+   ],
+   "dep": "low",
+   "backNote": "TikTok 美國合資的 OCI 託管費未揭露",
+   "backSrc": [
+    "or_tik",
+    "or_tik2"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ Ampere 出售與 SoftBank",
+   "sub": "持股 → 賣給 SoftBank → 利得 → 同屬 Stargate",
+   "nodes": [
+    [
+     "Oracle",
+     "accent"
+    ],
+    [
+     "Ampere\n32%",
+     "other"
+    ],
+    [
+     "SoftBank",
+     "cp"
+    ],
+    [
+     "Stargate",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "持股"
+    ],
+    [
+     1,
+     2,
+     "$65 億收購"
+    ],
+    [
+     2,
+     0,
+     "約 $27 億利得"
+    ],
+    [
+     2,
+     3,
+     "出資"
+    ],
+    [
+     0,
+     3,
+     "出資",
+     "chord"
+    ]
+   ],
+   "text": "Oracle 把 Ampere 持股賣給 SoftBank 認列約 $27 億利得；SoftBank 與 Oracle 同為 Stargate 出資方。",
+   "src": [
+    "or_amp2",
+    "or_amp3",
+    "or_sb"
+   ],
+   "back": 2.7,
+   "dep": "low",
+   "backSrc": [
+    "or_amp3"
+   ],
+   "backNote": "一次性處分利得"
+  }
+ ],
+ "loopNote": {
+  "text": "支持者認為不可取消的長約提供營收底線；質疑者指出 Oracle 是用借來的錢服務一個仍在虧損的客戶，形成循環融資。",
+  "src": [
+   "or_oai",
+   "or_bond"
+  ]
+ },
+ "events": [
+  {
+   "d": "2025-03-19",
+   "t": "SoftBank 宣布收購 Ampere",
+   "x": "Oracle 出售 32% 持股。",
+   "cat": "other",
+   "src": [
+    "or_amp2"
+   ]
+  },
+  {
+   "d": "2025-09",
+   "t": "OpenAI 約 $3,000 億五年合約",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "or_oai"
+   ]
+  },
+  {
+   "d": "2025-10-14",
+   "t": "AMD 5 萬顆 MI450；Zettascale10",
+   "x": "",
+   "cat": "semi",
+   "src": [
+    "or_amd",
+    "or_nv"
+   ]
+  },
+  {
+   "d": "2025-12",
+   "t": "Q2 FY26：Ampere 利得 $27 億；RPO $5,230 億",
+   "x": "",
+   "cat": "gov",
+   "src": [
+    "or_amp3"
+   ]
+  },
+  {
+   "d": "2026-01-22",
+   "t": "TikTok USDS 合資成立，Oracle 15%",
+   "x": "",
+   "cat": "other",
+   "src": [
+    "or_tik2"
+   ]
+  },
+  {
+   "d": "2026-02-02",
+   "t": "$250 億債券＋$200 億 ATM 計畫",
+   "x": "",
+   "cat": "fin",
+   "src": [
+    "or_bond",
+    "or_plan"
+   ]
+  },
+  {
+   "d": "2026-04-24",
+   "t": "Michigan 資料中心 $160 億融資完成",
+   "x": "",
+   "cat": "cp",
+   "src": [
+    "or_mich"
+   ]
+  },
+  {
+   "d": "2026-09-10",
+   "t": "Q1 FY27：RPO $6,640 億、自由現金流 −$50 億",
+   "x": "FY27 營收指引至少 $900 億。",
+   "cat": "gov",
+   "src": [
+    "or_q1",
+    "or_q1b"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "t": "投資人日：至 FY2030 再募資上限 $200 億",
+   "x": "",
+   "cat": "fin",
+   "src": [
+    "or_tt"
+   ]
+  },
+  {
+   "d": "2026-11-02",
+   "t": "$100 億增資＋$100 億票據定價",
+   "x": "每股 $116，票息 7%–8.65%。",
+   "cat": "fin",
+   "src": [
+    "or_nov",
+    "or_nov2"
+   ]
+  },
+  {
+   "d": "2025-09-19",
+   "t": "傳與 Meta 洽談約 $200 億雲端合約",
+   "x": "",
+   "cat": "lab",
+   "src": [
+    "or_meta"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "8,620 萬股 × $116 ≈ $100 億，與公告一致。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "TikTok USDS：$140 億 × 15% ≈ $21 億，與 Oracle 揭露的約 $22 億相近。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "OpenAI $3,000 億為 WSJ 報導，Oracle 未正式公布單一客戶金額。"
+  },
+  {
+   "tag": "已補充",
+   "html": "Michigan 資料中心為開發商融資、Oracle 承租，歸為循環對手方，不列入 Oracle 投資加總。"
+  },
+  {
+   "tag": "已補充",
+   "html": "Ampere：$27 億為稅前處分利得，已由 Q2 FY26 法說逐字稿確認；$65 億 × 32.27% ≈ $21 億小於利得，實際處分所得仍未揭露。"
+  },
+  {
+   "tag": "未定案",
+   "html": "OpenAI 循環回流 $600 億/年為 2027 年起的合約平均值，目前尚未發生。"
+  },
+  {
+   "tag": "已修正",
+   "html": "募資 KPI：債 $250 億＋$100 億、ATM $200 億、11 月增資 $100 億、強制可轉特別股 $50 億＝$700 億（原稿誤寫 $450 億）。Oracle 2 月公告的全年目標為 $450–500 億，實際已超過。"
+  },
+  {
+   "tag": "未定案",
+   "html": "Meta 合約：Oracle 已證實簽約（2025/10），但金額未公布；$200 億為 2025/9 洽談階段的報導數字。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）合約金額為報導或 RPO，非已認列營收。（2）債券、增資為 Oracle 自身融資，方向標為流入。（3）專案融資為對手方，不列入加總。（4）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "Oracle 用「長約當擔保」快速擴張 AI 雲端：RPO 已達 $6,640 億，但自由現金流為負、總負債逾 $1,250 億，新債票息升到 7% 以上。投資邏輯取決於 OpenAI 等客戶能否如期付款。",
+  "src": [
+   "or_q1",
+   "or_q1b",
+   "or_debt",
+   "or_nov2"
+  ],
+  "opps": [
+   {
+    "t": "IaaS 營收年增 121%，RPO 年增 $2,090 億",
+    "src": [
+     "or_q1"
+    ]
+   },
+   {
+    "t": "TikTok 股權綁定雲端託管",
+    "src": [
+     "or_tik"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "OpenAI 單一客戶集中，且自身仍虧損",
+    "src": [
+     "or_oai"
+    ]
+   },
+   {
+    "t": "自由現金流 −$50 億，舉債成本升至 7%–8.65%",
+    "src": [
+     "or_q1b",
+     "or_nov2"
+    ]
+   },
+   {
+    "t": "募資上限宣布後五天即用完，管理層指引可信度受質疑",
+    "src": [
+     "or_tt"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "Q2 FY27 財報（12 月）自由現金流與 RPO 變化",
+    "src": [
+     "or_q1b"
+    ]
+   },
+   {
+    "t": "OpenAI 合約 2027 年開始計費是否如期",
+    "src": [
+     "or_oai"
+    ]
+   }
+  ]
+ }
+}

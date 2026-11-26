@@ -1,0 +1,1212 @@
+{
+ "meta": {
+  "entity": "MediaTek 聯發科",
+  "ticker": "2454.TW",
+  "asOf": "2026-11-26",
+  "tz": "台北",
+  "accent": "#f39800",
+  "centerLabel": "資本中樞",
+  "fileSlug": "MediaTek",
+  "subtitle": "涵蓋策略可轉債、AI ASIC 客戶、光互連投資、子公司與泛聯發科轉投資"
+ },
+ "notice": {
+  "title": "近半年重大動態",
+  "months": 6,
+  "show": 8,
+  "html": "輝達以 35 億美元認購 39 億美元 ECB，AI ASIC 自 Q4 放量；Q4 營收指引年增 40–48%，全年美元營收成長將超越原訂高個位數目標。",
+  "items": [
+   {
+    "d": "2026-11-10",
+    "t": "10 月營收 NT$550.25 億",
+    "x": "月減 0.7%、年增 5.8%；前 10 月 NT$5,244.16 億、年增 5.35%。",
+    "cat": "gov",
+    "tag": "月營收公告",
+    "src": [
+     "tn_oct"
+    ]
+   },
+   {
+    "d": "2026-10-30",
+    "t": "全年美元營收成長上修",
+    "x": "管理層宣布 2026 全年美元營收成長將超越原訂高個位數目標。",
+    "cat": "gov",
+    "tag": "法說會",
+    "src": [
+     "tn_oct",
+     "tn_q3"
+    ]
+   },
+   {
+    "d": "2026-10-09",
+    "t": "Q3 營收 NT$1,680.57 億創單季新高",
+    "x": "超越原財測 NT$1,522–1,598 億；首推 2 奈米天璣 9600 Pro。",
+    "cat": "gov",
+    "tag": "月營收公告",
+    "src": [
+     "tn_sep"
+    ]
+   },
+   {
+    "d": "2026-09-15",
+    "t": "天璣 9600 系列發表",
+    "x": "台積電 2 奈米，首度推出 Pro 版。",
+    "cat": "lab",
+    "tag": "產品發表",
+    "src": [
+     "tn_d9600"
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "tn_oct": [
+   "科技新報｜聯發科 10 月營收 550.25 億元、年增 5.8%（2026-11-10）",
+   "https://technews.tw/2026/11/10/mediateks-october-revenue-increased-by-5-8-year-on-year/"
+  ],
+  "tn_sep": [
+   "科技新報｜聯發科 9 月營收與第三季營收創新高（2026-10-09）",
+   "https://finance.technews.tw/2026/10/09/mediateks-third-quarter-revenue-of-168-billion-yuan-exceeded-financial-forecasts-and-hit-a-new-high/"
+  ],
+  "tn_d9600": [
+   "科技新報｜輝達入股後外資按讚、天璣 9600 發表倒數",
+   "https://finance.technews.tw/2026/09/10/mediatek-continues-to-make-headlines/"
+  ],
+  "sf_q3": [
+   "股感｜聯發科 2026Q3 法說會重點（2026-10-30）",
+   "https://www.stockfeel.com.tw/?p=278716"
+  ],
+  "tn_q3": [
+   "科技新報｜聯發科第三季 EPS 17.5 元、毛利率 46.3%（2026-10-30）",
+   "https://finance.technews.tw/2026/10/30/mediateks-third-quarter-eps-reached-nt17-5-with-a-gross-margin-of-46-3/"
+  ],
+  "tn_asic": [
+   "科技新報｜聯發科 2026 年雲端 ASIC 營收上看 25 億美元（2026-10-30）",
+   "https://finance.technews.tw/2026/10/30/mediateks-asic-revenue-will-reach-2-5-billion-in-2026/"
+  ],
+  "wr_ecb": [
+   "時報資訊｜聯發科 39 億美元 CB：5 年期、零票面、轉換溢價 15%（2026-09-02）",
+   "https://wantrich.chinatimes.com/news/20260902900211-420101"
+  ],
+  "wr_ecb2": [
+   "時報資訊｜聯發科 ECB 創台灣最大規模，輝達認購約九成（2026-09-01）",
+   "https://wantrich.chinatimes.com/news/20260901900231-420101"
+  ],
+  "now_ecb": [
+   "NOWnews｜聯發科完成 39 億美元 ECB 訂價，轉換價 4,513.75 元（2026-08-31）",
+   "https://www.nownews.com/news/6870948"
+  ],
+  "sd_ecb": [
+   "財報狗｜輝達 35 億美元認購聯發科 ECB，股價漲停 4,315 元（2026-09-01）",
+   "https://statementdog.com/news/17563"
+  ],
+  "udn_ecb": [
+   "經濟日報｜聯發科 ECB 引進輝達與 Alphabet，大摩、花旗看好",
+   "https://money.udn.com/money/story/5607/9727605"
+  ],
+  "ua_ecb": [
+   "優分析｜輝達 35 億美元入股聯發科，NVLink 開放客製 AI 晶片（2026-08-31）",
+   "https://uanalyze.com.tw/articles/8341254385"
+  ],
+  "ua_ecb2": [
+   "優分析｜聯發科未來成長靠什麼？輝達入股的意義（2026-09-14）",
+   "https://uanalyze.com.tw/articles/3575455235"
+  ],
+  "tn_tsai": [
+   "科技新報｜蔡力行談兩大策略性投資（SEMI Taiwan 2026）",
+   "https://finance.technews.tw/2026/09/02/mediateks-two-major-strategic-investments-both-reflect-its-confidence-in-taiwan/"
+  ],
+  "tf_feb": [
+   "TrendForce｜MediaTek forecasts $1B in ASIC sales for 2026（2026-02-05）",
+   "https://www.trendforce.com/news/2026/02/05/news-mediatek-forecasts-1b-in-asic-sales-for-2026-custom-ai-chips-set-for-20-revenue-share-in-2027/"
+  ],
+  "tf_apr": [
+   "TrendForce｜MediaTek doubles 2026 AI ASIC target to $2B（2026-04-30）",
+   "https://www.trendforce.com/news/2026/04/30/news-MediaTek-reportedly-doubles-2026-ai-asic-revenue-target-to-2b-aims-10-15-market-share"
+  ],
+  "wr_tpu": [
+   "時報資訊｜外資：聯發科 AI ASIC 動能升溫、TPU v9 風險（2026-10-22）",
+   "https://wantrich.chinatimes.com/news/20261022900124-420101"
+  ],
+  "bnext_14a": [
+   "數位時代｜郭明錤：聯發科與 Terafab、Intel 14A 合作傳聞",
+   "https://www.bnext.com.tw/article/91088/mediatek-terafab-intel-14a-google-tpu-spacex-starlink-partnership-rumors"
+  ],
+  "wr_dc": [
+   "時報資訊｜聯發科：2026 數據中心業務翻倍，2 奈米與 Intel A14 首批客戶（2026-02-06）",
+   "https://wantrich.chinatimes.com/news/20260206900429-420101"
+  ],
+  "tn_ayar": [
+   "科技新報｜聯發科斥 28 億元入股 Ayar Labs（2026-03-02）",
+   "https://technews.tw/2026/03/02/mediatek-use-digimoc-holdings-buy-ayar-labs-stock/"
+  ],
+  "ua_ayar": [
+   "優分析｜聯發科斥 9 千萬美元入股 Ayar Labs（2026-02-28）",
+   "https://uanalyze.com.tw/articles/3513548203"
+  ],
+  "tn_alchip": [
+   "科技新報｜聯發資本 7.32 億元參與世芯-KY 私募（2024-11-02）",
+   "https://finance.technews.tw/2024/11/02/mediatek-spent-more-than-700-million-yuan-to-participate-in-the-private-placement-of-shichi-ky/"
+  ],
+  "line_group": [
+   "信傳媒（LINE TODAY）｜聯發科集團軍：達發、晶心科、亞信、奕力持股",
+   "https://today.line.me/tw/v3/article/wJKEMPR"
+  ],
+  "sf_group": [
+   "股感｜聯發科集團介紹：子公司與發展方向（2026-05-14）",
+   "https://www.stockfeel.com.tw/?p=271041"
+  ],
+  "udn_airoha": [
+   "經濟日報｜達發第 2 季 EPS 5.25 元",
+   "https://money.udn.com/money/story/5607/9658632"
+  ],
+  "ctee_icplus": [
+   "工商時報｜達發入股九暘將躍最大股東（2024-03-07）",
+   "https://www.ctee.com.tw/news/20240307700076-439901"
+  ],
+  "tn_andes": [
+   "科技新報｜翔發投資處分部分晶心科持股（2023-08-29）",
+   "https://finance.technews.tw/2023/08/29/andestechtw/"
+  ]
+ },
+ "categories": [
+  {
+   "id": "fin",
+   "name": "策略投資人入股聯發科（流入）",
+   "color": "#facc15",
+   "sumNote": "ECB 認購金額，流入聯發科"
+  },
+  {
+   "id": "lab",
+   "name": "AI ASIC 客戶與平台",
+   "color": "#a78bfa",
+   "sumNote": "客戶合約金額未揭露"
+  },
+  {
+   "id": "semi",
+   "name": "光互連與 ASIC 同業投資",
+   "color": "#f472b6",
+   "sumNote": "聯發科對外投資"
+  },
+  {
+   "id": "mna",
+   "name": "核心子公司",
+   "color": "#2dd4bf",
+   "sumNote": "併購／控股，未計市值"
+  },
+  {
+   "id": "other",
+   "name": "泛聯發科轉投資上市股",
+   "color": "#94a3b8",
+   "sumNote": "持股市值未計"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非持股）",
+   "color": "#64748b",
+   "hidden": true,
+   "counterparty": true,
+   "sumNote": "非聯發科持股，僅標示供應或競爭關係"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "nvidia",
+   "name": "NVIDIA（ECB＋NVLink Fusion）",
+   "tk": "NVDA",
+   "cat": "fin",
+   "type": "認購可轉債",
+   "amt": 3.5,
+   "short": "$35 億",
+   "date": "2026-08-31",
+   "amtText": "認購聯發科 39 億美元海外可轉債中的 35 億美元（約九成）；5 年期、零票面，轉換價 NT$4,513.75（8/31 收盤 3,925 元×115%）。全數轉換稀釋約 1.67%（整檔）。為輝達首度以此方式投資台灣企業。",
+   "status": "已訂價；合作擴大至 AI 基礎建設、邊緣 AI、車用",
+   "flow": "聯發科導入 NVLink Fusion 設計客製 XPU，接入輝達機櫃級系統",
+   "src": [
+    "now_ecb",
+    "wr_ecb",
+    "sd_ecb",
+    "ua_ecb"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "可轉換公司債",
+    "auto": true
+   },
+   "risks": [
+    {
+     "k": "fin",
+     "x": "可轉債全數轉換稀釋約 1.67%",
+     "src": [
+      "now_ecb"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alphabet",
+   "name": "Alphabet 等（ECB 其餘部分）",
+   "tk": "GOOGL",
+   "cat": "fin",
+   "type": "認購可轉債",
+   "amt": 0.4,
+   "short": "約$4 億（含其他機構）",
+   "date": "2026-08-31",
+   "amtText": "ECB 其餘約 4 億美元由 Alphabet 及其他大型機構認購，各自金額未揭露。",
+   "status": "已訂價",
+   "flow": "鞏固 TPU 合作",
+   "src": [
+    "wr_ecb",
+    "wr_ecb2"
+   ],
+   "amtType": "inflow",
+   "direction": "in",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "可轉換公司債",
+    "auto": true
+   },
+   "xnote": "Alphabet 個別認購金額未揭露（與其他機構合計約 $4 億），Google 檔不另建節點"
+  },
+  {
+   "id": "google",
+   "name": "Google TPU（首家雲端 ASIC 客戶）",
+   "tk": "GOOGL",
+   "cat": "lab",
+   "type": "ASIC 設計服務",
+   "amt": null,
+   "short": "2026 年約$25 億營收",
+   "date": "2026-10-30",
+   "amtText": "首款 AI 加速器 9 月小量出貨，預估 Q4 貢獻 25 億美元，2027 年朝約 160 億美元目標區間上緣。報導指為 Google TPU（v7e／v8 世代）。",
+   "status": "量產中",
+   "flow": "設計服務營收；Q4 占單季營收約 30%",
+   "src": [
+    "tn_q3",
+    "tn_asic",
+    "tf_feb",
+    "tf_apr"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "conc",
+     "x": "AI ASIC 營收集中於 Google TPU；第二家客戶 2028 年才貢獻",
+     "src": [
+      "tn_asic",
+      "tn_q3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cust2",
+   "name": "第二家雲端 ASIC 客戶",
+   "tk": "未揭露",
+   "cat": "lab",
+   "type": "ASIC 設計服務",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-10-30",
+   "amtText": "已確認第二家客戶（非中國），預計 2028 年起貢獻營收。",
+   "status": "設計中",
+   "flow": "新營收來源",
+   "src": [
+    "tn_asic"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "n1x",
+   "name": "NVIDIA N1X／RTX Spark AI PC",
+   "tk": "NVDA",
+   "cat": "lab",
+   "type": "共同開發 SoC",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-10",
+   "amtText": "整合 NVIDIA GPU 與聯發科 SoC 的 N1X 於 10 月上市，第二代已啟動。",
+   "status": "已上市",
+   "flow": "晶片銷售營收",
+   "src": [
+    "tn_q3"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "ayar",
+   "name": "Ayar Labs（CPO 光學 I/O）",
+   "tk": "未上市",
+   "cat": "semi",
+   "type": "特別股",
+   "amt": 0.09,
+   "short": "$9,000 萬（約2.4%）",
+   "date": "2026-02-27",
+   "amtText": "經子公司 Digimoc Holdings 以每股 $52.24 取得 1,722,759 股特別股，約 $9,000 萬（約 NT$28 億），持股約 2.4%；NVIDIA、AMD、Intel、台積電 VTA 亦為投資人。",
+   "status": "持有中",
+   "flow": "布局共封裝光學，對應聯發科 3.2T 矽光子規劃",
+   "src": [
+    "tn_ayar",
+    "ua_ayar"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "特別股",
+    "price": "每股 $52.24 ",
+    "auto": true
+   }
+  },
+  {
+   "id": "alchip",
+   "name": "世芯-KY（ASIC 同業）",
+   "tk": "3661.TW",
+   "cat": "semi",
+   "type": "私募普通股",
+   "amt": 0.0233,
+   "short": "NT$7.32 億",
+   "date": "2024-11-01",
+   "amtText": "聯發資本以每股 NT$1,627 認購 45 萬股，共 NT$7.3215 億（以 NT$1,100 億≈US$35 億推得約 31.4 TWD/USD）。",
+   "status": "持有中",
+   "flow": "財務回報（公司說法）",
+   "src": [
+    "tn_alchip"
+   ],
+   "amtType": "equity",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   },
+   "shares": 450000,
+   "pxTk": "3661.TW"
+  },
+  {
+   "id": "airoha",
+   "name": "達發科技",
+   "tk": "6526.TW",
+   "cat": "mna",
+   "type": "子公司",
+   "amt": null,
+   "short": "66.41%＋3.58%",
+   "date": "2026-06",
+   "amtText": "聯發科持股 66.41%、聯發資本 3.58%；2026 上半年營收 NT$117.44 億、EPS 9.72 元。",
+   "status": "上市子公司",
+   "flow": "乙太網路、衛星接收、固網寬頻；集團無線與網通布局",
+   "src": [
+    "line_group",
+    "udn_airoha"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "richtek",
+   "name": "立錡科技",
+   "tk": "—",
+   "cat": "mna",
+   "type": "併購（100%）",
+   "amt": null,
+   "short": "100%",
+   "date": "2016",
+   "amtText": "2016 年完成併購，補強電源管理 IC。",
+   "status": "全資子公司",
+   "flow": "電源 IC 營收",
+   "src": [
+    "sf_group"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "收購",
+    "auto": true
+   }
+  },
+  {
+   "id": "andes",
+   "name": "晶心科（RISC-V IP）",
+   "tk": "6533.TW",
+   "cat": "other",
+   "type": "轉投資",
+   "amt": null,
+   "short": "6.42%（翔發）",
+   "date": "2026-06",
+   "amtText": "孫公司翔發投資持股 6.42%，為單一最大股東；2023 年曾處分部分持股實現約 NT$6.6 億利益。",
+   "status": "持有中",
+   "flow": "CPU IP 生態系",
+   "src": [
+    "line_group",
+    "tn_andes"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "ilitek",
+   "name": "奕力-KY（顯示驅動 IC）",
+   "tk": "6962.TW",
+   "cat": "other",
+   "type": "轉投資",
+   "amt": null,
+   "short": "10.94%（Gaintech）",
+   "date": "2026-06",
+   "amtText": "新加坡子公司 Gaintech 持股 10.94%。",
+   "status": "持有中",
+   "flow": "顯示 IC 布局",
+   "src": [
+    "line_group"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "asix",
+   "name": "亞信（嵌入式網路 IC）",
+   "tk": "3169.TWO",
+   "cat": "other",
+   "type": "轉投資（經達發）",
+   "amt": null,
+   "short": "19.64%（達發）",
+   "date": "2026-06",
+   "amtText": "達發持股 19.64%，為第一大股東。",
+   "status": "持有中",
+   "flow": "乙太網路產品互補",
+   "src": [
+    "line_group"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26"
+  },
+  {
+   "id": "icplus",
+   "name": "九暘（乙太網路 IC）",
+   "tk": "8040.TWO",
+   "cat": "other",
+   "type": "私募入股（經達發）",
+   "amt": null,
+   "short": "集團逾 44%",
+   "date": "2024-03-06",
+   "amtText": "達發參與九暘私募成為最大股東，集團持股可望逾 44%。",
+   "status": "持有中",
+   "flow": "補足 FE、PoE 產品線",
+   "src": [
+    "ctee_icplus"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "terms": {
+    "sec": "普通股",
+    "auto": true
+   }
+  },
+  {
+   "id": "tsmc",
+   "name": "台積電",
+   "tk": "2330.TW",
+   "cat": "cp",
+   "type": "晶圓代工夥伴",
+   "amt": null,
+   "short": "—",
+   "date": "2026-10-30",
+   "amtText": "聯發科稱台積電為最重要夥伴；ECB 資金部分可能用於預付產能（大摩推估）。",
+   "status": "—",
+   "flow": "非持股；2 奈米與先進封裝產能",
+   "src": [
+    "tn_asic",
+    "udn_ecb"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "conc",
+     "x": "先進製程產能高度依賴台積電；ECB 資金可能用於預付產能",
+     "src": [
+      "tn_asic",
+      "udn_ecb"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intel",
+   "name": "Intel Foundry（14A／EMIB-T）",
+   "tk": "INTC",
+   "cat": "cp",
+   "type": "潛在代工夥伴",
+   "amt": null,
+   "short": "—",
+   "date": "2026-02-06",
+   "amtText": "聯發科表示進入 Intel A14 首批客戶名單；郭明錤稱其具 Intel 16 投片與 EMIB-T 合作經驗。",
+   "status": "評估中",
+   "flow": "非持股；第二供應來源",
+   "src": [
+    "wr_dc",
+    "bnext_14a"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "exec",
+     "x": "Intel A14 合作仍在評估階段",
+     "src": [
+      "wr_dc",
+      "bnext_14a"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "broadcom",
+   "name": "Broadcom",
+   "tk": "AVGO",
+   "cat": "cp",
+   "type": "競爭者",
+   "amt": null,
+   "short": "—",
+   "date": "2026-04-30",
+   "amtText": "Google 預期在 TPU 維持聯發科與 Broadcom 雙供應。",
+   "status": "—",
+   "flow": "非持股；TPU 雙供應競爭",
+   "src": [
+    "tf_apr"
+   ],
+   "amtType": "none",
+   "direction": "out",
+   "verified": "2026-11-26",
+   "risks": [
+    {
+     "k": "conc",
+     "x": "Google 預期 TPU 維持聯發科與 Broadcom 雙供應，份額可能被分食",
+     "src": [
+      "tf_apr"
+     ]
+    }
+   ]
+  }
+ ],
+ "flows": [
+  [
+   "airoha",
+   "asix",
+   "持股 19.64%"
+  ],
+  [
+   "airoha",
+   "icplus",
+   "私募入股成最大股東"
+  ]
+ ],
+ "kpis": [
+  {
+   "v": "NT$1,681 億",
+   "l": "2026 Q3 營收（年增 18.3%）",
+   "src": [
+    "sf_q3"
+   ]
+  },
+  {
+   "v": "NT$17.50",
+   "l": "Q3 EPS（毛利率 46.3%）",
+   "src": [
+    "sf_q3"
+   ]
+  },
+  {
+   "v": "NT$2,101–2,218 億",
+   "l": "Q4 營收指引（年增 40–48%）",
+   "src": [
+    "sf_q3"
+   ]
+  },
+  {
+   "v": "$25 億",
+   "l": "首款 AI 加速器 Q4 營收預估",
+   "src": [
+    "tn_q3",
+    "tn_asic"
+   ]
+  },
+  {
+   "v": "約$160 億",
+   "l": "2027 AI ASIC 目標區間上緣",
+   "src": [
+    "tn_q3"
+   ]
+  },
+  {
+   "v": "$39 億",
+   "l": "海外可轉債（輝達 $35 億）",
+   "src": [
+    "now_ecb",
+    "wr_ecb"
+   ]
+  },
+  {
+   "v": "NT$4,513.75",
+   "l": "ECB 轉換價（溢價 15%）",
+   "src": [
+    "now_ecb"
+   ]
+  },
+  {
+   "v": "$9,000 萬",
+   "l": "入股 Ayar Labs（約 2.4%）",
+   "src": [
+    "ua_ayar"
+   ]
+  }
+ ],
+ "center": [
+  {
+   "title": "資本中樞定位",
+   "text": "聯發科以手機 SoC 現金流為基礎，透過子公司（達發、立錡）與孫公司持股形成泛聯發科集團；2026 年起資本與研發重心轉向 AI ASIC，並引進輝達、Alphabet 作為策略性可轉債投資人。",
+   "src": [
+    "sf_group",
+    "wr_ecb"
+   ]
+  },
+  {
+   "title": "成長曲線轉換",
+   "text": "手機需求承壓，Q4 起 AI ASIC 放量，公司目標 2027 年營業利益率超過 20%。",
+   "src": [
+    "tn_asic",
+    "tf_apr"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① 輝達 ECB＋NVLink Fusion",
+   "sub": "可轉債 → 平台開放 → 客製 XPU → ASIC 營收",
+   "nodes": [
+    [
+     "聯發科",
+     "accent"
+    ],
+    [
+     "NVIDIA",
+     "fin"
+    ],
+    [
+     "NVLink Fusion\n客製 XPU",
+     "lab"
+    ],
+    [
+     "雲端業者\n機櫃級系統",
+     "cp"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "$35 億 ECB"
+    ],
+    [
+     1,
+     2,
+     "開放平台"
+    ],
+    [
+     0,
+     2,
+     "設計服務",
+     "chord"
+    ],
+    [
+     2,
+     3,
+     "整合 NVLink 機櫃"
+    ],
+    [
+     3,
+     0,
+     "ASIC 營收"
+    ]
+   ],
+   "text": "輝達以可轉債入股並開放 NVLink Fusion，聯發科為雲端業者設計可接入輝達機櫃的客製 XPU；蔡力行稱已有設計導入客戶。",
+   "src": [
+    "ua_ecb",
+    "tn_tsai",
+    "wr_ecb"
+   ],
+   "back": 3.5,
+   "dep": "mid",
+   "backSrc": [
+    "now_ecb",
+    "wr_ecb"
+   ],
+   "backNote": "輝達認購 ECB $35 億，換取 NVLink Fusion 與 N1X 合作"
+  },
+  {
+   "id": "L2",
+   "title": "② Google TPU 循環",
+   "sub": "Alphabet 認購 → TPU 委託 → 營收",
+   "nodes": [
+    [
+     "聯發科",
+     "accent"
+    ],
+    [
+     "Alphabet",
+     "fin"
+    ],
+    [
+     "TPU\nv7e／v8",
+     "lab"
+    ],
+    [
+     "ASIC 營收\nQ4 $25 億",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "參與 ECB"
+    ],
+    [
+     1,
+     2,
+     "委託設計"
+    ],
+    [
+     2,
+     3,
+     "量產"
+    ],
+    [
+     3,
+     0,
+     "占 Q4 營收約 30%"
+    ]
+   ],
+   "text": "Alphabet 同時是 ECB 認購人與 ASIC 客戶；Google 預期在 TPU 維持聯發科與 Broadcom 雙供應。",
+   "src": [
+    "wr_ecb2",
+    "tn_asic",
+    "tf_apr"
+   ],
+   "back": 16.0,
+   "dep": "high",
+   "backSrc": [
+    "tn_q3",
+    "tn_asic",
+    "tn_oct"
+   ],
+   "backNote": "2026 Q4 約 $25 億，2027 目標區間上緣約 $160 億；以 10 月營收 NT$550 億年化約 $210 億計，相當於目前營收規模的約四分之三（自行估算）"
+  },
+  {
+   "id": "L3",
+   "title": "③ ECB 資金 → 供應鏈 → 出貨",
+   "sub": "募資 → 購料／預付產能 → 台積電",
+   "nodes": [
+    [
+     "聯發科",
+     "accent"
+    ],
+    [
+     "海外可轉債\n$39 億",
+     "fin"
+    ],
+    [
+     "HBM・ABF\n外幣購料",
+     "lab"
+    ],
+    [
+     "台積電\n2 奈米・封裝",
+     "cp"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     0,
+     "募資"
+    ],
+    [
+     0,
+     2,
+     "外幣購料"
+    ],
+    [
+     2,
+     3,
+     "產能預付（推估）"
+    ],
+    [
+     3,
+     0,
+     "ASIC 出貨"
+    ]
+   ],
+   "text": "公司表示資金用於外幣計價原物料採購；大摩推估包含 HBM、ABF 載板與預付晶圓產能。",
+   "src": [
+    "udn_ecb",
+    "wr_ecb2"
+   ],
+   "dep": "mid",
+   "backNote": "資金用途中的預付產能為券商推估，ASIC 出貨金額未揭露",
+   "backSrc": [
+    "udn_ecb",
+    "wr_ecb2"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ 達發子集團擴張",
+   "sub": "控股 → 私募入股同業 → 產品線互補",
+   "nodes": [
+    [
+     "聯發科",
+     "accent"
+    ],
+    [
+     "達發\n66.41%",
+     "mna"
+    ],
+    [
+     "九暘・亞信",
+     "other"
+    ],
+    [
+     "乙太網路\nFE・PoE・GbE",
+     "other"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "控股"
+    ],
+    [
+     1,
+     2,
+     "入股 19.64%／最大股東"
+    ],
+    [
+     2,
+     3,
+     "補產品線"
+    ],
+    [
+     3,
+     0,
+     "集團營收"
+    ]
+   ],
+   "text": "達發透過入股九暘、亞信，垂直補足乙太網路產品線，形成聯發科集團的第二層持股。",
+   "src": [
+    "line_group",
+    "ctee_icplus"
+   ],
+   "dep": "low",
+   "backNote": "九暘、亞信對集團營收的貢獻未揭露",
+   "backSrc": [
+    "line_group",
+    "ctee_icplus"
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "⑤ 光互連布局",
+   "sub": "入股 Ayar Labs → CPO → AI ASIC 互連",
+   "nodes": [
+    [
+     "聯發科",
+     "accent"
+    ],
+    [
+     "Ayar Labs\n2.4%",
+     "semi"
+    ],
+    [
+     "CPO 光學 I/O",
+     "semi"
+    ],
+    [
+     "AI ASIC\n機櫃互連",
+     "lab"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$9,000 萬 特別股"
+    ],
+    [
+     1,
+     2,
+     "光學 I/O 技術"
+    ],
+    [
+     2,
+     3,
+     "業界解讀：導入互連"
+    ],
+    [
+     3,
+     0,
+     "提升 ASIC 價值"
+    ]
+   ],
+   "text": "聯發科同時規劃 3.2T 矽光子引擎；入股 Ayar Labs 被解讀為強化光學傳輸布局，尚未揭露產品合作。",
+   "src": [
+    "ua_ayar",
+    "wr_dc"
+   ],
+   "dep": "low",
+   "backNote": "尚未揭露產品合作，無回流",
+   "backSrc": [
+    "ua_ayar",
+    "wr_dc"
+   ]
+  }
+ ],
+ "loopNote": {
+  "text": "支持者認為輝達與 Alphabet 的資本參與鞏固聯發科在 AI ASIC 的地位；保留意見則指出 ASIC 毛利率低於公司平均、TPU 存在 Broadcom 雙供應競爭與先進封裝良率風險，且 8 月營收創高部分來自漲價前拉貨。",
+  "src": [
+   "tn_asic",
+   "wr_tpu",
+   "ua_ecb2"
+  ]
+ },
+ "events": [
+  {
+   "d": "2016",
+   "t": "完成併購立錡",
+   "x": "補強電源管理 IC。",
+   "cat": "mna",
+   "src": [
+    "sf_group"
+   ]
+  },
+  {
+   "d": "2023-08-28",
+   "t": "處分部分晶心科持股",
+   "x": "實現約 NT$6.6 億。",
+   "cat": "other",
+   "src": [
+    "tn_andes"
+   ]
+  },
+  {
+   "d": "2024-03-06",
+   "t": "達發入股九暘",
+   "x": "成最大股東。",
+   "cat": "mna",
+   "src": [
+    "ctee_icplus"
+   ]
+  },
+  {
+   "d": "2024-11-01",
+   "t": "聯發資本參與世芯私募",
+   "x": "NT$7.32 億。",
+   "cat": "semi",
+   "src": [
+    "tn_alchip"
+   ]
+  },
+  {
+   "d": "2026-02-05",
+   "t": "2026 ASIC 目標 $10 億",
+   "x": "Google TPU v7e 年底風險試產。",
+   "cat": "lab",
+   "src": [
+    "tf_feb"
+   ]
+  },
+  {
+   "d": "2026-02-06",
+   "t": "Intel A14 首批客戶名單",
+   "x": "數據中心業務預期翻倍。",
+   "cat": "gov",
+   "src": [
+    "wr_dc"
+   ]
+  },
+  {
+   "d": "2026-02-27",
+   "t": "入股 Ayar Labs",
+   "x": "$9,000 萬、約 2.4%。",
+   "cat": "semi",
+   "src": [
+    "ua_ayar"
+   ]
+  },
+  {
+   "d": "2026-04-30",
+   "t": "ASIC 目標上調至 $20 億",
+   "x": "TAM 700–800 億美元。",
+   "cat": "lab",
+   "src": [
+    "tf_apr"
+   ]
+  },
+  {
+   "d": "2026-08-31",
+   "t": "39 億美元 ECB 訂價",
+   "x": "輝達 $35 億、Alphabet 參與。",
+   "cat": "fin",
+   "src": [
+    "now_ecb",
+    "sd_ecb"
+   ]
+  },
+  {
+   "d": "2026-09-01",
+   "t": "股價漲停 4,315 元",
+   "x": "—",
+   "cat": "gov",
+   "src": [
+    "sd_ecb"
+   ]
+  },
+  {
+   "d": "2026-09",
+   "t": "部分晶片漲價 5–10%",
+   "x": "8 月營收 NT$641.83 億創高。",
+   "cat": "gov",
+   "src": [
+    "ua_ecb2"
+   ]
+  },
+  {
+   "d": "2026-09",
+   "t": "首款 AI 加速器小量出貨",
+   "x": "—",
+   "cat": "lab",
+   "src": [
+    "tn_q3"
+   ]
+  },
+  {
+   "d": "2026-10",
+   "t": "N1X（RTX Spark）上市",
+   "x": "與輝達共同開發。",
+   "cat": "lab",
+   "src": [
+    "tn_q3"
+   ]
+  },
+  {
+   "d": "2026-10-30",
+   "t": "Q3 法說會",
+   "x": "ASIC 2026 年 $25 億；確認第二家客戶。",
+   "cat": "gov",
+   "src": [
+    "sf_q3",
+    "tn_asic"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "tag": "已驗算",
+   "html": "ECB 轉換價：3,925 元 × 115% ＝ 4,513.75 元。輝達占比：35 ÷ 39 ≈ 89.7%，與「約九成」一致；其餘約 4 億美元。"
+  },
+  {
+   "tag": "已驗算",
+   "html": "Ayar Labs：1,722,759 股 × $52.24 ≈ $9,000 萬。世芯私募：450,000 股 × NT$1,627 ＝ NT$7.3215 億。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "2026 ASIC 營收目標演變：2 月 $10 億 → 4 月 $20 億 → 10 月「2026 年 $25 億、Q4 單季 $25 億」（9 月才開始出貨，兩說法一致）。2028 年外資預估最高 $400 億，與公司 2027 年約 $160 億屬不同口徑。"
+  },
+  {
+   "tag": "仍有分歧",
+   "html": "Alphabet 認購金額未揭露，僅知與其他機構合計約 4 億美元。Intel 14A 合作有公司「首批客戶名單」說法與郭明錤 Terafab 傳聞，未見正式訂單。"
+  },
+  {
+   "tag": "未定案",
+   "html": "TPU v9 採 EMIB-T 封裝，外資提到良率與時程延後風險；第二家客戶身分未揭露。泛聯發科持股比例取自 2026 年中報導，可能已變動。"
+  }
+ ],
+ "method": "<b>方法與注意事項：</b>（1）匯率約 31.4 TWD/USD。（2）ECB 為流入聯發科的資金，與對外投資分類顯示。（3）子公司與轉投資上市股只列持股比例，未以市值重估。（4）ASIC 客戶合約金額未揭露，僅列公司營收預估。（5）本 Dashboard 為資訊整理，非投資建議。",
+ "ic": {
+  "thesis": "聯發科的資本動作規模小，但被投資的一方更關鍵：輝達與 Alphabet 認購 $39 億可轉債，綁定 NVLink Fusion 與 Google TPU 兩條 AI 營收線；2027 年 ASIC 目標相當於目前營收的大部分，成長高度押在單一客戶。",
+  "src": [
+   "now_ecb",
+   "wr_ecb2",
+   "tn_q3"
+  ],
+  "opps": [
+   {
+    "t": "首款 AI 加速器 Q4 約 $25 億，2027 年目標約 $160 億",
+    "src": [
+     "tn_q3"
+    ]
+   },
+   {
+    "t": "Q4 營收指引年增 40–48%",
+    "src": [
+     "sf_q3"
+    ]
+   },
+   {
+    "t": "已確認第二家（非中國）ASIC 客戶",
+    "src": [
+     "tn_asic"
+    ]
+   }
+  ],
+  "risks": [
+   {
+    "t": "ASIC 營收集中於 Google，且 Broadcom 同為 TPU 供應商",
+    "src": [
+     "tn_asic",
+     "tf_apr"
+    ]
+   },
+   {
+    "t": "10 月營收年增僅 5.8%，手機本業成長放緩",
+    "src": [
+     "tn_oct"
+    ]
+   },
+   {
+    "t": "可轉債轉換稀釋約 1.67%",
+    "src": [
+     "now_ecb"
+    ]
+   }
+  ],
+  "triggers": [
+   {
+    "t": "Q4 法說會確認 2027 ASIC 目標",
+    "src": [
+     "sf_q3"
+    ]
+   },
+   {
+    "t": "第二家 ASIC 客戶 2028 年量產時程",
+    "src": [
+     "tn_asic"
+    ]
+   }
+  ]
+ }
+}
