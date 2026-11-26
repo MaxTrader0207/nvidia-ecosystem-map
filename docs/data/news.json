@@ -1,0 +1,744 @@
+{
+ "window": "近 7 天",
+ "queries": [
+  "(Nvidia OR NVDA) (invest OR investment OR stake OR warrant OR acquire OR acquisition OR \"funding round\" OR guarantee) when:7d",
+  "(輝達 OR NVIDIA) (投資 OR 入股 OR 收購 OR 認股權證 OR 持股 OR 擔保) when:7d"
+ ],
+ "items": [
+  {
+   "title": "Nvidia Slips Below Microsoft as Valuation Retreats From $5.77 Trillion Peak",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIY29mQ181M1JvWGNHaldUdXJmODRrODJXaHZkWW5pQXFOLWtwdTlwa09DQVkwVFE1MEgwU1hPcWVET3oxRXlBQzdyVXhMZ2h3VERYbW05ZVlBMUUxaEdoRTU0ajVMOV9EZXh2SGxQdzZPZDNNRXc?oc=5",
+   "source": "BigGo Finance",
+   "published": "2026-11-26T11:07+08:00",
+   "lang": "en",
+   "nodes": [
+    "microsoft"
+   ],
+   "is_new": false
+  },
+  {
+   "title": "‘That’s not capitalism, that’s Maoism’: Trump’s Nvidia intervention draws fire at home and abroad",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVXVXWi1UdkxOb0RrdGdnd1phd1pRME0wX1hqY2taeEQzNzFyYVhCSjV0R1lRYkM0WGt5QVEyai1GSVJDSjVUTTkyMVRSbVNkMmJORlJWWE42ckdnQlhHck9EWlZoNHZZZDdTdWVaUFI3ZmN1dk5EZTR1dGM2ejFGTGN3?oc=5",
+   "source": "Hankyoreh : English Edition",
+   "published": "2026-11-26T10:40+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump’s portfolios traded Nvidia shares at least 44 times this year, disclosures reveal",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DcEJwazAwVWNXRGRoWTYwZktxTHhiNXlyNW1haXN5WURGYnBTT2RlMTF1b2J6eEtRLU1kVExqTlROdTZLYTZwcWpjWEN6NlhreDFz?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "published": "2026-11-26T10:40+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Nvidia’s Market Cap Falls Below Microsoft’s: Analyst Flags Five Overhangs For NVDA Stock",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdWlvV3lVOWN4ckw2ZmxSNC1rSDV5Wk5Dc09MbjZlOEtuaXcxVTBEQkxMZS15VFJXZ3hfZUlMZjAyV3BrREtqUEVkZmlqdF9hb3hHMUtaTFNELXROUUJRZXFiN2lVXzZtSENyeGM1ZUpkaFo1NThsQy1ZbktBU2UzTGpxbkFaV3JNazloSkFyTHFVUmt0d3pfdWV0Zy1WSFZmUTBMOFpCS3VXa1oyVTZMTXY4RklMaVZmVFkzNWxHdXRWd0VKb2FDbTZ2MFZMZmxxT2V5Mi1XZ2JlTjY3UkJSLWhR?oc=5",
+   "source": "TradingView",
+   "published": "2026-11-26T10:39+08:00",
+   "lang": "en",
+   "nodes": [
+    "microsoft"
+   ],
+   "is_new": false
+  },
+  {
+   "title": "Martina Navratilova Drops 1-Word Reaction to Donald Trump's son Barron's Alleged Multimillion-Dollar Nvidia Investment",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdkZjWnpYTEVSMFlVWVhZMzEwV3ZPNW5yMjBMWk9qVkdONFE1UXdjRzNrbU0yVVh0cUpDNGJsWXdZcnBYV2lZZUlpU2RGeHZHcl9DWUVFcGw2QzJUUHd6bV9XaTJiRHYweThZd3N5Q0JRTnYycC05d0lwSnlPTnJqQ0U3eXJSMWxlTkVjaWREUmMxOUE5M0hyUjVzQ3RwSzBxNFFrS2JfREJrcDBzd0RLYUJjeDhQeGxUcW94Y0poanZ3SEprdkJ6b3VXWWxDUENRSHhRTjVQVWZvNWE3amhsUUJfd2tjNkFTMjVlYXdTWGQ?oc=5",
+   "source": "College Sports Network",
+   "published": "2026-11-26T10:39+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Nvidia’s China link revealed? Investigation claims two US-based firms with Chinese owners are buying most advanced chips",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOYTBib1pWbS0wQ2VuRWNyWFRiTEw1dnhDY2N6ZFdKRFZmdlRFblctNFpYeFZQc3A0TXBnYTRpTEsySHd0eUsyM2l2SV9IQnNoSW51X01HazJURVZSanY0S2hBWHFMVHAzX21oQTVWd1FheFFWUWZXZ2l1bEM5ZTczaWxkN1pyUkRKdm5oeGRqLUV3UjVxdlZkeTB2V0ZYS2dqUTZlVGlUekkxaXpLUGpWSl9ua1ZkcVJJZDNCUEhuWVVmZjZHQXFOeUMxcmZvdU5aTHhfSmd0ZHZ0aTI4ZnRwVkotajBBbzhGYzlNbS11aktnZk4zbDZHU080SXZFc1ZIb1ltWnZ2SThpZ9IBjwJBVV95cUxPejlrYkdGMkY3TXoxZUVEck1DZ3huZkFjWF9iUnVnYmNCNHhPRTktTG5Cb09pUnB3cnJNYjJZYjlvWklEczhVTDNiWkVHOWZSV1J0LWFaUUFkTXdDLWhVSzB5MENIYUwtNWlzemJxbG9vUFMxc0lBQVJGLTJvNUNTbm5fVWphOFBTaGRuVjZpcnhOY2RkN21jRHpUaFB6VnpEOFVKal9KX3IyZERvTmNGOGswUFRYVW1QRzY5MUg1THNWYkpvdnFqUzA1YVc2V2FYdDN1NFA3dHdkTF81RHZFei1GeFo3OU04NDlBcUNmNVdYeDdFZkh1aHgxR2RVQkxkR0V0VUJ6RGVyU3libWow?oc=5",
+   "source": "Livemint",
+   "published": "2026-11-26T09:24+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "「大賣空」貝瑞暫轉做多 等輝達逼近200美元再放空",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vUlR1Q1ZleDBQX1U0U2prUTBZWUN2N3djbTdvdG0wMnp3YnNEd2JLQk16QzFDckJyUC1GYVlmdFlQNjJHb0NXOTNXNFlpUFdZT01BUFJKUENKaUZtNzBiSUx30gFiQVVfeXFMTm9SVHVDVmV4MFBfVTRTamtRMFlZQ3Y3d2NtN290bTAyendic0R3YktCTXpDMUNyQnJQLUZhWWZ0WVA2MkdvQ1c5M1c0WWlQV1lPTUFQUkpQQ0ppRm03MGJJTHc?oc=5",
+   "source": "經濟日報",
+   "published": "2026-11-26T08:32+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "【即時新聞】輝達(NVDA)信評恐降至AA-！牽動5000億美元AI融資，借款成本面臨攀升",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWjJhQnpjRVlCUFpheXViNFE4d1BONlh3WHZtVTN3bGttSkp6TUk0TnBfdmtBYldGakhSblVCODN5TWJKQktHendHQXM0c2FSUmcxQlExLU1tSFJyOWlGREFDT25CdFpkZmlPeE5xVmlnN2xjRGpab2ZGc0ZrU0VkNzNrUTNNdzR0M2diN0NFb2Q?oc=5",
+   "source": "CMoney投資網誌",
+   "published": "2026-11-26T08:10+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump Says It’s “Probably Not Too Late” for a US Stake in Nvidia. That’s a Big Risk for Its Multiple",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNkthVkh3WlV3X0VMVXkzNGRzTXhCRzZtbzBQWE92YUh3eTQ2XzNmMGdvVGRfZzhZeWh2cEJZamwyQ1lWMnVjekI1ekVxQ1VxRElTTHl4UmpIcGozUnk0VkNBb1lsbDkyZ2t3Zi1TWmstY0hYbVllWjNOeTRQT0FzTzR0bnQxb2ltTDQ0X1hXZDdZanIzLWhKZTRIWER4bW5zNzZUc1FfT2ZnXzhjb2xVNkVubUtTTS1aOXF3WEFR?oc=5",
+   "source": "TIKR.com",
+   "published": "2026-11-26T07:52+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "輝達財報亮眼少了黃仁勳卻只剩12倍本益比！1,600億美元擔保背後AI資金池藏斷鏈考驗- 國際",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11eUJhWldRNW54WE02Ql9oek1LOW1KSjBOeThuTmhzS3A0N3FUT2NFb2h4OGc5TUd3RmExT3lYb0JCakVXV0otRHBJQUw0QVpiYXZiSUlqUy15YkNtWVc0?oc=5",
+   "source": "工商時報",
+   "published": "2026-11-26T07:44+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "S&P weighs Nvidia credit downgrade over governance and reliance on Huang",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUGl3WWwtRWVSU3pINlpRb3dVd0hXc2x3QXQ3Tl9qMWRsQ3FTdDhVUGVmblNQQlcyWTFKbTJTbGs0X1hzNEtxZUZlOGdFTmlKeUtjeUVCcWVPLXR3UlAwNWJwQlllTWFYcXpIYTJWN1Z2cUtsVU9mZzdqMTNDMndZN0t5SkRoZm1uMkFqdGhBTy1HOXMxaEhBeGYtLTJ0RmhydlBHZ0RlUFFNb1gzVmF3?oc=5",
+   "source": "Superpower Daily",
+   "published": "2026-11-26T07:06+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "AA, For Now: Nvidia's Credit Cracks as Wall Street Discovers the Bank Behind the AI Boom",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVXJfNkNGV3JkYUJBUmZiTUE2Y1hPeEMzcnRiQkNyYm5MbWNIZlJxZnd1YWxPYjFvd3BMWWc5U0hlQmo4RUZ2OWJTbGtIelN4YTY2TjlUV3ZCQ2ZHSXF2amRMa19VU05IR2gzMU1IdnRoYkplQ1V2WGhMT20tNnd6NkpB?oc=5",
+   "source": "The Dark Side Of The Boom",
+   "published": "2026-11-26T07:01+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnFCZTJhQkQzR25PLTNfcWRtdFdUVENhU184c3RraWp0M0g4NGw0NXRVOU5sSFBsR2tnRktxYjBBcUlGRzNJVnEtaVh5Zk82NGY2WVQ2VFdBUkIwZ294SjdHR0trM0k5dTl0MTg2OURCOW9RNklVczNVa0VkZU8tV0tXWDVHY1NxUG1aUXZFdUVzazhJTDlYRHBfaGc2VEFEUHNOOFAwbjI?oc=5",
+   "source": "TechCrunch",
+   "published": "2026-11-26T06:44+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "\"Sickening\" - Martina Navratilova expresses disgust over Barron Trump's reported multimillion-dollar Nvidia investment",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ1VxdFVQdEd3Szh2NmhvcnNJUkVYNGY4QWxiVXhOazI1c2owUWVXcGFPZjZrLWlkQy1DNEEybTBTOVBTTnlmdDM4NEdwdUhHUzhRVzE3cHd0Z01qMnRIWVQ2NWRCRzhWbkdiRjQyX0k0cEx5Ri1KOGJxbWR3dGFtblF6czQ2VUVpN3ZjamJvZC1VU0tadm41S1NsUWpqbUpnU3EyLTROSEpSTGV2VWZORF9iTTlRa1UxYWsyUkx5dG9USktNOTlXaWtPQy1WZGxoNmxuek5nSVFGQkJHUElyV2NBWQ?oc=5",
+   "source": "Sportskeeda",
+   "published": "2026-11-26T06:02+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Nvidia falls 5% as Trump leaves door open for U.S. stake and Huang pardon",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRWpJYnowZkExRnNLYXFFV3FtMmxDeXRuVERBakJseUZNU0t2VjlRLXZNcVNmV0pjcXIxM2tYOWNud2pVYTV1R3FpejNPUTY5Rk5oNW5FMmtsN1JxWVBRZGo1TmhNajNWVVh6c3dOaEhNQ3F1dFh0cVROV3NHbTUwSHFuSGdUVVFyV2pVNmpnMV9zVnQ5NWJKdFdmNFdRRkNwMkkxSFJMQQ?oc=5",
+   "source": "Kalshi News",
+   "published": "2026-11-26T05:45+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Is Jensen Huang Really Worth $954 Billion to Nvidia?",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUVyd2llVG4zZ09TUlU0cElYSXY3NjFHQ0Z0dVFDNUd4R2tUa3R0Y2FiZi02ZHZQMG1LN1doOHA3N2FLZmlIX0VDVlpJWFYtMHI4WEpYbmhxY1JGRWFTTHg4amRiTzB4QmRfR0NKSThvMXJIeEdnUWlNOUxVZlRfR2c0NWZoMEFsTHNVSjRjYVBiU0ttVksyRmIzR0s?oc=5",
+   "source": "The Motley Fool",
+   "published": "2026-11-26T04:15+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Nvidia and Other Tech Stocks Fall as AI Investment Concerns Rattle Markets",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONVdRZ1RRT2NCa2NxWmhkYjRjb0hqYjBLaDNHRW5qZ0JhRV93VjhHUGVEWEY1eUpjNlRzUG9SVnZGNlNobl9KNWw2Ti0xWG5mWEFJSzZXaEJmTmpfNDdTYmt5RzRvRGdPeU56Q2N0VC13TFNWcTlkR0RKUGI5YWJqc05URUV3TG5rMVlibVU5cVhMRDdjU1NpclJmb1RnMHMwTmtV?oc=5",
+   "source": "SSBCrack",
+   "published": "2026-11-26T03:02+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "黃仁勳回歸輝達激勵股市｜新聞事件整理與重點摘要",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrYmlXZGZVaUMyOHJqQ2Q2RWlGUFN0WG5MelBTTG90WXF1RVBFMEZ2dkFZTjhLUngyX2k1V3VLRXJ6VnhVNS1OclVFczZzbjlDYW43R2Itb0pOV3FhTzZ5dkRGN2IteFJxTmRpRlRqT0hnUWJEMmF2SXlMQkswVU0?oc=5",
+   "source": "Yahoo股市",
+   "published": "2026-11-26T02:41+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaEVzV0ZuUzVVZEowaEdqanZESGlhSEpSTDFqTGxVTVBOUkRsUko2VkRrN3ZJbWswdkgwNF9MNE1nc3Z5eTNCdG1ZQWkyQkNSRXVhME9QM0lQVlludHd2WjlEYmozd2t3Q0hWcHdOWTNSeENJd1RNanpmc2Q3NUphaWs5X1lKQjA1dVpKY21HTDdHVFVRZmlzZlJpMEYtcTJ3cXljWENCMmtSN0VVeU84TXJ6cXBxUGJ5WWZjdw?oc=5",
+   "source": "The Motley Fool",
+   "published": "2026-11-26T01:45+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Jensen Huang's return to Nvidia and the billions at stake",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNel9UNnJGX3ROam5vZ3ViMzFSbmNsbkh4N1hmNUlfMGpubjJwYzRpa1BfMGtRdnFKREVIbGtGaUMyNkxTZWdwVVNfS1J3N0JBNjZFRGtjTExDcjFrYVdmRnZvOGJtQi11eEstbHFGbVRGcS1FOUxJaVFtcFdnd1c2enBfcmUza1VMWWVabk5uZWdXNVlRX1M1cjBZMGpXQQ?oc=5",
+   "source": "https://latination.com/",
+   "published": "2026-11-26T01:22+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "TIME traces Chinese state investment in Nvidia customer Megaspeed’s former parent",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT2Y2Zk1EQ1B0dmdRdkp4d0NjVi1EVzZNcHJqUm9SWGhNZDBodnJmaElRWFp0RmZRMFpScnZKcjN6aXhSd0d6bnJvb1FWZFlaSGpYczdSa2VwZFlhVVoyY0VZUWI0X2k2MC12WmdmUnZCQWlaZ283aWxBdmFTWE5tb1RvVmZFZUNqSzRyeWJZeGF6WU5tNFlWdlBNNmozMEhZRzZHUnBlOF9rUVIzNmw4eVJHU2NTUQ?oc=5",
+   "source": "Superpower Daily",
+   "published": "2026-11-26T01:08+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "The ‘Red Flags’ Behind Nvidia Customer Megaspeed",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93WlFCbktVYXh3SVU5bFhhdWtYSTZwNDcxRWNiSkk3YzZRSk1HZTN0LS1hMWJ0WE9seUEzNENZTWxxaDV5ZDlMOHdCOWs4NkVSSkVpclBvTTRUNENqb3NCY0NJWFFlZXZ1TkdjSXZGZkVlM3UwSWVrUHJB?oc=5",
+   "source": "Time Magazine",
+   "published": "2026-11-26T00:42+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump’s accounts traded Nvidia shares 44 times this year, records show",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFM1ptb0EwX3g0b25wU2RRNng4UVc3M0dqa3B1LThEdWNGSFZkTmNtVmNvT05EeHBTb2ItQ214NDJyMkk5UWpFTzZBdFNxbnlxd3B2cDBfc0h0aGhvWFE?oc=5",
+   "source": "BBC",
+   "published": "2026-11-26T00:42+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "「大空頭」投資人 麥可・貝瑞 點出下次放空輝達股票的時間",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sNXZsV3l6OWpNOGtDOVpHNEMwUU5PRGc4SWJZN2d2OXJINFlHZEdocVMxdk85VExqS0lJT3VVYnhfbjNZRkpCRU5Nd2RsZHN5aThfNjYwaw?oc=5",
+   "source": "Business Insider Taiwan",
+   "published": "2026-11-26T00:37+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "華府仍想入股輝達？川普希望黃仁勳在國會說實話，保留總統特赦可能性",
+   "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNOV9vS0d0aGJNLTZzUThKejFybjJqZzhpdWpHN29HclNGcDY1SHh4UEROa0JkekhaUVZzYU9uaXhVRC05T0JFTHhqTUdQcDc2cDFhMTRTMDBWbFFWaGFHS3dFdG16bDlHQjZNSHpZR3Jmc0hBaEMtN1pwM0phVFV5RFVUTFlodU9Vdk5ySGZCMUdQNndDdnJ6VVlSMFBkcEpvLXE3S1VLSUlkajJ1dGloUUtGdGE5bENqcjlyVHAwM3hnWDlZbnBiYlg5QndUUDVKVVd6TEUtVXo4UUp6UVdsamVKWUlaODNFUDFuYkZsWmhoazZPY2Y5SklaS053dmU4VVlOaXc1ZHVLNUdkQjVUY1hheVJOYzBZamtUQjUwbTNlbnd5TXRNTGNPb2MtZDZpZUozYnVzNzlvbVZqTmc4dXlDTlhlS1dzSXczcTVueFRTS0tEMm1CdlVjUTNaa1QzYWQ0ejFfZ203S2dNNnJ6bno5U0QwVWxzcGFhZ1BlTERGYllRcHpQM3dxYUg3R1JXY1pYSDNLZG91UE53czItUFZ6Z1hSMXV4X2d4SEs2UjE4RUVsZmVhNkVfOUQ0dw?oc=5",
+   "source": "Yahoo新聞",
+   "published": "2026-11-26T00:25+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "How the Anthropic IPO could affect Amazon, Google, Nvidia and AI stocks",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3VEREZZcnNIU0FLaDhXR1ZZRUI3SnZ0V1NBbUR6dXpPWXlYaWtZeTZJY01tQVh3TjUzYWhWeUwzQkFwckEwMmFnR2JmbHVqSWdmT2JoN1d2cmxyMVNOa1NjUVd0VDROVnlfNW5TVDNSWnA5SThIYzlQR2ltU0hyRTZiblZtTjdtbmw1c3NRVUNVcTdsRlNZMW16TjJxYWx2Y3c?oc=5",
+   "source": "www.equiti.com",
+   "published": "2026-11-26T00:06+08:00",
+   "lang": "en",
+   "nodes": [
+    "anthropic",
+    "amazon"
+   ],
+   "is_new": false
+  },
+  {
+   "title": "Huang Is Back as NVDA CEO: Quantum ETFs to Buy Before the Next AI Surge",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWFBTUTlid25HMlF5cmVFeEhfT3dLTFlzX2t4M3dXU1BMbGQ2RF9sMmJWUUVkR3UyRzdFQktWVGlacFRubFZNV01wTWNnWGxTby1Ob0JUUUtsS0U0ejM1OE9ValpiZ3BNbllGaGx5R2RNZGdCeWU1Sk53bGR5RDhRQU1xZmlFMHRfWGt1YmdVZV9VeElkNXpEbTRJbEVxMFdjeWdyUjc1YTRDT0dlSEJIY21YUExmcXVsZXlZLXJNdURTX1lyVGRFMEZ6bzVhb0NxLWhVd0VLYkh6MXZveGtvR1lNdGxBZmlYdEtr?oc=5",
+   "source": "The Globe and Mail",
+   "published": "2026-11-25T23:39+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Hassett says he never discussed his Nvidia stake with Trump",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSbDlTRkRyRkdQczV0cktObkt5WGMzM0dmSzZDRkJ4OFBYeV9rTGNadXNpck9kaHJiSEJiclhfc2s0VTBlNDVNb0JoQk5IdlB1MjFhX2J1QnQ2bGszbTE1SjlJZEMyVHRxWnRKZW5LMzItcFhNUm1Z?oc=5",
+   "source": "Crypto Briefing",
+   "published": "2026-11-25T23:16+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "【即時新聞】輝達(NVDA)盤前再跌5%領跌晶片股，AI熱潮降溫投資人加速撤離",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbmtxWmRQYTd3ZFhNbzlSbDlGS3V1c2RyRU9EeGlpaV9jaVlES0l0ZXRfaHRlN0RoVFNNTnFjR2dwRVpRdElPWnJQM0ZTY2RIWmx0aHJYZGx3Vmg1bkZBelVOTU1nSHh0NzJsNDA5QV9feUl2b1FQZmYxRFo0S0VBTHdiTE9GVS1Sd0ctVGdadFM?oc=5",
+   "source": "CMoney投資網誌",
+   "published": "2026-11-25T23:10+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "【即時新聞】輝達(NVDA)引領AI投資熱潮！美10月核心資本財訂單跳增1.2%超預期",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWHh4am01S1ZoRkFNNF9RSHN2czg0VzQtcTZ1Ymo0UW1QaUhxQ2h6VXhlWm9xNE1POFZSR2hRaWtFMlcwYjRJV184dWF6dGotSnFIZ2ozcjEyMFJYZjdMbkVnREtnYXdheEFuLWNGa1ZfSnBkY1V6UHp6T0VKLVUxbmtFRUJCRFhUQXJJVFZRTE0?oc=5",
+   "source": "CMoney投資網誌",
+   "published": "2026-11-25T23:09+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "The untouchable CEO? What Nvidia means for LGPS investors",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc2dZdm5ua1NxUmd0dmx2WDZqbHF6YldTbFBydUlmTjhiR2JsNksyc3RMQXo0UXF1Y0dHdHpsVFVRX2R3S3lPR3IzRHNRWk5vTTRIV0FpQkN1NUg3MEtoa1Q4eDRfbks1Tml2cEhxblZRdEZpZC0xMDBGVDhDQ0dLcXRiUThDdzBhWnNCelBGM2t0c3hBVloxQWdpZExlQXdONklVNEJHZWtpeUhKZHdueEpjWE5EWURaMGM5NndtUzJwNm9B?oc=5",
+   "source": "Room151",
+   "published": "2026-11-25T22:50+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump Floats an Intel-Style Nvidia Stake. 10% Would Cost the Government $375 Billion",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQnpscWdLQVRpOHNrVnh2N3ZtOHB6Ym0xNDdrMTFoTTdFU1RaeWh5WkFIcGhpSVNwYzEwcmFOQ3B1Q0ozc1hmck5jbDZuSmQ2TUlzVU5tdEZscnhUcHlhTEozck9QRXQ3ZkpxbGFYWGxDUXA3eGVZRU5id0N6eWhsZE13VVFIMGJqdUxmSlBXUjFkRlpPVGhvRTFkX0E?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-25T22:28+08:00",
+   "lang": "en",
+   "nodes": [
+    "intel"
+   ],
+   "is_new": false
+  },
+  {
+   "title": "Dow Jones Futures Fall, Techs Dive; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ1pxUXlOYnQzSVRGaGRVLWxzNXdsV0ZQS18tLTk4NEk5VTBlUmVUb0VTT2tLaGFYa01wOVFBUHhBRkx5XzdPV1hDYkxtcE1mU1VCOXNYNWZ3S0pLZEJkbnBOUExWaXJwWFpwWTBncGxpb2JtQkh1RnJjVGdSalBtU2NGT1VrQjNxV3RQb3FTVmYxenJvYUpsLVF5WVNoZGRPdk1jSWtQdHk5ZVFpQTZyakdnQXNrQl8xYWs0N2g2eEQ?oc=5",
+   "source": "Investor's Business Daily",
+   "published": "2026-11-25T21:12+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "AI支出疑慮、亞洲股災與川普談入股輝達，晶片股再度走跌",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5N2FOYjZaOXRsUHdPMUJRLVBENEhiNnRVVk5Xc2FkU2lTTXFlMkVqd0Zzd2dXa2QtS2tOeUtXM3AyZkVzSTBGWEFTSV9lczlOVEZNNlZmYjdYc1NHMnV2OExuWE1ienBlbnJfNXBQX0U1SlhEUVUzRzJ3?oc=5",
+   "source": "BigGo 財經",
+   "published": "2026-11-25T20:05+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普喊話願特赦黃仁勳 又鬆口政府不排除入股輝達",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBROU81Tkp1RkVSRklBSG9vNUJkTXR0d3NxM3VUNWFEVUpfTnZxU1BBekdPTG1XRTh2eEpieWptZ04yaEJaUHppemY0OTdDMHVBeU5SY3R5TmNMWFI5ZHY3YUVjcjVkSjJSYXdaU0d5R1ZBYXFPbXpqbVJB?oc=5",
+   "source": "BigGo 財經",
+   "published": "2026-11-25T19:55+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Nvidia’s Batam Investment Still in Pipeline, Indonesia Says",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTm1uS1VTVm5pdXRvSDBvYVVqNlZBQy1ZV1Y2dURHb2ZpRFdWeVI4VEpKbkxlUlV0Q1dhV1pNUEQ1R0UwazFEeHRUTk93STUxYmhkTVFjMkRrV0dqeVBQYzNXbmk1N1hmamQwQmRlWERQSkNVN3VhSlJXMlZQaVVLVGpQcWQ2dzc3VURIWUdib2NpMHAz?oc=5",
+   "source": "Jakarta Globe",
+   "published": "2026-11-25T19:50+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "【即時新聞】輝達(NVDA)獲分析師看好調升目標價至250美元，川普稱政府入股還不遲！",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQODZlWlRTX0xmMjBUWVRpeWZBT2JLQ3Z2U3lJOFBQRnhXSWZuQWhSTFViMy1RbTkwRWRJX2RTVF96amszUnhQSGNDRkVUT2RjQXVwNFN3ZENXbEk4Wk92ZW9IQklKZjVoYllHcjRRTk9zdmx6WVlvR2l0dHgxRWlUTlNnbmgwQjBBa1VBUVZPbUQ?oc=5",
+   "source": "CMoney投資網誌",
+   "published": "2026-11-25T19:49+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普最新表態：對美國政府入股輝達持開放態度，“現在可能不算晚”！必要時可赦免黃仁勳",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5XSURZN3VPLVp3aE1KWEIydUtTZzZ5OGlhd2NUT25QbFBPTTJqN0dlVUtxVjdlT3puMVFvOFhLQVN2OXJOcjlRQg?oc=5",
+   "source": "鉅亨號",
+   "published": "2026-11-25T19:40+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普放話「可赦免黃仁勳、入股Nvidia」引爆市場恐慌，中國AI硬體融資揭270M、金價暴跌物資告罄",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTUpoYnVlWmNzelZtTFduWWF6UVE4Y1BVUkozcnd2R2hVOXd4ZkZVQXRvRTB0eGFfQU5WV0drREM0eTNwZVRhOTkxNGZyWFhnX28wT2VYTjVXUWNjZGhpNHdHQ1FHR1dacEFTZG5CdkFTcmwyVzlJQ2RHS0gxaWR2ZnYyWFYyMkw3YzFzckJB?oc=5",
+   "source": "CMoney投資網誌",
+   "published": "2026-11-25T19:38+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "黃仁勳回歸迎戰風暴 美政府擬入股輝達1／川普稱考慮「特赦」黃仁勳 盼下週國會作證說實話",
+   "link": "https://news.google.com/rss/articles/CBMingNBVV95cUxPZHhvMGFGekdxZ0Q0Z1ZSNG1qcGRtdy1YMG50ZmhMWWM5WExEaTA0X3gweXRoQ0dWcFh5dlNJQU5xQjhvQ3F1bDhtS0RoUHpQSnhCRlhmbElVa3JsdlNEN1U3dHl5dWxMcjRhbzlPWlpkU1FlVVlqc3lyTFV3al9WVEJRYmYwVDhCV3VUUS1CajduRXgwemVkbWdBR0tLOVREOTBpVkc2UXp4SFg0ZHBiamJXVU95Y2FIMjVEeWtMQ3dWX0NHRjJsWkk1YnpOUGJ0cl9QdkFYUjZTVDlXa0t0eWFxXzA3RFl0aHhGWXlCd3ZBY0F1Vi1XNVNtS2kxRkthSk5YNTBpdTRDZzl4N25QMTF6eGQ1VDJweWp6YXo4UGxlbWdUUjdXWWduekF6NVNsY0M1enJtWTVqSFFrR1dScjVKVGRSRW0xR2lobXc0X3ZIaGFFUFVHRjd3Vkc5SC1hQWtzQUpxc2xOVGZnRUo0dFZvZ3AyVzdKcWlqVE52Y0wteGU1a2VRZno0Tm5jSl9BVWczeHdPU3lNYnlGZnc?oc=5",
+   "source": "Yahoo新聞",
+   "published": "2026-11-25T19:07+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump considers federal stake in Nvidia and leaves door open to pardoning Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWmZDancxVDdlSG1TQVE4UlV5NXR0eXdITEZ4c0k0THpKejFWTGhUb3JHajU0aUE3c0hTV1BWU1AtQ0xZVkxheE41emJKSlRzZ0JuZFFsUUVBR3VuN2haOGl6UnhEOVRuaERveHJzRENKQ1FJRm5Hek5mNm5GblN0amJHNlU2NFV1eHZHQXhwRFkzeEZxekNLUzAxcy1yNmhDLTI4LXRkQmFKVGMxTkpBeVg3QVE?oc=5",
+   "source": "Dimsum Daily",
+   "published": "2026-11-25T19:01+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump owned millions in Nvidia stock as he pressed chip giant to reinstate Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95MDQ2enUzdlIwVHpBQTRKRG9Gek5jcTVtdGNaclcyRVpzSVVnWUIxRl90OFZoSGpaNS1HZ0N1bGw3TFNqazVDS1JMVVNvOEpRVWgzbnFPZUNfUm8ydVl6cnlkLWJ1M2wxWkNTQk5n?oc=5",
+   "source": "CBS News",
+   "published": "2026-11-25T19:00+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump cites his own Nvidia stock as a reason the US won't buy into the company: 'I don't want to sue the government'",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOGU2R0hWSFFONTR2SXdfWUh5c19wbFFvakNJRkcyYmRxeGNNanFjcDR6THBrcWhDTEFuVEgtczNCYW1hWWFsemtpb25tZmJCZ255MWpjYU9VNnFVclRkY2x6eVNRN1gzQlJGaEJWbTFJMTBkUGUyUG1EaUtnblVXVXgyeWJLemVrbFJERVJqMGdibGFzTmxRQw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-25T19:00+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "AI 泡沫還是修正前兆？Nvidia 暴起暴落掀美股科技巧慮潮",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS3FyZTVGN25YZGYxSHFJNGFRTHdhMTIwckR4SnZCUHBMODBYVXA4dUJRLWtXeHFiRDlGejVHbEthajM2TmdhQ1RyNHdXV25Nd01rTmtIS0dtdERaU3hhTkdvTG5OSTI3M2F1UnlCS3RyTDNjRGhnREVSbm9XNGFORWVVSV9lcVc5Q05WalhB?oc=5",
+   "source": "CMoney投資網誌",
+   "published": "2026-11-25T18:00+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "NVIDIA Corporation $NVDA Stake Boosted by Lantern Wealth Advisors LLC",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQVc2WUJjTVBjOGFzSlp5RGdlM3FTY05DeFhlOU5OOWR2WVpWWjEyc19tcHRSOC1nS0ZteVJfYWM2eU10SEZMbVFTQ3NONXctNFRqdW9UZlIzRGxmb3I3Vm9ocWJmaE5yOGNWNW0wcXhfWHEzZzVjMDZqbE5yalkzT25DdnNZUnd5Rk5Ec1psbFNITXBwdTRmQXppX0J1bFBwWWxQX3VZZ3RFNktrd3VpZGdMRE9GWWRQVDVyS1hJQXhnM1hYNlRzMw?oc=5",
+   "source": "MarketBeat",
+   "published": "2026-11-25T17:32+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Chip Stocks Slide as Nvidia Stake Debate Pressures Markets",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qMFlqdTVXb1l4SHd1NHVueEF0cDNnTUNGMmJLcGVvZTNacE4zbWFNYl9hc2c3V2NFcS1EVHFoUHZCa3B6bUxZQmRfSERDMEdKdTFWcVlXdS1FTmhhTHRxcjRjek5qWE1IQXc?oc=5",
+   "source": "Limapagi",
+   "published": "2026-11-25T17:15+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Nvidia's Dilemma: A Successor Quest?",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYXd0bDhCNEpjanJCQzg0UzVTZWs4VDdHVnhlLWozVFdzdUVpbU5GaGp1OEpmUWpzR1drQmVwajd0Tk5PNk1OWFlGdUlLSEwzdG5jX2FyeHlselluRXBBUHpUdVAxdlZCZ0E0VjhySjRuRGd6dVg3UmRzQnNzc3U1YWhPYjc?oc=5",
+   "source": "Egypt Today",
+   "published": "2026-11-25T16:54+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "輝達董事會急轉彎害慘散戶！才賣股黃仁勳就復職 投資人自嘲「像個笨蛋」",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rZ29XdWxOcFNnMHM4S0tndXIwN2tIYThDMGVzNGxTNG5XOExndmd6NzdzMjNGUHREMEdnUkV1U3cwekFhZnFtblZMSlEwWGUwMU9yZmEwUDlVbmQz?oc=5",
+   "source": "太報 TaiSounds",
+   "published": "2026-11-25T15:16+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普：必要時願意特赦黃仁勳！ 坦言考慮入股輝達 影片來源：US NETWORK POOL／AP",
+   "link": "https://news.google.com/rss/articles/CBMiogNBVV95cUxQNEtoSUNGV1dvQnFSOGM0S0o3SjdNNFV5YmZHYlF0MlpGZHc3U0hLWDE5OHF4ZG5keDZtV2lKTjhyYllERTRvemJzaG5Ja3g4LUtSS3VXY1V4bXhXazBqWXJ4aHRzdlZJaUdxVHoyNFZNbXpGOExDa05Bc0t3M0dPQ1N2SkJ0ZTY4RUZPbmlxMk5vWlFOUHppeWxWYl8xMC00Y0drajRZcVBreTliWjc2dGJvQnF5MnpPeTFWUlRudUs5SjRrVGp3dkFJUWlja3lDMDF6VXRGeGpiS2RaenBWZVZoYUtBblp5N1dVaHRGamwxZjc1YTlxTmhVa2s1aWJDcUVjOHVSQk1mc3I4bVcxaFAwZWN0dDVWZXBNNjk0bVZFTlJ2MlBwUW9MTkJTaE14QlBtaWdsalNjcE4zb0tDcEZSQ1hBZFJha2ZwdGFkLXRLY2x2dkYxVFV0d19FN2NlS1BzZDRfN1J5SzFpbzgxRnl0Nl90Q1Nmakp6S1hoRUpqN2N1OEpYdFVoblRKTm01TS1iZEtKOTZWb1JJa01kaGtn?oc=5",
+   "source": "Facebook",
+   "published": "2026-11-25T14:46+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "白宮考慮入股輝達！美國徹底不裝自由市場了",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1xS3VxWThIRmxNZTBfS1J2ejNWbDZPanptSkh6c2I2MjRKalJxLWYtVXpUZlZNUTk5WXJveEgyNWJsamd6a1V3Uw?oc=5",
+   "source": "鉅亨號",
+   "published": "2026-11-25T14:46+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump Weighs Government Stake in NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX0hHczJ3OVBhZWVVZ1pyMzJUZTQ1d3F4S1NGVmJZWGY0N2w2NXhaazlFQmxyYUZhUUpSdmJjR3g4MnBndXFWMDBVd3JWY1o5REFfU2RfVk5pb29CNmMySE0yQ1BBQUF2M21lUG5JOUZYNWowSk9VWTN5LWpFeGM5bW5KZHQ2V3pQ?oc=5",
+   "source": "조선일보",
+   "published": "2026-11-25T14:45+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "本周基金市場前瞻| AI 股急殺急拉、輝達換帥又回任：生技醫療與科技創新的攻守配置｜豐雲學堂2026 年 11 月",
+   "link": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxQcERudmt6eGNtYXktLTN2OFkwaHQ4Yng1TGlkMHJBblhGM0lsVnQ2RGpiWHNiREpIdU55bl9VZ1U0YWVVOVZvNEFpMWwyVERBNmpXSGNHY1RCclExY2d6bTFWcGd0bGNheFN0V0VBTXJUeEFPUUR4elpYTWVhU0RhNHkwenVoNDdNekI1a3oyYmxWVmZ3M291Nm5KYWJmaUhFVWpZWnVHTDktRWZfQUk1N1lHdVhwY2JFWGhXTGFhMkp3UVBwSTcyM2NMdjlnMnNETUR1T2ItWHZudXdzX2xjWTA2SXJEMUdiblRJSkJnendnWDVOb21xUGZxbDFkdGlCMmNLY0dya0U5WWZydG5KNlBDb0ptbmRqYVd0WHFNSkhtOW1tdTZodURPcDBtSjFuOFIyR3ByLThmNGFpSzNtMDgyRXE4Q19XQWZhQVFrRkgtRlBMZXJyT0ZBTm16YWV6T0E1cXdHQnZYa0hadDFDU1U4ZENCYTIyNG5HOGc0SUJmRVl6RkZ4WGNXYVpQTThNWU9KcXFZTTdkQ0VfT1ZHVjhKbUNkTldIeXlOdUtWYUJ4bWt4dE05bFpJU25BcjJJelkzOG5laG1vWXBtNEdTSlpGY21Wd2ZuLURTdFB4Z0hvamhyemg0OHVmR0cwcUoyVkN2NTdxWnJ0Y1dITzRnS0x5TkpHYnZNOXU5WjlIT29mdlkwellGUXBEMElHeWdMRHFaclQ2cG96Zw?oc=5",
+   "source": "永豐金證券",
+   "published": "2026-11-25T14:45+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "他被輝達董事會急轉彎害慘！賣股下車隔天黃仁勳就復職 下場曝光",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1acHhfdlFUdmp4N0ZXakxfWWctNktfQWcxVDBwUVVIX1p4WmNxOGV0Rkh0Q2g4emlNRF9uSUN2SDh2OUViZVZVUHBoOTA1ODZtbTBSRXB2RWIzV09UaTh30gFkQVVfeXFMTlktQ1l6SzRSdGpTRU4zd1dRS2lrN1Y5M2otZXM4dEZlM2ZaUjd6VTB6Nm0wandPYjVKeFdZODItXzVoQ195aS11eGUxVHZLYlNkZUZkTGlMRlF4RFFhTXBQbkRyTA?oc=5",
+   "source": "自由財經",
+   "published": "2026-11-25T14:14+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "輝達強彈31.5%帶動美股反攻 投行示警調節持股",
+   "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPTDZQbmZYT0VWaENWV3EycTFDeklYOHZIdmZrWG0zaG0tNUx6dHZGVGFobDdlcXVUZkJuTjJNbUVkNDltTEdJVFA3N1pkUUJzeHZSQ2V2NURvUE9ZVEI4N1pwU2lSRlN4NG51RDZyTGpoc2Rsalozak9FemlOSkd4Wm9kYXB4b1JEVndSbWxDbHpsNzJUaS1tRjEzV0p3eGd1dG5UR3dzZ2RxRmlodXJ6d0FvQmp2VnB3THZ6aXYxM05aamhfekFiNUxzQ05WREdMZW5fNGxIRy03OXZka0Utb2xKRldvTk1mamhGUG9JRkdmSm1hd0REeURpQm5vazQxYnh1TDFmWlVjRzZoR29VNWF5U0hHNHVQWXVEVUJjaDE3dTBxUThuSXlMOHlGaGxNOEF1Sl94RTgwYzBWazYwUHQxZFM?oc=5",
+   "source": "商傳媒",
+   "published": "2026-11-25T13:49+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Barron Trump’s multimillion-dollar NVIDIA investment should be taken with a pinch of “social media” salt",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbzlzUlJvUXhkX0toQU9TTHBWM3NBUl9MS2NYR0J6eFFRRGFSSW5jNDZNcllSUldfU0FRTFJ4ejdURXhwbTZUdVRlcl9BQ2xFdEhGYUlrSmxWbWFIRDAteE5CUnVSbFBYMXNRVFYxSGZ4bTZfY2pxN0pZY2RxdG9lbnllWDdfZXJSTnJFSjhfZUd0Z19udHVBTjFRZmdWY1VXdEMxeTZraWhPWl9yQlh5R2xuN21DdmxKZUhUbTU4UGpYVjhPSkhieVZ4WnJhWDAtRWdKUGx3?oc=5",
+   "source": "Soap Central",
+   "published": "2026-11-25T13:30+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Donald Trump Floats Jensen Huang Pardon, US Stake In Nvidia – But NVDA Loses Momentum",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZEpCRmFDSmwtRXJySFduSTVNdkVhc1ZlTlNHQXBGQlZnenhOazZRUGlIT1R0bXpFTlJPUkV1bTFmTjhzZG1nSEJCMVpleDd2SS15QXpRSl95Z21rVVNWOWNNdEpNSXQwQ09MRlpyQko4R0dQd3VJZFdvUzRGbUZtYy1VX1JjU2tqOEtCTGNhdDJ3dC1EQlVSVURHRFJFQQ?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-25T13:20+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump says US could acquire stake in Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmQ5Q3REMXFxb2ZkOThaY0JNZ2xDZ2lJSVlLRFV2TEtsYlJOalhFcWJua0FnYmRXWG1IaDZyZGJFMC1Sc25uQzhHVjBmN0kzWUw0djdQdk9YZmJMUE9TVEFHZjg2Z05odklhS1A3Mzg1VW4ydFk3b0txb19VOGl6X1NmZnpGYjg?oc=5",
+   "source": "Report.az",
+   "published": "2026-11-25T13:08+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump’s Nvidia stake may have gained $15 million after Huang’s return",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbDQxQWdQRmpPM2pmRGtxR09QZzM1d3dld1ZnV0FMaGEyV1lXek5SbUZNVmc4Z2g0TVBRd0I2U1R6U3BmNEYyeHJzMVNPZEhQcGtGRDNvMEJTbXZPOHJyeWdBM0k3Vmw1MUFjUjF1cTMzV2NZVGt5TkFpQjRKcWo0bkNvcw?oc=5",
+   "source": "PRESS Insider",
+   "published": "2026-11-25T12:50+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump Signals Possible Pardon for Huang Jensen: \"Not Too Late to Acquire Nvidia Stake\"",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tNDc4TGx4STE4WXlRWUpaS19fMUhFdUxMeURLV1Y1TUFoX1kycUxzbERSTFJuZG1mLUdlZWVSYk91ejV3RmFzMDB6UHRLRHZOZmo4WTBXT1hDM25Zam9EZ205MFU?oc=5",
+   "source": "아시아경제",
+   "published": "2026-11-25T12:41+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "黃仁勳回歸輝達！投資專家點名「14檔股票」有望成為飆股",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hdHlzWF9HY2JoUVdDYnpEcnBKZ01raU5haTJRRVB1aV9EcVFJbkZLSkZFaFJhNHNuTVJlcURFRUNlWC1DTWpaWnhJd0JSVHpW?oc=5",
+   "source": "造咖",
+   "published": "2026-11-25T12:24+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump Weighs U.S. Stake in Nvidia, Says Pardoning Huang Is ‘An Option’",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY1NkQkY0Z3ZsWHdSUXR1VW9XM2RWc25meER2WDF6M3Jwa3laV1BWU25QZ21hTHpoUjIyRUZxdVkzUGRlM2xMVzlYejdmVVpYSm0yb2pjQ1g0VzU0UDhsREhlYnltNkFzdml4bDVCZXZvaWstOGh5eEN3TExwQ1JDeDFHb2U2ZkpsRFY0X05wbzVaU2p2SjdvVmVjSzI?oc=5",
+   "source": "TipRanks",
+   "published": "2026-11-25T12:09+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普放話「願赦免黃仁勳」！曝美國政府可能入股輝達：現在還不算太晚",
+   "link": "https://news.google.com/rss/articles/CBMirwNBVV95cUxQVWZWdG9lcWxyRlRiNnh3djU3d25HSTMxMmRaanJwN3Y0NVJWTXJudlBoR3V5d0cyZGU0bVRBbkxxNEZvaHN4akZ6YmFOX1FxUWVXNktlNGQxN3BhWjFNQXQ0UE9IN3M0bTRJYm5uWC1pN3RMSEdtUWtxdFRxU0pjTlFMVmRKY2VyOC1GaExFSk56OWFYbEZGOExlZmh0cmtja2FyQWlrV1k3X0JHSlpsdjZqZUFjSEg3T1JsTEJpRGhGVmgwTXc1REllVVROTlRDcFRKWXZzamRqMms0UW1NQVRXaHFtSUdfaTNBcEJpV0pST20zcTlWam5FbVZvcE5rV1ZOMnJiMG9yQ1NxV1VjaVQ2SDZjNUJnNlcwSUdyRmlPMkktWjA2M3J1Q0NmNE5ZallmR2RrRElhV1o1cEpVc2tQSEdFcm5UWlJVY0dvdzFDc2NsRFRTZHhYTE9qbG1IWWstT1Fsc3dUd0o2LUJqcmVtRFItZldZajRBa3NhbTJpUDRYT1BzSENMVkNlLTkyUklIaWxQZWtsbGpkcndLNUZZX0V2QVJxcWlfWHZuWQ?oc=5",
+   "source": "Yahoo股市",
+   "published": "2026-11-25T12:03+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "ETtoday新聞雲. . 川普：必要時願意特赦黃仁勳！ 坦言考慮入股輝達 影片來源：US NETWORK POOL／AP",
+   "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPbHpkM3RQQkpFVllYU1BBV2dWNzBGYTNIS0FrakZsZ0dkNDdTZm5wakp1VmxvWXhhNWRJc3g0X1Q4LVVieFdPWXpEYjZqa3NtRGw4a1c5Qjl3SFhJbzBscVY4TUh1Y1JuZ1hsM1BoYUhNM0Q3anFpY1dUaDRsNVdyWXJMRzAwdF9MdDBLYW95UThWNG9GRXpTTTViZUxIMXgzeHlZaV9CRHVpSnlGdS1EenV3UVdNaDNnZTZpenNyb2c4QmpMZ0kzSmFrZDVRa1lDLWdFWlNNLVdVd2FfUWpBV1QtdWh4SE0xbE12cHFKU2gzNU5UVzYxUk9kazNZSG43dnlveGFQeGRHNy1XdFhVMm80bzVZZ3g3OXVRRWhnS245YzhrZXVTSlBjRHNGYS1MSGk2dUp6TG1iTFNYT1FXcjM1SXFkNi1tdUM3U2tmOWJFLW4ybTMySk0wUQ?oc=5",
+   "source": "Facebook",
+   "published": "2026-11-25T11:51+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump’s Nvidia stake could have gained up to $15 million on paper—with a big asterisk",
+   "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB4NXRhWWVDWGZzNlBsZ2dVWnYyOFN0ZWVVQUxPSWE1Vmp3U1RVWWNpVDFzdlNSM2RRTkM2SmVKOTllLW9K?oc=5",
+   "source": "Digg",
+   "published": "2026-11-25T11:23+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "US government may acquire stake in Nvidia - Trump",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zOTRlaFhzRDNBSlZPMlFiRTVsdExabEg0MnI0aHJDYi1BOGxvak1KVkxqeU1McVE4elRqMW5uSHB1bmpNOElxZzkxUE9na0xwb2VOcA?oc=5",
+   "source": "Trend News Agency",
+   "published": "2026-11-25T11:12+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "After Ensuring His Nvidia Comeback, Trump Says He May Pardon Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHBvZXA3TkI0YXFDQUdmbkRDcV9hOGIyYU1OUE0wdnhMR2VPa1hvLUFjbmxIOFp0VUlWUnVRQmFieUlEalIyUm0yZWVnNjJVUElRWEdwSkVMSW5MM1ExMHdiOG5wTEZ2c3VYSEtwRFlkUlhtSFBremNLN1ZCMklZdG5aMEI3eXZ3YzVOVXJDc2d6OEE5Z3VkYjl0eEx5RFY2MUhPRnZsUEUxQ1VzN1h3T2s1RdIBuwFBVV95cUxNSkVRdWxIc3BGbTV1M3hoMjFaRDkzdXlZNk1jMjdFbGlPY1hLVklsdG9ZSy01VDd5YnUzN2hRNFAyV0FNMU5WLU9pZmF1VllXa1hOY2VpQk5YQkFSbXBDNWtXTVZvWU1pN3ByWTBnajNTbmFSZ3F2ek9fUWIxT1VHRHpFZkZKQzNxaHJnaTgxZEo1UXpwdmNQSE1iNnVRamNveVhMNEdaekVUU0VHcU0xNC0zMDZqaTVieS13?oc=5",
+   "source": "NDTV",
+   "published": "2026-11-25T11:06+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普鬆口願特赦黃仁勳 自爆「想入股輝達」 籲國會作證說實話",
+   "link": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxQTk1XWTA4cjhvNzBMdkNrcGlMeXhMYzQwNUhpc1Q5RWV3VkhCTmxISUs2YUZTUk9LQVF1RW5QdmtoWm52cFF2Zy1sQ2JMU01ZU0l0Y3VKRjhnM212OUxldUtoY2p0UU9kSkhyS2lpb3kzMXF0NUZLNm1nLVJ6ZjljMHlKRkljZlpTTkhyODJWMERaTlZ6REM4NmRhLS1VUWpqYjN1d05id0ZYZUQ2T2duQjBWVkFPQWFXMlFpZ3kzQzJ1aHRrWGdKVDFwY04ydE5xRlBxNHJzYkxWQUEtTnIwMkZaSUtNbERIMlJKaHdKa2xadVhWSmRzWmJNN1g4TFhFSjJoZzE1MFFLWGhUb0ZtV29SZUlKVjRsRzVuNVhZOWRIQldPa3A4ZEc0allTME5sVkhfMWZwQWh0TjR2YzlXV1JSaldTbDRDbG9uWklXdmRfRVlYYnlLNndWODd4RjFrUVBTS1ZtM0MwWDk4d3VMQXQtRk5LS2dRZ18xNXFEamxzUUdLMmVPN0RmZw?oc=5",
+   "source": "Yahoo股市",
+   "published": "2026-11-25T11:04+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普震撼表態！必要時願赦免黃仁勳 坦言考慮「入股輝達」",
+   "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNa01LX0wxYVVvOG9DM2NHWk1oS0x5Q1JRSTdma3lSYXJnQ19tQ1BPTlAtZWsyMVltYkZuQkJheTVGY082QUx3a1UtQnhTLWN5cTdFU2tudjBpdHRFYkNsX1VqOUU4bUxMeWdjczBQbEFKOTVaV08xYm9iT28xRXM5SkVUaENDM0dFT0did3FPRG1seTdkTmlGZFhjR3o5Vjg3SzFLSDI3ejY1X1RMaXFzaUFzdmJzRzc1X1ZwM0J5QVJQdVJ5SDNLYTBJdks1ZmFwQU1vTkR4c2JGbjM4ZmE3a1JTLTYwNWtXZ0N4cHhJejdnRWtrUWtMaUloREhYSzN0cTlWOEFfWTgwczBqS0NSall0bWU1bmgxdG1wd3ZfX21CQW1uUE80VnU1QW5ZLXROc21oTEZRNlJWSVpGcnR4aVR0QzBKVXVISGlTSlZNLWxsTWM3cllmejA1a3A3T1BrTURMNFdNcGJmRWpaVVd2SXJFVQ?oc=5",
+   "source": "Yahoo股市",
+   "published": "2026-11-25T10:41+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普想入股輝達！黃仁勳復職為何只漲一天？",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9KSFc1R2o0T2N2VjNYcnRaQ3A4dDZ4bjVvZ25ISWlSa1N2a1Q5eU9fbFZQbThzRlA1Mk9ydkd3Ql9fcThOTGROSA?oc=5",
+   "source": "鉅亨號",
+   "published": "2026-11-25T10:34+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普：特赦黃仁勳是選項 曾考慮美國政府入股NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSy15MzdhR0ZtdFllVkJwVmxZT2p1X3UyQkNKNXBUa0I2eWxTQ2FlRWpHbTJPUVNKZmJsVkhMRkVKaDZ0Sm5sT1VybEZRbWFPZkVRSDJyOENKeE1uX0ZIT1d0Z1JTeGVNdUozWGRMZmVmbTFyTHhqbU51VzhwSmlyM3VfY0NIa2dRajljUGJn?oc=5",
+   "source": "DIGITIMES",
+   "published": "2026-11-25T10:30+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "First Intel, now Nvidia? Trump floats US stake in chipmaker after Huang’s return",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZmpTS09DbG5icXk0WFJCQjhyeTlLNHA3OWdGZHpJWUlIVjVFMDItNnBlVjdPa2t2cm5lZm0tX3NpcWFXUFh3R3JEV21WdFZtZzJKWmc1ZlBrWkNmTU1ac1ItdkZPNndIM2JpM3VQbTJObHAzaFprQmxGRmtvWi1OTUJUUzZFZjJzZ0Zxb0VFQ2lIaWE4WGhzeTh3TUxHVjRsNEpHYzdKM1p3R2ZFdk1iQ1lXWjlsbk1ub05kTzhJeEZGZjdBVDRieWg4OUZkd0szcmF6V9IB2wFBVV95cUxPM3hjVFE4RUZvdDZyQ3VQX0xVQVozNHNfOGRjTS03SjlZRGQtMHBkMWRRNXRUYU11cUl1VDNDLVo0OW1oX3FfNmxmS3M2MkpFZGlHcGVndjcwUXdzMTZSbzBaZ09nYXRCbnh2cmJ3VTUzR2NLZlA3UW5laEdRLVlZZlYtbUdWVm44dTJ5dENfMWNZbXYzOTkzelAtQXVuZmlCY0I5aHpuNURVVEdXeHptbEp4OGQwVnNJUmFRbGZCOEt2c2JsR0VCM2V1WXVHeGIwb09PMENoYnhBZUE?oc=5",
+   "source": "The Financial Express",
+   "published": "2026-11-25T10:21+08:00",
+   "lang": "en",
+   "nodes": [
+    "intel"
+   ],
+   "is_new": false
+  },
+  {
+   "title": "川普不排除特赦黃仁勳！曾考慮政府入股輝達：現在可能還不算太晚",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZRElYVGlfVW9CVXd5d2doeGpDSGMzWEZvbW55TUF0MHBCaGZqRFRZZFRqSkNNWFg1a0hZajFZdzBxYmU0SW5SWFhsRlRnSk1hb2fSAVJBVV95cUxOWURJWFRpX1VvQlV3eXdnaHhqQ0hjM1hGb21ueU1BdDBwQmhmakRUWWRUakpDTVhYNWtIWWoxWXcwcWJlNEluUlhYbEZUZ0pNYW9n?oc=5",
+   "source": "NOWnews今日新聞",
+   "published": "2026-11-25T10:13+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE95TXVvak1TQUc4N04xX3d6OUwyOWdBTkdoX2lQTXlJVVhJX3pOMnJlSHJoY0RBNWxzcVhNSnpmTDNlamN6ODU4SE82Q2k0d2xTN3F6WXY3S1Y3b3FGTVhLaDVxMlZ1eUJMMmRDNEw0Wmk5d9IBd0FVX3lxTE1LbmFCUzFidnBiRmxpM2dHWlRfSFI3ajhIcDhVN0t2R2hjRXJ0c3pVYlJ3VURtTE9vRHdmUFR1c1dBSlN6SDRqOTlKRUxtajZzN0NRd1dSZTlPUVA0VlRiNG1zaDloakIwOW5IaEhOXzNUdjJ3eEh3?oc=5",
+   "source": "CNBC",
+   "published": "2026-11-25T10:09+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump floats government stake in Nvidia and leaves pardon option for Huang open",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM3VWNGo5ekstbjRVS2x5ODdNV0FwOHZJUWs0d2xtN0NJSFJvT0pYZjdIdEl1anhxRlVvaWNZS0JmS2tEX2oxaTJwdmZrcTNZaEItQmI2U1cwNGNnREZYZ3BNM3hxS3VNTFBsbXJ2SGF2b0otNVluZzZMSW1QeFRZd2NoUDdoZ2Ywem41b1h4cGpWTXV4Q1E?oc=5",
+   "source": "digitimes",
+   "published": "2026-11-25T10:06+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普放話願赦免黃仁勳 鬆口美國政府可能入股輝達",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1Sks4SG56dUFhOXZCLUJ1QzJRQURNdU95aHljRUJ0NlZnTlVWbnEwN3dvdnM4OFlJU3lmQmdxNGZIZEVya0VnTUVTUU9HU0k?oc=5",
+   "source": "鉅亨網",
+   "published": "2026-11-25T10:00+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "相信輝達董事會卻押錯寶！黃仁勳突然回歸 空頭「蒸發4千億」",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43S2lxdTlTUkVQQ1V1dldtVDBIY2JoZ3lOUmZ6NXQ1MW8xOWFzMmp0ZGg2Qk9faEVJWEo0YXdLRjN2MXZhcnVRbzN3cw?oc=5",
+   "source": "三立新聞",
+   "published": "2026-11-25T10:00+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "亞馬遜傳斥資75億美元收購Decart技術 強化自研晶片挑戰輝達",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9haHIzNlduVFBFRnM3VVJQNENNQ3pNM1BrV2V1QThKaHI5bGJuZ1QycHhSRE81Q2pVSDN6aExsOS0zTm40WTljWXBySQ?oc=5",
+   "source": "鉅亨網",
+   "published": "2026-11-25T09:50+08:00",
+   "lang": "zh",
+   "nodes": [
+    "amazon"
+   ],
+   "is_new": false
+  },
+  {
+   "title": "黃仁勳坦承違反輝達行為準則！川普稱必要時願特赦、考慮讓美國政府入股",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pNm5lVWN0VUMyQ0JPNGV4ZFpzcHN5T2pVbTlLamc4dFFXMWM2YTE3WWY0aXNzamN4RHd4S3Mtc0w1UkRZTkhJeHR6a0h3Vk0?oc=5",
+   "source": "鉅亨網",
+   "published": "2026-11-25T09:40+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "Trump Says It Is 'Not Too Late' For An US Equity Stake In Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZUlTUFV6VlFYRFAtSl9mZXk1d3lDc21xSjJKTEVabVI3U1dyMGllNHI2MHY5TnJJSjhXQTU0dHczVHZsQkhoeVFUZ1o1YTgtZjgyOGI4S3hIQU9URmNhY0dmaERFQUtpNlM0dGdiVUo0bXFDMVdkUDVJTGV5dUtaT1RhcUhUYU5mNzRoNktFaGgwZUM4ZmlpQ2xBVTMyc1ZYWmJ5THZXU1lDMUZWcjlPWFU3MF9Gcm1neWs5akJONFo4SUpV0gHKAUFVX3lxTE95UUZEUUJXZW1hWTE3aVR6MG8tUWxDTTRCbUJleWs2N0M2UTl1X2tMaC0xRzJBS19MZHhLdUZDNmFiX3ZBYzY3ZzZES3JxdHl0aER1cUNMM2s2RjJJZENaclpJQWVYZmhRVXlQV1BJUUxzZXdvM0NZWlpYZjhISWV6Ym1TYjNxamdIWUthNWYtOTh1c0RpbGpUc2RWSmM5a3ktRm1UNnBHdVdrNTZ1UzBWaElhMmItS1JCOHNuUWE2eXFOUG5MTVdERmc?oc=5",
+   "source": "Times Now",
+   "published": "2026-11-25T09:34+08:00",
+   "lang": "en",
+   "nodes": [],
+   "is_new": false
+  },
+  {
+   "title": "川普：不排除「赦免」黃仁勳 !但美國政府想入股輝達",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00SGlGY3hBQ1kzNEpjRFBzNkQyZFJmTlNlSkFDdGs0aXd0djFWaGlqTWNTTG5qQkdIWmVpR1Y4R0ZpWXFiMERCandrMXBMUTFub09jcHBibDcwRGJiYjNj0gFkQVVfeXFMTm1fblFXTDlaYVgtR0Z4TDBvcTRjOGRsWEFVWjFWaVVxQ0xrb01xaW40Z0lnZjJxWHhSNjR5ZzVfbkpwSFNmTmxqaTFYekZ0bGdmSlBlZVJkM2s4TWZtUGpfWVAzMQ?oc=5",
+   "source": "自由財經",
+   "published": "2026-11-25T09:32+08:00",
+   "lang": "zh",
+   "nodes": [],
+   "is_new": false
+  }
+ ],
+ "errors": [],
+ "updated_at": "2026-11-26T11:47:15+08:00"
+}
