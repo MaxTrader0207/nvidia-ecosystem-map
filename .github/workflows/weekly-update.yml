@@ -1,0 +1,62 @@
+name: Weekly Update（每週更新）
+
+on:
+  schedule:
+    # UTC 週一 00:07 ＝ 台北週一 08:07（美股週五收盤後的週快照）
+    # 若修改此處，請同步修改 backend/common.py 的 SCHEDULE_* 設定（畫面上的「下次排程」據此計算）
+    - cron: "7 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "只執行指定步驟（逗號分隔：sec,market,news,ai；留空＝全部）"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "backend/**"
+      - ".github/workflows/weekly-update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+
+      - name: Run weekly update
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: python backend/update.py --only "${{ github.event.inputs.only }}"
+
+      - name: Commit generated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "沒有變更"
+          else
+            git commit -m "chore(data): weekly update $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push
+          fi

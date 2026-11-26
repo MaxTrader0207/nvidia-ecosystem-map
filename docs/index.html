@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVIDIA 生態資本投資循環架構｜投資族譜 Dashboard</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1><b>NVIDIA</b> 生態資本投資循環架構 · 投資族譜 Dashboard</h1>
+    <div class="sub" id="subline">涵蓋股權投資、認股權證、擔保、收購、技術授權與融資平台｜每個節點均附資訊來源</div>
+    <div class="upd" id="upd"><span class="muted">讀取更新時間中…</span></div>
+  </div>
+  <div class="legend" id="legend"></div>
+</header>
+<div class="settings">
+  <span class="lbl">🎨 背景</span>
+  <select id="themeSel">
+    <option value="">深夜（預設）</option><option value="graphite">石墨灰</option><option value="navy">深海藍</option><option value="black">純黑</option><option value="light">淺色</option>
+  </select>
+  <span class="lbl">自訂</span><input type="color" id="bgPick" value="#0a0e13" title="自訂背景色">
+  <span class="sep"></span>
+  <span class="lbl">🔠 字體</span>
+  <button class="btn" id="fsDown">A−</button><span class="fsval" id="fsVal">100%</span><button class="btn" id="fsUp">A＋</button>
+  <span class="sep"></span>
+  <button class="btn" id="prefReset">還原預設</button>
+  <span style="flex:1"></span>
+  <span class="xslot" data-x="all"></span>
+</div>
+
+<div id="app" style="display:none">
+<div class="gov" id="gov"><span class="xslot" data-x="gov" style="float:right;margin-left:10px"></span><span id="govBody"></span></div>
+
+<div class="shead"><span>📊 關鍵指標</span><span class="xslot" data-x="kpi"></span></div>
+<div class="kpis" id="kpis"></div>
+
+<nav class="tabs">
+  <button data-v="v-tree" class="on">🌳 投資族譜圖</button>
+  <button data-v="v-flow">🔁 資金循環架構</button>
+  <button data-v="v-table">📋 投資明細表</button>
+  <button data-v="v-tl">🕒 時間軸</button>
+  <button data-v="v-watch">📡 每週追蹤</button>
+</nav>
+
+<!-- TREE -->
+<section class="view on" id="v-tree">
+  <div class="toolbar">
+    <span id="catchips"></span>
+    <select id="typeSel"><option value="">全部交易型態</option></select>
+    <input type="search" id="q" placeholder="搜尋公司 / 代號…">
+    <span class="xslot" data-x="tree"></span>
+    <span class="hint">點選公司卡片查看明細；卡片內長條為金額相對規模（對數尺度），紅框「擔保」＝含擔保／背書；📰＝本週新聞提及次數。</span>
+  </div>
+  <div class="graphwrap">
+    <div class="ftree" id="ftree"></div>
+    <aside id="detail"><div class="bhead"><span>📌 節點明細</span><span class="xslot" data-x="detail"></span></div><div id="detailBody"></div></aside>
+  </div>
+</section>
+
+<!-- FLOW -->
+<section class="view" id="v-flow">
+  <div class="flowwrap">
+    <div class="looplist" id="looplist"></div>
+    <svg id="flow" viewBox="-520 -430 1040 860"></svg>
+    <div class="loopinfo" id="loopinfo"><div class="bhead"><span>🔁 循環說明</span><span class="xslot" data-x="flow"></span></div><div id="loopBody"></div></div>
+  </div>
+</section>
+
+<!-- TABLE -->
+<section class="view" id="v-table">
+  <div class="toolbar">
+    <input type="search" id="tq" placeholder="篩選明細…">
+    <select id="tcat"><option value="">全部類別</option></select>
+    <label class="tg"><input type="checkbox" id="tcp" checked> 含循環對手方</label>
+    <span class="xslot" data-x="table"></span>
+    <span class="hint" id="tcount"></span>
+  </div>
+  <div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+</section>
+
+<!-- TIMELINE -->
+<section class="view" id="v-tl"><div class="toolbar"><span class="xslot" data-x="tl"></span></div><div class="tl" id="tl"></div></section>
+
+<!-- WEEKLY WATCH -->
+<section class="view" id="v-watch">
+  <div class="toolbar"><span class="xslot" data-x="watch"></span><span class="hint" id="watchHint"></span></div>
+  <div class="watch" id="watch"></div>
+</section>
+
+<section id="verify" style="margin:0 22px 18px;padding:12px 16px;border:1px solid var(--ok-bd);background:var(--ok-bg);border-radius:8px;font-size:calc(12.5px*var(--fs));line-height:1.75">
+  <span class="xslot" data-x="verify" style="float:right"></span><b style="color:var(--nv)" id="verifyTitle"></b>
+  <ul style="margin:6px 0 0;padding-left:20px" id="verifyList"></ul>
+</section>
+<footer id="footer"></footer>
+</div>
+<div class="loading" id="loading">資料載入中…</div>
+
+<div class="tooltip" id="tip"></div><div class="toast" id="toast"></div>
+<script src="assets/app.js"></script>
+<script src="assets/export.js"></script>
+</body>
+</html>

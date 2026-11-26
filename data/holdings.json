@@ -1,0 +1,37 @@
+{
+ "_說明": "每週排程追蹤的上市持股與認股權證設定（人工維護）。shares 為精確股數；若為 null，後端會依序改用：最新 13F 解析股數 → 13F 市值 ÷ 申報日收盤價推算 → approx_shares。issuer_match 用於比對 13F 資訊表中的發行人名稱（大寫關鍵字）。",
+ "as_of_13f": "2026-09-30",
+ "nvidia_cik": "0001045810",
+ "holdings": [
+  {"node": "spacex",   "ticker": "SPCX", "stooq": "spcx.us", "shares": 130472925, "f13_value_b": 19.68, "issuer_match": ["SPACE EXPLORATION", "SPACEX"]},
+  {"node": "intel",    "ticker": "INTC", "stooq": "intc.us", "shares": 161082488, "f13_value_b": 19.37, "issuer_match": ["INTEL"]},
+  {"node": "coreweave","ticker": "CRWV", "stooq": "crwv.us", "shares": null,      "f13_value_b": 4.11,  "issuer_match": ["COREWEAVE"]},
+  {"node": "coherent", "ticker": "COHR", "stooq": "cohr.us", "shares": null,      "approx_shares": 7800000,  "f13_value_b": 2.24, "issuer_match": ["COHERENT"]},
+  {"node": "synopsys", "ticker": "SNPS", "stooq": "snps.us", "shares": null,      "approx_shares": 4350000,  "f13_value_b": 1.89, "issuer_match": ["SYNOPSYS"]},
+  {"node": "nokia",    "ticker": "NOK",  "stooq": "nok.us",  "shares": null,      "approx_shares": 72860000, "f13_value_b": 0.74, "issuer_match": ["NOKIA"]},
+  {"node": "nebius",   "ticker": "NBIS", "stooq": "nbis.us", "shares": null,      "f13_value_b": 0.28,  "issuer_match": ["NEBIUS"], "note": "僅 13F 可申報部分；預融資權證另列於 warrants"},
+  {"node": "anthropic","ticker": "ANT",  "stooq": "ant.us",  "shares": 120481928, "f13_value_b": null,  "issuer_match": ["ANTHROPIC"], "note": "IPO 同步私募 $100 億 ÷ $83 推算之 Class N 股數；2025 年私募部分未計入；2026/11/19 上市後才會出現在 13F"}
+ ],
+ "track_only": [
+  {"node": "generate", "ticker": null, "issuer_match": ["GENERATE BIOMEDICINES"], "note": "13F 申報但無公開代號，只比對 13F 不抓股價"}
+ ],
+ "warrants": [
+  {"node": "iren",    "ticker": "IREN", "stooq": "iren.us", "shares": 30000000, "strike": 70,     "label": "5 年期傳統權證"},
+  {"node": "corning", "ticker": "GLW",  "stooq": "glw.us",  "shares": 15000000, "strike": 180,    "label": "傳統權證（3 年期）"},
+  {"node": "corning", "ticker": "GLW",  "stooq": "glw.us",  "shares": 3000000,  "strike": 0.0001, "label": "預融資權證"},
+  {"node": "nebius",  "ticker": "NBIS", "stooq": "nbis.us", "shares": 21065936, "strike": 0.0001, "label": "預融資權證"}
+ ],
+ "news_aliases": {
+  "openai": ["OpenAI"], "anthropic": ["Anthropic"], "spacex": ["SpaceX", "xAI"], "tml": ["Thinking Machines"],
+  "reflection": ["Reflection AI"], "mistral": ["Mistral"], "cursor": ["Cursor", "Anysphere"], "poolside": ["Poolside"],
+  "cohere": ["Cohere"], "coreweave": ["CoreWeave"], "nebius": ["Nebius"], "iren": ["IREN"], "nscale": ["Nscale"],
+  "sbenergy": ["SB Energy"], "lambda": ["Lambda Labs", "Lambda Inc"], "crusoe": ["Crusoe"], "firmus": ["Firmus"],
+  "coherent": ["Coherent"], "lumentum": ["Lumentum"], "marvell": ["Marvell"], "corning": ["Corning"], "ayar": ["Ayar Labs"],
+  "intel": ["Intel", "英特爾"], "synopsys": ["Synopsys", "新思"], "nokia": ["Nokia", "諾基亞"], "generate": ["Generate Biomedicines"],
+  "groq": ["Groq"], "hf": ["Hugging Face"], "figure": ["Figure AI"], "wayve": ["Wayve"], "cfs": ["Commonwealth Fusion"],
+  "microsoft": ["Microsoft", "微軟"], "oracle": ["Oracle", "甲骨文"], "softbank": ["SoftBank", "軟銀"], "amazon": ["Amazon", "亞馬遜"],
+  "amd": ["AMD", "超微"], "broadcom": ["Broadcom", "博通"],
+  "fin_Apollo": ["Apollo Global"], "fin_BlackRock": ["BlackRock", "貝萊德"], "fin_Blackstone": ["Blackstone", "黑石"],
+  "fin_Brookfield": ["Brookfield"], "fin_GoldmanSachs": ["Goldman Sachs", "高盛"], "fin_KKR": ["KKR"]
+ }
+}

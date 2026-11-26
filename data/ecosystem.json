@@ -1,0 +1,1866 @@
+{
+ "meta": {
+  "title": "NVIDIA 生態資本投資循環架構",
+  "curated_at": "2026-11-26",
+  "curated_tz": "Asia/Taipei",
+  "note": "本檔為人工維護之主資料（Single Source of Truth）。每週排程不會改寫本檔，只會產生 docs/data/ 下的衍生資料。"
+ },
+ "sources": {
+  "tc_openai110": {
+   "t": "TechCrunch｜OpenAI raises $110B (2026-02-27)",
+   "u": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/"
+  },
+  "bt_openai": {
+   "t": "Business Today｜3GW 推論 + 2GW 訓練 (2026-02-27)",
+   "u": "https://www.businesstoday.in/technology/story/openai-raises-110-billion-at-730-billion-valuation-partners-with-amazon-and-nvidia-518403-2026-02-27"
+  },
+  "techspot_openai": {
+   "t": "TechSpot｜NVIDIA/SoftBank 分三期撥付",
+   "u": "https://www.techspot.com/news/111510-openai-lands-record-110-billion-investment-backed-nvidia.html"
+  },
+  "nv_openai_loi": {
+   "t": "NVIDIA Newsroom｜10GW 合作意向書 (2025-09)",
+   "u": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems"
+  },
+  "yahoo_100b": {
+   "t": "Yahoo Finance｜黃仁勳：$1,000 億 OpenAI 案「大概不會實現」",
+   "u": "https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-100b-123431494.html"
+  },
+  "anth_news": {
+   "t": "Anthropic｜Microsoft、NVIDIA、Anthropic 策略合作 (2025-11-18)",
+   "u": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+  },
+  "nv_blog_anth": {
+   "t": "NVIDIA Blog｜Microsoft, NVIDIA and Anthropic",
+   "u": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership"
+  },
+  "aljaz_anth": {
+   "t": "Al Jazeera｜Anthropic 上市，NVIDIA 合計投入 $200 億 (2026-11-19)",
+   "u": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
+  },
+  "st_anth": {
+   "t": "Stocktwits｜Anthropic IPO 定價 $83",
+   "u": "https://stocktwits.com/news-articles/markets/equity/anthropic-officially-prices-its-ipo-at-83-a-share-in-81-3-b-debut-shattering-ipo-records/cNbLpmoR9iI"
+  },
+  "fw_anth": {
+   "t": "FourWeekMBA｜S-1/A：$260 億私募配售中 NVIDIA $100 億",
+   "u": "https://fourweekmba.com/ai-nvidias-10b-anthropic-pledge-4-exits-none-for-ceo-change/"
+  },
+  "neoteo": {
+   "t": "NeoTeo｜Anthropic 首日：開盤 $111.50、收盤 $97.17",
+   "u": "https://www.neoteo.com/en/anthropics-nasdaq-debut-leaves-the-ai-bubble-question-open"
+  },
+  "fw_13f": {
+   "t": "FourWeekMBA｜13F：SpaceX 持股 130,472,925 股 (2026-11-16)",
+   "u": "https://fourweekmba.com/ai-nvidias-13f-spacex-stake-up-6-3-to-130-5m-shares-in-q3/"
+  },
+  "kucoin_13f": {
+   "t": "KuCoin｜NVIDIA Q3 2026 13F 八檔持股明細",
+   "u": "https://www.kucoin.com/blog/nvidia-q3-2026-holdings-intel-spacex"
+  },
+  "tnw_backstop": {
+   "t": "The Next Web｜SpaceX 持股來源說法分歧",
+   "u": "https://thenextweb.com/news/nvidia-openai-backstop-halved-13f-spacex-intel"
+  },
+  "xai_pr": {
+   "t": "StorageNewsletter｜xAI $200 億 E 輪新聞稿 (2026-01)",
+   "u": "https://www.storagenewsletter.com/2026/01/12/xai-raises-20b-series-e/"
+  },
+  "gadget_spacex": {
+   "t": "GadgetReview｜xAI 股份轉換為 SpaceX、承諾採用 Vera Rubin",
+   "u": "https://www.gadgetreview.com/nvidia-turned-an-ai-startup-bet-into-a-21b-stake-in-spacex"
+  },
+  "ent_spacex": {
+   "t": "Entrepreneur｜Q3 增持 SpaceX、減持 Intel 25%",
+   "u": "https://india.entrepreneur.com/?p=101722"
+  },
+  "pq_map": {
+   "t": "Bubble Map｜xAI SPV 為購買 NVIDIA GPU 而設",
+   "u": "https://pq-cybarg.github.io/bubble-map/r-fin-nvidia-openai.html"
+  },
+  "bl_tml": {
+   "t": "Bloomberg Law｜NVIDIA 投資 Thinking Machines 並供應晶片 (2026-03-10)",
+   "u": "https://news.bloomberglaw.com/private-equity/nvidia-to-invest-in-thinking-machines-lab-and-supply-ai-chips"
+  },
+  "tnw_99": {
+   "t": "The Next Web｜NVIDIA 股權投資達 $990 億",
+   "u": "https://thenextweb.com/news/nvidia-equity-investments-99bn-portfolio"
+  },
+  "tc_2506": {
+   "t": "TechCrunch｜Nvidia's AI empire (2025-06)",
+   "u": "https://techcrunch.com/2025/06/19/nvidias-ai-empire-a-look-at-its-top-startup-investments/"
+  },
+  "sa_refl": {
+   "t": "SiliconANGLE｜NVIDIA 洽談收購或加碼 Reflection AI (2026-10-11)",
+   "u": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/"
+  },
+  "tc_2510": {
+   "t": "TechCrunch｜Nvidia's AI empire (2025-10)",
+   "u": "https://techcrunch.com/2025/10/12/nvidias-ai-empire-a-look-at-its-top-startup-investments"
+  },
+  "tc_2601": {
+   "t": "TechCrunch｜Nvidia's AI empire (2026-01)",
+   "u": "https://techcrunch.com/2026/01/02/nvidias-ai-empire-a-look-at-its-top-startup-investments/"
+  },
+  "tc_2501": {
+   "t": "TechCrunch｜Nvidia's AI empire (2025-01)",
+   "u": "https://techcrunch.com/2025/01/11/nvidias-ai-empire-a-look-at-its-top-startup-investments"
+  },
+  "tc_2503": {
+   "t": "TechCrunch｜Nvidia's AI empire (2025-03)",
+   "u": "https://techcrunch.com/2025/03/16/nvidias-ai-empire-a-look-at-its-top-startup-investments/"
+  },
+  "invezz": {
+   "t": "Invezz｜NVIDIA 全球新創投資概覽 (2026-03)",
+   "u": "https://invezz.com/au/news/2026/03/12/how-nvidia-is-financing-the-ai-boom-with-billions-in-investments-in-global-startups/"
+  },
+  "nv_crwv": {
+   "t": "NVIDIA Newsroom｜CoreWeave 合作與 $20 億投資 (2026-01)",
+   "u": "https://nvidianews.nvidia.com/news/nvidia-and-coreweave-strengthen-collaboration-to-accelerate-buildout-of-ai-factories"
+  },
+  "sacra_crwv": {
+   "t": "Sacra｜22,935,780 股 @ $87.20",
+   "u": "https://sacra.com/chat/h/df726c47-bc52-45fa-934c-409fb7aa1ffe"
+  },
+  "fierce_enc": {
+   "t": "Fierce Network｜AI 交易百科（CoreWeave $63 億容量協議）",
+   "u": "https://www.fierce-network.com/cloud/fierce-networks-encyclopedia-ai-deals"
+  },
+  "tunguz": {
+   "t": "Tomasz Tunguz｜OpenAI 基礎設施承諾 $1.15 兆拆解",
+   "u": "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+  },
+  "nv_nbis": {
+   "t": "NVIDIA IR｜NVIDIA 與 Nebius 合作 (2026-03-11)",
+   "u": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Nebius-Partner-to-Scale-Full-Stack-AI-Cloud"
+  },
+  "tnw_nbis": {
+   "t": "The Next Web｜預融資權證 21,065,936 股",
+   "u": "https://thenextweb.com/news/nvidia-invests-2-billion-in-nebius"
+  },
+  "tnw_iren": {
+   "t": "The Next Web｜IREN $21 億認股權證、5GW",
+   "u": "https://thenextweb.com/news/nvidia-iren-2-1bn-warrant-5gw-sweetwater-ai-data-centers"
+  },
+  "yahoo_iren": {
+   "t": "Yahoo/Quartz｜IREN 與 NVIDIA $34 億雲端合約",
+   "u": "https://finance.yahoo.com/sectors/technology/articles/nvidia-invests-2-1-billion-111838996.html"
+  },
+  "fierce_nscale": {
+   "t": "Fierce Network｜Nscale $33.6 億 IPO 前融資，NVIDIA $10 億",
+   "u": "https://www.fierce-network.com/cloud/neocloud-nscale-raises-336b-ahead-ipo"
+  },
+  "sacra_nscale": {
+   "t": "Sacra｜Nscale 募資歷程",
+   "u": "https://sacra.com/research/nscale"
+  },
+  "fool_ohio": {
+   "t": "Motley Fool｜$1,050 億擔保 + SB Energy $15 億",
+   "u": "https://www.fool.com/investing/2026/08/17/nvidia-lines-up-105-billion-for-openai-heres-what-it-means-for-investors/"
+  },
+  "axios_ohio": {
+   "t": "Axios｜OpenAI 俄亥俄資料中心、NVIDIA 獨家晶片",
+   "u": "https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy"
+  },
+  "tnw_rvg": {
+   "t": "The Next Web｜殘值擔保結構解析",
+   "u": "https://thenextweb.com/news/nvidia-openai-ports-pike-105bn-residual-value-guarantee"
+  },
+  "scmp_ohio": {
+   "t": "SCMP｜8GW、首期 800MW 2028 年上線",
+   "u": "https://www.scmp.com/tech/big-tech/article/3364341/nvidia-provide-us105-billion-guarantee-openais-ohio-data-centre"
+  },
+  "sacra_crusoe": {
+   "t": "Sacra｜NVIDIA 專業 GPU 雲聯盟（CoreWeave/Crusoe/Lambda）",
+   "u": "https://sacra.com/chat/h/91351950-a437-4b94-be0d-21859991d72a/"
+  },
+  "tnw_firmus": {
+   "t": "The Next Web｜NVIDIA 新雲曝險 $1,700 億、洽投 Firmus",
+   "u": "https://thenextweb.com/news/nvidia-170bn-neoclouds-firmus"
+  },
+  "reg_photon": {
+   "t": "The Register｜Coherent、Lumentum 各 $20 億 (2026-03-02)",
+   "u": "https://www.theregister.com/2026/03/02/nvidia_4b_us_photonics_manufacturing/"
+  },
+  "optics_org": {
+   "t": "Optics.org｜Coherent 約 780 萬股 @ $256.80",
+   "u": "https://optics.org/news/17/3/3"
+  },
+  "nv_lite": {
+   "t": "NVIDIA Newsroom｜Lumentum 策略合作",
+   "u": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology"
+  },
+  "nasdaq_13f": {
+   "t": "Nasdaq｜Lumentum 為可轉換特別股，未列 13F",
+   "u": "https://www.nasdaq.com/articles/deep-dive-nvidias-latest-portfolio-moves"
+  },
+  "bbg_mrvl": {
+   "t": "Bloomberg｜NVIDIA 投資 Marvell $20 億 (2026-03-31)",
+   "u": "https://www.bloomberg.com/news/articles/2026-03-31/nvidia-invests-2-billion-in-marvell-announces-partnership"
+  },
+  "th_mrvl": {
+   "t": "Tom's Hardware｜NVLink Fusion 合作",
+   "u": "https://www.tomshardware.com/tech-industry/nvidia-invests-2-billion-in-marvell-to-deepen-nvlink-fusion-partnership"
+  },
+  "tnw_glw": {
+   "t": "The Next Web｜Corning 認股權證結構 (2026-05)",
+   "u": "https://thenextweb.com/news/nvidia-corning-500m-warrant-fiber-optics-partnership"
+  },
+  "tnw_photon": {
+   "t": "The Next Web｜光子學投資至少 $65 億（含 Ayar Labs）",
+   "u": "https://thenextweb.com/news/nvidia-photonics-investment-copper-bottleneck-ai-data-centre"
+  },
+  "nv_intc": {
+   "t": "NVIDIA IR｜NVIDIA 與 Intel 合作 (2025-09-18)",
+   "u": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Intel-to-Develop-AI-Infrastructure-and-Personal-Computing-Products/default.aspx"
+  },
+  "ajc_intc": {
+   "t": "AP/AJC｜以 $23.28 認購 Intel 普通股",
+   "u": "https://www.ajc.com/news/2025/09/nvidia-to-invest-5-billion-in-intel-companies-will-work-together-on-ai-infrastructure-and-pcs-4"
+  },
+  "hpc_snps": {
+   "t": "HPCwire｜Synopsys $20 億 @ $414.79 (2025-12-01)",
+   "u": "https://www.hpcwire.com/?p=186250"
+  },
+  "bl_snps": {
+   "t": "Bloomberg Law｜持股約 2.6%",
+   "u": "https://news.bloomberglaw.com/esg/nvidia-buys-2-billion-of-chip-software-maker-synopsys-stock"
+  },
+  "kt_snps": {
+   "t": "Khaleej Times｜Synopsys：無承諾以資金購買 GPU",
+   "u": "https://www.khaleejtimes.com/business/tech/nvidia-invest-2-billion-synopsys"
+  },
+  "nv_nok": {
+   "t": "NVIDIA IR｜投資 Nokia $10 億 @ $6.01 (2025-10-28)",
+   "u": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx"
+  },
+  "th_groq": {
+   "t": "Tom's Hardware｜Groq $200 億 IP 授權 + 團隊",
+   "u": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-confirms-20-billion-groq-deal-to-bolster-ai-inference-dominance"
+  },
+  "tc_groq": {
+   "t": "TechCrunch｜非專屬授權、非收購 (2025-12-24)",
+   "u": "https://techcrunch.com/2025/12/24/nvidia-acquires-ai-chip-challenger-groq-for-20b-report-says/"
+  },
+  "th_hf": {
+   "t": "Tom's Hardware｜收購 Hugging Face $129.3 億",
+   "u": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-acquires-hugging-face-for-usd12-93-billion-company-gains-control-of-major-ai-model-distribution-platform"
+  },
+  "comp_hf": {
+   "t": "Computing｜交易結構與 2027 上半年完成",
+   "u": "https://www.computing.co.uk/news/2026/ai/nvidia-agrees-12-9bn-deal-to-buy-ai-platform-hugging-face"
+  },
+  "dcd_500": {
+   "t": "DCD｜六大金融機構 $5,000 億融資平台",
+   "u": "https://www.datacenterdynamics.com/en/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-for-500bn-financing-program/"
+  },
+  "kt_500": {
+   "t": "Khaleej Times｜NVIDIA 可擔保最高 $1,250 億（25%）",
+   "u": "https://www.khaleejtimes.com/business/nvidia-partners-with-wall-street-giants-to-raise-500-billion-for-ai-buildout?amp=1"
+  },
+  "nv_blog_asset": {
+   "t": "NVIDIA Blog｜AI Factory 算力成為可投資資產類別",
+   "u": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/"
+  },
+  "tc_1117": {
+   "t": "TechCrunch｜新創持股達 $655 億 (2026-11-17)",
+   "u": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
+  },
+  "blockspace": {
+   "t": "Blockspace｜Q3：擔保 $1,180 億、新雲承諾 $320 億",
+   "u": "https://blockspace.media/insight/nvidia-trims-neocloud-commitments-2026/"
+  },
+  "nv_q3": {
+   "t": "NVIDIA IR｜FY2027 Q3 財報 (2026-11-17)",
+   "u": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+  },
+  "dealroom": {
+   "t": "Dealroom｜NVIDIA 為 2026 最活躍巨額輪投資人",
+   "u": "https://dealroom.co/charts/nvidia-megaround-investor.html"
+  },
+  "sec_resign": {
+   "t": "SEC 8-K｜CEO 交接 (2026-11-12)",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+  },
+  "sec_reinstate": {
+   "t": "SEC 8-K｜董事會恢復黃仁勳職務 (2026-11-23)",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+  },
+  "scmp_no": {
+   "t": "SCMP｜董事會稱無意讓黃仁勳復職 (2026-11-17)",
+   "u": "https://www.scmp.com/tech/article/3374812/nvidia-board-says-it-has-no-plans-reinstate-jensen-huang-ceo"
+  },
+  "reg_circ": {
+   "t": "The Register｜AI 兆元交易輪盤（Oracle $3,000 億）",
+   "u": "https://www.theregister.com/2025/11/04/the_circular_economy_of_ai/"
+  },
+  "cs_openai": {
+   "t": "CryptoSlate｜OpenAI 與 AMD/Broadcom 合約",
+   "u": "https://cryptoslate.com/openai-builds-300b-bubble-machine-the-feedback-loop-rewiring-wall-street-finance/"
+  },
+  "axios_circ": {
+   "t": "Axios｜循環融資疑慮再起 (2026-07-27)",
+   "u": "https://axios.com/2026/07/27/nvidia-openai-financing-ai-jensen-huang-ssi"
+  },
+  "aiweekly": {
+   "t": "AI Weekly｜Kress：投資旨在將新創綁定 NVIDIA GPU",
+   "u": "https://aiweekly.co/alerts/nvidia-doubles-startup-stakes-to-43b-in-one-quarter"
+  },
+  "tnw_40": {
+   "t": "The Next Web｜2026 前四月 AI 股權投資逾 $400 億",
+   "u": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026"
+  },
+  "tnw_refl_spx": {
+   "t": "The Next Web｜Reflection × SpaceX $63 億算力（2026-06-23）",
+   "u": "https://thenextweb.com/news/spacex-reflection-ai-6-3bn-compute-deal"
+  },
+  "tnw_refl_nbis": {
+   "t": "The Next Web｜Reflection × Nebius $10 億+（2026-07-15）",
+   "u": "https://thenextweb.com/news/reflection-nebius-1-billion-ai-compute-deal"
+  },
+  "tc_nbis_meta": {
+   "t": "TechCrunch｜Nebius 與 Meta $270 億、Microsoft $194 億合約",
+   "u": "https://techcrunch.com/?p=3141991"
+  },
+  "yahoo_tml": {
+   "t": "GuruFocus/Yahoo｜TML 至少 1GW Vera Rubin",
+   "u": "https://finance.yahoo.com/news/nvidia-stock-climbs-multi-billion-194841785.html"
+  },
+  "tc_crwv": {
+   "t": "TechCrunch｜NVIDIA 加碼 CoreWeave $20 億（既有股東）",
+   "u": "https://techcrunch.com/?p=3085958"
+  },
+  "fortune_xai": {
+   "t": "Fortune/Bloomberg｜$210 億 SpaceX、$300 億 Intel (2026-08-15)",
+   "u": "https://fortune.com/2026/08/15/nvidia-21-billion-spacex-stake-30-billion-intel-shares/"
+  }
+ },
+ "categories": [
+  {
+   "id": "lab",
+   "name": "前沿模型實驗室",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "cloud",
+   "name": "新雲／算力與資料中心",
+   "color": "#38bdf8"
+  },
+  {
+   "id": "supply",
+   "name": "光通訊／互連供應鏈",
+   "color": "#fb923c"
+  },
+  {
+   "id": "semi",
+   "name": "半導體／EDA／通訊",
+   "color": "#f472b6"
+  },
+  {
+   "id": "mna",
+   "name": "收購與技術授權",
+   "color": "#2dd4bf"
+  },
+  {
+   "id": "fin",
+   "name": "金融夥伴（融資平台）",
+   "color": "#facc15"
+  },
+  {
+   "id": "other",
+   "name": "機器人／生技／能源",
+   "color": "#94a3b8"
+  },
+  {
+   "id": "cp",
+   "name": "循環對手方（非 NVIDIA 持股）",
+   "color": "#64748b"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "股權",
+   "amt": 30,
+   "short": "$300億",
+   "date": "2026-02-27",
+   "amtText": "US$300 億（OpenAI US$1,100 億輪次之一，投前估值 $7,300 億）；分三期撥付。2024/10 首投約 $1 億；2025/9「最高 $1,000 億」意向書後縮為 $300 億。",
+   "status": "持有中（未上市）",
+   "flow": "換得 5GW Vera Rubin 算力（3GW 推論 + 2GW 訓練）；OpenAI 另承租 SB Energy 俄亥俄園區（租期報導 10～20 年），NVIDIA 為獨家晶片供應商並提供最高 $1,050 億殘值擔保。",
+   "src": [
+    "tc_openai110",
+    "bt_openai",
+    "techspot_openai",
+    "nv_openai_loi",
+    "yahoo_100b",
+    "tc_2601"
+   ]
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "tk": "Nasdaq: ANT",
+   "cat": "lab",
+   "type": "股權",
+   "amt": 20,
+   "short": "$200億",
+   "date": "2026-11-19",
+   "amtText": "合計約 US$200 億：2025/11 承諾最高 $100 億＋2026/11 IPO 同步私募配售 $100 億（Class N 無表決權股，按 IPO 價 $83 認購；七家合計 $260 億）。",
+   "status": "2026/11/19 上市；首日開盤 $111.50、收盤 $97.17",
+   "flow": "Anthropic 承諾採購 $300 億 Microsoft Azure 算力，並採用最高 1GW 的 Grace Blackwell／Vera Rubin 系統；Microsoft 同步投資最高 $50 億。",
+   "src": [
+    "anth_news",
+    "nv_blog_anth",
+    "aljaz_anth",
+    "fw_anth",
+    "st_anth",
+    "neoteo"
+   ]
+  },
+  {
+   "id": "spacex",
+   "name": "SpaceX（原 xAI）",
+   "tk": "SPCX",
+   "cat": "lab",
+   "type": "股權（合併轉換）",
+   "amt": 19.68,
+   "short": "$197億",
+   "date": "2026-01-06",
+   "amtText": "13F：130,472,925 股 Class A，市值 US$196.8 億（2026/9/30），為最大申報持股。原始成本說法分歧：CNBC 稱 2026/1 投資 xAI 約 $100 億（$200 億 E 輪之一）；Bloomberg 稱 2025 年最高 $20 億（股債混合 SPV）。",
+   "status": "xAI 併入 SpaceX（$1.25 兆全股票；多數報導為 2026/2），SpaceX 2026/6 上市；Q3 增持 6.3%",
+   "flow": "xAI 融資 SPV 用於採購 NVIDIA GPU 建置 Colossus 2；據 GadgetReview，SpaceX 承諾採用 Vera Rubin 架構。Colossus 2 再出租給 NVIDIA 投資對象 Reflection AI。",
+   "src": [
+    "fw_13f",
+    "kucoin_13f",
+    "tnw_backstop",
+    "xai_pr",
+    "gadget_spacex",
+    "ent_spacex",
+    "pq_map"
+   ]
+  },
+  {
+   "id": "tml",
+   "name": "Thinking Machines Lab",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "股權",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-03-10",
+   "amtText": "2025 年 $20 億種子輪參與；2026/3「重大投資」＋晶片供應（金額未揭露）；The Information 報導曾洽談提供約 $60 億募資的一半（未證實）。",
+   "status": "持有中",
+   "flow": "多年合作：NVIDIA 供應至少 1GW Vera Rubin 供其訓練，並共同設計訓練／推論系統，預計 2027 年初部署。",
+   "src": [
+    "bl_tml",
+    "yahoo_tml",
+    "tnw_99",
+    "tc_2506"
+   ]
+  },
+  {
+   "id": "reflection",
+   "name": "Reflection AI",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "股權",
+   "amt": 0.8,
+   "short": "$8億",
+   "date": "2026-10-11",
+   "amtText": "FT 稱累計約 US$8 億（單輪金額各報導不一）；領投 2025/10 $20 億輪。2026/10/10 FT 報導 NVIDIA 初步洽談收購、人才收購或加碼，至 11/26 未見正式公告。",
+   "status": "持有中；併購洽談（未定案）",
+   "flow": "Reflection 每月付 SpaceX $1.5 億使用 Colossus 2 的 NVIDIA 晶片（至 2029 約 $63 億），並與 Nebius 簽 $10 億+ 算力合約（兩者皆為 NVIDIA 投資對象，NVIDIA 位於交易兩端）。",
+   "src": [
+    "sa_refl",
+    "tc_2510",
+    "tnw_refl_spx",
+    "tnw_refl_nbis"
+   ]
+  },
+  {
+   "id": "mistral",
+   "name": "Mistral AI",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025-09-01",
+   "amtText": "第三度參與：2025/9 C 輪 €17 億（約 $20 億），投後估值 €117 億。",
+   "status": "持有中",
+   "flow": "模型實驗室為 NVIDIA GPU 主要需求端。",
+   "src": [
+    "tc_2510",
+    "tnw_40"
+   ]
+  },
+  {
+   "id": "cursor",
+   "name": "Cursor (Anysphere)",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025-11-13",
+   "amtText": "2025/11 參與 $23 億 D 輪，為首次策略投資。",
+   "status": "持有中",
+   "flow": "AI 應用層需求。",
+   "src": [
+    "tc_2510"
+   ]
+  },
+  {
+   "id": "poolside",
+   "name": "Poolside",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2024-10-01",
+   "amtText": "參與 2024/10 $5 億輪（估值 $30 億）。",
+   "status": "持有中",
+   "flow": "AI 程式模型需求。",
+   "src": [
+    "tc_2501"
+   ]
+  },
+  {
+   "id": "cohere",
+   "name": "Cohere",
+   "tk": "未上市",
+   "cat": "lab",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-03-12",
+   "amtText": "名列 NVIDIA 支持的模型開發商（個別金額與輪次日期未揭露；日期為來源報導日）。",
+   "status": "持有中",
+   "flow": "企業 LLM 需求。",
+   "src": [
+    "invezz"
+   ]
+  },
+  {
+   "id": "coreweave",
+   "name": "CoreWeave",
+   "tk": "CRWV",
+   "cat": "cloud",
+   "type": "股權＋容量回購",
+   "amt": 2,
+   "short": "$20億",
+   "date": "2026-01-23",
+   "amtText": "2026/1/23 以 $87.20 認購 22,935,780 股（$20 億）；另有 $63 億算力容量購買協議（至 2032）。2023 年即已投資。",
+   "status": "13F 市值 $41.1 億（9/30），持股不變",
+   "flow": "CoreWeave 採購 NVIDIA GPU 建 5GW AI 工廠（2030）；NVIDIA 反向承購其算力；OpenAI 對 CoreWeave 合約約 $224 億。",
+   "src": [
+    "nv_crwv",
+    "tc_crwv",
+    "sacra_crwv",
+    "fierce_enc",
+    "kucoin_13f",
+    "tunguz"
+   ]
+  },
+  {
+   "id": "nebius",
+   "name": "Nebius",
+   "tk": "NBIS",
+   "cat": "cloud",
+   "type": "預融資認股權證",
+   "amt": 2,
+   "short": "$20億",
+   "date": "2026-03-11",
+   "amtText": "以預融資權證認購 21,065,936 股 Class A（行使價 $0.0001），約 $20 億。",
+   "status": "13F 僅列可申報部分 $2.8 億",
+   "flow": "2030 年底前部署逾 5GW NVIDIA 系統（Rubin/Vera/BlueField）；下游客戶含 Meta（最高 $270 億）、Microsoft（最高 $194 億）、Reflection（$10 億+）。",
+   "src": [
+    "nv_nbis",
+    "tnw_nbis",
+    "kucoin_13f",
+    "tc_nbis_meta"
+   ]
+  },
+  {
+   "id": "iren",
+   "name": "IREN",
+   "tk": "IREN",
+   "cat": "cloud",
+   "type": "認股權證",
+   "amt": 2.1,
+   "short": "≤$21億",
+   "date": "2026-05-07",
+   "amtText": "5 年期認股權證：最多 3,000 萬股 @ $70，全數行使約 $21 億。",
+   "status": "權證未行使",
+   "flow": "IREN 部署最多 5GW NVIDIA DSX（Sweetwater 2GW 優先）；NVIDIA 反向簽約 5 年 $34 億 GPU 雲端服務。",
+   "src": [
+    "tnw_iren",
+    "yahoo_iren"
+   ]
+  },
+  {
+   "id": "nscale",
+   "name": "Nscale",
+   "tk": "未上市（擬 IPO）",
+   "cat": "cloud",
+   "type": "可轉債／股權",
+   "amt": 1,
+   "short": "$10億",
+   "date": "2026-10-13",
+   "amtText": "2026/10 $33.6 億 IPO 前可轉債中出資 $10 億（IPO 時轉為無表決權股）；亦參與 2026/3 C 輪 $20 億（估值 $146 億）及 2025/10 SAFE。",
+   "status": "持有中",
+   "flow": "合約總值 $1,030 億的 GPU 雲端；以 NVIDIA 系統出租予超大規模業者與模型實驗室。",
+   "src": [
+    "fierce_nscale",
+    "sacra_nscale"
+   ]
+  },
+  {
+   "id": "sbenergy",
+   "name": "SB Energy（SoftBank）",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "股權＋殘值擔保",
+   "amt": 1.5,
+   "short": "$15億＋擔保",
+   "date": "2026-08-17",
+   "amtText": "股權投資 $15 億；另為 OpenAI 俄亥俄 PORTS-Pike 園區提供最高 US$1,050 億殘值擔保（原討論 $2,500 億後縮減）。",
+   "status": "擔保：未發生付款",
+   "flow": "8 IT-GW 園區（10GW 新發電，2028 年起陸續上線），OpenAI 承租（租期：Axios 稱 10 年並附 20 年選擇權；SCMP、Dealroom 稱 20 年），NVIDIA 為獨家晶片供應商；擔保涵蓋有條件之租金與電力付款義務，OpenAI 同意償還 NVIDIA 之任何擔保支出。",
+   "src": [
+    "fool_ohio",
+    "axios_ohio",
+    "tnw_rvg",
+    "scmp_ohio"
+   ]
+  },
+  {
+   "id": "lambda",
+   "name": "Lambda",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2024-02-01",
+   "amtText": "參與 Lambda 募資（與 ARK Invest 等）。",
+   "status": "持有中",
+   "flow": "出租 NVIDIA GPU 伺服器。",
+   "src": [
+    "tc_2501",
+    "sacra_crusoe"
+   ]
+  },
+  {
+   "id": "crusoe",
+   "name": "Crusoe",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-11-17",
+   "amtText": "NVIDIA 支持之專業 GPU 雲（電力與資料中心建置）；個別金額與日期未揭露（日期為 TechCrunch 報導日）。",
+   "status": "持有中",
+   "flow": "NVIDIA 優先供貨＋投資的「非超大規模雲」通路。",
+   "src": [
+    "sacra_crusoe",
+    "tc_1117"
+   ]
+  },
+  {
+   "id": "firmus",
+   "name": "Firmus",
+   "tk": "未上市",
+   "cat": "cloud",
+   "type": "股權（洽談加碼）",
+   "amt": null,
+   "short": "數億（洽談）",
+   "date": "2026-10",
+   "amtText": "既有投資人；The Information 報導洽談再投資數億美元（ASX 上市計畫 2026/10 撤回）。",
+   "status": "洽談中",
+   "flow": "澳洲綠能 AI 工廠，採 NVIDIA 架構。",
+   "src": [
+    "tnw_firmus"
+   ]
+  },
+  {
+   "id": "coherent",
+   "name": "Coherent",
+   "tk": "COHR",
+   "cat": "supply",
+   "type": "股權",
+   "amt": 2,
+   "short": "$20億",
+   "date": "2026-03-02",
+   "amtText": "現金認購約 780 萬股 @ $256.80（$20 億）。",
+   "status": "13F 市值 $22.4 億，持股不變",
+   "flow": "NVIDIA 數十億美元採購承諾＋雷射／光元件產能權利；擴建美國製造。",
+   "src": [
+    "reg_photon",
+    "optics_org",
+    "kucoin_13f"
+   ]
+  },
+  {
+   "id": "lumentum",
+   "name": "Lumentum",
+   "tk": "LITE",
+   "cat": "supply",
+   "type": "可轉換特別股",
+   "amt": 2,
+   "short": "$20億",
+   "date": "2026-03-02",
+   "amtText": "$20 億，以 A 系列可轉換特別股形式（不列入 13F）。",
+   "status": "持有中",
+   "flow": "興建美國新元件晶圓廠；多年期採購承諾鎖定 CPO 雷射。",
+   "src": [
+    "nv_lite",
+    "reg_photon",
+    "nasdaq_13f"
+   ]
+  },
+  {
+   "id": "marvell",
+   "name": "Marvell",
+   "tk": "MRVL",
+   "cat": "supply",
+   "type": "股權",
+   "amt": 2,
+   "short": "$20億",
+   "date": "2026-03-31",
+   "amtText": "$20 億策略投資。",
+   "status": "持有中",
+   "flow": "NVLink Fusion：Marvell 客製 XPU 接入 NVIDIA 機架平台；矽光子與 AI-RAN 合作。",
+   "src": [
+    "bbg_mrvl",
+    "th_mrvl"
+   ]
+  },
+  {
+   "id": "corning",
+   "name": "Corning",
+   "tk": "GLW",
+   "cat": "supply",
+   "type": "認股權證",
+   "amt": 3.2,
+   "short": "$5億（≤$32億）",
+   "date": "2026-05-05",
+   "amtText": "8-K：傳統權證最多 1,500 萬股 @ $180＋預融資權證最多 300 萬股（@ $0.0001），Corning 所得約 $5 億；權證 3 年期。若傳統權證全數行使另約 $27 億，合計約 $32 億（即「最高 $32 億」說法）。8-K 未載明具體採購量。",
+   "status": "權證未全數行使",
+   "flow": "Corning 於北卡、德州新建 3 座光連接工廠，美國產能擴大 10 倍、新增 3,000+ 職缺，供應 NVIDIA 資料中心光纖。",
+   "src": [
+    "tnw_glw",
+    "tnw_photon"
+   ]
+  },
+  {
+   "id": "ayar",
+   "name": "Ayar Labs",
+   "tk": "未上市",
+   "cat": "supply",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2026-05-29",
+   "amtText": "參與 $5 億 E 輪（與 AMD、MediaTek）；日期為報導日。",
+   "status": "持有中",
+   "flow": "共封裝光學（CPO）技術。",
+   "src": [
+    "tnw_photon"
+   ]
+  },
+  {
+   "id": "intel",
+   "name": "Intel",
+   "tk": "INTC",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 5,
+   "short": "$50億",
+   "date": "2025-09-18",
+   "amtText": "以 $23.28 認購 $50 億普通股；2026 Q3 減持 25%（214,776,632 → 161,082,488 股）。",
+   "status": "13F 市值 $193.7 億（9/30）",
+   "flow": "Intel 為 NVIDIA 打造 NVLink 客製 x86 CPU 與 RTX SoC。",
+   "src": [
+    "nv_intc",
+    "ajc_intc",
+    "kucoin_13f",
+    "fortune_xai"
+   ]
+  },
+  {
+   "id": "synopsys",
+   "name": "Synopsys",
+   "tk": "SNPS",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 2,
+   "short": "$20億",
+   "date": "2025-12-01",
+   "amtText": "以 $414.79 認購 $20 億普通股（約 2.6%）；Q3 減持 9.7% 至 435 萬股。",
+   "status": "13F 市值 $18.9 億",
+   "flow": "CUDA-X 加速 EDA／模擬；Synopsys 稱無承諾以該資金購買 GPU。",
+   "src": [
+    "hpc_snps",
+    "bl_snps",
+    "kt_snps",
+    "kucoin_13f"
+   ]
+  },
+  {
+   "id": "nokia",
+   "name": "Nokia",
+   "tk": "NOK",
+   "cat": "semi",
+   "type": "股權",
+   "amt": 1,
+   "short": "$10億",
+   "date": "2025-10-28",
+   "amtText": "以 $6.01 認購 $10 億；Q3 減持 56% 至 7,286 萬 ADR。",
+   "status": "13F 市值 $7.4 億",
+   "flow": "AI-RAN／6G：Nokia 採用 NVIDIA Arc Aerial 平台。",
+   "src": [
+    "nv_nok",
+    "kucoin_13f"
+   ]
+  },
+  {
+   "id": "generate",
+   "name": "Generate Biomedicines",
+   "tk": "13F 申報持股",
+   "cat": "other",
+   "type": "股權",
+   "amt": 0.013,
+   "short": "$0.13億",
+   "date": "2026-09-30",
+   "amtText": "13F 持股市值約 $1,300 萬（9/30），持股不變。",
+   "status": "持有中",
+   "flow": "AI 生技藥物設計。",
+   "src": [
+    "kucoin_13f"
+   ]
+  },
+  {
+   "id": "groq",
+   "name": "Groq（技術授權）",
+   "tk": "未上市",
+   "cat": "mna",
+   "type": "技術授權＋人才",
+   "amt": 20,
+   "short": "$200億",
+   "date": "2025-12-24",
+   "amtText": "約 $200 億非專屬技術授權，並延攬創辦人 Jonathan Ross 等團隊；NVIDIA 表示非收購公司。",
+   "status": "完成",
+   "flow": "LPU 推論技術納入 NVIDIA 產品線，強化推論市場地位。",
+   "src": [
+    "th_groq",
+    "tc_groq"
+   ]
+  },
+  {
+   "id": "hf",
+   "name": "Hugging Face（收購）",
+   "tk": "未上市",
+   "cat": "mna",
+   "type": "收購",
+   "amt": 12.93,
+   "short": "$129億",
+   "date": "2026-09-03",
+   "amtText": "$129.3 億收購：約 $119 億支付股東＋最高 $10 億員工留任股權；預計 2027 上半年完成。",
+   "status": "待監管核准",
+   "flow": "取得開源模型分發平台與 1,800 萬開發者社群；承諾維持多雲、多加速器開放。",
+   "src": [
+    "th_hf",
+    "comp_hf"
+   ]
+  },
+  {
+   "id": "fin_Apollo",
+   "name": "Apollo",
+   "tk": "",
+   "cat": "fin",
+   "type": "融資平台 MOU",
+   "amt": null,
+   "short": "$5,000億平台",
+   "date": "2026-08-10",
+   "amtText": "六家機構合組獨立「算力融資平台」，目標動員逾 $5,000 億第三方資本；NVIDIA 可選擇擔保最高 $1,250 億（25%）。",
+   "status": "非約束性 MOU",
+   "flow": "以低成本資金池供 NVIDIA 客戶（實驗室、新雲、企業）購置 NVIDIA 算力。",
+   "src": [
+    "dcd_500",
+    "kt_500",
+    "nv_blog_asset"
+   ]
+  },
+  {
+   "id": "fin_BlackRock",
+   "name": "BlackRock",
+   "tk": "",
+   "cat": "fin",
+   "type": "融資平台 MOU",
+   "amt": null,
+   "short": "$5,000億平台",
+   "date": "2026-08-10",
+   "amtText": "六家機構合組獨立「算力融資平台」，目標動員逾 $5,000 億第三方資本；NVIDIA 可選擇擔保最高 $1,250 億（25%）。",
+   "status": "非約束性 MOU",
+   "flow": "以低成本資金池供 NVIDIA 客戶（實驗室、新雲、企業）購置 NVIDIA 算力。",
+   "src": [
+    "dcd_500",
+    "kt_500",
+    "nv_blog_asset"
+   ]
+  },
+  {
+   "id": "fin_Blackstone",
+   "name": "Blackstone",
+   "tk": "",
+   "cat": "fin",
+   "type": "融資平台 MOU",
+   "amt": null,
+   "short": "$5,000億平台",
+   "date": "2026-08-10",
+   "amtText": "六家機構合組獨立「算力融資平台」，目標動員逾 $5,000 億第三方資本；NVIDIA 可選擇擔保最高 $1,250 億（25%）。",
+   "status": "非約束性 MOU",
+   "flow": "以低成本資金池供 NVIDIA 客戶（實驗室、新雲、企業）購置 NVIDIA 算力。",
+   "src": [
+    "dcd_500",
+    "kt_500",
+    "nv_blog_asset"
+   ]
+  },
+  {
+   "id": "fin_Brookfield",
+   "name": "Brookfield",
+   "tk": "",
+   "cat": "fin",
+   "type": "融資平台 MOU",
+   "amt": null,
+   "short": "$5,000億平台",
+   "date": "2026-08-10",
+   "amtText": "六家機構合組獨立「算力融資平台」，目標動員逾 $5,000 億第三方資本；NVIDIA 可選擇擔保最高 $1,250 億（25%）。",
+   "status": "非約束性 MOU",
+   "flow": "以低成本資金池供 NVIDIA 客戶（實驗室、新雲、企業）購置 NVIDIA 算力。",
+   "src": [
+    "dcd_500",
+    "kt_500",
+    "nv_blog_asset"
+   ]
+  },
+  {
+   "id": "fin_GoldmanSachs",
+   "name": "Goldman Sachs",
+   "tk": "",
+   "cat": "fin",
+   "type": "融資平台 MOU",
+   "amt": null,
+   "short": "$5,000億平台",
+   "date": "2026-08-10",
+   "amtText": "六家機構合組獨立「算力融資平台」，目標動員逾 $5,000 億第三方資本；NVIDIA 可選擇擔保最高 $1,250 億（25%）。",
+   "status": "非約束性 MOU",
+   "flow": "以低成本資金池供 NVIDIA 客戶（實驗室、新雲、企業）購置 NVIDIA 算力。",
+   "src": [
+    "dcd_500",
+    "kt_500",
+    "nv_blog_asset"
+   ]
+  },
+  {
+   "id": "fin_KKR",
+   "name": "KKR",
+   "tk": "",
+   "cat": "fin",
+   "type": "融資平台 MOU",
+   "amt": null,
+   "short": "$5,000億平台",
+   "date": "2026-08-10",
+   "amtText": "六家機構合組獨立「算力融資平台」，目標動員逾 $5,000 億第三方資本；NVIDIA 可選擇擔保最高 $1,250 億（25%）。",
+   "status": "非約束性 MOU",
+   "flow": "以低成本資金池供 NVIDIA 客戶（實驗室、新雲、企業）購置 NVIDIA 算力。",
+   "src": [
+    "dcd_500",
+    "kt_500",
+    "nv_blog_asset"
+   ]
+  },
+  {
+   "id": "figure",
+   "name": "Figure AI",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025-09-01",
+   "amtText": "2024/2 B 輪首投；2025/9 參與逾 $10 億 C 輪（估值 $390 億）。",
+   "status": "持有中",
+   "flow": "人形機器人採 NVIDIA 平台。",
+   "src": [
+    "tc_2503"
+   ]
+  },
+  {
+   "id": "wayve",
+   "name": "Wayve",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "參與輪次",
+   "amt": 0.5,
+   "short": "$5億（預期）",
+   "date": "2025-09-01",
+   "amtText": "Wayve 表示 NVIDIA 預期追加投資 $5 億。",
+   "status": "持有中",
+   "flow": "自駕 AI。",
+   "src": [
+    "tc_2503",
+    "tnw_40"
+   ]
+  },
+  {
+   "id": "cfs",
+   "name": "Commonwealth Fusion",
+   "tk": "未上市",
+   "cat": "other",
+   "type": "參與輪次",
+   "amt": null,
+   "short": "未揭露",
+   "date": "2025-08-01",
+   "amtText": "參與 $8.63 億融資輪。",
+   "status": "持有中",
+   "flow": "核融合能源（AI 電力長期解方）。",
+   "src": [
+    "tc_2503"
+   ]
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "tk": "MSFT",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2025-11-18",
+   "amtText": "同步投資 Anthropic 最高 $50 億；Anthropic 承諾 $300 億 Azure 算力；另與 IREN 簽 $97 億雲端合約。",
+   "status": "—",
+   "flow": "Azure 採購 NVIDIA 系統承接 Anthropic 需求。",
+   "src": [
+    "anth_news",
+    "tnw_iren"
+   ]
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle",
+   "tk": "ORCL",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2025-09-10",
+   "amtText": "OpenAI 承諾 5 年約 $3,000 億 Oracle 雲端算力（Stargate）；Oracle 計畫約 $400 億採購約 40 萬顆 GB200。",
+   "status": "—",
+   "flow": "OpenAI → Oracle → NVIDIA GPU。",
+   "src": [
+    "reg_circ"
+   ]
+  },
+  {
+   "id": "softbank",
+   "name": "SoftBank",
+   "tk": "9984.T",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2026-02-27",
+   "amtText": "OpenAI $300 億（與 NVIDIA 同輪）；SB Energy 母公司；2025 年底出清 NVIDIA 持股。",
+   "status": "—",
+   "flow": "俄亥俄園區開發商母公司。",
+   "src": [
+    "tc_openai110",
+    "axios_circ"
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "tk": "AMZN",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2026-02-27",
+   "amtText": "OpenAI $500 億（$150 億先付、$350 億附條件）。",
+   "status": "—",
+   "flow": "同輪投資人；AWS 擴大合作。",
+   "src": [
+    "tc_openai110",
+    "techspot_openai"
+   ]
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "tk": "AMD",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2025-10-06",
+   "amtText": "供應 OpenAI 6GW Instinct GPU，並授予 OpenAI 里程碑認股權證。",
+   "status": "—",
+   "flow": "競爭者的平行循環。",
+   "src": [
+    "cs_openai"
+   ]
+  },
+  {
+   "id": "broadcom",
+   "name": "Broadcom",
+   "tk": "AVGO",
+   "cat": "cp",
+   "type": "循環對手方",
+   "amt": null,
+   "short": "",
+   "date": "2025-10-13",
+   "amtText": "與 OpenAI 共同設計並部署 10GW 客製晶片。",
+   "status": "—",
+   "flow": "競爭者的平行循環。",
+   "src": [
+    "cs_openai"
+   ]
+  }
+ ],
+ "flows": [
+  {
+   "from": "openai",
+   "to": "sbenergy",
+   "label": "俄亥俄 8GW 租約（10～20 年，說法不一）"
+  },
+  {
+   "from": "openai",
+   "to": "coreweave",
+   "label": "算力合約約 $224 億"
+  },
+  {
+   "from": "openai",
+   "to": "oracle",
+   "label": "Stargate 約 $3,000 億"
+  },
+  {
+   "from": "anthropic",
+   "to": "microsoft",
+   "label": "$300 億 Azure 算力"
+  },
+  {
+   "from": "reflection",
+   "to": "spacex",
+   "label": "Colossus 2 每月 $1.5 億（~$63 億至 2029）"
+  },
+  {
+   "from": "reflection",
+   "to": "nebius",
+   "label": "$10 億+ 算力（至 2029）"
+  },
+  {
+   "from": "microsoft",
+   "to": "iren",
+   "label": "$97 億雲端合約"
+  },
+  {
+   "from": "softbank",
+   "to": "sbenergy",
+   "label": "母公司"
+  }
+ ],
+ "kpi": [
+  {
+   "value": "$990億",
+   "label": "股權投資帳面總額（2026/7/26）",
+   "src": [
+    "tnw_99",
+    "dealroom"
+   ]
+  },
+  {
+   "value": "$655億",
+   "label": "未上市持股價值（2026/11/17）",
+   "src": [
+    "tc_1117"
+   ]
+  },
+  {
+   "value": "$580億",
+   "label": "FY27 前九個月股權投入",
+   "src": [
+    "tc_1117"
+   ]
+  },
+  {
+   "value": "$1,180億",
+   "label": "擔保最大曝險（含俄亥俄 $1,050億）",
+   "src": [
+    "blockspace",
+    "tc_1117"
+   ]
+  },
+  {
+   "value": "$320億",
+   "label": "新雲或有承諾（Q3 FY27）",
+   "src": [
+    "blockspace"
+   ]
+  },
+  {
+   "value": "$483億",
+   "label": "13F 八檔申報市值（2026/9/30）",
+   "src": [
+    "kucoin_13f"
+   ]
+  },
+  {
+   "value": "~350 家",
+   "label": "2023 年底以來投資新創數",
+   "src": [
+    "tc_1117"
+   ]
+  },
+  {
+   "value": "$5,000億+",
+   "label": "華爾街算力融資平台目標",
+   "src": [
+    "dcd_500"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2024-10-02",
+   "title": "首投 OpenAI 約 $1 億",
+   "desc": "參與 $66 億輪（估值 $1,570 億）。",
+   "cat": "lab",
+   "src": [
+    "tc_2601"
+   ]
+  },
+  {
+   "date": "2025-09-18",
+   "title": "投資 Intel $50 億",
+   "desc": "以 $23.28 認購，合作 NVLink x86 CPU 與 RTX SoC。",
+   "cat": "semi",
+   "src": [
+    "nv_intc"
+   ]
+  },
+  {
+   "date": "2025-09-22",
+   "title": "OpenAI 10GW 意向書（最高 $1,000 億）",
+   "desc": "後續縮減為 2026/2 的 $300 億股權。",
+   "cat": "lab",
+   "src": [
+    "nv_openai_loi",
+    "yahoo_100b"
+   ]
+  },
+  {
+   "date": "2025-10-28",
+   "title": "投資 Nokia $10 億",
+   "desc": "AI-RAN／6G 合作。",
+   "cat": "semi",
+   "src": [
+    "nv_nok"
+   ]
+  },
+  {
+   "date": "2025-11-18",
+   "title": "Anthropic 最高 $100 億",
+   "desc": "與 Microsoft $50 億同步；Anthropic $300 億 Azure 算力承諾。",
+   "cat": "lab",
+   "src": [
+    "anth_news"
+   ]
+  },
+  {
+   "date": "2025-12-01",
+   "title": "投資 Synopsys $20 億",
+   "desc": "@ $414.79。",
+   "cat": "semi",
+   "src": [
+    "hpc_snps"
+   ]
+  },
+  {
+   "date": "2025-12-24",
+   "title": "Groq 約 $200 億技術授權",
+   "desc": "非專屬授權＋延攬團隊。",
+   "cat": "mna",
+   "src": [
+    "th_groq"
+   ]
+  },
+  {
+   "date": "2026-01-06",
+   "title": "參與 xAI $200 億 E 輪",
+   "desc": "xAI SPV 用於採購 NVIDIA GPU。",
+   "cat": "lab",
+   "src": [
+    "xai_pr"
+   ]
+  },
+  {
+   "date": "2026-01-26",
+   "title": "CoreWeave 加碼 $20 億",
+   "desc": "@ $87.20；目標 2030 年 5GW。",
+   "cat": "cloud",
+   "src": [
+    "nv_crwv"
+   ]
+  },
+  {
+   "date": "2026-02",
+   "title": "xAI 併入 SpaceX",
+   "desc": "$1.25 兆全股票交易，NVIDIA 持股轉為 SpaceX 股份。",
+   "cat": "lab",
+   "src": [
+    "tnw_backstop"
+   ]
+  },
+  {
+   "date": "2026-02-27",
+   "title": "OpenAI $300 億",
+   "desc": "$1,100 億輪次（Amazon $500 億、SoftBank $300 億）。",
+   "cat": "lab",
+   "src": [
+    "tc_openai110"
+   ]
+  },
+  {
+   "date": "2026-03-02",
+   "title": "Coherent、Lumentum 各 $20 億",
+   "desc": "光通訊產能＋採購承諾。",
+   "cat": "supply",
+   "src": [
+    "reg_photon"
+   ]
+  },
+  {
+   "date": "2026-03-10",
+   "title": "Thinking Machines、Nscale",
+   "desc": "TML 重大投資＋晶片供應；Nscale $20 億 C 輪。",
+   "cat": "lab",
+   "src": [
+    "bl_tml",
+    "sacra_nscale"
+   ]
+  },
+  {
+   "date": "2026-03-11",
+   "title": "Nebius $20 億",
+   "desc": "預融資權證；5GW 至 2030。",
+   "cat": "cloud",
+   "src": [
+    "nv_nbis"
+   ]
+  },
+  {
+   "date": "2026-03-31",
+   "title": "Marvell $20 億",
+   "desc": "NVLink Fusion。",
+   "cat": "supply",
+   "src": [
+    "bbg_mrvl"
+   ]
+  },
+  {
+   "date": "2026-05-05",
+   "title": "Corning 認股權證（約 $5 億，最高 ~$32 億）",
+   "desc": "預融資＋傳統權證；3 座美國新廠。",
+   "cat": "supply",
+   "src": [
+    "tnw_glw"
+   ]
+  },
+  {
+   "date": "2026-05-07",
+   "title": "IREN 最高 $21 億權證",
+   "desc": "5GW DSX；NVIDIA 反向購買 $34 億雲端。",
+   "cat": "cloud",
+   "src": [
+    "tnw_iren"
+   ]
+  },
+  {
+   "date": "2026-06",
+   "title": "SpaceX 上市",
+   "desc": "NVIDIA 持股取得公開市價。",
+   "cat": "lab",
+   "src": [
+    "fortune_xai"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "title": "六大金融機構 $5,000 億融資平台",
+   "desc": "Apollo、BlackRock、Blackstone、Brookfield、高盛、KKR。",
+   "cat": "fin",
+   "src": [
+    "dcd_500"
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "title": "俄亥俄 $1,050 億殘值擔保＋SB Energy $15 億",
+   "desc": "OpenAI 承租，NVIDIA 獨家供晶片。",
+   "cat": "cloud",
+   "src": [
+    "fool_ohio"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "title": "收購 Hugging Face $129.3 億",
+   "desc": "預計 2027 上半年完成。",
+   "cat": "mna",
+   "src": [
+    "th_hf"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "title": "洽談收購／加碼 Reflection AI",
+   "desc": "已累計投入約 $8 億。",
+   "cat": "lab",
+   "src": [
+    "sa_refl"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Nscale IPO 前可轉債 $10 億",
+   "desc": "合約總值 $1,030 億。",
+   "cat": "cloud",
+   "src": [
+    "fierce_nscale"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "title": "黃仁勳辭任 CEO",
+   "desc": "Kress 代理、Jones 任董事長。",
+   "cat": "gov",
+   "src": [
+    "sec_resign"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Q3 13F：減持 Intel 25%、增持 SpaceX",
+   "desc": "申報市值 $483 億。",
+   "cat": "semi",
+   "src": [
+    "kucoin_13f"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "title": "FY27 Q3 財報",
+   "desc": "新創持股 $655 億；擔保 $1,180 億；新雲承諾降至 $320 億。",
+   "cat": "gov",
+   "src": [
+    "tc_1117",
+    "blockspace",
+    "nv_q3"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Anthropic 上市（NVIDIA 配售 $100 億）",
+   "desc": "IPO 價 $83，NVIDIA 合計投入約 $200 億。",
+   "cat": "lab",
+   "src": [
+    "aljaz_anth"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "title": "董事會恢復黃仁勳 CEO 職務",
+   "desc": "Jones 續任董事長。",
+   "cat": "gov",
+   "src": [
+    "sec_reinstate"
+   ]
+  }
+ ],
+ "loops": [
+  {
+   "id": "L1",
+   "title": "① OpenAI 主循環",
+   "sub": "股權 → 租約 → GPU 訂單",
+   "nodes": [
+    [
+     "NVIDIA",
+     "#76b900"
+    ],
+    [
+     "OpenAI",
+     "#a78bfa"
+    ],
+    [
+     "資料中心／雲端\nSB Energy\nOracle・CoreWeave",
+     "#38bdf8"
+    ],
+    [
+     "GPU 採購營收",
+     "#76b900"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$300億股權\n（5GW Vera Rubin）"
+    ],
+    [
+     1,
+     2,
+     "租約／算力合約\nOracle ~$3,000億・CW ~$224億\n俄亥俄租約（10～20 年）"
+    ],
+    [
+     2,
+     3,
+     "採購 NVIDIA GPU\n（俄亥俄獨家；Oracle ~$400億 GB200）"
+    ],
+    [
+     3,
+     0,
+     "回流營收"
+    ],
+    [
+     0,
+     2,
+     "SB Energy $15億股權\n＋最高 $1,050億殘值擔保",
+     "chord"
+    ]
+   ],
+   "text": "NVIDIA 以 $300 億入股 OpenAI，換取 5GW Vera Rubin 算力承諾；OpenAI 再向 Oracle（Stargate）、CoreWeave 與 SB Energy 俄亥俄園區承租算力，而這些業者採購 NVIDIA GPU。NVIDIA 同時直接入股 SB Energy 並提供殘值擔保，形成「投資方＋供應商＋擔保人」三重角色。",
+   "src": [
+    "tc_openai110",
+    "bt_openai",
+    "reg_circ",
+    "tunguz",
+    "fool_ohio",
+    "tnw_rvg"
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "② Anthropic × Azure 循環",
+   "sub": "股權 → Azure → NVIDIA 系統",
+   "nodes": [
+    [
+     "NVIDIA",
+     "#76b900"
+    ],
+    [
+     "Anthropic",
+     "#a78bfa"
+    ],
+    [
+     "Microsoft Azure",
+     "#64748b"
+    ],
+    [
+     "GB／VR 系統訂單",
+     "#76b900"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "$100億（2025/11）\n＋$100億 IPO 配售"
+    ],
+    [
+     1,
+     2,
+     "$300億 Azure 算力承諾"
+    ],
+    [
+     2,
+     3,
+     "Azure 採購 NVIDIA 系統"
+    ],
+    [
+     3,
+     0,
+     "回流營收"
+    ],
+    [
+     1,
+     0,
+     "最高 1GW Grace Blackwell／\nVera Rubin 架構承諾",
+     "chord"
+    ]
+   ],
+   "text": "2025/11 三方協議：NVIDIA、Microsoft 分別投資 Anthropic 最高 $100 億與 $50 億；Anthropic 承諾購買 $300 億 Azure 算力並採用最高 1GW NVIDIA 系統。2026/11 Anthropic 上市時 NVIDIA 再以 IPO 價認購 $100 億。",
+   "src": [
+    "anth_news",
+    "nv_blog_anth",
+    "aljaz_anth",
+    "fw_anth"
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "③ xAI → SpaceX 循環",
+   "sub": "SPV 購卡 → 合併轉換持股",
+   "nodes": [
+    [
+     "NVIDIA",
+     "#76b900"
+    ],
+    [
+     "xAI",
+     "#a78bfa"
+    ],
+    [
+     "融資 SPV\nColossus 2",
+     "#38bdf8"
+    ],
+    [
+     "SpaceX（SPCX）",
+     "#a78bfa"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "參與 $200億 E 輪\n（金額說法：$20億～$100億）"
+    ],
+    [
+     1,
+     2,
+     "SPV 專為採購 GPU 設立"
+    ],
+    [
+     2,
+     0,
+     "GPU 營收",
+     "chord"
+    ],
+    [
+     1,
+     3,
+     "2026/2 全股票合併\n（$1.25 兆）"
+    ],
+    [
+     3,
+     0,
+     "持股 1.305 億股\n市值 $196.8億（9/30）"
+    ]
+   ],
+   "text": "NVIDIA 參與 xAI 融資，該輪資金透過 SPV 採購 NVIDIA GPU 建置 Colossus 2；xAI 併入 SpaceX 後，NVIDIA 的股份轉換為 SpaceX 股票，並在 Q3 增持成為最大申報持股。Reflection AI 等 NVIDIA 投資對象又向 Colossus 2 購買算力，形成二次循環。",
+   "src": [
+    "xai_pr",
+    "pq_map",
+    "tnw_backstop",
+    "fw_13f",
+    "sa_refl"
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "④ 新雲（Neocloud）循環",
+   "sub": "入股 → 建廠購卡 → 反向承購",
+   "nodes": [
+    [
+     "NVIDIA",
+     "#76b900"
+    ],
+    [
+     "新雲\nCoreWeave・Nebius\nIREN・Nscale",
+     "#38bdf8"
+    ],
+    [
+     "AI 實驗室客戶\nOpenAI\nReflection…",
+     "#a78bfa"
+    ],
+    [
+     "GPU 訂單",
+     "#76b900"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "CW $20億・Nebius $20億\nIREN 權證 $21億・Nscale $10億"
+    ],
+    [
+     1,
+     3,
+     "各自 5GW 建廠購卡"
+    ],
+    [
+     3,
+     0,
+     "回流營收"
+    ],
+    [
+     2,
+     1,
+     "租用算力\nOpenAI→CW ~$224億\nReflection→Nebius $10億"
+    ],
+    [
+     0,
+     1,
+     "反向承購算力\nCW $63億・IREN $34億",
+     "chord"
+    ]
+   ],
+   "text": "NVIDIA 對新雲同時是股東、供應商與客戶：投資資金協助其購卡建廠，NVIDIA 再向 CoreWeave、IREN 等反向購買算力；FY27 Q3 新雲或有承諾 $320 億、擔保最大曝險 $1,180 億。",
+   "src": [
+    "nv_crwv",
+    "fierce_enc",
+    "nv_nbis",
+    "tnw_iren",
+    "yahoo_iren",
+    "fierce_nscale",
+    "blockspace",
+    "tnw_firmus"
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "⑤ 光通訊供應鏈循環",
+   "sub": "入股供應商 → 鎖定產能",
+   "nodes": [
+    [
+     "NVIDIA",
+     "#76b900"
+    ],
+    [
+     "光通訊／互連\nCoherent・Lumentum\nMarvell・Corning",
+     "#fb923c"
+    ],
+    [
+     "美國新產能",
+     "#fb923c"
+    ],
+    [
+     "NVIDIA 系統出貨\nSpectrum-X／\nQuantum-X Photonics",
+     "#76b900"
+    ]
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     "各 $20億；Corning 約 $5億\n（權證全行使最高 ~$32億）"
+    ],
+    [
+     1,
+     2,
+     "擴建美國工廠\n（Corning 產能 ×10）"
+    ],
+    [
+     2,
+     3,
+     "雷射／光纖／CPO 供應"
+    ],
+    [
+     3,
+     0,
+     "系統營收"
+    ],
+    [
+     0,
+     1,
+     "數十億美元採購承諾",
+     "chord"
+    ]
+   ],
+   "text": "這是「上游垂直整合」型循環：NVIDIA 入股光通訊供應商並附帶多年採購承諾，確保 CPO 與光連接產能優先供應 NVIDIA 平台，而非單純財務投資。",
+   "src": [
+    "reg_photon",
+    "nv_lite",
+    "th_mrvl",
+    "tnw_glw",
+    "tnw_photon"
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "⑥ 華爾街算力融資平台",
+   "sub": "第三方資本 → 客戶購卡",
+   "nodes": [
+    [
+     "NVIDIA",
+     "#76b900"
+    ],
+    [
+     "六大金融機構\nApollo・BlackRock\nBlackstone・Brookfield\n高盛・KKR",
+     "#facc15"
+    ],
+    [
+     "NVIDIA 客戶\n實驗室・新雲\n企業・主權",
+     "#38bdf8"
+    ],
+    [
+     "算力採購",
+     "#76b900"
+    ]
+   ],
+   "edges": [
+    [
+     1,
+     2,
+     "$5,000億+ 第三方資本"
+    ],
+    [
+     2,
+     3,
+     "購置 NVIDIA AI 工廠"
+    ],
+    [
+     3,
+     0,
+     "回流營收"
+    ],
+    [
+     0,
+     1,
+     "可選擇擔保最高 $1,250億（25%）",
+     "chord"
+    ]
+   ],
+   "text": "2026/8 NVIDIA 與六大機構簽 MOU，將「AI 工廠算力」包裝為可投資資產類別，由第三方資本融資客戶購卡；NVIDIA 保留擔保最多 25% 的選擇權。NVIDIA 官方主張需求真實、來自多元客戶，批評者則認為這是循環融資的制度化。",
+   "src": [
+    "dcd_500",
+    "kt_500",
+    "nv_blog_asset",
+    "axios_circ"
+   ]
+  }
+ ],
+ "governance_html": "<b>治理動態：</b>2026/11/12 黃仁勳辭去總裁、執行長及董事職務，CFO Colette Kress 代理執行長、Harvey C. Jones 出任首位董事長\n  （<a href=\"https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm\" target=\"_blank\">SEC 8-K</a>）→\n  11/17 財報電話會上董事會表示「不打算讓其復職」（<a href=\"https://www.scmp.com/tech/article/3374812/nvidia-board-says-it-has-no-plans-reinstate-jensen-huang-ceo\" target=\"_blank\">SCMP</a>）→\n  <b>11/23 董事會恢復黃仁勳總裁、執行長及董事職務</b>，Jones 續任董事長（<a href=\"https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm\" target=\"_blank\">SEC 8-K</a>）。\n  Kress 代理期間市場曾預期新創投資將收斂（<a href=\"https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/\" target=\"_blank\">TechCrunch</a>），此預期需隨黃仁勳回任重新評估。",
+ "verify": {
+  "title": "資料校驗紀錄（2026-11-26 二次檢查）",
+  "items_html": [
+   "<b>已修正</b>：Corning 依 8-K 改為「預融資＋傳統權證，Corning 所得約 $5 億；傳統權證全數行使合計約 $32 億」，並移除未經 8-K 證實的「採購協議」描述（<a href=\"https://thenextweb.com/news/nvidia-corning-500m-warrant-fiber-optics-partnership\" target=\"_blank\">TNW</a>）。",
+   "<b>已修正</b>：OpenAI 俄亥俄園區租期由「20 年」改為並列說法——Axios：10 年＋20 年選擇權；SCMP／Dealroom：20 年（<a href=\"https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy\" target=\"_blank\">Axios</a>、<a href=\"https://www.scmp.com/tech/big-tech/article/3364341/nvidia-provide-us105-billion-guarantee-openais-ohio-data-centre\" target=\"_blank\">SCMP</a>）。",
+   "<b>已補充</b>：Reflection × SpaceX Colossus 2 約 $63 億、× Nebius $10 億+ 的二次循環；Thinking Machines 至少 1GW Vera Rubin；Nebius 下游客戶 Meta、Microsoft。",
+   "<b>已移除</b>：一條缺乏來源的連線（Marvell→Coherent）；Generate Biomedicines 的推測代號；Cohere、Crusoe、Ayar Labs、Firmus 原先推估的日期改為「來源報導日」。",
+   "<b>已驗算</b>：13F 八檔加總 $483.1 億 ≈ 申報 $483.3 億；Intel 214,776,632 股 × $23.28 ≈ $50 億；Nokia、Synopsys、Coherent、IREN 股數 × 價格皆與宣布金額一致。",
+   "<b>仍有分歧（已並列）</b>：NVIDIA 對 xAI 原始投資額（$20 億 vs $100 億）；xAI 併入 SpaceX 的時點（多數報導為 2026/2）；Reflection AI 單輪金額（FT 稱累計約 $8 億）。",
+   "<b>截至 11/26 未定案</b>：NVIDIA 收購／加碼 Reflection AI、加碼 Firmus、Hugging Face 收購（待監管核准，預計 2027 上半年完成）。"
+  ]
+ },
+ "footer_html": "<b>方法與注意事項：</b>（1）金額為公開宣布的承諾金額，未必已全數撥付；認股權證以「全數行使」的最大潛在金額表示；擔保／背書屬或有負債，非現金投資。（2）13F 市值為申報日市價（2026/9/30），僅涵蓋可申報之美國上市證券，特別股、預融資權證與未上市股權不在其中。（3）NVIDIA 對 xAI 的原始投資金額各媒體說法不一（CNBC：約 US$100 億；Bloomberg：2025 年最高 US$20 億），本表並列兩說。（4）部分新創僅確認「參與輪次」，NVIDIA 個別出資額未揭露者標示為「未揭露」。（5）本 Dashboard 為資訊整理，非投資建議。<br>\n  主要彙總來源：NVIDIA 新聞稿與 SEC 文件、TechCrunch、The Next Web、Bloomberg/Bloomberg Law、Reuters 轉載、Tom's Hardware、SiliconANGLE、Dealroom、Motley Fool 等，各節點內附個別連結。"
+}
