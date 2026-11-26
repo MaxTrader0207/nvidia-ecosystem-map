@@ -70,18 +70,3 @@ python -m http.server -d docs 8000                                      # 開 ht
 （直接雙擊 `docs/index.html` 會因瀏覽器 file:// 限制讀不到 JSON，需用上面的本機伺服器或 GitHub Pages。）
 
 本 Dashboard 為資訊整理，非投資建議。
-
-
----
-
-## 投資生態圈（20 家＋跨實體總網路圖）
-
-與上面的 NVIDIA 即時版互相獨立，放在子資料夾，不會動到原本的 `data/`、`backend/`、`docs/index.html`。
-
-- 網址：`https://maxtrader0207.github.io/nvidia-ecosystem-map/ecosystem/`（自動轉到總網路圖，各家 Dashboard 從圖上點進去）
-- `ecomap/data/<slug>/data.json`：各家主資料（人工維護，唯一真實來源）
-- `ecomap/`：建置程式（`build.py`、`build_network.py`、兩個 template）、`update_prices.py`、`check_updates.py`、`test_all.py`
-- `docs/ecosystem/`：產出的頁面（`ecomap/docs` 是指向這裡的連結）
-- `.github/workflows/ecomap-weekly.yml`：每週一 08:37（台北）更新上市持股現值 → 檢查新動態（寫入 `pending.json`，不改主資料）→ 重建 → 測試全部頁面 → 通過才提交
-
-詳細說明見 `ecomap/README.md`。本頁為資訊整理，非投資建議。
