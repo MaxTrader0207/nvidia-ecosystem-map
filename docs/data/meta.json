@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-26T11:47:15+08:00",
- "started_at": "2026-11-26T11:47:12+08:00",
- "trigger": "push",
+ "updated_at": "2026-11-26T11:50:51+08:00",
+ "started_at": "2026-11-26T11:50:49+08:00",
+ "trigger": "workflow_dispatch",
  "schedule": "每週一 08:07（台北時間）",
  "next_run_at": "2026-11-30T08:07:00+08:00",
  "curated_at": "2026-11-26",
@@ -10,7 +10,7 @@
    "label": "SEC 申報／13F",
    "status": "skipped",
    "message": "未設定 SEC_USER_AGENT（SEC 要求含聯絡資訊的 User-Agent），已略過",
-   "at": "2026-11-26T11:47:12+08:00",
+   "at": "2026-11-26T11:50:49+08:00",
    "kept_previous": false,
    "last_ok_at": null
   },
@@ -18,24 +18,24 @@
    "label": "持股與權證估值",
    "status": "ok",
    "message": "8/8 檔取得最新價格；持股估值 $413 億",
-   "at": "2026-11-26T11:47:14+08:00",
-   "secs": 1.9
+   "at": "2026-11-26T11:50:51+08:00",
+   "secs": 1.5
   },
   "news": {
    "label": "新聞追蹤",
    "status": "ok",
    "message": "80 則新聞，其中 6 則涉及族譜節點",
-   "at": "2026-11-26T11:47:15+08:00",
+   "at": "2026-11-26T11:50:51+08:00",
    "secs": 0.8
   },
   "ai": {
    "label": "AI 審核建議（選用）",
    "status": "skipped",
    "message": "未設定 ANTHROPIC_API_KEY，略過（選用功能）",
-   "at": "2026-11-26T11:47:15+08:00",
+   "at": "2026-11-26T11:50:51+08:00",
    "kept_previous": false,
    "last_ok_at": null
   }
  },
- "run_url": "https://github.com/MaxTrader0207/nvidia-ecosystem-map/actions/runs/45751081688"
+ "run_url": "https://github.com/MaxTrader0207/nvidia-ecosystem-map/actions/runs/45751459689"
 }
